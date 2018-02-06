@@ -42,22 +42,22 @@ class TestFeatures():
         Element.fetchelementbyxpath(new_driver, Settings.ctrlDownloads).click()
 
     def testClickOnSvmScan(self):
-        test = '/home/preeti-automation-ubuntu/django-project/Downloads/*'
+        test = '/home/anusha/svm_automationproject/django-project/Downloads/*'
         os.system('rm ' + test)
         new_driver = selenium_webdriver.driver
         time.sleep(10)
         Element.fetchelementbyxpath(new_driver, Settings.ctrlsvmscan).click()
-        mode = os.stat('/home/preeti-automation-ubuntu/django-project/Downloads')[ST_MODE]
-        file1 = os.stat('/home/preeti-automation-ubuntu/django-project/Downloads/SVMScan.exe')[ST_MODE]
+        mode = os.stat('/home/anusha/svm_automationproject/django-project/Downloads/')[ST_MODE]
+        file1 = os.stat('/home/anusha/svm_automationproject/django-project/Downloads/SVMScan.exe')[ST_MODE]
         if S_ISDIR(mode):
-            print("/home/preeti-automation-ubuntu/django-project/Downloads a directory")
+            print("/home/anusha/svm_automationproject/django-project/Downloads a directory")
             if (S_ISREG(file1)):
                 print("SVMScan.exe is present")
                 print("Last modified : %s" % time.ctime(os.path.getmtime(
-                    '/home/preeti-automation-ubuntu/django-project/Downloads/SVMScan.exe')))
+                    '/home/anusha/svm_automationproject/django-project/Downloads/SVMScan.exe')))
                 print("Created: %s" % time.ctime(os.path.getctime(
-                    '/home/preeti-automation-ubuntu/django-project/Downloads/SVMScan.exe')))
-                size = os.stat('/home/preeti-automation-ubuntu/django-project/Downloads/SVMScan.exe')[
+                    '/home/anusha/svm_automationproject/django-project/Downloads/SVMScan.exe')))
+                size = os.stat('/home/anusha/svm_automationproject/django-project/Downloads/SVMScan.exe')[
                     ST_SIZE]
                 if size > 0:
                     print(size, "KB")
