@@ -1,0 +1,20 @@
+<webelements>
+    <Field dashboard="ByXpath">//*[@id="link_dashboard"]/span[2]</Field>
+    <Field x_mark_on_gadgets="ByClass">glyphicon-remove</Field>
+    <Field i_mark_on_page="ByXpath">//*[@id="content"]/div/div[1]/div[2]/a/span</Field>
+    <Field add_mark="ByXpath">//*[@id="add-widget-dd"]/span</Field>
+    <Field device_status_system_score="ByXpath">//*[@id="content"]/div/div[2]//div/strong[text()="Devices status - System score"]</Field>
+    <Field latest_available_patches="ByXpath">//*[@id="content"]/div/div[2]//div/strong[text()="Latest available patches"]</Field>
+    <Field Advisories_released_last_year="ByPartialLinkText">Advisories released last year</Field>
+    <Field Devices_Overview="ByPartialLinkText">Devices Overview</Field>
+    <Field save_button="ByXpath">//*[@id='content']/div/div[1]/div[1]/button/span</Field>
+    <Field Devices_status_system_score="ByPartialLinkText">Devices status - System score</Field>
+    <Field Devices_status_time_since_last_scan="ByPartialLinkText">Devices status - Time since last scan</Field>
+    <Field Latest_advisories_affecting_your_security="ByPartialLinkText">Latest advisories affecting your security</Field>
+    <Field latest_advisories="ByPartialLinkText">Latest advisories</Field>
+    <Field Latest_advisories_per_watch_list="ByPartialLinkText">Latest advisories per watch list</Field>
+    <Field Latest_available_patches="ByPartialLinkText">Latest available patches</Field>
+    <Field Most_critical_advisories_affecting_your_security="ByPartialLinkText">Most critical advisories affecting your security</Field>
+    <Field Most_prevalent_EOL_software_installation="ByPartialLinkText">Most prevalent EOL software installations</Field>
+    <Field Most_prevalent_insecure_software_installtions="ByPartialLinkText">Most prevalent insecure software installtions</Field>
+</webelements>

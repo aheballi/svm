@@ -1,0 +1,76 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1525433350007" stop="1525433500657">
+  <name>Patching.test_patching</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1525433350007" status="passed" stop="1525433363961">
+      <name>TestPatching.test_login</name>
+      <attachments>
+        <attachment source="91afbb3c-576d-478b-8c10-b1ba7d50062e-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="52352-MainThread"/>
+        <label name="host" value="anusha-Virtual-Machine"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1525433363962" status="passed" stop="1525433405649">
+      <name>TestPatching.test_patching</name>
+      <attachments>
+        <attachment source="2daa518f-2040-4b72-bcef-6d2734f0ebb6-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="52352-MainThread"/>
+        <label name="host" value="anusha-Virtual-Machine"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1525433405651" status="passed" stop="1525433463626">
+      <name>TestPatching.test_build_packages</name>
+      <attachments>
+        <attachment source="e53be646-c42d-4efe-b520-cce86458b621-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="52352-MainThread"/>
+        <label name="host" value="anusha-Virtual-Machine"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1525433463628" status="passed" stop="1525433486337">
+      <name>TestPatching.test_deploy_packages</name>
+      <attachments>
+        <attachment source="0bfd44f7-1275-48f1-a831-954d7f5022f4-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="52352-MainThread"/>
+        <label name="host" value="anusha-Virtual-Machine"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1525433486339" status="passed" stop="1525433500657">
+      <name>TestPatching.test_deployment</name>
+      <attachments>
+        <attachment source="25b6d42a-b943-4b20-b1fc-1b998c29a76f-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="52352-MainThread"/>
+        <label name="host" value="anusha-Virtual-Machine"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

@@ -1,0 +1,6 @@
+{
+  "test_patching.py::TestPatching::()::test_build_packages": true,
+  "test_patching.py::TestPatching::()::test_deploy_packages": true,
+  "test_patching.py::TestPatching::()::test_deployment": true,
+  "test_patching.py::TestPatching::()::test_patch_library": true
+}

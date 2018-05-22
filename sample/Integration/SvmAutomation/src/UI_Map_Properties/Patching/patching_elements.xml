@@ -1,0 +1,38 @@
+<webelements>
+    <Field patching="ByXpath">//*[@id="link_undefined"]/span[2][text()="Patching"]</Field>
+    <Field filter="ByXpath">/html/body/div/div/div[4]/div/div[1]/div/div[1]/div/button[2]</Field>
+    <Field product_search="ByXpath">//*[@id='content']/div/div[2]/div/div/form/div[1]/div[3]/div/div/input</Field>
+    <Field search_apply_button="ByXpath">//*[@id='content']/div/div[2]/div/div/form/div[1]/div[9]/div/button</Field>
+    <Field search_result="ByXpath">/html/body/div/div/div[4]/div/div[1]/div/div[3]/table/tbody/tr[1]/td[1]/span</Field>
+    <Field create_template_button="ByXpath">//*[@id='7421__actions']//a[text()='Create template']</Field>
+    <Field name_for_template="ByXpath">/html/body/div[2]/div/div[2]/div/div/div[2]/div[1]/div[2]/div[1]/div/input</Field>
+    <Field template_save_button="ByXpath">/html/body/div[2]/div/div[2]/div/div/div[3]/button[2][text()='Save']</Field>
+    <Field templates_menu="ByXpath">//*[@id='header']/div/ul/li[2]/a[text()='Templates']</Field>
+    <Field template_search="ByXpath">//*[@id='content']/div/div[2]/div/div/form/div[1]/div[1]/div/div/input</Field>
+    <Field templates_page_apply_button="ByXpath">//*[@id='content']/div/div[2]/div/div/form/div[1]/div[5]/div/button</Field>
+    <Field view_templates="ByXpath">//*[@id='7421__actions']/li[1]/a[text()='View templates']</Field>
+    <Field templates_search_result="ByXpath">//*[@id='content']/div/div[3]/table/tbody/tr[1]/td[2]/span</Field>
+    <Field build_packages="ByXpath">//*[@id='7421__actions']/li[3]/div/a[text()='Build packages']</Field>
+    <Field reset_button="ByXpath">/html/body/div/div/div[4]/div/div[1]/div/div[2]/div/div/form/div[1]/div[8]/div/button</Field>
+    <Field build_packages_name="ByXpath">/html/body/div[2]/div/div[2]/div/div/div[2]/div[1]/div/input</Field>
+    <Field select_templates_in_build_packages="ByXpath">//*[@id='not_used']/span[1]/span[text()='Select templates']</Field>
+    <Field templates_deselect_click="ByXpath">/html/body/div[2]/div/div[2]/div/div/div[2]/p</Field>
+    <Field templates_build_button="ByXpath">/html/body/div[2]/div/div[2]/div/div/div[3]/button[2][text()='Build']</Field>
+    <Field packages_menu="ByXpath">//*[@id='header']/div/ul/li[3]/a[text()='Packages']</Field>
+    <Field packages_search="ByXpath">//*[@id='content']/div/div[2]/div/div/form/div[1]/div[2]/div/div/input</Field>
+    <Field packages_apply_button="ByXpath">//*[@id='content']/div/div[2]/div/div/form/div[1]/div[8]/div/button</Field>
+    <Field packages_search_result="ByXpath">//*[@id='content']/div/div[3]/table/tbody/tr[1]/td[9]/span</Field>
+    <Field create_deployment="ByXpath">/html/body/div/div/div[4]/div/div[1]/div/div[3]/table/tbody/tr[2]/td/div/ul/li[3]/div/a</Field>
+    <Field server_select="ByXpath">/html/body/div[2]/div/div[2]/div/div/div[2]/div[1]/div/ul/li[6]/div[2]/ul/li/div[2]/ul/li[1]/div[1]/input</Field>
+    <Field ok_button="ByXpath">/html/body/div[2]/div/div[2]/div/div/div[3]/button[2]</Field>
+    <Field deployment="ByXpath">//*[@id='header']/div/ul/li[4]/a[text()='Deployment']</Field>
+    <Field deployment_search="ByXpath">//*[@id='content']/div/div[2]/div/div/form/div[1]/div[1]/div/div/input</Field>
+    <Field deployment_apply="ByXpath">//*[@id='content']/div/div[2]/div/div/form/div[1]//button[text()='Apply']</Field>
+    <Field deployment_filter_button="ByXpath">/html/body/div/div/div[4]/div/div[1]/div/div[1]/div/button[2]</Field>
+    <Field deployment_status="ByXpath">//*[@id='content']/div/div[3]/table/tbody/tr[1]/td[6]/span</Field>
+    <Field templates_filter_button="ByXpath">//*[@id='content']/div/div[1]/div/button[2]/span</Field>
+    <Field filter_drop_down="ByXpath">//*[@id="not_used"]/span[1]/span[text()="Filter"]</Field>
+    <Field filter_save="ByXpath">//*[@id="content"]/div/div[2]/div/div/form/div[2]/div[3]/div/div/button[text()="Save"]</Field>
+    <Field filter_name="ByXpath">/html/body/div[2]/div/div[2]/div/div/div[2]/div/div/input</Field>
+    <Field filter_save_button="ByXpath">/html/body/div[2]/div/div[2]/div/div/div[3]/button[2]</Field>
+</webelements>

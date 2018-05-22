@@ -1,0 +1,4 @@
+{
+  "test_2.py": true,
+  "test_login_script.py::TestLoginPage::()::test_login_text": true
+}
