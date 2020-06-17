@@ -1,0 +1,10 @@
+<WebElements>
+    <Field logo="ByXpath">html/body/div[2]/div[1]/div/div[1]</Field>
+    <Field login_text="ByXpath">html/body/div[2]/div[1]/div/div[2]/h2</Field>
+    <Field username="ById">inputEmail</Field>
+    <Field password="ById">inputPassword</Field>
+    <Field login_button="ById">submit-btn</Field>
+    <Field sign_out_button="ByClass">glyphicons-exit</Field>
+    <Field sign_out="ByXpath">//*[@id="menu"]/div[1]/div/div/ul/li/a</Field>
+    <Field error_message="ByXpath">/html/body/div[2]/p</Field>
+</WebElements>

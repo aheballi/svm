@@ -1,0 +1,4 @@
+https://uat.app.flexerasoftware.com/#/patching/grouped-products/
+<class 'str'>
+2018-05-04 16:59:41.455130
+https://uat.app.flexerasoftware.com/#/patching/profiles/

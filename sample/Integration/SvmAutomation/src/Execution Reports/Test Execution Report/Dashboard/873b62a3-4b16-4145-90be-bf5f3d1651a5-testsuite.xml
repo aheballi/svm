@@ -1,0 +1,72 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1525863428123" stop="1525863489743">
+  <name>Dashboard.test_dashboard</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1525863428123" status="passed" stop="1525863439469">
+      <name>TestDashboard.test_login_new</name>
+      <attachments>
+        <attachment source="b227b876-c9d5-4016-956d-66fc87ed95c7-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="29928-MainThread"/>
+        <label name="host" value="anusha-Virtual-Machine"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1525863439505" status="passed" stop="1525863444906">
+      <name>TestDashboard.test_add_widget</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="29928-MainThread"/>
+        <label name="host" value="anusha-Virtual-Machine"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1525863444907" status="passed" stop="1525863445184">
+      <name>TestDashboard.test_remove_gadgets</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="29928-MainThread"/>
+        <label name="host" value="anusha-Virtual-Machine"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1525863445185" status="passed" stop="1525863476919">
+      <name>TestDashboard.test_all_widgets</name>
+      <attachments>
+        <attachment source="f3a048a2-ad2b-48a8-9e71-af5609f00317-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="29928-MainThread"/>
+        <label name="host" value="anusha-Virtual-Machine"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1525863476922" status="passed" stop="1525863489743">
+      <name>TestDashboard.test_remove_all_widgets</name>
+      <attachments>
+        <attachment source="47d446dc-68e3-45a3-8318-7dae626a69b8-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="29928-MainThread"/>
+        <label name="host" value="anusha-Virtual-Machine"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

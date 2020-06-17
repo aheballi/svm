@@ -1,0 +1,8 @@
+This file will have
+-> data from "Features" folder which acts as actual result
+-> data from "DatabaseData" as expected result
+-> contains testcases for each feature functionality
+-> report generation
+-> both actual and expected result will be asserted and testcase will be said as pass or fail
+
+

@@ -1,0 +1,5 @@
+{
+  "Test Automation Scripts/Dashboard/test_dashboard.py": true,
+  "Test Automation Scripts/Patching/test_patching.py": true,
+  "Test Automation Scripts/test_login_script.py": true
+}

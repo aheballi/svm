@@ -1,0 +1,5 @@
+This folder will have the configuration settings needed for features
+EX: firefox profile
+driver: selenium driver which is used everywhere
+selenium elements: selenium elements finding methods
+to handle frames, windows
