@@ -1,0 +1,99 @@
+PROPERTY,AS_GET_API,AS_GET_SQL_QUERY,AS_VALUE,SCCM_GET_API,SCCM_VALUE,PUBLISHSTATUS,AS_SET_API,AS_SET_SQL_QUERY,NEW_AS_VALUE,NEW_SCCM_VALUE,REPUBLISHSTATUS
+Administrator Comments,"Get-ASProperty -PackageId <PkgID> -PropertyName ""Description""",<N.A>,,SCCM_GeneralInformationTabProperties $AppID 'Administrator Comments' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""Description"" -PropertyValue ""Contact Admin""",<N.A>,,,
+Manufacturer," Get-ASProperty -PackageId <PkgID> -PropertyName ""Publisher""",<N.A>,,SCCM_GeneralInformationTabProperties $AppID 'Manufacturer' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""Publisher"" -PropertyValue ""Mozilla test""",<N.A>,,,
+SoftwareVersion,"Get-ASProperty -PackageId <PkgID> -PropertyName ""SoftwareVersion""",<N.A>,,SCCM_GeneralInformationTabProperties $AppID 'SoftwareVersion' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""SoftwareVersion"" -PropertyValue ""4.4""",<N.A>,,,
+DatePublished,"Get-ASProperty -PackageId <PkgID> -PropertyName ""ReleaseDate""",<N.A>,,SCCM_GeneralInformationTabProperties $AppID 'DatePublished' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""ReleaseDate"" -PropertyValue ""11/24/2015""",<N.A>,,,
+Install from Install Application task sequence,"Get-ASProperty -PackageId <PkgID> -PropertyName ""AutoInstall""",<N.A>,,SCCM_GeneralInformationTabProperties $AppID 'Install from Install Application task sequence' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""AutoInstall"" -PropertyValue ""TRUE""",<N.A>,,,
+DistributionPriority,"Get-ASProperty -PackageId <PkgID> -PropertyName ""DistributionPriority""",<N.A>,,SCCM_GeneralInformationTabProperties $AppID 'DistributionPriority' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""DistributionPriority"" -PropertyValue ""High""",<N.A>,,,
+Distribute to preferred DP,"Get-ASProperty -PackageId <PkgID> -PropertyName ""PreferredDistribute""",<N.A>,,SCCM_GeneralInformationTabProperties $AppID 'Distribute to preferred DP' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""PreferredDistribute"" -PropertyValue ""TRUE""",<N.A>,,,
+Prestaged DP Settings,"Get-ASProperty -PackageId <PkgID> -PropertyName ""PrestagedDPSetting""",<N.A>,,SCCM_GeneralInformationTabProperties $AppID 'Prestaged DP Settings' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""PrestagedDPSetting"" -PropertyValue ""OnlyContentChange""",<N.A>,,,
+Display supersedes information to user,"Get-ASProperty -PackageId <PkgID> -PropertyName ""DisplaySupersedes""",<N.A>,,SCCM_GeneralInformationTabProperties $AppID 'Display supersedes information to user' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""DisplaySupersedes"" -PropertyValue ""TRUE""",<N.A>,,,
+DistributionPointGroups,"Get-ASProperty -PackageId <PkgID> -PropertyName ""DistributionPointGroups""",<N.A>,,SCCM_GetAppDistripointGroup $AppID $SCCMServerName $SCCMSiteCode $sessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""DistributionPointGroups"" -PropertyValue ""$SCCMDPGroup""",<N.A>,,,
+LocalizedDescription,"Get-ASProperty -PackageId <PkgID> -PropertyName ""LocalizedDescription""",<N.A>,,SCCM_GeneralInformationTabProperties $AppID 'LocalizedDescription' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""LocalizedDescription"" -PropertyValue ""FireFoxDescription""",<N.A>,,,
+UserDocumentation,<N.A>,<N.A>,<N.A>,<N.A>,<N.A>,,<N.A>,<N.A>,,,
+Icon,<N.A>,<N.A>,<N.A>,<N.A>,<N.A>,,<N.A>,<N.A>,,,
+Classification,<N.A>,<N.A>,<N.A>,<N.A>,<N.A>,,<N.A>,<N.A>,,,
+Flexera Identifier,<N.A>,<N.A>,<N.A>,<N.A>,<N.A>,,<N.A>,<N.A>,,,
+Use fallback source location for content,"Get-ASProperty -PackageId <PkgID> -PropertyName ""FallbackToUnprotectedDP""",<N.A>,,SCCM_GetContentTabProperties $AppID 'Use fallback source location for content' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""FallbackToUnprotectedDP"" -PropertyValue ""TRUE""",<N.A>,,,
+Content location,<N.A>,<N.A>,<N.A>,<N.A>,<N.A>,,<N.A>,<N.A>,,,
+Deployment option when client is on slow network,"Get-ASProperty -PackageId <PkgID> -PropertyName ""OnSlowNetwork""",<N.A>,,SCCM_GetContentTabProperties $AppID 'Deployment option when client is on slow network' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""OnSlowNetwork"" -PropertyValue ""Download""",<N.A>,,,
+Allow client to share content on same subnet,"Get-ASProperty -PackageId <PkgID> -PropertyName ""PeerCache""",<N.A>,,SCCM_GetContentTabProperties $AppID 'Allow client to share content on same subnet' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""PeerCache"" -PropertyValue ""False""",<N.A>,,,
+Persist content in the client cache,"Get-ASProperty -PackageId <PkgID> -PropertyName ""PinOnClient""",<N.A>,,SCCM_GetContentTabProperties $AppID 'Persist content in the client cache' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""PinOnClient"" -PropertyValue ""TRUE""",<N.A>,,,
+Maximum allowed run time (min),"Get-ASProperty -PackageId <PkgID> -PropertyName ""MaxExecuteTime""",<N.A>,,SCCM_GetUserExperienceTabProperties $AppID 'Maximum allowed run time (min)' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""MaxExecuteTime"" -PropertyValue ""116""",<N.A>,,,
+Requirements,<N.A>,<N.A>,"OperatingSystem OneOf {WindowsPhone/Windows_Phone_8_1,WindowsPhone/Windows_Phone_8_1_Embedded,WindowsPhone/Windows_Phone_10_higher}
+PrimaryDevice Equals True
+TotalPhysicalMemory Equals 200 MB",SCCM_GetAppRequirements $AppID $SessionID,,,<N.A>,<N.A>,"OperatingSystem OneOf {WindowsPhone/Windows_Phone_8_1,WindowsPhone/Windows_Phone_8_1_Embedded,WindowsPhone/Windows_Phone_10_higher}
+PrimaryDevice Equals False
+TotalPhysicalMemory GreaterThan 300 MB
+",,
+Dependency,<N.A>,<N.A>,"Test,Viber - Free Phone Calls & Text,Viber - Free Phone Calls & Text,False
+",SCCM_GetAppDependencies $AppID $SessionID ,,,<N.A>,<N.A>,"Test,Viber - Free Phone Calls & Text,Viber - Free Phone Calls & Text,True
+Test,GoogleEarth,GoogleEarth,False
+",,
+Supersedence,<N.A>,<N.A>,"Evernote,Evernote [Windows8App],Sharit [Windows8App]
+",SCCM_GetAppSupersedes $AppID $SessionID,,,<N.A>,<N.A>,"Evernote,Evernote [Windows8App],Sharit [Windows8App]
+Firefox,Firefox [Windows8App],Sharit [Windows8App]
+",,
+DetectionMethods,<N.A>,<N.A>,"
+Name: 10064AppChief.Sharit
+Publisher: pgkxham39svqe
+Version: 2.0.3.0
+Resource Id: 
+Processor architecture: neutral
+",SCCM_GetDetectionMethods $AppID $SessionID,,,<N.A>,<N.A>,"Name: 10064AppChief.Sharit
+Publisher: pgkxham39svqe
+Version: 2.0.3.0
+Resource Id: 
+Processor architecture: neutral
+",,
+ReturnCodes,<N.A>,<N.A>,"15605,FastRetry,,
+15618,FastRetry,,
+1708,FastRetry,,
+
+",SCCM_GetAppReturnCodes $AppID $SessionID,,,<N.A>,<N.A>,"15605,FastRetry,,
+15618,FastRetry,,
+1708,FastRetry,test,
+",,
+Framework,<N.A>,<N.A>,"
+Microsoft.VCLibs.150.00
+15.0.51106.1
+Unknown
+Microsoft.WinJS.5.0
+5.0.9449.0
+Unknown",SCCM_GetFramework $AppID $SessionID,,,<N.A>,<N.A>,"Microsoft.VCLibs.150.00
+15.0.51106.1
+Unknown
+Microsoft.WinJS.5.0
+5.0.9449.0
+Unknown",,
+Requirements,<N.A>,<N.A>,"OperatingSystem OneOf {WindowsPhone/Windows_Phone_8_1,WindowsPhone/Windows_Phone_8_1_Embedded,WindowsPhone/Windows_Phone_10_higher}
+PrimaryDevice Equals True
+TotalPhysicalMemory Equals 200 MB
+",SCCM_GetAppRequirements $AppID $SessionID,,,<N.A>,<N.A>,"OperatingSystem OneOf {WindowsPhone/Windows_Phone_8_1,WindowsPhone/Windows_Phone_8_1_Embedded,WindowsPhone/Windows_Phone_10_higher}
+PrimaryDevice Equals False
+TotalPhysicalMemory GreaterThan 300 MB",,
+Dependency,<N.A>,<N.A>,"Test,Viber - Free Phone Calls & Text,Viber - Free Phone Calls & Text,False
+",SCCM_GetAppDependencies $AppID $SessionID ,,,<N.A>,<N.A>,"Test,Viber - Free Phone Calls & Text,Viber - Free Phone Calls & Text,True
+Test,GoogleEarth,GoogleEarth,False
+",,
+Supersedence,<N.A>,<N.A>,"Evernote,Evernote [Windows8App],Sharit [Windows8App]
+",SCCM_GetAppSupersedes $AppID $SessionID,,,<N.A>,<N.A>,"Evernote,Evernote [Windows8App],Sharit [Windows8App]
+Firefox,Firefox [Windows8App],Sharit [Windows8App]
+",,
+DetectionMethods,<N.A>,<N.A>,"Name: 10064AppChief.Sharit
+Publisher: pgkxham39svqe
+Version: 2.0.3.0
+Resource Id: 
+Processor architecture: neutral
+",SCCM_GetDetectionMethods $AppID $SessionID,,,<N.A>,<N.A>,"Name: 10064AppChief.Sharit
+Publisher: pgkxham39svqe
+Version: 2.0.3.0
+Resource Id: 
+Processor architecture: neutral
+",,
+ReturnCodes,<N.A>,<N.A>,"15605,FastRetry,,
+15618,FastRetry,,
+1708,FastRetry,,",SCCM_GetAppReturnCodes $AppID $SessionID,,,<N.A>,<N.A>,"15605,FastRetry,,
+15618,FastRetry,,
+1708,FastRetry,test,",,
+Provision this application for all users on the device,"Get-ASProperty -PackageId <PkgID> -PropertyName ""ProvisionForAllUsers""",,,SCCM_GeneralInformationTabProperties $AppID 'Installation behavior' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""ProvisionForAllUsers"" -PropertyValue ""True""",,,,
