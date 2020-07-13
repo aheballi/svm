@@ -1,0 +1,2 @@
+"ActualVMName","VMHostName","CheckPointName","TargetDomain","ToRevert","ToInstallLatestBuild","ToAddToDomain"
+"AS03-Windows8.1-64-001-Spare","ASWIN816401Sp","Clean + LatestASBuild","AR.flexdev.com","1","1","0"

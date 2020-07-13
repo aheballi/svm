@@ -1,0 +1,67 @@
+PROPERTY,AS_GET_API,AS_GET_SQL_QUERY,AS_VALUE,SCCM_GET_API,SCCM_VALUE,PUBLISHSTATUS,AS_SET_API,AS_SET_SQL_QUERY,NEW_AS_VALUE,NEW_SCCM_VALUE,REPUBLISHSTATUS
+Administrator Comments,"Get-ASProperty -PackageId <PkgID> -PropertyName ""Description""",<N.A>,,SCCM_GeneralInformationTabProperties $AppID 'Administrator Comments' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""Description"" -PropertyValue ""Contact Admin""",<N.A>,,,
+Manufacturer," Get-ASProperty -PackageId <PkgID> -PropertyName ""Publisher""",<N.A>,,SCCM_GeneralInformationTabProperties $AppID 'Manufacturer' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""Publisher"" -PropertyValue ""Mozilla test""",<N.A>,,,
+SoftwareVersion,"Get-ASProperty -PackageId <PkgID> -PropertyName ""SoftwareVersion""",<N.A>,,SCCM_GeneralInformationTabProperties $AppID 'SoftwareVersion' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""SoftwareVersion"" -PropertyValue ""4.4""",<N.A>,,,
+DatePublished,"Get-ASProperty -PackageId <PkgID> -PropertyName ""ReleaseDate""",<N.A>,,SCCM_GeneralInformationTabProperties $AppID 'DatePublished' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""ReleaseDate"" -PropertyValue ""11/24/2015""",<N.A>,,,
+Install from Install Application task sequence,"Get-ASProperty -PackageId <PkgID> -PropertyName ""AutoInstall""",<N.A>,,SCCM_GeneralInformationTabProperties $AppID 'Install from Install Application task sequence' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""AutoInstall"" -PropertyValue ""TRUE""",<N.A>,,,
+DistributionPriority,"Get-ASProperty -PackageId <PkgID> -PropertyName ""DistributionPriority""",<N.A>,,SCCM_GeneralInformationTabProperties $AppID 'DistributionPriority' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""DistributionPriority"" -PropertyValue ""Low""",<N.A>,,,
+Distribute to preferred DP,"Get-ASProperty -PackageId <PkgID> -PropertyName ""PreferredDistribute""",<N.A>,,SCCM_GeneralInformationTabProperties $AppID 'Distribute to preferred DP' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""PreferredDistribute"" -PropertyValue ""TRUE""",<N.A>,,,
+Prestaged DP Settings,"Get-ASProperty -PackageId <PkgID> -PropertyName ""PrestagedDPSetting""",<N.A>,,SCCM_GeneralInformationTabProperties $AppID 'Prestaged DP Settings' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""PrestagedDPSetting"" -PropertyValue ""Auto""",<N.A>,,,
+Display supersedes information to user,"Get-ASProperty -PackageId <PkgID> -PropertyName ""DisplaySupersedes""",<N.A>,,SCCM_GeneralInformationTabProperties $AppID 'Display supersedes information to user' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""DisplaySupersedes"" -PropertyValue ""TRUE""",<N.A>,,,
+DistributionPointGroups,"Get-ASProperty -PackageId <PkgID> -PropertyName ""DistributionPointGroups""",<N.A>,,SCCM_GetAppDistripointGroup $AppID $SCCMServerName $SCCMSiteCode $sessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""DistributionPointGroups"" -PropertyValue ""$SCCMDPGroup""",<N.A>,,,
+LocalizedDescription,"Get-ASProperty -PackageId <PkgID> -PropertyName ""LocalizedDescription""",<N.A>,,SCCM_GeneralInformationTabProperties $AppID 'LocalizedDescription' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""LocalizedDescription"" -PropertyValue ""FireFoxDescription""",<N.A>,,,
+UserDocumentation,<N.A>,<N.A>,<N.A>,<N.A>,<N.A>,,<N.A>,<N.A>,,,
+Icon,<N.A>,<N.A>,<N.A>,<N.A>,<N.A>,,<N.A>,<N.A>,,,
+Classification,<N.A>,<N.A>,<N.A>,<N.A>,<N.A>,,<N.A>,<N.A>,,,
+Flexera Identifier,<N.A>,<N.A>,<N.A>,<N.A>,<N.A>,,<N.A>,<N.A>,,,
+Use fallback source location for content,"Get-ASProperty -PackageId <PkgID> -PropertyName ""FallbackToUnprotectedDP""",<N.A>,,SCCM_GetContentTabProperties $AppID 'Use fallback source location for content' $SessionID,"False
+",,"Set-ASProperty -PackageId <PkgID> -PropertyName ""FallbackToUnprotectedDP"" -PropertyValue ""TRUE""",<N.A>,,"True
+",
+Content location,<N.A>,<N.A>,<N.A>,<N.A>,<N.A>,,<N.A>,<N.A>,,,
+Deployment option when client is on slow network,"Get-ASProperty -PackageId <PkgID> -PropertyName ""OnSlowNetwork""",<N.A>,,SCCM_GetContentTabProperties $AppID 'Deployment option when client is on slow network' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""OnSlowNetwork"" -PropertyValue ""Download""",<N.A>,,,
+Allow client to share content on same subnet,"Get-ASProperty -PackageId <PkgID> -PropertyName ""PeerCache""",<N.A>,,SCCM_GetContentTabProperties $AppID 'Allow client to share content on same subnet' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""PeerCache"" -PropertyValue ""False""",<N.A>,,,
+Persist content in the client cache,"Get-ASProperty -PackageId <PkgID> -PropertyName ""PinOnClient""",<N.A>,,SCCM_GetContentTabProperties $AppID 'Persist content in the client cache' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""PinOnClient"" -PropertyValue ""TRUE""",<N.A>,,,
+Install Command Line,"Get-ASProperty -PackageId  <PkgID> -PropertyName ""InstallCommandLine""",<N.A>,,SCCM_GetProgramTabProperties $AppID 'Install Command Line' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""InstallCommandLine"" -PropertyValue 'Deploy-Application.exe ""Install"" '",<N.A>,,,
+Install folder,"Get-ASProperty -PackageId <PkgID> -PropertyName ""InstallFolder""",<N.A>,,SCCM_GetProgramTabProperties $AppID 'Install folder' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""InstallFolder"" -PropertyValue ""C:\Users\Administrator\Desktop\test data msi""",<N.A>,,,
+Uninstall Command Line,"Get-ASProperty -PackageId <PkgID> -PropertyName ""UninstallCommandLine""",<N.A>,,SCCM_GetProgramTabProperties $AppID 'Uninstall Command Line' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""UninstallCommandLine"" -PropertyValue 'Deploy-Application.exe ""UnInstall"" '",<N.A>,,,
+Uninstall Folder,"Get-ASProperty -PackageId <PkgID> -PropertyName ""UninstallFolder""",<N.A>,,SCCM_GetProgramTabProperties $AppID 'Uninstall Folder' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""UninstallFolder"" -PropertyValue ""C:\Users\Administrator\Desktop\test data msi""",<N.A>,,,
+Run installation as 32-bit process on 64-bit client,"Get-ASProperty -PackageId <PkgID> -PropertyName ""RunAs32""",<N.A>,,SCCM_GetProgramTabProperties $AppID 'Run installation as 32-bit process on 64-bit client' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""RunAs32"" -PropertyValue ""True""",<N.A>,,,
+Installation source management product code,"Get-ASProperty -PackageId <PkgID> -PropertyName ""SourceUpdateProductCode""",<N.A>,,SCCM_GetProgramTabProperties $AppID 'Installation source management product code' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""SourceUpdateProductCode"" -PropertyValue ""{5F85D8DB-1444-4D0B-B807-694F8F01C793}""",<N.A>,,,
+Installation behavior,"Get-ASProperty -PackageId <PkgID> -PropertyName ""InstallBehaviour""",<N.A>,,SCCM_GetUserExperienceTabProperties $AppID 'Installation behavior' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""InstallBehaviour"" -PropertyValue ""User""",<N.A>,,,
+Logon requirement,"Get-ASProperty -PackageId  <PkgID>  -PropertyName ""LogonRequirement""",<N.A>,,SCCM_GetUserExperienceTabProperties $AppID 'Logon requirement' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""LogonRequirement"" -PropertyValue ""True""",<N.A>,,,
+Installation program visibility,"Get-ASProperty -PackageId <PkgID> -PropertyName ""ProgramVisibility""",<N.A>,,SCCM_GetUserExperienceTabProperties $AppID 'Installation program visibility' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""ProgramVisibility"" -PropertyValue ""Normal""",<N.A>,,,
+Enforce specific behavior,"Get-ASProperty -PackageId <PkgID> -PropertyName ""EnforceBehaviour""",<N.A>,,SCCM_GetUserExperienceTabProperties $AppID 'Enforce specific behavior' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""EnforceBehaviour"" -PropertyValue ""ProgramReboot""",<N.A>,,,
+Maximum allowed run time (min),"Get-ASProperty -PackageId <PkgID> -PropertyName ""MaxExecuteTime""",<N.A>,,SCCM_GetUserExperienceTabProperties $AppID 'Maximum allowed run time (min)' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""MaxExecuteTime"" -PropertyValue ""116""",<N.A>,,,
+Estimated installation time (min),"Get-ASProperty -PackageId <PkgID> -PropertyName ""ExecuteTime""",<N.A>,,SCCM_GetUserExperienceTabProperties $AppID 'Estimated installation time (min)' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""ExecuteTime"" -PropertyValue ""1""",<N.A>,,,
+Allow user to view and interact with the program installation,"Get-ASProperty -PackageId <PkgID> -PropertyName ""RequiresUserInteraction""",<N.A>,,SCCM_GetUserExperienceTabProperties $AppID 'Allow user to view and interact with the program installation' $SessionID,,,"Set-ASProperty -PackageId <PkgID> -PropertyName ""RequiresUserInteraction""  -PropertyValue ""True""",<N.A>,,,
+Requirements,<N.A>,<N.A>,"TotalPhysicalMemory Equals 200 MB
+PrimaryDevice Equals True
+",SCCM_GetAppRequirements $AppID $SessionID,,,<N.A>,<N.A>,"TotalPhysicalMemory GreaterThan 300 MB
+PrimaryDevice Equals False
+",,
+Dependency,<N.A>,<N.A>,"Test,Orca,Orca,False
+",SCCM_GetAppDependencies $AppID $SessionID ,,,<N.A>,<N.A>,"Test,Orca,Orca,True
+",,
+Supersedence,<N.A>,<N.A>,"Crystal Enterprise Report Application Server 9,Crystal Enterprise Report Application Server 9 [MSI],Firefox [Script]
+",SCCM_GetAppSupersedes $AppID $SessionID,,,<N.A>,<N.A>,"Crystal Enterprise Report Application Server 9,Crystal Enterprise Report Application Server 9 [MSI],Firefox [Script]
+",,
+DetectionMethods,<N.A>,<N.A>,"MSI ProductCode : {5F85D8DB-1444-4D0B-B807-694F8F01C793}
+%ProgramFiles%\Mozilla Firefox\firefox.exe
+ClassesRoot\test\test1 
+",SCCM_GetDetectionMethods $AppID $SessionID,,,<N.A>,<N.A>,"MSI ProductCode : {5F85D8DB-1444-4D0B-B807-694F8F01C793}
+%ProgramFiles%\Mozilla Firefox\firefox.exe
+ClassesRoot\test\test1 
+",,
+ReturnCodes,<N.A>,<N.A>,"0,Success (no reboot),,
+1707,Success (no reboot),,
+3010,SoftReboot,,
+1641,HardReboot,,
+1618,FastRetry,,
+1708,FastRetry,,
+",SCCM_GetAppReturnCodes $AppID $SessionID,,,<N.A>,<N.A>,"0,Success (no reboot),,
+1707,Success (no reboot),,
+3010,SoftReboot,,
+1641,HardReboot,,
+1618,FastRetry,,
+1708,FastRetry,test,
+",,
