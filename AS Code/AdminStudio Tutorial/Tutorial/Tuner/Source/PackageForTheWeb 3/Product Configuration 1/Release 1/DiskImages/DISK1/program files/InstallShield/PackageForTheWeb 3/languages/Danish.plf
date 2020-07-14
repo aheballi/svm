@@ -1,0 +1,115 @@
+[Dialog1000]
+100=Velkommen til InstallShield Wizard for %s
+101=InstallShield(r) Wizard installerer%s på computeren.  Klik på Næste for at fortsætte.
+
+[Dialog1001]
+0=Licensaftale
+1=Læs følgende licensaftale.
+121=&Jeg accepterer betingelserne i licensaftalen
+122=Jeg &accepterer ikke betingelserne i licensaftalen
+
+[Dialog1002]
+0=Placering af filer
+1=Hvor vil du gemme filerne?
+101=Angiv navnet på den mappe, hvor du vil gemme filerne. Hvis mappen ikke findes, bliver den oprettet. Klik på Næste for at fortsætte.
+102=&Gem filerne i mappen:
+103=&Skift...
+
+[Dialog1003]
+0=Adgangskode
+1=Denne pakke er beskyttet med adgangskode.
+106=&Adgangskode:
+107=Angiv den adgangskode, der kræves for at afvikle pakken. Bemærk, at der skelnes mellem små og store bogstaver i adgangskoder. Klik på Næste for at fortsætte.
+
+[Dialog1004]
+0=Tilsidesættelse af beskyttelse
+2=Annuller
+109=&Ja
+110=&Nej
+111=J&a til alle
+112=N&ej til alle
+113=Følgende fil findes allerede på computeren:
+114=Vil du erstatte den eksisterende fil?
+
+[Dialog1005]
+0=Udpakning af filer
+1=Indholdet af pakken er pakket ud.
+2=Annuller
+124=Vent, mens InstallShield Wizard udpakker de filer, der skal bruges til at installere %s på computeren.  Det kan tage et øjeblik.
+125=Udpakker %s...
+126=Læser indholdet af pakken...
+
+[Dialog1006]
+100=InstallShield Wizard er afsluttet
+101=InstallShield Wizard har afsluttet installationen af %s på computeren. Klik på Udfør for at afslutte installationen.
+
+[Strings]
+1=PackageForTheWeb-fejl
+2=Denne selvudpakkende eksekverbare fil er beskadiget. Installationen afsluttes.
+3=Kan ikke åbne den selvudpakkende eksekverbare fil. Filen er låst eller bruges i en anden proces. Installationen afsluttes.
+4=PackageForTheWeb
+5=Kan ikke få adgang til kildefilen!
+6=Kan ikke oprette kabinetfilen!
+7=Kan ikke få adgang til den angivne sti.
+8=Kan ikke oprette den angivne outputmappe. Forkert stinavn.
+9=Kan ikke starte dekomprimeringsprocessen!
+10= EXE-filen er beskadiget. Kan ikke fortsætte.
+11=Kan ikke dekomprimere EXE-filen.
+12=Kan ikke eksekvere den angivne kommandolinie!
+13=Programmet bruges internt af  PackageFromTheWeb. Det bør ikke eksekveres direkte.
+14=Forkert eller manglende headerinformation!"
+15=Softwarelicensaftale-filen mangler. Installationen stopper.
+29=Den angivne outputmappe findes ikke. Opret?
+30=Fejl under skrivning af kabinetfilen!
+31=Dette installationsprogram blev oprettet vha. en forsøgsversion af  PackageForTheWeb.  Guiden PackageForTheWeb skal køre for at eksekvere dette program.
+32=Ønsker du at annullere installationen?
+33=Pakken er leveret.
+34=Der er ikke tilstrækkelig hukommelse til at åbne pakken!
+35=Sikkerhedsfejl! Ugyldig adgangskode.
+36=Ugyldig kommandolinieindstilling.
+37=Udpakker '%s'...
+38=Hukommelsesallokeringsfejl!
+39=Kan ikke åbne udpakningsprogrammet
+40=Alvorlig fejl under læsning af pakkedata.
+41=Alvorlig fejl under skrivning af pakkedata.
+42=Programformatet er ugyldigt og kan ikke opdateres.
+43=Pakken mangler filbeholderen.
+44=Generel fejl under læsning af denne pakke.
+45=Denne pakke indeholder allerede en filbeholder.
+46=Denne pakke er blevet tilmeldt og kan ikke opdateres.
+47=Alvorlig Microsoft-fejl.
+48=Kan ikke initialisere DLL-udvidelsen.
+49=Fejl under eksekvering af det angivne program
+300=Ingen fejl
+301=Kabinetfil mangler!
+302=Inputfil er ikke et kabinet.
+303=Defekt kabinetversion.
+304=Beskadiget kabinetfil!
+305=Hukommelsesallokeringsfejl!
+306=Ugyldig filkomprimeringstype!
+307=CRC-fejl.
+308=Systemfejl under dekomprimering
+309=Intern datastørrelsesfejl.
+310=Forkert kabinetfil er markeret
+311=Pakkedekomprimeringen er annulleret.
+312=Kan ikke oprette den angivne outputmappe!
+313=Kan ikke beregne den nødvendige plads på disketten.
+314=Der er ikke plads  nok på drev %s til at udskille denne pakke.
+314=Der er ikke plads  nok på drev %s til at udskille denne pakke.
+323= Jeg accepterer
+324=Frigør %.2f%s og klikke på Retry.
+325=Denne selvudpakkende eksekverbare fil er beskadiget. Installationen afsluttes.
+
+[FinishButton]
+1=Udfør
+2=Fortsæt
+
+[WizardButtons]
+1=< &Tilbage
+2=&Næste >
+3=Annuller
+4=InstallShield Wizard
+
+[Fonts]
+328=12,Arial
+6001=8,MS Sans Serif

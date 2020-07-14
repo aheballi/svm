@@ -1,0 +1,115 @@
+[Dialog1000]
+100=Benvingut a InstallShield Wizard per %s
+101=InstallShield Wizard(r) us ajudarà a instal·lar %s a l'ordinador.   Per continuar, feu un clic a Endavant.
+
+[Dialog1001]
+0=Acord de Llicència
+1=Llegiu amb atenció aquest acord de llicència.
+121=&Accepto les condicions de l'acord de llicència
+122=&No accepto les condicions de l'acord de llicència
+
+[Dialog1002]
+0=Localització per desar fitxers
+1=On voleu desar els fitxers?
+101=Introduïu la carpeta on voleu desar els fitxers.  La carpeta es crearà si no existeix.  Per continuar, feu un clic a Endavant.
+102=&Desar els fitxers a la carpeta:
+103=&Canviar...
+
+[Dialog1003]
+0=Contrassenya
+1=Aquest paquet està protegit amb una contrassenya.
+106=&Contrassenya:
+107=Introduïu la contrassenya necessària per executar aquest paquet.  Recordeu que les contrassenyes distingeixen entre minúscules i majúscules.  Per continuar, feu un clic a Endavant.
+
+[Dialog1004]
+0=Protecció contra l'escriptura
+2=Cancel·la
+109=&Sí
+110=&No
+111=S&í a tot
+112=N&o a tot
+113=Aquest fitxer ja és a l'ordinador:
+114=Voleu sobrescriure aquest fitxer?
+
+[Dialog1005]
+0=Extreure fitxers
+1=S'està extraient el contingut d'aquest paquet.
+2=Cancel·la
+124=Espereu mentre InstallShield Wizard extreu els fitxers necessaris per instal·lar %s a l'ordinador.    Pot tardar uns minuts.
+125=Extraient %s...
+126=Llegint el contingut del paquet...
+
+[Dialog1006]
+100=InstallShield Wizard complet
+101=InstallShield Wizard ha acabat d'instal·lar %s a l'ordinador.  Per sortir de l'assistent, feu un clic a Final.
+
+[Strings]
+1=Error del PackageForTheWeb
+2=Aquest executable auto-extraible s'ha corromput.  L'instal·lació va a finalitzar.
+3=No pot obrir el executable auto-extraible.  El fitxer està tancat o essent util·litzat per un altre procés.  L'instal·lació va a finalitzar.
+4=PackageForTheWeb
+5=No pot accedir al fitxer d'origen!
+6=No pot crear el fitxer d'arxiu!
+7=No accés a la ruta especificada.
+8=No pot crear el directori de sortida especificat.  Nom de ruta incorrecte.
+9=No pot començar el procés de descompressió!
+10=El fitxer EXE s'ha corromput.  Impossible continuar.
+11=No pot descompressar la carpeta EXE.
+12=No pot executar l'ordre especificada!
+13=Aquest programa és utilitzat internament per el PackageForTheWeb.  No deuría ésser executat directament.
+14=Mala o falta informació en l'encapçalament!"
+15=Falta la carpeta de l'acord de llicéncia de programes.  L'instal·lació es detindrá.
+29=El directori de sortida especificat no existeix.  Ho creo?
+30=Error escrivint el fitxer d'arxiu!
+31=Aquest programa d'instal·lació va a ésser creat util·litzant una versió de prova del paquet per a la Red.  El auxiliar del PackageForTheWeb deu estar obert per a executar aquest programa.
+32=Vols cancel·lar l'instal·lació?
+33=El paquet ha segut lliurat amb éxit.
+34=No hi ha sufucient espai en el disc per a obrir el paquet!
+35=Error de seguretat! Contrasenya inválida.
+36=Opció de comandament inválid.
+37=Descarregant '%s'...
+38=Fallada la memòria proporcionada!
+39=No pot obrir l'aplicació de descarregar
+40=Error fatal en la lectura de les dades del paquet.
+41=Error fatal en l'escritura de les dades del paquet.
+42=El format del progrma és inválid i no es pot actualitzar.
+43=A aquest progrma li falta el contenidor de fitxers.
+44=Error general al lletgir aquest paquet.
+45=Aquest paquet ja té un contenidor de fitxers.
+46=Aquest paquet ha segut signat i no es pot actualitzar.
+47=Error fatal de Microsoft
+48=No pot inicialitzar l'extensió DLL.
+49=Error en l'execució del Programa Especificat
+300=Cap error
+301=Falta el fitxer d'arxiu!
+302=El fitxer d'entrada no és un arxiu.
+303=Mala versió d'arxiu.
+304=Carpeta d'arxiu corrupta!
+305=Fallada de memòria proporcionada!
+306=Tipo de compressió de fitxer inválida!
+307=Fallada CRC.
+308=Error en el sistema durant la descompressió
+309=Error en la mida de les dades internes.
+310=Incorrecta selecció del fitxer d'arxiu
+311=La descompressió del paquet s'ha cancel·lat.
+312=No pot crear el directori de sortida especificat!
+313=No es pot calcular l'espai en disc necessari.
+314=No hi ha prou espai en disc a la unitat %s per a extreure aquest paquet.
+318=No hi ha prou espai en la unitat %s per a extreure aquest paquet.
+323=Accepto
+324=Allibereu %.2f %s i feu clic a Reintentar.
+325=Aquest executable auto-extraible s'ha corromput.  L'instal·lació va a finalitzar.
+
+[FinishButton]
+1=Final
+2=Continuar
+
+[WizardButtons]
+1=< &Enrera
+2=E&ndavant >
+3=Anul·lar
+4=InstallShield Wizard
+
+[Fonts]
+328=12,Arial
+6001=8,MS Sans Serif

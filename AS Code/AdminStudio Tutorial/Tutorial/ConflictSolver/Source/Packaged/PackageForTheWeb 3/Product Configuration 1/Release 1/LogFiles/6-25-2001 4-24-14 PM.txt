@@ -1,0 +1,52 @@
+=================Logging started at 6/25/2001 4:24:14 PM ==================
+Binary table successfully built
+CustomAction table successfully built
+Property table successfully built
+Feature table successfully built
+FeatureComponents table successfully built
+IniFile table successfully built
+Building Directory table
+Directory table successfully built
+Registry table successfully built
+Building Component table
+Component table successfully built
+Directory table successfully built
+AdminExecuteSequence table successfully built
+AdminUISequence table successfully built
+AdvtExecuteSequence table successfully built
+InstallExecuteSequence table successfully built
+InstallUISequence table successfully built
+Shortcut table successfully built
+	** Warning -3114: Application path [DIR39] does not contain destination of associated component INSTALLDIR in component pftwwiz.exe
+Class table successfully built
+AppId table successfully built
+ProgId table successfully built
+TypeLib table successfully built
+Extension table successfully built
+Verb table successfully built
+MIME table successfully built
+PublishComponent table successfully built
+Directory table successfully built
+LaunchCondition table successfully built
+ServiceInstall table successfully built
+ServiceControl table successfully built
+ODBCDriver table successfully built
+ODBCAttribute table successfully built
+ODBCDataSource table successfully built
+ODBCSourceAttribute table successfully built
+ODBCTranslator table successfully built
+TextStyle table successfully built
+ActionText table successfully built
+Error table successfully built
+UIText table successfully built
+Icon table successfully built
+InstallShield table successfully built
+Dialog AdminChangeFolder for language English (United States) built
+Dialog AdminNetworkLocation for language English (United States) built
+Dialog AdminWelcome for language English (United States) built
+Dialog SplashBitmap for language English (United States) built
+Build canceled by the user
+Dialog InstallChangeFolder for language English (United States) built
+Build canceled by the user
+Build canceled by the user
+=================Logging Stopped at 6/25/2001 4:24:23 PM ==================

@@ -1,0 +1,38 @@
+ReleaseEngineer
+**!Releas3Eng
+prompt
+cd AdminstudioQA
+binary
+cd ASAsahi\Complete\Japanese\Full
+lcd C:\AdminStudio\AdminStudio_Builds\Japanese\Full\Compressed\no_password
+mput *.exe
+cd \AdminStudioQA
+cd AsAsahi\Complete\Japanese\IsolatedSetups\AIW
+lcd "C:\AdminStudio\AdminStudio_Builds\Japanese\IsolatedSetups\AIW\Japanese MSI\DiskImages\DISK1"
+mput *.msi
+cd \AdminStudioQA
+cd AsAsahi\Complete\Japanese\IsolatedSetups\DistributionWizard
+lcd "C:\AdminStudio\AdminStudio_Builds\Japanese\IsolatedSetups\DistributionWizard\Japanese MSI\DiskImages\DISK1"
+mput *.msi
+cd \AdminStudioQA
+cd AsAsahi\Complete\Japanese\IsolatedSetups\FLEXwrap
+lcd "C:\AdminStudio\AdminStudio_Builds\Japanese\IsolatedSetups\FLEXwrap\Japanese MSI\DiskImages\DISK1"
+mput *.msi
+cd \AdminStudioQA
+cd AsAsahi\Complete\Japanese\IsolatedSetups\QualityMonitor
+lcd "C:\AdminStudio\AdminStudio_Builds\Japanese\IsolatedSetups\QualityMonitor\Japanese MSI\DiskImages\DISK1"
+mput *.msi
+cd \AdminStudioQA
+cd AsAsahi\Complete\Japanese\IsolatedSetups\Tuner
+lcd "C:\AdminStudio\AdminStudio_Builds\Japanese\IsolatedSetups\Tuner\Japanese MSI\DiskImages\DISK1"
+mput *.msi
+cd \AdminStudioQA
+cd AsAsahi\Complete\Japanese\StandaloneSetups\QualityMonitor
+lcd "C:\AdminStudio\AdminStudio_Builds\Japanese\QualityMonitor\Japanese Compressed\DiskImages\DISK1"
+mput *.exe
+cd \AdminStudioQA
+cd AsAsahi\Complete\Japanese\StandaloneSetups\Repackager
+lcd "C:\AdminStudio\AdminStudio_Builds\Japanese\Repackager\Japanese FullBuild\DiskImages\DISK1"
+mput *.exe
+cd \AdminStudioQA
+bye

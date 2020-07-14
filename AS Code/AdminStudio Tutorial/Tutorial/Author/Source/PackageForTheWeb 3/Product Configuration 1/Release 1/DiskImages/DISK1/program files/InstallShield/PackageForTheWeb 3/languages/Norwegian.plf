@@ -1,0 +1,115 @@
+[Dialog1000]
+100=Velkommen til InstallShield Wizard for %s
+101=Installeringsveiviseren fra InstallShield(r) hjelper deg med å installere %s på datamaskinen. Klikk Neste for å gå videre.
+
+[Dialog1001]
+0=Lisensavtale
+1=Les denne lisensavtalen nøye.
+121=Jeg &godtar bestemmelsene i lisensavtalen
+122=Jeg godtar &ikke bestemmelsene i lisensavtalen
+
+[Dialog1002]
+0=Hvor filene skal lagres
+1=Hvor vil du lagre filene?
+101=Angi hvilken mappe du vil at filene skal lagres i. Hvis mappen ikke eksisterer, vil den bli laget for deg. Klikk Neste for å gå videre.
+102=&Lagre filene i mappen:
+103=&Endre...
+
+[Dialog1003]
+0=Passord
+1=Denne pakken er beskyttet med passord.
+106=&Passord:
+107=Angi passordet som skal kreves for å kjøre denne pakken. Merk at store og små bokstaver anses som forskjellige i passord. Velg Neste for å fortsette.
+
+[Dialog1004]
+0=Beskyttelse mot overskriving
+2=Avbryt
+109=&Ja
+110=&Nei
+111=Ja til &alt
+112=N&ei til alt
+113=Denne filen finnes allerede på datamaskinen:
+114=Vil du overskrive denne filen?
+
+[Dialog1005]
+0=Pakker ut filer
+1=Innholdet i pakken blir pakket ut.
+2=Avbryt
+124=Vent litt mens InstallShield Wizard pakker ut filene som trengs for å installere %s på datamaskinen. Dette kan ta noen øyeblikk.
+125=Pakker ut %s...
+126=Leser innholdet i pakken...
+
+[Dialog1006]
+100=InstallShield Wizard fullført
+101=InstallShield Wizard er ferdig med å installere %s på datamaskinen. Hvis du vil avslutte veiviseren, velger du Avslutt.
+
+[Strings]
+1=PackageForTheWeb-feil
+2=Denne selvutpakkende filen er blitt korrupt. Installeringen vil bli avsluttet.
+3=Er ikke i stand til å åpne den selvutpakkende filen. Filen er låst eller i bruk i en annen prosess. Installeringen avsluttes.
+4=PackageForTheWeb
+5=Ikke i stand til å åpne kildefilen!
+6=Ikke i stand til å åpne kabinettfilen!
+7=Får ikke tilgang til den spesifiserte katalogen.
+8=Er ikke i stand til å opprette den spesifiserte katalogen. Ugyldig navn.
+9=Klarer ikke å starte dekompresjonsprosessen!
+10=EXE filen er blitt korrupt. Er ikke i stand til å fortsette.  
+11=Ikke i stand til å dekompremere EXE-filen.
+12=Ikke i stand til å eksekvere den spesifiserte kommandolinjen!
+13=Dette programmet er brukt internt av PackageForTheWeb. Det kan ikke kjøres direkte.
+14=Feil eller manglende overskriftsinformasjon!
+15=Filen for Software Lisensavtale mangler. Innstalleringen vil stoppe.
+29=Den spesifiserte katalogen eksisterer ikke. Skal den opprettes?
+30=Feil ved skriving av kabinettfilen!
+31=Dette installasjonsprogrammet ble laget ved bruk av en prøveversjon av PackageForTheWeb. PackageForTheWeb Veiviseren må kjøres for å kjøre dette programmet.
+32=Ønsker du å avslutte installasjonen?
+33=Pakken har blitt levert suksessfullt.
+34=Utilstrekkelig diskplass for åpning av pakken!
+35=Sikkerhetsfeil! Ugyldig passord.
+36=Ugyldig parameter i kommandolinje.
+37=Pakker opp '%s'...
+38=Feil ved minneallokering!
+39=Er ikke i stand til å åpne oppakkingsapplikasjonen.
+40=Alvorlig feil under lesing av pakkedata.
+41=Alvorlig feil under skriving av pakkedata.
+42=Programformatet er ugyldig og kan ikke bli oppdatert.
+43=Denne pakken mangler filbeholderen sin.
+44=Generell feil under lesing av denne pakken.
+45=Denne pakken inneholder allerede en filbeholder.
+46=Denne pakken har blitt signert og kan ikke bli oppdatert.
+47=Alvorlig Microsoft feil.
+48=Er ikke i stand til å initialisere linjen DLL.
+49=Feil ved kjøring av det spesifiserte programmet.
+300=Ingen feil
+301=Manglende kabinettfil!
+302=Inndatafil er ikke et kabinett.
+303=Feil kabinettversjon.
+304=Korrupt kabinettfil!
+305=Feil ved minneallokering!
+306=Ugyldig kompresjonstype!
+307=CRC feil.
+308=Systemfeil under dekompresjon.
+309=Intern feil vedrørende datastørrelse.
+310=Feil kabinettfil valgt. 
+311=Dekompresjonen av pakken er avbrutt.
+312=Er ikke i stand til å lage den spesifiserte katalogen!
+313=Kan ikke beregne nødvendig diskplass.
+314=Ikke nok plass på stasjon %s til å pakke ut filene.
+318=Ikke nok plass på stasjon %s til å pakke ut filene.
+323=Godta
+324=Frigjør %.2f %s og klikk på Prøv på nytt.
+325=Denne selvutpakkende filen er blitt korrupt. Installeringen vil bli avsluttet.
+
+[FinishButton]
+1=Avslutt
+2=Fortsett
+
+[WizardButtons]
+1=< Til&bake
+2=&Neste >
+3=Avbryt
+4=InstallShield Wizard
+
+[Fonts]
+328=12,Arial
+6001=8,MS Sans Serif

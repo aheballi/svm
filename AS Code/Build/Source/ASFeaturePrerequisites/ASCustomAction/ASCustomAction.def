@@ -1,0 +1,6 @@
+LIBRARY	"ASCustomAction"
+EXPORTS
+	FeaturePrerequisiteMaintenanceMode
+	FeaturePrerequisiteSynchronizeState
+	FeaturePrerequisiteUserCancel
+	FeaturePrerequisiteInstallAbort

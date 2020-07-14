@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CppUnitTestMain - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP75C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ../../lib/cppunitd.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/CppUnitTestMain.pdb" /debug /machine:I386 /out:"Debug/CppUnitTestMain.exe" /pdbtype:sept 
+".\Debug\ExceptionTest.obj"
+".\Debug\NotEqualExceptionTest.obj"
+".\Debug\TestAssertTest.obj"
+".\Debug\TestCallerTest.obj"
+".\Debug\TestCaseTest.obj"
+".\Debug\TestFailureTest.obj"
+".\Debug\TestResultTest.obj"
+".\Debug\TestSuiteTest.obj"
+".\Debug\XmlUniformiser.obj"
+".\Debug\XmlUniformiserTest.obj"
+".\Debug\HelperMacrosTest.obj"
+".\Debug\OrthodoxTest.obj"
+".\Debug\RepeatedTestTest.obj"
+".\Debug\TestDecoratorTest.obj"
+".\Debug\TestSetUpTest.obj"
+".\Debug\TestResultCollectorTest.obj"
+".\Debug\XmlOutputterTest.obj"
+".\Debug\BaseTestCase.obj"
+".\Debug\MockTestCase.obj"
+".\Debug\MockTestListener.obj"
+".\Debug\SubclassedTestCase.obj"
+".\Debug\TrackedTestCase.obj"
+".\Debug\CppUnitTestSuite.obj"
+".\Debug\CppUnitTestMain.obj"
+"\CppUnit\cppunit-1.8.0\lib\cppunitd.lib"
+"\CppUnit\cppunit-1.8.0\lib\cppunitd_dll.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP75C.tmp"
+<h3>Output Window</h3>
+Linking...
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP75E.bat" with contents
+[
+@echo off
+.\Debug\CppUnitTestMain.exe -selftest
+]
+Creating command line "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP75E.bat"
+Self test
+................................................................................................................
+OK (112)
+
+
+
+<h3>Results</h3>
+CppUnitTestMain.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,1328 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cppunit - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP115B.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "..\..\include" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "WIN32" /Fp"Release/cppunit.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\RepeatedTest.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestSetUp.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestFactoryRegistry.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TypeInfoHelper.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\Asserter.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\Exception.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\NotEqualException.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\SourceLine.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\SynchronizedObject.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestAssert.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestCase.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestFailure.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestResult.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestSuite.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestResultCollector.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TextOutputter.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\XmlOutputter.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestRunner.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestSucessListener.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TextTestProgressListener.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TextTestResult.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP115B.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP115C.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "..\..\include" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "WIN32" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\CompilerOutputter.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP115C.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP115D.tmp" with contents
+[
+/nologo /out:"..\..\lib\cppunit.lib" 
+".\Release\RepeatedTest.obj"
+".\Release\TestSetUp.obj"
+".\Release\TestFactoryRegistry.obj"
+".\Release\TypeInfoHelper.obj"
+".\Release\Asserter.obj"
+".\Release\Exception.obj"
+".\Release\NotEqualException.obj"
+".\Release\SourceLine.obj"
+".\Release\SynchronizedObject.obj"
+".\Release\TestAssert.obj"
+".\Release\TestCase.obj"
+".\Release\TestFailure.obj"
+".\Release\TestResult.obj"
+".\Release\TestSuite.obj"
+".\Release\CompilerOutputter.obj"
+".\Release\TestResultCollector.obj"
+".\Release\TextOutputter.obj"
+".\Release\XmlOutputter.obj"
+".\Release\TestRunner.obj"
+".\Release\TestSucessListener.obj"
+".\Release\TextTestProgressListener.obj"
+".\Release\TextTestResult.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP115D.tmp"
+<h3>Output Window</h3>
+Compiling...
+RepeatedTest.cpp
+TestSetUp.cpp
+TestFactoryRegistry.cpp
+TypeInfoHelper.cpp
+Asserter.cpp
+Exception.cpp
+NotEqualException.cpp
+SourceLine.cpp
+SynchronizedObject.cpp
+TestAssert.cpp
+TestCase.cpp
+TestFailure.cpp
+TestResult.cpp
+TestSuite.cpp
+TestResultCollector.cpp
+TextOutputter.cpp
+XmlOutputter.cpp
+TestRunner.cpp
+TestSucessListener.cpp
+TextTestProgressListener.cpp
+TextTestResult.cpp
+Compiling...
+CompilerOutputter.cpp
+Creating library...
+<h3>
+--------------------Configuration: DSPlugIn - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP1160.tmp" with contents
+[
+/nologo /D "NDEBUG" /tlb "TestRunnerDSPlugin.tlb" /h "../../../include/msvc6/DSPlugin/TestRunnerDSPlugin.h" /iid "../../../include/msvc6/DSPlugin/TestRunnerDSPlugin_i.c" /win32 "C:\InstallShield AdminStudio\cppunit\src\msvc6\DSPlugIn\TestRunnerDSPlugin.idl"]
+Creating command line "midl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP1160.tmp"
+Creating command line "rc.exe /l 0x409 /fo"Release/DSPlugIn.res" /i "../../../../lib" /d "NDEBUG" /d "_AFXDLL" "C:\InstallShield AdminStudio\cppunit\src\msvc6\DSPlugIn\DSPlugIn.rc"" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP1161.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "../../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/DSPlugIn.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\DSPlugIn\DSAddIn.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\DSPlugIn\DSPlugIn.cpp"
+"C:\InstallShield AdminStudio\cppunit\include\msvc6\DSPlugIn\TestRunnerDSPlugin_i.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP1161.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP1162.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "../../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/DSPlugIn.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\DSPlugIn\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP1162.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP1163.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/TestRunnerDSPlugIn.pdb" /machine:I386 /def:".\DSPlugIn.def" /out:"Release/TestRunnerDSPlugIn.dll" /implib:"Release/TestRunnerDSPlugIn.lib" 
+".\Release\DSAddIn.obj"
+".\Release\DSPlugIn.obj"
+".\Release\StdAfx.obj"
+".\Release\TestRunnerDSPlugin_i.obj"
+".\Release\DSPlugIn.res"
+"\InstallShield AdminStudio\cppunit\lib\cppunit.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP1163.tmp"
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP1164.bat" with contents
+[
+@echo off
+rem echo Automatically done when the add-in is registered with VC++
+rem regsvr32 ".\Release\TestRunnerDSPlugIn.dll"
+echo regsvr32 exec. time > ".\Release\regsvr32.trg"
+rem echo Server registration done!
+]
+Creating command line "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP1164.bat"
+Creating Type Library...
+Microsoft (R) MIDL Compiler Version 5.01.0164  
+Copyright (c) Microsoft Corp 1991-1997. All rights reserved.
+Processing C:\InstallShield AdminStudio\cppunit\src\msvc6\DSPlugIn\TestRunnerDSPlugin.idl
+TestRunnerDSPlugin.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\ocidl.idl
+ocidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oleidl.idl
+oleidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\servprov.idl
+servprov.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\urlmon.idl
+urlmon.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\msxml.idl
+msxml.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DSAddIn.cpp
+DSPlugIn.cpp
+TestRunnerDSPlugin_i.c
+Linking...
+   Creating library Release/TestRunnerDSPlugIn.lib and object Release/TestRunnerDSPlugIn.exp
+<h3>Output Window</h3>
+Performing Registration
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP1174.bat" with contents
+[
+@echo off
+echo The following command may fail if you have already registered the add-in
+copy Release\TestRunnerDSPlugIn.dll ..\..\..\lib\TestRunnerDSPlugIn.dll
+]
+Creating command line "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP1174.bat"
+duplicating DLL to lib directory
+The following command may fail if you have already registered the add-in
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+TestRunnerDSPlugIn.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: cppunit - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP1175.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "..\..\include" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "WIN32" /Fp"Debug/cppunit.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\RepeatedTest.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestSetUp.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestFactoryRegistry.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TypeInfoHelper.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\Asserter.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\Exception.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\NotEqualException.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\SourceLine.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\SynchronizedObject.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestAssert.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestCase.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestFailure.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestResult.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestSuite.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestResultCollector.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TextOutputter.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\XmlOutputter.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestRunner.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestSucessListener.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TextTestProgressListener.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TextTestResult.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP1175.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP1176.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "..\..\include" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "WIN32" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\CompilerOutputter.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP1176.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP1177.tmp" with contents
+[
+/nologo /out:"..\..\lib\cppunitd.lib" 
+".\Debug\RepeatedTest.obj"
+".\Debug\TestSetUp.obj"
+".\Debug\TestFactoryRegistry.obj"
+".\Debug\TypeInfoHelper.obj"
+".\Debug\Asserter.obj"
+".\Debug\Exception.obj"
+".\Debug\NotEqualException.obj"
+".\Debug\SourceLine.obj"
+".\Debug\SynchronizedObject.obj"
+".\Debug\TestAssert.obj"
+".\Debug\TestCase.obj"
+".\Debug\TestFailure.obj"
+".\Debug\TestResult.obj"
+".\Debug\TestSuite.obj"
+".\Debug\CompilerOutputter.obj"
+".\Debug\TestResultCollector.obj"
+".\Debug\TextOutputter.obj"
+".\Debug\XmlOutputter.obj"
+".\Debug\TestRunner.obj"
+".\Debug\TestSucessListener.obj"
+".\Debug\TextTestProgressListener.obj"
+".\Debug\TextTestResult.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP1177.tmp"
+<h3>Output Window</h3>
+Compiling...
+RepeatedTest.cpp
+TestSetUp.cpp
+TestFactoryRegistry.cpp
+TypeInfoHelper.cpp
+Asserter.cpp
+Exception.cpp
+NotEqualException.cpp
+SourceLine.cpp
+SynchronizedObject.cpp
+TestAssert.cpp
+TestCase.cpp
+TestFailure.cpp
+TestResult.cpp
+TestSuite.cpp
+TestResultCollector.cpp
+TextOutputter.cpp
+XmlOutputter.cpp
+TestRunner.cpp
+TestSucessListener.cpp
+TextTestProgressListener.cpp
+TextTestResult.cpp
+Compiling...
+CompilerOutputter.cpp
+Creating library...
+<h3>
+--------------------Configuration: DSPlugIn - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP117A.tmp" with contents
+[
+/nologo /D "_DEBUG" /tlb "TestRunnerDSPlugin.tlb" /h "../../../include/msvc6/DSPlugin/TestRunnerDSPlugin.h" /iid "../../../include/msvc6/DSPlugin/TestRunnerDSPlugin_i.c" /Oicf /win32 "C:\InstallShield AdminStudio\cppunit\src\msvc6\DSPlugIn\TestRunnerDSPlugin.idl"]
+Creating command line "midl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP117A.tmp"
+Creating command line "rc.exe /l 0x409 /fo"Debug/DSPlugIn.res" /i "../../../../lib" /d "_DEBUG" /d "_AFXDLL" "C:\InstallShield AdminStudio\cppunit\src\msvc6\DSPlugIn\DSPlugIn.rc"" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP117B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "../../../include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Debug/DSPlugIn.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\DSPlugIn\DSAddIn.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\DSPlugIn\DSPlugIn.cpp"
+"C:\InstallShield AdminStudio\cppunit\include\msvc6\DSPlugIn\TestRunnerDSPlugin_i.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP117B.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP117C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "../../../include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Debug/DSPlugIn.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\DSPlugIn\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP117C.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP117D.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/TestRunnerDSPlugInD.pdb" /debug /machine:I386 /def:".\DSPlugIn.def" /out:"Debug/TestRunnerDSPlugInD.dll" /implib:"Debug/TestRunnerDSPlugInD.lib" /pdbtype:sept 
+".\Debug\DSAddIn.obj"
+".\Debug\DSPlugIn.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TestRunnerDSPlugin_i.obj"
+".\Debug\DSPlugIn.res"
+"\InstallShield AdminStudio\cppunit\lib\cppunitd.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP117D.tmp"
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP117E.bat" with contents
+[
+@echo off
+rem echo Automatically done when the add-in is registered with VC++
+rem regsvr32 ".\Debug\TestRunnerDSPlugInD.dll"
+echo regsvr32 exec. time > ".\Debug\regsvr32.trg"
+rem echo Server registration done!
+]
+Creating command line "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP117E.bat"
+Creating Type Library...
+Microsoft (R) MIDL Compiler Version 5.01.0164  
+Copyright (c) Microsoft Corp 1991-1997. All rights reserved.
+Processing C:\InstallShield AdminStudio\cppunit\src\msvc6\DSPlugIn\TestRunnerDSPlugin.idl
+TestRunnerDSPlugin.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\ocidl.idl
+ocidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oleidl.idl
+oleidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\servprov.idl
+servprov.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\urlmon.idl
+urlmon.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\msxml.idl
+msxml.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DSAddIn.cpp
+DSPlugIn.cpp
+TestRunnerDSPlugin_i.c
+Linking...
+   Creating library Debug/TestRunnerDSPlugInD.lib and object Debug/TestRunnerDSPlugInD.exp
+TestRunnerDSPlugInD.exp : warning LNK4070: /OUT:TestRunnerDSPlugin.dll directive in .EXP differs from output filename "Debug/TestRunnerDSPlugInD.dll"; ignoring directive
+<h3>Output Window</h3>
+Performing Registration
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP118E.bat" with contents
+[
+@echo off
+echo The following command may fail if you have already registered the add-in
+copy Debug\TestRunnerDSPlugInD.dll ..\..\..\lib\TestRunnerDSPlugInD.dll
+]
+Creating command line "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP118E.bat"
+duplicating DLL to lib directory
+The following command may fail if you have already registered the add-in
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+TestRunnerDSPlugInD.dll - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: DSPlugIn - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP118F.tmp" with contents
+[
+/nologo /D "NDEBUG" /tlb "TestRunnerDSPlugin.tlb" /h "../../../include/msvc6/DSPlugin/TestRunnerDSPlugin.h" /iid "../../../include/msvc6/DSPlugin/TestRunnerDSPlugin_i.c" /win32 "C:\InstallShield AdminStudio\cppunit\src\msvc6\DSPlugIn\TestRunnerDSPlugin.idl"]
+Creating command line "midl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP118F.tmp"
+Creating command line "rc.exe /l 0x409 /fo"Release/DSPlugIn.res" /i "../../../../lib" /d "NDEBUG" /d "_AFXDLL" "C:\InstallShield AdminStudio\cppunit\src\msvc6\DSPlugIn\DSPlugIn.rc"" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP1190.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "../../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/DSPlugIn.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\DSPlugIn\DSAddIn.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\DSPlugIn\DSPlugIn.cpp"
+"C:\InstallShield AdminStudio\cppunit\include\msvc6\DSPlugIn\TestRunnerDSPlugin_i.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP1190.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP1191.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "../../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/DSPlugIn.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\DSPlugIn\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP1191.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP1192.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/TestRunnerDSPlugIn.pdb" /machine:I386 /def:".\DSPlugIn.def" /out:"Release/TestRunnerDSPlugIn.dll" /implib:"Release/TestRunnerDSPlugIn.lib" 
+".\Release\DSAddIn.obj"
+".\Release\DSPlugIn.obj"
+".\Release\StdAfx.obj"
+".\Release\TestRunnerDSPlugin_i.obj"
+".\Release\DSPlugIn.res"
+"\InstallShield AdminStudio\cppunit\lib\cppunit.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP1192.tmp"
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP1193.bat" with contents
+[
+@echo off
+rem echo Automatically done when the add-in is registered with VC++
+rem regsvr32 ".\Release\TestRunnerDSPlugIn.dll"
+echo regsvr32 exec. time > ".\Release\regsvr32.trg"
+rem echo Server registration done!
+]
+Creating command line "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP1193.bat"
+Creating Type Library...
+Microsoft (R) MIDL Compiler Version 5.01.0164  
+Copyright (c) Microsoft Corp 1991-1997. All rights reserved.
+Processing C:\InstallShield AdminStudio\cppunit\src\msvc6\DSPlugIn\TestRunnerDSPlugin.idl
+TestRunnerDSPlugin.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\ocidl.idl
+ocidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oleidl.idl
+oleidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\servprov.idl
+servprov.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\urlmon.idl
+urlmon.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\msxml.idl
+msxml.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DSAddIn.cpp
+DSPlugIn.cpp
+TestRunnerDSPlugin_i.c
+Linking...
+   Creating library Release/TestRunnerDSPlugIn.lib and object Release/TestRunnerDSPlugIn.exp
+<h3>Output Window</h3>
+Performing Registration
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11A3.bat" with contents
+[
+@echo off
+echo The following command may fail if you have already registered the add-in
+copy Release\TestRunnerDSPlugIn.dll ..\..\..\lib\TestRunnerDSPlugIn.dll
+]
+Creating command line "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11A3.bat"
+duplicating DLL to lib directory
+The following command may fail if you have already registered the add-in
+        1 file(s) copied.
+<h3>
+--------------------Configuration: TestRunner - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/TestRunner.res" /d "NDEBUG" /d "_AFXDLL" "C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\TestRunner.rc"" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11A4.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "..\..\..\include" /I "..\..\..\include\msvc6" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_AFXEXT" /D "WIN32" /Fp"Release/TestRunner.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\ListCtrlFormatter.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\ListCtrlSetter.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\MsDevCallerListCtrl.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\ProgressBar.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\TestRunnerApp.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\TestRunnerDlg.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\TreeHierarchyDlg.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\ActiveTest.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\TestRunner.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\TestRunnerModel.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\MostRecentTests.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11A4.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11A5.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "..\..\..\include" /I "..\..\..\include\msvc6" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_AFXEXT" /D "WIN32" /Fp"Release/TestRunner.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11A5.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11A6.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "..\..\..\include" /I "..\..\..\include\msvc6" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_AFXEXT" /D "WIN32" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\InstallShield AdminStudio\cppunit\include\msvc6\DSPlugIn\TestRunnerDSPlugin_i.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11A6.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11A7.tmp" with contents
+[
+..\..\..\lib\cppunit.lib winmm.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/testrunner.pdb" /machine:I386 /def:".\TestRunner.def" /out:"..\..\..\lib\testrunner.dll" /implib:"..\..\..\lib\testrunner.lib" 
+".\Release\ListCtrlFormatter.obj"
+".\Release\ListCtrlSetter.obj"
+".\Release\MsDevCallerListCtrl.obj"
+".\Release\ProgressBar.obj"
+".\Release\StdAfx.obj"
+".\Release\TestRunnerApp.obj"
+".\Release\TestRunnerDlg.obj"
+".\Release\TreeHierarchyDlg.obj"
+".\Release\ActiveTest.obj"
+".\Release\TestRunner.obj"
+".\Release\TestRunnerModel.obj"
+".\Release\MostRecentTests.obj"
+".\Release\TestRunnerDSPlugin_i.obj"
+".\Release\TestRunner.res"
+"\InstallShield AdminStudio\cppunit\lib\cppunit.lib"
+"\InstallShield AdminStudio\cppunit\src\msvc6\DSPlugIn\Release\TestRunnerDSPlugIn.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11A7.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ListCtrlFormatter.cpp
+ListCtrlSetter.cpp
+MsDevCallerListCtrl.cpp
+ProgressBar.cpp
+TestRunnerApp.cpp
+TestRunnerDlg.cpp
+TreeHierarchyDlg.cpp
+ActiveTest.cpp
+TestRunner.cpp
+TestRunnerModel.cpp
+MostRecentTests.cpp
+Generating Code...
+Compiling...
+TestRunnerDSPlugin_i.c
+Linking...
+   Creating library ..\..\..\lib\testrunner.lib and object ..\..\..\lib\testrunner.exp
+<h3>
+--------------------Configuration: TestPlugInRunner - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11AE.bat" with contents
+[
+@echo off
+copy ..\..\..\lib\testrunner.dll .\Release\testrunner.dll
+]
+Creating command line "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11AE.bat"
+Creating command line "rc.exe /l 0x40c /fo"Release/TestPlugInRunner.res" /d "NDEBUG" /d "_AFXDLL" "C:\InstallShield AdminStudio\cppunit\src\msvc6\testpluginrunner\TestPlugInRunner.rc"" 
+Updating DLL: ..\..\..\lib\testrunner.dll
+        1 file(s) copied.
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11AF.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../include" /I "../TestRunner" /I "..\..\..\include" /I "..\..\..\include\msvc6" /I "..\TestRunner" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /D "CPPUNIT_SUBCLASSING_TESTRUNNERDLG_BUILD" /Fp"Release/TestPlugInRunner.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testpluginrunner\TestPlugInRunnerApp.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testpluginrunner\TestPlugInRunnerDlg.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testpluginrunner\TestPlugIn.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testpluginrunner\TestPlugInException.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testpluginrunner\TestPlugInRunnerModel.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11AF.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11B0.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../include" /I "../TestRunner" /I "..\..\..\include" /I "..\..\..\include\msvc6" /I "..\TestRunner" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /D "CPPUNIT_SUBCLASSING_TESTRUNNERDLG_BUILD" /Fp"Release/TestPlugInRunner.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testpluginrunner\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11B0.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11B1.tmp" with contents
+[
+../../../lib/cppunit.lib ../../../lib/testrunner.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/TestPlugInRunner.pdb" /machine:I386 /out:"Release/TestPlugInRunner.exe" 
+".\Release\StdAfx.obj"
+".\Release\TestPlugInRunnerApp.obj"
+".\Release\TestPlugInRunnerDlg.obj"
+".\Release\TestPlugIn.obj"
+".\Release\TestPlugInException.obj"
+".\Release\TestPlugInRunnerModel.obj"
+".\Release\TestPlugInRunner.res"
+"\InstallShield AdminStudio\cppunit\lib\testrunner.lib"
+"\InstallShield AdminStudio\cppunit\lib\cppunit.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11B1.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+TestPlugInRunnerApp.cpp
+TestPlugInRunnerDlg.cpp
+TestPlugIn.cpp
+TestPlugInException.cpp
+TestPlugInRunnerModel.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+TestPlugInRunner.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: DSPlugIn - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11B5.tmp" with contents
+[
+/nologo /D "_DEBUG" /tlb "TestRunnerDSPlugin.tlb" /h "../../../include/msvc6/DSPlugin/TestRunnerDSPlugin.h" /iid "../../../include/msvc6/DSPlugin/TestRunnerDSPlugin_i.c" /Oicf /win32 "C:\InstallShield AdminStudio\cppunit\src\msvc6\DSPlugIn\TestRunnerDSPlugin.idl"]
+Creating command line "midl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11B5.tmp"
+Creating command line "rc.exe /l 0x409 /fo"Debug/DSPlugIn.res" /i "../../../../lib" /d "_DEBUG" /d "_AFXDLL" "C:\InstallShield AdminStudio\cppunit\src\msvc6\DSPlugIn\DSPlugIn.rc"" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11B6.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "../../../include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Debug/DSPlugIn.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\DSPlugIn\DSAddIn.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\DSPlugIn\DSPlugIn.cpp"
+"C:\InstallShield AdminStudio\cppunit\include\msvc6\DSPlugIn\TestRunnerDSPlugin_i.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11B6.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11B7.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "../../../include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Debug/DSPlugIn.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\DSPlugIn\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11B7.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11B8.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/TestRunnerDSPlugInD.pdb" /debug /machine:I386 /def:".\DSPlugIn.def" /out:"Debug/TestRunnerDSPlugInD.dll" /implib:"Debug/TestRunnerDSPlugInD.lib" /pdbtype:sept 
+".\Debug\DSAddIn.obj"
+".\Debug\DSPlugIn.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TestRunnerDSPlugin_i.obj"
+".\Debug\DSPlugIn.res"
+"\InstallShield AdminStudio\cppunit\lib\cppunitd.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11B8.tmp"
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11B9.bat" with contents
+[
+@echo off
+rem echo Automatically done when the add-in is registered with VC++
+rem regsvr32 ".\Debug\TestRunnerDSPlugInD.dll"
+echo regsvr32 exec. time > ".\Debug\regsvr32.trg"
+rem echo Server registration done!
+]
+Creating command line "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11B9.bat"
+Creating Type Library...
+Microsoft (R) MIDL Compiler Version 5.01.0164  
+Copyright (c) Microsoft Corp 1991-1997. All rights reserved.
+Processing C:\InstallShield AdminStudio\cppunit\src\msvc6\DSPlugIn\TestRunnerDSPlugin.idl
+TestRunnerDSPlugin.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\ocidl.idl
+ocidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oleidl.idl
+oleidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\servprov.idl
+servprov.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\urlmon.idl
+urlmon.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\msxml.idl
+msxml.idl
+Compiling resources...
+Compiling...
+Skipping... (no relevant changes detected)
+StdAfx.cpp
+Compiling...
+TestRunnerDSPlugin_i.c
+DSAddIn.cpp
+DSPlugIn.cpp
+Linking...
+<h3>Output Window</h3>
+Performing Registration
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11C6.bat" with contents
+[
+@echo off
+echo The following command may fail if you have already registered the add-in
+copy Debug\TestRunnerDSPlugInD.dll ..\..\..\lib\TestRunnerDSPlugInD.dll
+]
+Creating command line "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11C6.bat"
+duplicating DLL to lib directory
+The following command may fail if you have already registered the add-in
+        1 file(s) copied.
+<h3>
+--------------------Configuration: TestRunner - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/TestRunner.res" /d "_DEBUG" /d "_AFXDLL" "C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\TestRunner.rc"" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11C7.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "..\..\..\include" /I "..\..\..\include\msvc6" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_AFXEXT" /D "WIN32" /FR"Debug/" /Fp"Debug/TestRunner.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\ListCtrlFormatter.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\ListCtrlSetter.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\MsDevCallerListCtrl.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\ProgressBar.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\TestRunnerApp.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\TestRunnerDlg.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\TreeHierarchyDlg.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\ActiveTest.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\TestRunner.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\TestRunnerModel.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\MostRecentTests.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11C7.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11C8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "..\..\..\include" /I "..\..\..\include\msvc6" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_AFXEXT" /D "WIN32" /FR"Debug/" /Fp"Debug/TestRunner.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11C8.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11C9.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "..\..\..\include" /I "..\..\..\include\msvc6" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_AFXEXT" /D "WIN32" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\InstallShield AdminStudio\cppunit\include\msvc6\DSPlugIn\TestRunnerDSPlugin_i.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11C9.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11CA.tmp" with contents
+[
+..\..\..\lib\cppunitd.lib winmm.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/testrunnerd.pdb" /debug /machine:I386 /def:".\TestRunner.def" /out:"..\..\..\lib\testrunnerd.dll" /implib:"..\..\..\lib\testrunnerd.lib" /pdbtype:sept 
+".\Debug\ListCtrlFormatter.obj"
+".\Debug\ListCtrlSetter.obj"
+".\Debug\MsDevCallerListCtrl.obj"
+".\Debug\ProgressBar.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TestRunnerApp.obj"
+".\Debug\TestRunnerDlg.obj"
+".\Debug\TreeHierarchyDlg.obj"
+".\Debug\ActiveTest.obj"
+".\Debug\TestRunner.obj"
+".\Debug\TestRunnerModel.obj"
+".\Debug\MostRecentTests.obj"
+".\Debug\TestRunnerDSPlugin_i.obj"
+".\Debug\TestRunner.res"
+"\InstallShield AdminStudio\cppunit\lib\cppunitd.lib"
+"\InstallShield AdminStudio\cppunit\src\msvc6\DSPlugIn\Debug\TestRunnerDSPlugInD.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11CA.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ListCtrlFormatter.cpp
+ListCtrlSetter.cpp
+MsDevCallerListCtrl.cpp
+ProgressBar.cpp
+TestRunnerApp.cpp
+TestRunnerDlg.cpp
+TreeHierarchyDlg.cpp
+ActiveTest.cpp
+TestRunner.cpp
+TestRunnerModel.cpp
+MostRecentTests.cpp
+Generating Code...
+Compiling...
+TestRunnerDSPlugin_i.c
+Linking...
+   Creating library ..\..\..\lib\testrunnerd.lib and object ..\..\..\lib\testrunnerd.exp
+<h3>
+--------------------Configuration: TestPlugInRunner - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11D1.bat" with contents
+[
+@echo off
+copy ..\..\..\lib\testrunnerd.dll .\Debug\testrunnerd.dll
+]
+Creating command line "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11D1.bat"
+Creating command line "rc.exe /l 0x40c /fo"Debug/TestPlugInRunner.res" /d "_DEBUG" /d "_AFXDLL" "C:\InstallShield AdminStudio\cppunit\src\msvc6\testpluginrunner\TestPlugInRunner.rc"" 
+Updating DLL: ..\..\..\lib\testrunnerd.dll
+        1 file(s) copied.
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11D2.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "..\..\..\include" /I "..\..\..\include\msvc6" /I "..\TestRunner" /D "_DEBUG" /D "CPPUNIT_TESTPLUGINRUNNER_BUILD" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /D "CPPUNIT_SUBCLASSING_TESTRUNNERDLG_BUILD" /Fp"Debug/TestPlugInRunner.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testpluginrunner\TestPlugInRunnerApp.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testpluginrunner\TestPlugInRunnerDlg.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testpluginrunner\TestPlugIn.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testpluginrunner\TestPlugInException.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testpluginrunner\TestPlugInRunnerModel.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11D2.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11D3.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "..\..\..\include" /I "..\..\..\include\msvc6" /I "..\TestRunner" /D "_DEBUG" /D "CPPUNIT_TESTPLUGINRUNNER_BUILD" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /D "CPPUNIT_SUBCLASSING_TESTRUNNERDLG_BUILD" /Fp"Debug/TestPlugInRunner.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testpluginrunner\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11D3.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11D4.tmp" with contents
+[
+../../../lib/cppunitd.lib ../../../lib/testrunnerd.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/TestPlugInRunner.pdb" /debug /machine:I386 /out:"Debug/TestPlugInRunner.exe" /pdbtype:sept 
+".\Debug\StdAfx.obj"
+".\Debug\TestPlugInRunnerApp.obj"
+".\Debug\TestPlugInRunnerDlg.obj"
+".\Debug\TestPlugIn.obj"
+".\Debug\TestPlugInException.obj"
+".\Debug\TestPlugInRunnerModel.obj"
+".\Debug\TestPlugInRunner.res"
+"\InstallShield AdminStudio\cppunit\lib\testrunnerd.lib"
+"\InstallShield AdminStudio\cppunit\lib\cppunitd.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11D4.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+TestPlugInRunnerApp.cpp
+TestPlugInRunnerDlg.cpp
+TestPlugIn.cpp
+TestPlugInException.cpp
+TestPlugInRunnerModel.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+TestPlugInRunner.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: cppunit - Win32 Debug Crossplatform Setting--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11D8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "..\..\include" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "WIN32" /D "CPPUNIT_DONT_USE_TYPEINFO" /Fp"DebugCrossplatform/cppunit.pch" /YX /Fo"DebugCrossplatform/" /Fd"DebugCrossplatform/" /FD /GZ /c 
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\RepeatedTest.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestSetUp.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestFactoryRegistry.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TypeInfoHelper.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\Asserter.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\Exception.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\NotEqualException.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\SourceLine.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\SynchronizedObject.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestAssert.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestCase.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestFailure.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestResult.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestSuite.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestResultCollector.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TextOutputter.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\XmlOutputter.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestRunner.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestSucessListener.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TextTestProgressListener.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TextTestResult.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11D8.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11D9.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "..\..\include" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "WIN32" /D "CPPUNIT_DONT_USE_TYPEINFO" /Fo"DebugCrossplatform/" /Fd"DebugCrossplatform/" /FD /GZ /c 
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\CompilerOutputter.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11D9.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11DA.tmp" with contents
+[
+/nologo /out:"..\..\lib\cppunitcd.lib" 
+".\DebugCrossplatform\RepeatedTest.obj"
+".\DebugCrossplatform\TestSetUp.obj"
+".\DebugCrossplatform\TestFactoryRegistry.obj"
+".\DebugCrossplatform\TypeInfoHelper.obj"
+".\DebugCrossplatform\Asserter.obj"
+".\DebugCrossplatform\Exception.obj"
+".\DebugCrossplatform\NotEqualException.obj"
+".\DebugCrossplatform\SourceLine.obj"
+".\DebugCrossplatform\SynchronizedObject.obj"
+".\DebugCrossplatform\TestAssert.obj"
+".\DebugCrossplatform\TestCase.obj"
+".\DebugCrossplatform\TestFailure.obj"
+".\DebugCrossplatform\TestResult.obj"
+".\DebugCrossplatform\TestSuite.obj"
+".\DebugCrossplatform\CompilerOutputter.obj"
+".\DebugCrossplatform\TestResultCollector.obj"
+".\DebugCrossplatform\TextOutputter.obj"
+".\DebugCrossplatform\XmlOutputter.obj"
+".\DebugCrossplatform\TestRunner.obj"
+".\DebugCrossplatform\TestSucessListener.obj"
+".\DebugCrossplatform\TextTestProgressListener.obj"
+".\DebugCrossplatform\TextTestResult.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11DA.tmp"
+<h3>Output Window</h3>
+Compiling...
+RepeatedTest.cpp
+TestSetUp.cpp
+TestFactoryRegistry.cpp
+TypeInfoHelper.cpp
+Asserter.cpp
+Exception.cpp
+NotEqualException.cpp
+SourceLine.cpp
+SynchronizedObject.cpp
+TestAssert.cpp
+TestCase.cpp
+TestFailure.cpp
+TestResult.cpp
+TestSuite.cpp
+TestResultCollector.cpp
+TextOutputter.cpp
+XmlOutputter.cpp
+TestRunner.cpp
+TestSucessListener.cpp
+TextTestProgressListener.cpp
+TextTestResult.cpp
+Compiling...
+CompilerOutputter.cpp
+Creating library...
+<h3>
+--------------------Configuration: TestRunner - Win32 Debug Crossplatform Setting--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"DebugNoTypeInfo/TestRunner.res" /d "_DEBUG" /d "_AFXDLL" "C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\TestRunner.rc"" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11DD.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "..\..\..\include" /I "..\..\..\include\msvc6" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_AFXEXT" /D "WIN32" /D "CPPUNIT_DONT_USE_TYPEINFO" /Fp"DebugNoTypeInfo/TestRunner.pch" /Yu"stdafx.h" /Fo"DebugNoTypeInfo/" /Fd"DebugNoTypeInfo/" /FD /c 
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\ListCtrlFormatter.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\ListCtrlSetter.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\MsDevCallerListCtrl.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\ProgressBar.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\TestRunnerApp.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\TestRunnerDlg.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\TreeHierarchyDlg.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\ActiveTest.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\TestRunner.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\TestRunnerModel.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\MostRecentTests.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11DD.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11DE.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "..\..\..\include" /I "..\..\..\include\msvc6" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_AFXEXT" /D "WIN32" /D "CPPUNIT_DONT_USE_TYPEINFO" /Fp"DebugNoTypeInfo/TestRunner.pch" /Yc"stdafx.h" /Fo"DebugNoTypeInfo/" /Fd"DebugNoTypeInfo/" /FD /c 
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11DE.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11DF.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "..\..\..\include" /I "..\..\..\include\msvc6" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_AFXEXT" /D "WIN32" /D "CPPUNIT_DONT_USE_TYPEINFO" /Fo"DebugNoTypeInfo/" /Fd"DebugNoTypeInfo/" /FD /c 
+"C:\InstallShield AdminStudio\cppunit\include\msvc6\DSPlugIn\TestRunnerDSPlugin_i.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11DF.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11E0.tmp" with contents
+[
+..\..\..\lib\cppunitcd.lib winmm.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"DebugCrossplatform/testrunnercd.pdb" /debug /machine:I386 /def:".\TestRunner.def" /out:"..\..\..\lib\testrunnercd.dll" /implib:"..\..\..\lib\testrunnercd.lib" /pdbtype:sept 
+".\DebugNoTypeInfo\ListCtrlFormatter.obj"
+".\DebugNoTypeInfo\ListCtrlSetter.obj"
+".\DebugNoTypeInfo\MsDevCallerListCtrl.obj"
+".\DebugNoTypeInfo\ProgressBar.obj"
+".\DebugNoTypeInfo\StdAfx.obj"
+".\DebugNoTypeInfo\TestRunnerApp.obj"
+".\DebugNoTypeInfo\TestRunnerDlg.obj"
+".\DebugNoTypeInfo\TreeHierarchyDlg.obj"
+".\DebugNoTypeInfo\ActiveTest.obj"
+".\DebugNoTypeInfo\TestRunner.obj"
+".\DebugNoTypeInfo\TestRunnerModel.obj"
+".\DebugNoTypeInfo\MostRecentTests.obj"
+".\DebugNoTypeInfo\TestRunnerDSPlugin_i.obj"
+".\DebugNoTypeInfo\TestRunner.res"
+"\InstallShield AdminStudio\cppunit\lib\cppunitcd.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11E0.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ListCtrlFormatter.cpp
+ListCtrlSetter.cpp
+MsDevCallerListCtrl.cpp
+ProgressBar.cpp
+TestRunnerApp.cpp
+TestRunnerDlg.cpp
+TreeHierarchyDlg.cpp
+ActiveTest.cpp
+TestRunner.cpp
+TestRunnerModel.cpp
+MostRecentTests.cpp
+Generating Code...
+Compiling...
+TestRunnerDSPlugin_i.c
+Linking...
+   Creating library ..\..\..\lib\testrunnercd.lib and object ..\..\..\lib\testrunnercd.exp
+
+
+
+<h3>Results</h3>
+testrunnercd.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: TestRunner - Win32 Release Unicode--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"ReleaseUnicode/TestRunner.res" /d "NDEBUG" /d "_AFXDLL" "C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\TestRunner.rc"" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11E7.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "..\..\..\include" /I "..\..\..\include\msvc6" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_AFXEXT" /D "WIN32" /D "_UNICODE" /Fp"ReleaseUnicode/TestRunner.pch" /Yu"stdafx.h" /Fo"ReleaseUnicode/" /Fd"ReleaseUnicode/" /FD /c 
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\ListCtrlFormatter.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\ListCtrlSetter.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\MsDevCallerListCtrl.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\ProgressBar.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\TestRunnerApp.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\TestRunnerDlg.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\TreeHierarchyDlg.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\ActiveTest.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\TestRunner.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\TestRunnerModel.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\MostRecentTests.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11E7.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11E8.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "..\..\..\include" /I "..\..\..\include\msvc6" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_AFXEXT" /D "WIN32" /D "_UNICODE" /Fp"ReleaseUnicode/TestRunner.pch" /Yc"stdafx.h" /Fo"ReleaseUnicode/" /Fd"ReleaseUnicode/" /FD /c 
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11E8.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11E9.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "..\..\..\include" /I "..\..\..\include\msvc6" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_AFXEXT" /D "WIN32" /D "_UNICODE" /Fo"ReleaseUnicode/" /Fd"ReleaseUnicode/" /FD /c 
+"C:\InstallShield AdminStudio\cppunit\include\msvc6\DSPlugIn\TestRunnerDSPlugin_i.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11E9.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11EA.tmp" with contents
+[
+..\..\..\lib\cppunit.lib winmm.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"ReleaseUnicode/testrunneru.pdb" /machine:I386 /def:".\TestRunner.def" /out:"..\..\..\lib\testrunneru.dll" /implib:"..\..\..\lib\testrunneru.lib" 
+".\ReleaseUnicode\ListCtrlFormatter.obj"
+".\ReleaseUnicode\ListCtrlSetter.obj"
+".\ReleaseUnicode\MsDevCallerListCtrl.obj"
+".\ReleaseUnicode\ProgressBar.obj"
+".\ReleaseUnicode\StdAfx.obj"
+".\ReleaseUnicode\TestRunnerApp.obj"
+".\ReleaseUnicode\TestRunnerDlg.obj"
+".\ReleaseUnicode\TreeHierarchyDlg.obj"
+".\ReleaseUnicode\ActiveTest.obj"
+".\ReleaseUnicode\TestRunner.obj"
+".\ReleaseUnicode\TestRunnerModel.obj"
+".\ReleaseUnicode\MostRecentTests.obj"
+".\ReleaseUnicode\TestRunnerDSPlugin_i.obj"
+".\ReleaseUnicode\TestRunner.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11EA.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ListCtrlFormatter.cpp
+ListCtrlSetter.cpp
+MsDevCallerListCtrl.cpp
+ProgressBar.cpp
+TestRunnerApp.cpp
+TestRunnerDlg.cpp
+TreeHierarchyDlg.cpp
+ActiveTest.cpp
+TestRunner.cpp
+TestRunnerModel.cpp
+MostRecentTests.cpp
+Generating Code...
+Compiling...
+TestRunnerDSPlugin_i.c
+Linking...
+LINK : fatal error LNK1104: cannot open file "mfc42u.lib"
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+testrunneru.dll - 1 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: TestRunner - Win32 Debug Unicode--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"DebugUnicode/TestRunner.res" /d "_DEBUG" /d "_AFXDLL" "C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\TestRunner.rc"" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11EF.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "..\..\..\include" /I "..\..\..\include\msvc6" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_AFXEXT" /D "WIN32" /D "_UNICODE" /FR"DebugUnicode/" /Fp"DebugUnicode/TestRunner.pch" /Yu"stdafx.h" /Fo"DebugUnicode/" /Fd"DebugUnicode/" /FD /c 
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\ListCtrlFormatter.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\ListCtrlSetter.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\MsDevCallerListCtrl.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\ProgressBar.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\TestRunnerApp.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\TestRunnerDlg.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\TreeHierarchyDlg.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\ActiveTest.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\TestRunner.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\TestRunnerModel.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\MostRecentTests.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11EF.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11F0.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "..\..\..\include" /I "..\..\..\include\msvc6" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_AFXEXT" /D "WIN32" /D "_UNICODE" /FR"DebugUnicode/" /Fp"DebugUnicode/TestRunner.pch" /Yc"stdafx.h" /Fo"DebugUnicode/" /Fd"DebugUnicode/" /FD /c 
+"C:\InstallShield AdminStudio\cppunit\src\msvc6\testrunner\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11F0.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11F1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "..\..\..\include" /I "..\..\..\include\msvc6" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_AFXEXT" /D "WIN32" /D "_UNICODE" /FR"DebugUnicode/" /Fo"DebugUnicode/" /Fd"DebugUnicode/" /FD /c 
+"C:\InstallShield AdminStudio\cppunit\include\msvc6\DSPlugIn\TestRunnerDSPlugin_i.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11F1.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11F2.tmp" with contents
+[
+..\..\..\lib\cppunitd.lib winmm.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"DebugUnicode/testrunnerud.pdb" /debug /machine:I386 /def:".\TestRunner.def" /out:"..\..\..\lib\testrunnerud.dll" /implib:"..\..\..\lib\testrunnerud.lib" /pdbtype:sept 
+".\DebugUnicode\ListCtrlFormatter.obj"
+".\DebugUnicode\ListCtrlSetter.obj"
+".\DebugUnicode\MsDevCallerListCtrl.obj"
+".\DebugUnicode\ProgressBar.obj"
+".\DebugUnicode\StdAfx.obj"
+".\DebugUnicode\TestRunnerApp.obj"
+".\DebugUnicode\TestRunnerDlg.obj"
+".\DebugUnicode\TreeHierarchyDlg.obj"
+".\DebugUnicode\ActiveTest.obj"
+".\DebugUnicode\TestRunner.obj"
+".\DebugUnicode\TestRunnerModel.obj"
+".\DebugUnicode\MostRecentTests.obj"
+".\DebugUnicode\TestRunnerDSPlugin_i.obj"
+".\DebugUnicode\TestRunner.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11F2.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ListCtrlFormatter.cpp
+ListCtrlSetter.cpp
+MsDevCallerListCtrl.cpp
+ProgressBar.cpp
+TestRunnerApp.cpp
+TestRunnerDlg.cpp
+TreeHierarchyDlg.cpp
+ActiveTest.cpp
+TestRunner.cpp
+TestRunnerModel.cpp
+MostRecentTests.cpp
+Generating Code...
+Compiling...
+TestRunnerDSPlugin_i.c
+Linking...
+LINK : fatal error LNK1104: cannot open file "mfc42ud.lib"
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+testrunnerud.dll - 1 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: cppunit_dll - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11F7.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "..\..\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CPPUNIT_BUILD_DLL" /Fp"ReleaseDLL/cppunit_dll.pch" /YX /Fo"ReleaseDLL/" /Fd"ReleaseDLL/" /FD /c 
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\RepeatedTest.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestSetUp.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestFactoryRegistry.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TypeInfoHelper.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\Asserter.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\Exception.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\NotEqualException.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\SourceLine.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\SynchronizedObject.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestAssert.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestCase.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestFailure.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestResult.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestSuite.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\CompilerOutputter.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestResultCollector.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestSucessListener.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TextOutputter.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TextTestProgressListener.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TextTestResult.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\XmlOutputter.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestRunner.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\DllMain.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11F7.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11F8.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"..\..\lib\cppunit_dll.pdb" /machine:I386 /out:"..\..\lib\cppunit_dll.dll" /implib:"..\..\lib\cppunit_dll.lib" 
+".\ReleaseDLL\RepeatedTest.obj"
+".\ReleaseDLL\TestSetUp.obj"
+".\ReleaseDLL\TestFactoryRegistry.obj"
+".\ReleaseDLL\TypeInfoHelper.obj"
+".\ReleaseDLL\Asserter.obj"
+".\ReleaseDLL\Exception.obj"
+".\ReleaseDLL\NotEqualException.obj"
+".\ReleaseDLL\SourceLine.obj"
+".\ReleaseDLL\SynchronizedObject.obj"
+".\ReleaseDLL\TestAssert.obj"
+".\ReleaseDLL\TestCase.obj"
+".\ReleaseDLL\TestFailure.obj"
+".\ReleaseDLL\TestResult.obj"
+".\ReleaseDLL\TestSuite.obj"
+".\ReleaseDLL\CompilerOutputter.obj"
+".\ReleaseDLL\TestResultCollector.obj"
+".\ReleaseDLL\TestSucessListener.obj"
+".\ReleaseDLL\TextOutputter.obj"
+".\ReleaseDLL\TextTestProgressListener.obj"
+".\ReleaseDLL\TextTestResult.obj"
+".\ReleaseDLL\XmlOutputter.obj"
+".\ReleaseDLL\TestRunner.obj"
+".\ReleaseDLL\DllMain.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11F8.tmp"
+<h3>Output Window</h3>
+Compiling...
+RepeatedTest.cpp
+TestSetUp.cpp
+TestFactoryRegistry.cpp
+TypeInfoHelper.cpp
+Asserter.cpp
+Exception.cpp
+NotEqualException.cpp
+SourceLine.cpp
+SynchronizedObject.cpp
+TestAssert.cpp
+TestCase.cpp
+TestFailure.cpp
+TestResult.cpp
+TestSuite.cpp
+CompilerOutputter.cpp
+TestResultCollector.cpp
+TestSucessListener.cpp
+TextOutputter.cpp
+TextTestProgressListener.cpp
+TextTestResult.cpp
+XmlOutputter.cpp
+TestRunner.cpp
+DllMain.cpp
+Linking...
+   Creating library ..\..\lib\cppunit_dll.lib and object ..\..\lib\cppunit_dll.exp
+
+
+
+<h3>Results</h3>
+cppunit_dll.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: cppunit_dll - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11FD.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "..\..\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CPPUNIT_BUILD_DLL" /Fp"DebugDLL/cppunit_dll.pch" /YX /Fo"DebugDLL/" /Fd"DebugDLL/" /FD /GZ /c 
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\RepeatedTest.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestSetUp.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestFactoryRegistry.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TypeInfoHelper.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\Asserter.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\Exception.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\NotEqualException.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\SourceLine.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\SynchronizedObject.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestAssert.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestCase.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestFailure.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestResult.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestSuite.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\CompilerOutputter.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestResultCollector.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestSucessListener.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TextOutputter.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TextTestProgressListener.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TextTestResult.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\XmlOutputter.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\TestRunner.cpp"
+"C:\InstallShield AdminStudio\cppunit\src\cppunit\DllMain.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11FD.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11FE.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"..\..\lib\cppunitd_dll.pdb" /debug /machine:I386 /out:"..\..\lib\cppunitd_dll.dll" /implib:"..\..\lib\cppunitd_dll.lib" /pdbtype:sept 
+".\DebugDLL\RepeatedTest.obj"
+".\DebugDLL\TestSetUp.obj"
+".\DebugDLL\TestFactoryRegistry.obj"
+".\DebugDLL\TypeInfoHelper.obj"
+".\DebugDLL\Asserter.obj"
+".\DebugDLL\Exception.obj"
+".\DebugDLL\NotEqualException.obj"
+".\DebugDLL\SourceLine.obj"
+".\DebugDLL\SynchronizedObject.obj"
+".\DebugDLL\TestAssert.obj"
+".\DebugDLL\TestCase.obj"
+".\DebugDLL\TestFailure.obj"
+".\DebugDLL\TestResult.obj"
+".\DebugDLL\TestSuite.obj"
+".\DebugDLL\CompilerOutputter.obj"
+".\DebugDLL\TestResultCollector.obj"
+".\DebugDLL\TestSucessListener.obj"
+".\DebugDLL\TextOutputter.obj"
+".\DebugDLL\TextTestProgressListener.obj"
+".\DebugDLL\TextTestResult.obj"
+".\DebugDLL\XmlOutputter.obj"
+".\DebugDLL\TestRunner.obj"
+".\DebugDLL\DllMain.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP11FE.tmp"
+<h3>Output Window</h3>
+Compiling...
+RepeatedTest.cpp
+TestSetUp.cpp
+TestFactoryRegistry.cpp
+TypeInfoHelper.cpp
+Asserter.cpp
+Exception.cpp
+NotEqualException.cpp
+SourceLine.cpp
+SynchronizedObject.cpp
+TestAssert.cpp
+TestCase.cpp
+TestFailure.cpp
+TestResult.cpp
+TestSuite.cpp
+CompilerOutputter.cpp
+TestResultCollector.cpp
+c:\program files\microsoft visual studio\vc98\include\utility(138) : warning C4786: 'std::reverse_iterator<std::deque<CppUnit::TestFailure *,std::allocator<CppUnit::TestFailure *> >::iterator,CppUnit::TestFailure *,CppUnit::TestFailure * &,CppUnit::TestFailure * *,int>::reverse_iterator<std::deque<CppUnit::TestFailure *,std::allocator<CppUnit::TestFailure *> >::iterator,CppUnit::TestFailure *,CppUnit::TestFailure * &,CppUnit::TestFailure * *,int>' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\utility(138) : warning C4786: 'std::reverse_iterator<std::deque<CppUnit::TestFailure *,std::allocator<CppUnit::TestFailure *> >::const_iterator,CppUnit::TestFailure *,CppUnit::TestFailure * const &,CppUnit::TestFailure * const *,int>::reverse_iterator<std::deque<CppUnit::TestFailure *,std::allocator<CppUnit::TestFailure *> >::const_iterator,CppUnit::TestFailure *,CppUnit::TestFailure * const &,CppUnit::TestFailure * const *,int>' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\utility(138) : warning C4786: 'std::reverse_iterator<std::deque<CppUnit::Test *,std::allocator<CppUnit::Test *> >::iterator,CppUnit::Test *,CppUnit::Test * &,CppUnit::Test * *,int>::reverse_iterator<std::deque<CppUnit::Test *,std::allocator<CppUnit::Test *> >::iterator,CppUnit::Test *,CppUnit::Test * &,CppUnit::Test * *,int>' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\utility(138) : warning C4786: 'std::reverse_iterator<std::deque<CppUnit::Test *,std::allocator<CppUnit::Test *> >::const_iterator,CppUnit::Test *,CppUnit::Test * const &,CppUnit::Test * const *,int>::reverse_iterator<std::deque<CppUnit::Test *,std::allocator<CppUnit::Test *> >::const_iterator,CppUnit::Test *,CppUnit::Test * const &,CppUnit::Test * const *,int>' : identifier was truncated to '255' characters in the debug information
+TestSucessListener.cpp
+TextOutputter.cpp
+TextTestProgressListener.cpp
+TextTestResult.cpp
+XmlOutputter.cpp
+TestRunner.cpp
+DllMain.cpp
+Linking...
+   Creating library ..\..\lib\cppunitd_dll.lib and object ..\..\lib\cppunitd_dll.exp
+
+
+
+<h3>Results</h3>
+cppunitd_dll.dll - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,40 @@
+////////////////////////////////////////////////////////////////////////////////
+//                                                                            
+//  This template script provides the code necessary to build an entry-point 
+//  function to be called in an InstallScript action during a Suite installation. 
+//                                                                            
+//                                                                            
+//    File Name:  Setup.rul                                                   
+//                                                                            
+//  Description:  InstallShield script                                        
+//
+////////////////////////////////////////////////////////////////////////////////
+
+// Include Ifx.h for built-in InstallScript function prototypes and for Suite 
+// function prototypes.
+#include "ifx.h"
+
+// The keyword export identifies MyFunction() as an entry-point function.
+// The argument it accepts must be an object for a Suite extension interface.
+export prototype Delete_Dir(OBJECT);
+
+// To Do:  Declare global variables, define constants, and prototype user-
+//         defined and DLL functions here.
+
+///////////////////////////////////////////////////////////////////////////////
+//                                                                           
+// Function:  Delete_Dir
+//                                                                           
+//  Purpose:  This function will be called by the script engine when
+//            the Suite engine calls your InstallScript action.
+//                                                                           
+///////////////////////////////////////////////////////////////////////////////
+function Delete_Dir(oExtension)
+    // To Do:  Declare local variables.
+   STRING sValue;
+begin
+     SuiteGetProperty("ISInstallDir",sValue);
+    // To Do:  Write script that will be executed when MyFunction is called.
+     DeleteDir (sValue, ALLCONTENTS);
+     return 0;
+end;

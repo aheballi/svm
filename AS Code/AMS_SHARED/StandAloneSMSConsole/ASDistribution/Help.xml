@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Help>
+     <Item URL="/ASDistribution/DistributionProviders/SMS/PackageDelete.aspx"       ID="SMSRefSMSConfirmDelete.htm" />
+     <Item URL="/ASDistribution/DistributionProviders/SMS/PDFSelector.aspx"         ID="SMSRefViewPDFSelection.htm" />
+     <Item URL="/ASDistribution/DistributionProviders/SMS/SMSCollBrowse.aspx"       ID="SMSDialogsSelectSMSCollection.htm" />
+     <Item URL="/ASDistribution/DistributionProviders/SMS/SMSPackageConfig.aspx"    ID="SMSRefViewSMSPackageConfig.htm" />
+     <Item URL="/ASDistribution/DistributionProviders/SMS/SMSPackageStatus.aspx"    ID="SMSRefSMSPackageStatus.htm" />
+     <Item URL="/ASDistribution/DistributionProviders/SMS/SMSSummary.aspx"          ID="SMSRefViewDistSummary.htm" />
+     <Item URL="/ASDistribution/DistributionProviders/SMS/SMSSettings.aspx"         ID="SMSRefViewDistSettings.htm" />
+     <Item URL="/ASDistribution/DistributionProviders/SMS/SMSMain.aspx"             ID="SMSRefConnectSMS.htm" />
+     <Item URL="/ASDistribution/DistSystem/default.aspx"                            ID="SMSRefViewSoftwareDist.htm" />
+     <Item URL="/ASDistribution/DistSystem/NewPackage.aspx"                         ID="SMSRefViewDistNewPackage.htm" />
+     <Item URL="/ASDistribution/DistSystem/PackageSelection.aspx_1"		            ID="SMSTaskDistPackage.htm" />
+     <Item URL="/ASDistribution/DistSystem/PackageSelection.aspx_2"			        ID="SMSTaskViewDistPackage.htm" />
+     <Item URL="/ASDistribution/SetDbInfo.aspx"										ID="SMSRefSMSNewCatalog.htm" />
+</Help>
+
+
+
+

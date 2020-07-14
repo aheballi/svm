@@ -1,0 +1,115 @@
+[Dialog1000]
+100=Bienvenido a InstallShield Wizard para %s
+101=InstallShield(r) Wizard le ayudará a instalar %s en su equipo.   Para continuar, haga clic en Siguiente.
+
+[Dialog1001]
+0=Contrato de licencia
+1=Lea cuidadosamente el contrato de licencia siguiente.
+121=A&cepto los términos del contrato de licencia
+122=&No acepto los términos del contrato de licencia
+
+[Dialog1002]
+0=Ubicación para guardar archivos
+1=¿Dónde desearía guardar los archivos?
+101=Introduzca la carpeta en la que desee guardar los archivos.  Si la carpeta no existe, se procederá a su creación.  Para continuar, haga clic en Siguiente.
+102=&Guardar archivos en carpeta:
+103=&Cambiar...
+
+[Dialog1003]
+0=Contraseña
+1=Este paquete está protegido por contraseña.
+106=C&ontraseña:
+107=Introduzca la contraseña requerida para ejecutar este paquete.  Tenga en cuenta que las contraseñas distinguen entre mayúsculas y minúsculas.  Haga clic en Siguiente para continuar.
+
+[Dialog1004]
+0=Protección contra escritura
+2=Cancelar
+109=&Sí
+110=&No
+111=Sí &a todo
+112=No a &todo
+113=El archivo siguiente ya existe en el equipo:
+114=¿Desea sobreescribirlo?
+
+[Dialog1005]
+0=Extrayendo archivos
+1=Se está extrayendo el contenido de este paquete.
+2=Cancelar
+124=Espere hasta que InstallShield Wizard haya extraído los archivos necesarios para instalar %s en el equipo.    Es posible que la operación dure unos minutos.
+125=Extrayendo %s...
+126=Leyendo contenido de paquete...
+
+[Dialog1006]
+100=Finalización de InstallShield Wizard
+101=InstallShield Wizard ha terminado de instalar %s en su equipo.  Para salir del asistente, haga clic en Finalizar.
+
+[Strings]
+1=Error PackageForTheWeb
+2=Este archivo autoextractor ejecutable está corrupto.  La instalación será interrumpida.
+3=No es posible abrir el archivo autoextractor ejecutable.  El archivo está bloqueado o está siendo utilizado por otro proceso.  La instalación será interrumpida.
+4=PackageForTheWeb
+5=¡No es posible acceder al archivo fuente!
+6=¡No es posible generar el archivo .CAB!
+7=No es posible acceder a la ruta indicada.
+8=No es posible generar la carpeta de salida indicada.  Nombre de ruta de acceso erróneo.
+9=¡No es posible iniciar el proceso de descompresión!
+10=El archivo EXE está corrupto.  No es posible continuar.
+11=¡No es posible descomprimir el archivo .EXE!
+12=¡No es posible ejecutar la línea de comandos indicada!
+13=PackageFromTheWeb utiliza internamente este programa.  No debe ejecutarse directamente.
+14=¡Falta información de encabezado o está errónea!
+15=Falta el archivo de software del acuerdo de licencia.  La instalación se detendrá.
+29=La carpeta de salida indicada no existe.  ¿Generarla?
+30=¡Error al escribir el archivo .CAB!
+31=Este programa de instalación se generó utilizando una versión de prueba de PackageForTheWeb.  El Asistente de PackageForTheWeb debe estar operando para ejecutar este programa.
+32=¿Desea cancelar la instalación?
+33=Se ha entregado satisfactoriamente la aplicación.
+34=¡No hay suficiente espacio en disco para abrir la aplicación!
+35=¡Error de seguridad! La contraseña no es válida.
+36=La opción de línea de comandos no es válida.
+37=Descomprimiendo '%s'...
+38=¡Asignación de memoria fallida!
+39=¡No es posible abrir la aplicación de descompresión!
+40=Error irrecuperable al leer los datos del programa.
+41=Error irrecuperable al escribir los datos del programa.
+42=El formato del programa no es válido y no puede actualizarse.
+43=A este programa le falta el contenedor de archivos.
+44=Falla general al leer esta aplicación.
+45=Este programa ya tiene un contenedor de archivos.
+46=Este programa ya ha sido firmado y no puede actualizarse.
+47=Error irrecuperable Microsoft
+48=No es posible inicializar la extensión DLL.
+49=Error al ejecutar el programa indicado
+300=No hay errores
+301=¡Falta el archivo .CAB!
+302=El archivo de entrada no es .CAB.
+303=Versión .CAB errónea.
+304=¡El archivo .CAB está corrupto!
+305=¡Asignación de memoria fallida!
+306=¡El tipo de compresión de archivo no es válido!
+307=CRC fallido.
+308=Ocurrió un error de sistema durante la descompresión.
+309=Error de dimensiones de datos internos.
+310=Se ha seleccionado el archivo .CAB incorrecto
+311=Se ha cancelado la descompresión del programa.
+312=¡No es posible generar la carpeta de salida indicada!
+313=No se puede calcular el espacio requerido en disco.
+314=No hay suficiente espacio en la unidad %s para extraer este paquete.
+318=No hay suficiente espacio en la unidad %s para extraer este paquete.
+323=Acepto
+324=Libere %.2f %s y haga clic en Reintentar.
+325=Este archivo autoextractor ejecutable está corrupto.  La instalación será interrumpida.
+
+[FinishButton]
+1=Finalizar
+2=Continuar
+
+[WizardButtons]
+1=< &Anterior
+2=&Siguiente >
+3=Cancelar
+4=InstallShield Wizard
+
+[Fonts]
+328=12,Arial
+6001=8,MS Sans Serif

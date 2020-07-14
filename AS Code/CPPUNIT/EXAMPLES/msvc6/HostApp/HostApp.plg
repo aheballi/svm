@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HostApp - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP3DC.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "..\..\..\include" /I "..\..\..\include\msvc6" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "WIN32" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\CppUnit\cppunit-1.8.0\examples\msvc6\HostApp\ExampleTestCase.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP3DC.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP3DD.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "..\..\..\include" /I "..\..\..\include\msvc6" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "WIN32" /FR"Debug/" /Fp"Debug/HostApp.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\CppUnit\cppunit-1.8.0\examples\msvc6\HostApp\HostApp.cpp"
+"C:\CppUnit\cppunit-1.8.0\examples\msvc6\HostApp\HostAppDoc.cpp"
+"C:\CppUnit\cppunit-1.8.0\examples\msvc6\HostApp\HostAppView.cpp"
+"C:\CppUnit\cppunit-1.8.0\examples\msvc6\HostApp\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP3DD.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP3DE.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "..\..\..\include" /I "..\..\..\include\msvc6" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "WIN32" /FR"Debug/" /Fp"Debug/HostApp.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\CppUnit\cppunit-1.8.0\examples\msvc6\HostApp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP3DE.tmp" 
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+ExampleTestCase.cpp
+Compiling...
+HostApp.cpp
+HostAppDoc.cpp
+HostAppView.cpp
+MainFrm.cpp
+Generating Code...
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP3E2.tmp" with contents
+[
+..\..\..\lib\cppunitd.lib ..\..\..\lib\testrunnerd.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/HostApp.pdb" /debug /machine:I386 /out:"Debug/HostApp.exe" /pdbtype:sept 
+".\Debug\ExampleTestCase.obj"
+".\Debug\HostApp.obj"
+".\Debug\HostAppDoc.obj"
+".\Debug\HostAppView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\HostApp.res"
+"\CppUnit\cppunit-1.8.0\lib\testrunnerd.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP3E2.tmp"
+<h3>Output Window</h3>
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/HostApp.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\ExampleTestCase.sbr" ".\Debug\HostApp.sbr" ".\Debug\HostAppDoc.sbr" ".\Debug\HostAppView.sbr" ".\Debug\MainFrm.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+HostApp.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
