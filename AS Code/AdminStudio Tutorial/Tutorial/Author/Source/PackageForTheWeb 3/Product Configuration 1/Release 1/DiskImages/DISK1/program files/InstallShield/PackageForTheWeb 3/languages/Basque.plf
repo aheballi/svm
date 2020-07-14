@@ -1,0 +1,115 @@
+[Dialog1000]
+100=Ongi etorri %s-rako InstallShield Wizard-era
+101=InstallShield(r) Wizard-ek %s zure ordenagailuan instalatzen lagunduko zaitu.   Aurrera jarraitzeko, sakatu Hurrengoa.
+
+[Dialog1001]
+0=Lizentzia Hitzarmena
+1=Mesedez irakur ezazu arretaz honako lizentzia hitzarmena.
+121=&Lizentzia hitzarmen honen baldintzak onartzen ditut
+122=&Ez ditut lizentzia hitzarmen honen baldintzak onartzen
+
+[Dialog1002]
+0=Fitxategiak Gordetzeko tokia
+1=Non gorde nahi dituzu zure fitxategiak?
+101=Mesedez adieraz ezazu fitxategiak gordetzeko erabiliko duzun karpeta. Karpeta existitzen ez bada, zuretzako sortuko da.  Aurrera jarraitzeko, sakatu Hurrengoa.
+102=&Fitxategiak gorde honako karpetan:
+103=A&ldatu...
+
+[Dialog1003]
+0=Kontrazeinua
+1=Pakete hau kontrazeinuen aurka babestuta dago.
+106=&Kontrazeinua:
+107=Pakete hau martxan jartzeko behar den kontrazeinua sartu.  Mesedez nabari ezazu kontrazeinuak hizki mota berdinetan idatzi behar direla.  Sakatu Hurrengoa aurrera jarraitzeko.
+
+[Dialog1004]
+0=Babespena gainidatzi
+2=Kitatu
+109=&Bai
+110=&Ez
+111=Ba&i guztira
+112=E&z guztira
+113=Hurrengo fitxategia badago jadanik zure ordenagailuan:
+114=Fitxategi hau gainidatzi nahi al duzu?
+
+[Dialog1005]
+0=Fitxategiak ateratzen
+1=Pakete honen osagaiak ateratzen ari gara .
+2=Kitatu
+124=Itxaron ezazu mesedez InstallShield Wizard-ek %s zure ordenagailuan instalatzeko beharrezkoak diren fitxategiak ateratzen dituen bitartean.   Honek denbora pixkat iraun dezake.
+125=%s ateratzen...
+126=Paketearen osagaiak irakurtzen...
+
+[Dialog1006]
+100=InstallShield Wizard Osatuta.
+101=InstallShield Wizard-ek %s zure ordenagailuan instalatzen bukatu du.  Programatik irtetzeko, sakatu Bukatu.
+
+[Strings]
+1=PackageForTheWeb errorea
+2=Fitxategi exekutagarri autoateratzaile hau hondatuta dago. Instalazioa akabatu egingo da.
+3=Ezin da fitxategi exekutagarri autoateratzailea ireki. Blokeatuta dago edo beste prozesuren batek dauka hartuta. Instalazioa akabatu egingo da.
+4=PackageForTheWeb
+5=Ezin da iturburu-fitxategia atzitu!
+6=Ezin da cabinet fitxategia sortu!
+7=Ezin da adierazitako bidea atzitu.
+8=Ezin da adierazitako irteera-karpeta sortu. Bide-izena oker.
+9=Ezin da deskonprimitzeko prozesua abiarazi!
+10=EXE fitxategia hondatuta dago. Ezin da jarraitu.
+11=Ezin da EXE fitxategia deskonprimitu.
+12=Ezin da adierazitako komando-lerroa exekutatu!
+13=Programa hau PackageFromTheWeb-en barnean erabiltzen da. Ezin da zuzenean exekutatu.
+14=Goiburuko informazioa oker edo faltan!"
+15=Softwarearen Lizentzi kontratuaren fitxategia falta da. Instalazioa geratu egingo da.
+29=Adierazitako irteera-karpeta ez dago. Sortu?
+30=Errorea cabinet fitxategia idaztean!
+31=Instalazio-programa hau PackageForTheWeb-en probako bertsio batekin sortua da. PackageForTheWeb Morroiak martxan egon behar du programa hau exekutatzeko.
+32=Instalazioa bertan behera utzi nahi duzu?
+33=Paketea behar bezala bidali da.
+34=Ez dago nahikoa leku diskoan paketea irekitzeko!
+35=Segurtasun-errorea! Pasahitza oker.
+36=Aukera baliogabea komando-lerroan.
+37='%s' destrinkotzen...
+38=Memori esleipenak huts egin du!
+39=Ezin da destrinkotzeko aplikazioa ireki
+40=Ezinbesteko errorea paketeko datuak irakurtzean.
+41=Ezinbesteko errorea paketeko datuak idaztean.
+42=Programaren formatua baliogabea da eta ezin da eguneratu.
+43=Pakete honi fitxategi-edukitzailea falta zaio.
+44=Hutsegite orokorra paketea irakurtzean.
+45=Pakete honek dagoeneko badu fitxategi-edukitzailea.
+46=Pakete hau sinatua izan da eta ezin da eguneratu.
+47=Ezinbesteko Microsoft errorea
+48=Ezin da DLL luzapena hasieratu.
+49=Errorea adierazitako programa exekutatzean
+300=Errorerik ez
+301=Cabinet fitxategia falta da!
+302=Sarrerako fitxategia ez da cabinet-a.
+303=Okerreko cabinet bertsioa.
+304=Cabinet fitxategia hondatuta!
+305=Memori esleipenak huts egin du!
+306=Fitxategiaren konpresio-mota baliogabea!
+307=CRC hutsegitea.
+308=Sistema-errorea deskonprimitzean
+309=Barneko datu-tamainaren errorea.
+310=Okerreko cabinet fitxategia hautatu da
+311=Pakete-deskonprimitzea bertan behera utzi da.
+312=Ezin da adierazitako irteera-karpeta sortu!
+313=Ezin da kalkulatu diskoan behar den lekua.
+314=Ez dago beharrezko lekurik %s unitatean pakete hau ateratzeko.
+318=Ez dago beharrezko lekurik %s unitatean pakete hau ateratzeko.
+323=Onartzen dut.
+324=%.2f %s askatu eta klik egin Birsaiatu botoian.
+325=Fitxategi exekutagarri autoateratzaile hau hondatuta dago. Instalazioa akabatu egingo da.
+
+[FinishButton]
+1=Bukatu
+2=Jarraitu
+
+[WizardButtons]
+1=< &Atzera
+2=&Hurrengoa >
+3=Utzi
+4=InstallShield Wizard
+
+[Fonts]
+328=12,Arial
+6001=8,MS Sans Serif

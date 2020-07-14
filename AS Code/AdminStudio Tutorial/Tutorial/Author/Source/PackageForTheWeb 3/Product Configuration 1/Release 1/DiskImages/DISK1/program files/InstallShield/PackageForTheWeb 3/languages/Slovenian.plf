@@ -1,0 +1,117 @@
+[Dialog1000]
+100=Dobrodošli v InstallShield Wizardu za %s
+101=InstallShield(r) Wizard vam bo pomagal namestiti %s na vaš sistem. Za nadaljevanje kliknite Naprej.
+
+[Dialog1001]
+0=Licenèna pogodba
+1=Prosimo, da pazljivo preberete naslednjo licenèno pogodbo.
+121=&Sprejemam pogoje licenène pogodbe
+122=N&e sprejemam pogojev licenène pogodbe
+
+[Dialog1002]
+0=Mesto za shranjevanje datotek
+1=Kje želite shraniti svoje datoteke?
+101=Vnesite prosim mapo kamor želite shraniti datoteke. V kolikor mapa še ne obstaja, bo sedaj ustvarjena. Za nadaljevanje kliknite Naprej.
+102=&Shrani datoteke v mapi:
+103=S&premeni...
+
+[Dialog1003]
+0=Geslo
+1=Paket je zašèiten z geslom.
+106=&Geslo:
+107=Vnesite geslo, ki je potrebno za zagon tega paketa. Pri geslih razlikujte velike/male èrke. Za nadaljevanje kliknite Naprej.
+
+[Dialog1004]
+0=Zašèiteno pred pisanjem èez prejšnje datoteke
+2=Prekini
+109=&Da
+110=&Ne
+111=D&a za vse
+112=N&e za vse
+113=Naslednja datoteka je že namešèena na vaš sistem:
+114=Ali želite pisati èez to datoteko?
+
+[Dialog1005]
+0=Razpakiravam datoteke
+1=Poteka razpakiravanje paketa.
+2=Prekini
+124=Prosimo poèakajte, da InstallShield Wizard razpakira datoteke potrebne za namestitev %s na vaš sistem. To lahko traja nekaj minut.
+125=Razpakiravam %s...
+126=Berem paket...
+
+[Dialog1006]
+100=InstallShield Wizard je konèan
+101=InstallShield Wizard je konèal namešèanje %s na vaš sistem. Za izhod iz èarovnika kliknite Dokonèaj.
+
+[Strings]
+1=PackageForTheWeb napaka
+2=Ta samorazçirljiva izvrçna datoteka je pokvarjena. Namestitev bo prekinjena.
+3=Ne morem odpreti samorazçirljive izvrçne datoteke. Datoteka je zaklenjena ali pa jo uporablja
+kateri drug proces. Namestitev bo prekinjena.
+4=PackageForTheWeb
+5=Ne morem doseŸi izvorne datoteke!
+6=Ne morem ustvariti kabinetne datoteke!
+7=Ne morem doseŸi doloŸene poti.
+8=Ne morem ustvariti doloŸenega izhodnega imenika. Nepravilna pot.
+9=Ne morem zaŸeti procesa raztezanja!
+10=EXE datoteka je pokvarjena. Ne morem nadaljevati.
+11=Ne morem razçiriti EXE datoteke.
+12=Ne morem izvrçiti doloŸene ukazne vrste!
+13=Ta program interno uporablja PackageFromTheWeb. Se ga ne izvede direktno.
+14=Pokvarjena ali manjkajoŸa naslovna informacija!"
+15=Datoteka licenŸne pogodbe manjka.Namstitev bo ustavljena.
+29=DoloŸen izhodni imenik ne obstaja. Ga ustvarim?
+30=Napaka pri pisanju kabinetne datoteke!
+31=Namestitveni program je bil ustvarjen s pomoŸjo poskusne razliŸice PackageForTheWeb.
+PackageForTheWeb Ÿarovnik mora teŸi, da se ta program izvrçi.
+32=Ali §elite prekiniti namestitev?
+33=Paket je bil uspeçno izroŸen.
+34=Na disku je premalo prostora za odpiranje paketa!
+35=Napaka v zvezi z varnostno zaçŸito! Neveljavno geslo.
+36=Neveljavna mo§nost v ukazni vrstici.
+37=Razpakiravam '%s'...
+38=Napaka pri dodeljevanju pomnilnika!
+39=Ne morem odpreti programa za razpakiravanje
+40=Usodna napaka pri branju podatkov iz paketa.
+41=Usodna napaka pri pisanju podatkov paketa.
+42=Format programa je neveljaven in se ne da posodobiti.
+43=Ta paket pogreça svojo shrambo datotek.
+44=Sploçna napaka pri branju tega paketa.
+45=Ta paket §e vsebuje shrambo za datoteke.
+46=Ta paket je bil §e podpisan in se ne da posodobiti.
+47=Usodna Microsoft napaka
+48=Ne morem zaŸetno nastaviti podaljçka DLL.
+49=Napaka pri izvrçevanju doloŸenega programa
+300=Nobene napake
+301=Manjka shramba za datoteke!
+302=Vhodne datoteke ni v shrambi.
+303=Nepravilna razliŸica shrambe.
+304=Pokvarjena shramba za datoteke!
+305=Napaka pri dodeljevanju pomnilnika!
+306=Neveljavna vrsta stiskanja datotek!
+307=CRC napaka.
+308=Sistemska napaka med raztegovanjem
+309=Notranja napaka v koliŸini podatkov.
+310=Izbrana napaŸna shramba za datoteke
+311=Raztezanje paketa je bilo prekinjeno.
+312=Ne morem ustvariti doloŸenega izhodnega imenika!
+313=Ne morem izraèunati potrebnega prostora na disku. 
+314=Ni dovolj prostora na pogonskih % za raztezanje tega paketa. 
+318=Ni dovolj prostora na pogonskih % za raztezanje tega paketa. 
+323=Strinjam se 
+324=Prosim, sprostite %.2f % in kliknite Poskusi ponovno. 
+325=Ta samorazçirljiva izvrçna datoteka je pokvarjena. Namestitev bo prekinjena.
+
+[FinishButton]
+1=Dokonèaj 
+2=Nadaljuj
+
+[WizardButtons]
+1=< Na&zaj
+2=&Naprej >
+3=PrekliŠi
+4=InstallShield Wizard
+
+[Fonts]
+328=12,Arial
+6001=8,MS Sans Serif

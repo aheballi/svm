@@ -1,0 +1,9 @@
+; ASUpgrade.def : Declares the module parameters for the DLL.
+
+LIBRARY      "ASUpgrade"
+DESCRIPTION  'ASUpgrade Windows Dynamic Link Library'
+
+EXPORTS
+	BackupSharedFiles
+	RestoreSharedFiles
+	OraclePreviousCatalogCheck

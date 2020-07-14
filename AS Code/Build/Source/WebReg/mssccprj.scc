@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[WebReg.dsp]
+SCC_Aux_Path = "\\DevServer\DDrive\MSI_VSS"
+SCC_Project_Name = "$/InstallShield AdminStudio/Current/Build/Source/WebReg", FVBKAAAA

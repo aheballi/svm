@@ -1,0 +1,41 @@
+function  WWHBookData_Files(P)
+{
+P.fA("Using SMS Web Console to Distribute Packages","DWTaskDistributeSMSConsoleLink.htm");
+P.fA("Legal Information","legal_info.htm");
+P.fA("About Microsoft SMS and SMS Web Console","SMSAboutRoot.htm");
+P.fA("Distributing Software Through Microsoft Systems Management Server","SMSAboutSMSServer.htm");
+P.fA("SMS Web Console Overview","SMSAboutSMSConsole.htm");
+P.fA("Getting Started","SMSGettingStarted.htm");
+P.fA("Distributing Packages Using the SMS Web Console","SMSTaskRoot.htm");
+P.fA("Configuring Distribution Settings","SMSTaskConfigDistSettings.htm");
+P.fA("Distributing a New Package","SMSTaskDistPackage.htm");
+P.fA("Selecting a Package for Distribution","SMSTaskDistPackageSelectPackage.htm");
+P.fA("Setting Package Configuration Options","SMSTaskPkgConfigRoot.htm");
+P.fA("Setting Package Settings Options","SMSTaskPkgConfigPkgSettings.htm");
+P.fA("Setting Access Accounts Options","SMSTaskPkgConfigAccessAccounts.htm");
+P.fA("Setting Distribution Points Options","SMSTaskPkgConfigDistPoints.htm");
+P.fA("Setting Programs Options","SMSTaskPkgConfigPrograms.htm");
+P.fA("Setting Advertisements Options","SMSTaskPkgConfigAdvertise.htm");
+P.fA("Saving the Package on the SMS Server","SMSTaskCommitChanges.htm");
+P.fA("Viewing the Status of a Distributed Package","SMSTaskViewDistPackage.htm");
+P.fA("Modifying the Distribution Settings of a Package","SMSTaskModifySettings.htm");
+P.fA("Deleting Packages","SMSTaskDeleteDistPackage.htm");
+P.fA("SMS Web Console Reference","SMSReference.htm");
+P.fA("Confirm Delete Page","SMSRefSMSConfirmDelete.htm");
+P.fA("Distribute Package Page","SMSRefViewDistPackage.htm");
+P.fA("Distribute New Package Page","SMSRefViewDistNewPackage.htm");
+P.fA("Package Administration Page","SMSRefViewViewDistPackage.htm");
+P.fA("Package Status Page","SMSRefSMSPackageStatus.htm");
+P.fA("Package Summary Page","SMSRefViewDistSummary.htm");
+P.fA("PDF Selection Page ","SMSRefViewPDFSelection.htm");
+P.fA("Select an SMS Collection Dialog Box","SMSDialogsSelectSMSCollection.htm");
+P.fA("SMS Distribution Settings Page","SMSRefViewDistSettings.htm");
+P.fA("SMS Package Configuration Page","SMSRefViewSMSPackageConfig.htm");
+P.fA("Package Settings View","SMSRefViewSMSPackageConfig_main.htm");
+P.fA("Access Accounts View","SMSRefViewSMSPackageConfig_access.htm");
+P.fA("Distribution Points View","SMSRefViewSMSPackageConfig_distribution.htm");
+P.fA("Programs View","SMSRefViewSMSPackageConfig_programs.htm");
+P.fA("Advertisements View","SMSRefViewSMSPackageConfig_ad.htm");
+P.fA("SMS Server Connection Settings Page","SMSRefConnectSMS.htm");
+P.fA("SMS Web Console Home Page","SMSRefViewSoftwareDist.htm");
+}

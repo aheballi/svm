@@ -1,0 +1,115 @@
+[Dialog1000]
+100=Víta vás sprievodca InstallShield Wizard pre produkt %s
+101=Sprievodca InstallShield(r) Wizard vám pomôe pri inštalácii produktu %s do vášho poèítaèa. Ak chcete pokraèova, klepnite na tlaèidlo Ïalší.
+
+[Dialog1001]
+0=Licenèná zmluva
+1=Pozorne si preèítajte nasledujúcu licenènú zmluvu.
+121=S&úhlasím s podmienkami licenènej zmluvy
+122=&Nesúhlasím s podmienkami licenènej zmluvy
+
+[Dialog1002]
+0=Inštalaènı adresár
+1=Kam sa majú uloi vaše súbory?
+101=Prosím, zadajte adresár, do ktorého sa majú uloi vaše súbory. Ak adresár neexistuje, automaticky sa vytvorí. Ak chcete pokraèova, klepnite na tlaèidlo Ïalší.
+102=&Inštalaènı adresár:
+103=&Prechádza...
+
+[Dialog1003]
+0=Heslo
+1=Tento balíèek je chránenı heslom.
+106=&Heslo:
+107=Zadajte heslo potrebné pre spustenie tohto balíèka. Majte na pamäti, e v heslách sa rozlišujú malé a ve¾ké písmená. Pokraèujte klepnutím na tlaèidlo Ïalší.
+
+[Dialog1004]
+0=Ochrana proti prepísaniu
+2=Zruši
+109=&Áno
+110=&Nie
+111=Áno &všetkım
+112=N&ie všetkım
+113=Nasledujúci súbor je u na vašom poèítaèi nainštalovanı:
+114=Chcete tento súbor prepísa?
+
+[Dialog1005]
+0=Rozba¾ovanie súborov
+1=Rozba¾uje sa obsah tohto balíèka.
+2=Zruši
+124=Prosím, poèkajte, kım sprievodca InstallShield Wizard nerozbalí súbory potrebné pre inštaláciu produktu %s do vášho poèítaèa. To môe chví¾u trva.
+125=Rozba¾uje sa %s...
+126=Èítanie obsahu balíèka...
+
+[Dialog1006]
+100=Sprievodca InstallShield Wizard je dokonèenı
+101=Sprievodca InstallShield Wizard dokonèil inštaláciu produktu %s do vášho poèítaèa. Klepnutím na tlaèidlo Dokonèi sprievodcu ukonèíte.
+
+[Strings]
+1=Chyba PackageForTheWeb-u
+2=Tento samorozbalujuci subor je poskodeny. Instalacia bude ukoncena.
+3=Samorozbalujuci vykonny subor nie je mozne otvorit. Subor je zamknuty alebo pouzivany inym procesom. Instalacia bude ukoncena.
+4=PackageForTheWeb
+5=Nie je mozne ziskat pristup k zdrojovemu suboru!
+6=Nie je mozne vytvorit skrinkovy subor!
+7=Nie je mozne ziskat pristup k zadanej ceste/adrese.
+8=Nie je mozne vytvorit zadany adresar pre vystup. Zle zadane meno cesty.
+9=Nie je mozne zacat rozbalujuci proces!
+10=EXE subor je poskodeny. Nie je mozne pokracovat.
+11=Nie je mozne rozbalit EXE subor.
+12=Nie je mozne vykonat dany prikaz!
+13=Tento program je pouzivany vnutorne PackageForTheWeb-om. Nema sa spustat priamo.
+14=Zla alebo chybajuca hlavicka!
+15=Chyba subor so softwarovou licencnou zmluvou. Instalcia bude ukoncena. 
+29=Specifikovany adresar pre vystup neexistuje. Chcete ho vytvorit?
+30=Chyba pri zapise do skrinkoveho suboru!
+31=Tento instalacny program bol vytvoreny s pomocou skusobnej verzie PackageForTheWeb. Pre spustenie tohoto programu musi byt najprv spusteny Wizard PackageForTheWeb-u.
+32=Chcete zrusit tuto instalaciu?
+33=Balik bol uspesne doruceny.
+34=Nedostatocna pamat pre otvorenie balika.
+35=Chyba ochrany. Chybne heslo.
+36=Chybny prikazovy riadok.
+37=Rozbalovanie '%s'...
+38=Zlyhanie priradenia pamati!
+39=Nie je mozne otvorit rozbalovaci aplikacny program.
+40=Chyba pri citani dat balika.
+41=Chyba pri pisani dat balika.
+42=Format programu je neplatny a nie je mozne ho obnovit.
+43=Tento balik nema svoj obal.
+44=Vseobecne zlyhanie pri citani tohto suboru.
+45=Tento balik uz obsahuje svoj obal.
+46=Tento balik bol podpisany a nemuze byt obnoveny.
+47=Chyba Microsoftu.
+48=Nie je mozne inicializovat DLL pripojku.
+49=Chyba pri spustani specifikovaneho suboru.
+300=Bez chyby
+301=Chybajuci skrinkovy subor.
+302=Vstupnu subor nie je skrinkoveho typu.
+303=Zla verzia skrinkoveho suboru.
+304=Poskodeny skrinkovy subor!
+305=Zlyhanie priradenia pamati!
+306=Neplatny typ zhusteneho suboru!
+307=CRC zlyhanie.
+308=Systemova chyba v priebehu rozbalovania
+309=Vnutorna chyba velikosti dat.
+310=Bol vybraty nespravny skrinkovy subor.
+311=Rozbalenie balika bolo zrusene.
+312=Nie je mozne vytvorit specifikovany vystupovy adresar!
+313=Nie je mozne vytvorit ponadované miesto na disku. 
+314=Na disku chıba .......% pre extrahovanie programu. 
+318=Na disku chıba ......% pre extrahovanie programu. 
+323=Súhlasím 
+324=Uvolnite ..... % . 2f% a zvo¾te "Znovu". 
+325=Tento samorozbalujuci subor je poskodeny. Instalacia bude ukoncena.
+
+[FinishButton]
+1=Dokonèi
+2=Pokraèova 
+
+[WizardButtons]
+1=< &Spät
+2=&Ïalší >
+3=Storno
+4=InstallShield Wizard
+
+[Fonts]
+328=12,Arial
+6001=8,MS Sans Serif

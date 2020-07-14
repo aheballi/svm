@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<WebWorksHelpTOC version="4.0">
+ <i t="Using SMS Web Console to Distribute Packages" l="0">
+  <i t="Legal Information" l="1" />
+  <i t="About Microsoft SMS and SMS Web Console" l="2">
+   <i t="Distributing Software Through Microsoft Systems Management Server" l="3" />
+   <i t="SMS Web Console Overview" l="4" />
+   <i t="Getting Started" l="5" />
+  </i>
+  <i t="Distributing Packages Using the SMS Web Console" l="6">
+   <i t="Configuring Distribution Settings" l="7" />
+   <i t="Distributing a New Package" l="8">
+    <i t="Selecting a Package for Distribution" l="9" />
+    <i t="Setting Package Configuration Options" l="10">
+     <i t="Setting Package Settings Options" l="11" />
+     <i t="Setting Access Accounts Options" l="12" />
+     <i t="Setting Distribution Points Options" l="13" />
+     <i t="Setting Programs Options" l="14" />
+     <i t="Setting Advertisements Options" l="15" />
+    </i>
+    <i t="Saving the Package on the SMS Server" l="16" />
+   </i>
+   <i t="Viewing the Status of a Distributed Package" l="17" />
+   <i t="Modifying the Distribution Settings of a Package" l="18" />
+   <i t="Deleting Packages" l="19" />
+  </i>
+  <i t="SMS Web Console Reference" l="20">
+   <i t="Confirm Delete Page" l="21" />
+   <i t="Distribute Package Page" l="22" />
+   <i t="Distribute New Package Page" l="23" />
+   <i t="Package Administration Page" l="24" />
+   <i t="Package Status Page" l="25" />
+   <i t="Package Summary Page" l="26" />
+   <i t="PDF Selection Page" l="27" />
+   <i t="Select an SMS Collection Dialog Box" l="28" />
+   <i t="SMS Distribution Settings Page" l="29" />
+   <i t="SMS Package Configuration Page" l="30">
+    <i t="Package Settings View" l="31" />
+    <i t="Access Accounts View" l="32" />
+    <i t="Distribution Points View" l="33" />
+    <i t="Programs View" l="34" />
+    <i t="Advertisements View" l="35" />
+   </i>
+   <i t="SMS Server Connection Settings Page" l="36" />
+   <i t="SMS Web Console Home Page" l="37" />
+  </i>
+ </i>
+</WebWorksHelpTOC>

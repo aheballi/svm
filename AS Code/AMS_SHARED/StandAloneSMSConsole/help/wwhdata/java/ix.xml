@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<WebWorksHelpIX version="4.0">
+ <g t="A" o="002">
+  <i t="access accounts">
+   <j l="12" />
+  </i>
+  <i t="Advanced Client">
+   <j l="3" />
+  </i>
+  <i t="advertisements">
+   <j l="3" />
+   <j l="15" />
+  </i>
+  <i t="Advertisements View">
+   <j l="35" />
+  </i>
+ </g>
+ <g t="C" o="002">
+  <i t="CAPS (Client Access Points)">
+   <j l="3" />
+  </i>
+  <i t="Client Access Points (CAPS)">
+   <j l="3" />
+  </i>
+  <i t="Client Agent">
+   <j l="3" />
+  </i>
+  <i t="collection">
+   <j l="3" />
+  </i>
+ </g>
+ <g t="D" o="002">
+  <i t="distributing packages">
+   <j l="6" />
+  </i>
+  <i t="distribution points">
+   <j l="13" />
+  </i>
+  <i t="Distribution Points">
+   <j l="3" />
+  </i>
+  <i t="distribution settings">
+   <j l="18" />
+   <i t="modifying in SMS Web Console">
+    <j l="18" />
+   </i>
+  </i>
+  <i t="Distribution Wizard">
+   <j l="0" />
+   <i t="distributing packages using SMS Web Console">
+    <j l="0" />
+   </i>
+  </i>
+ </g>
+ <g t="L" o="002">
+  <i t="Legacy Client">
+   <j l="3" />
+  </i>
+  <i t="legal information">
+   <j l="1" />
+  </i>
+ </g>
+ <g t="M" o="002">
+  <i t="Management Points">
+   <j l="3" />
+  </i>
+  <i t="Microsoft SMS">
+   <j l="2" />
+  </i>
+  <i t="Microsoft Systems Management Server (SMS)">
+   <j l="2" />
+   <i t="and SMS Web Console">
+    <j l="2" />
+   </i>
+  </i>
+ </g>
+ <g t="P" o="002">
+  <i t="package">
+   <j l="9" />
+   <i t="distributing to SMS Server using SMS Web Console">
+    <j l="16" />
+   </i>
+   <i t="distributing using SMS Web Console">
+    <j l="9" />
+   </i>
+   <i t="modifying distribution settings in SMS Web Console">
+    <j l="18" />
+   </i>
+   <i t="saving a package on SMS Server using SMS Web Console">
+    <j l="16" />
+   </i>
+   <i t="selecting for distribution using SMS Web Console">
+    <j l="9" />
+   </i>
+  </i>
+  <i t="Package Administration Page (SMS Web Console)">
+   <j l="24" />
+  </i>
+  <i t="package configuration options">
+   <j l="11" />
+   <i t="access accounts">
+    <j l="12" />
+   </i>
+   <i t="advertisements">
+    <j l="15" />
+   </i>
+   <i t="distribution points">
+    <j l="13" />
+   </i>
+   <i t="package settings">
+    <j l="11" />
+   </i>
+   <i t="programs">
+    <j l="14" />
+   </i>
+   <i t="setting in SMS Web Console">
+    <j l="10" />
+   </i>
+  </i>
+  <i t="package definition file">
+   <j l="27" />
+   <i t="SMS Web Console">
+    <j l="27" />
+   </i>
+  </i>
+  <i t="package definition file (PDF)">
+   <j l="27" />
+  </i>
+  <i t="package settings">
+   <j l="11" />
+  </i>
+  <i t="packages">
+   <j l="6" />
+   <i t="distributing with SMS Web Console">
+    <j l="6" />
+   </i>
+  </i>
+  <i t="PDF (package definition file)">
+   <j l="27" />
+   <i t="using in SMS Web Console">
+    <j l="27" />
+   </i>
+  </i>
+  <i t="programs (in SMS Web Console)">
+   <j l="14" />
+  </i>
+ </g>
+ <g t="S" o="002">
+  <i t="SMS Advanced Client">
+   <j l="3" />
+  </i>
+  <i t="SMS distribution">
+   <i t="Advertisements View">
+    <j l="35" />
+   </i>
+   <i t="configuring distribution settings">
+    <j l="7" />
+   </i>
+   <i t="Distribution Points View">
+    <j l="33" />
+   </i>
+   <i t="Select an SMS Collection Dialog">
+    <j l="28" />
+   </i>
+   <i t="SMS Distribution Settings">
+    <j l="29" />
+   </i>
+  </i>
+  <i t="SMS Legacy Client">
+   <j l="3" />
+  </i>
+  <i t="SMS Package Configuration Page">
+   <j l="10" />
+  </i>
+  <i t="SMS Server">
+   <i t="saving a package on using SMS Web Console">
+    <j l="16" />
+   </i>
+  </i>
+  <i t="SMS Web Console">
+   <j l="0" />
+   <j l="6" />
+   <i t="access accounts">
+    <j l="12" />
+   </i>
+   <i t="advertisements">
+    <j l="3" />
+    <j l="15" />
+   </i>
+   <i t="and Microsoft Systems Management Server (SMS)">
+    <j l="2" />
+   </i>
+   <i t="Client Access Points (CAPS)">
+    <j l="3" />
+   </i>
+   <i t="Client Agent">
+    <j l="3" />
+   </i>
+   <i t="collection">
+    <j l="3" />
+   </i>
+   <i t="distributing a package to SMS Server">
+    <j l="16" />
+   </i>
+   <i t="distributing packages">
+    <j l="6" />
+    <j l="9" />
+   </i>
+   <i t="distribution points">
+    <j l="13" />
+   </i>
+   <i t="Distribution Points">
+    <j l="3" />
+   </i>
+   <i t="getting started">
+    <j l="5" />
+   </i>
+   <i t="Management Points">
+    <j l="3" />
+   </i>
+   <i t="modifying distribution settings">
+    <j l="18" />
+   </i>
+   <i t="Package Administration Page">
+    <j l="24" />
+   </i>
+   <i t="package definition file">
+    <j l="27" />
+   </i>
+   <i t="package settings">
+    <j l="11" />
+   </i>
+   <i t="programs">
+    <j l="14" />
+   </i>
+   <i t="reference">
+    <j l="20" />
+   </i>
+   <i t="saving a package on SMS Server">
+    <j l="16" />
+   </i>
+   <i t="setting package configuration options\&gt;\">
+    <j l="10" />
+   </i>
+   <i t="SMS Advanced Client">
+    <j l="3" />
+   </i>
+   <i t="SMS Legacy Client">
+    <j l="3" />
+   </i>
+   <i t="target collection">
+    <j l="3" />
+   </i>
+   <i t="viewing status of distributed package">
+    <j l="17" />
+   </i>
+  </i>
+  <i t="status">
+   <j l="17" />
+   <i t="viewing status of distributed package in SMS Web Console">
+    <j l="17" />
+   </i>
+  </i>
+ </g>
+ <g t="T" o="002">
+  <i t="target collection">
+   <j l="3" />
+  </i>
+ </g>
+</WebWorksHelpIX>

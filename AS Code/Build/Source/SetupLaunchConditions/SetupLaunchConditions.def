@@ -1,0 +1,9 @@
+; SetupLaunchConditions.def : Declares the module parameters.
+
+LIBRARY      "SetupLaunchConditions.dll"
+
+EXPORTS
+	ValidateQM			@4
+	ValidateRepackager		@6
+	ValidateSCCM			@10
+	ValidateZENworks		@11

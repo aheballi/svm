@@ -1,0 +1,6 @@
+LIBRARY     WebReghelper
+DESCRIPTION 'Web Reg CA helper'
+
+EXPORTS
+	CheckRebootStatus @2
+	WriteRunOnce4WebReg @3

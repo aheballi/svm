@@ -1,0 +1,2670 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Setup SuiteId="{D6AB22DC-F133-4605-A75B-87A6BF3AE858}" xmlns="installshield/2018.1/bootstrap">
+	<PathVariables xmlns="installshield/2018.1/bootstrap/project">
+		<PathVariable Name="ISProjectDataFolder" Type="PreDefined"/>
+		<PathVariable Name="ISProjectFolder" Type="PreDefined"/>
+		<PathVariable Name="PATH_TO_DISK1_FILES" Type="Custom" Value="&lt;MachineDrive&gt;AdminStudio\AdminStudio_Builds\Full\SuiteBuild\DiskImages\DISK1"/>
+		<PathVariable Name="PATH_TO_LANGUAGE INDEPE_FILES" Type="Custom" Value="&lt;ISProductFolder&gt;\redist\Language Independent"/>
+		<PathVariable Name="PATH_TO_DOMESTIC_FILES" Type="Custom" Value="&lt;MachineDrive&gt;AdminStudio\FromInstallShieldBuildMachine\MSIModules\Domestic"/>
+		<PathVariable Name="PATH_TO_ADMINSTUDIO_BUI_FILES" Type="Custom" Value="&lt;MachineDrive&gt;AdminStudio\AdminStudio_Builds"/>
+		<PathVariable Name="PATH_TO_CURRENT_FILES" Type="Custom" Value="V:\Keys\Current"/>
+		<PathVariable Name="MediaLocation" Type="Custom" Value="&lt;MachineDrive&gt;AdminStudio\AdminStudio_Builds"/>
+		<PathVariable Name="MachineDrive" Type="Custom" Value="C:\"/>
+		<PathVariable Name="CurrentFolder" Type="Custom" Value="&lt;MachineDrive&gt;AdminStudio\Current"/>
+	</PathVariables>
+	<Releases ActiveRelease="Symantec" xmlns="installshield/2018.1/bootstrap/project">
+		<Release>
+			<Build>
+				<Name>Release</Name>
+				<BuildLocation>&lt;MediaLocation&gt;\Suite</BuildLocation>
+				<UILangs>1033</UILangs>
+				<DefaultLang>1033</DefaultLang>
+				<CachePackagesLocally>Yes</CachePackagesLocally>
+				<DigitalSPC>&lt;PATH_TO_CURRENT_FILES&gt;\FlexeraCertExpire2021.pfx?auto</DigitalSPC>
+				<DigitalPassword>3E5FF55FAFCC777AF92813</DigitalPassword>
+				<ReleaseFlags>FULL,EXCLUDE_LANDESK_SYMANTEC,EXCLUDE_SYMANTEC </ReleaseFlags>
+			</Build>
+			<Signing>
+				<SignatureURL>http://www.flexerasoftware.com</SignatureURL>
+				<SignEnabled>Yes</SignEnabled>
+				<UseMyVersionInfo>Yes</UseMyVersionInfo>
+				<SetupExeVersion/>
+				<SetupExeCompany>Flexera</SetupExeCompany>
+			</Signing>
+			<Setupexe>
+				<PackageLocation>EXE</PackageLocation>
+				<ExeFileName>AdminStudio2020.exe</ExeFileName>
+				<RequiredExecutionLevel>Invoker</RequiredExecutionLevel>
+				<Copyright>Copyright © 2020 Flexera. All Rights Reserved.</Copyright>
+				<SetupIcon>&lt;CurrentFolder&gt;\Source\AdminStudioIDE\AdminWorkFlow\res\ASNew.ico,0</SetupIcon>
+			</Setupexe>
+			<ProductNameOverride>AdminStudio 2020</ProductNameOverride>
+		</Release>
+		<Release>
+			<Build>
+				<Name>Download</Name>
+				<BuildLocation>&lt;MediaLocation&gt;\Suite</BuildLocation>
+				<UILangs>1033</UILangs>
+				<DefaultLang>1033</DefaultLang>
+				<CachePackagesLocally>Yes</CachePackagesLocally>
+				<DigitalSPC>&lt;PATH_TO_CURRENT_FILES&gt;\FlexeraCertExpire2021.pfx?auto</DigitalSPC>
+				<DigitalPassword>3E5FF55FAFCC777AF92813</DigitalPassword>
+				<ReleaseFlags>FULL,EXCLUDE_LANDESK_SYMANTEC,EXCLUDE_SYMANTEC</ReleaseFlags>
+			</Build>
+			<Signing>
+				<SignatureURL>http://www.flexerasoftware.com</SignatureURL>
+				<SignEnabled>Yes</SignEnabled>
+				<UseMyVersionInfo>Yes</UseMyVersionInfo>
+				<SetupExeVersion/>
+				<SetupExeCompany>Flexera</SetupExeCompany>
+			</Signing>
+			<Setupexe>
+				<ExeFileName>AdminStudio2020.exe</ExeFileName>
+				<RequiredExecutionLevel>Invoker</RequiredExecutionLevel>
+				<Copyright>Copyright © 2020 Flexera. All Rights Reserved.</Copyright>
+				<SetupIcon>&lt;MachineDrive&gt;\AdminStudio\Current\Source\AdminStudioIDE\AdminWorkFlow\res\AdminStudio.ico,0</SetupIcon>
+			</Setupexe>
+			<ProductNameOverride>AdminStudio 2020</ProductNameOverride>
+		</Release>
+		<Release>
+			<Build>
+				<Name>Symantec</Name>
+				<BuildLocation>&lt;MediaLocation&gt;\Suite</BuildLocation>
+				<UILangs>1033</UILangs>
+				<DefaultLang>1033</DefaultLang>
+				<UpdateUrl>http://</UpdateUrl>
+				<CachePackagesLocally>Yes</CachePackagesLocally>
+				<DigitalSPC>&lt;PATH_TO_CURRENT_FILES&gt;\FlexeraCertExpire2021.pfx?auto</DigitalSPC>
+				<DigitalPassword>3E5FF55FAFCC777AF92813</DigitalPassword>
+				<PreBuildEvent>
+					<Command/>
+				</PreBuildEvent>
+				<PostBuildEvent>
+					<Command/>
+				</PostBuildEvent>
+				<ReleaseFlags>NoFlags</ReleaseFlags>
+			</Build>
+			<Signing>
+				<SignatureURL>http://www.flexerasoftware.com</SignatureURL>
+				<SignEnabled>Yes</SignEnabled>
+				<UseMyVersionInfo>Yes</UseMyVersionInfo>
+			</Signing>
+			<Setupexe>
+				<ExeFileName>AdminStudio2020Symantec.exe</ExeFileName>
+				<PackageLocation>EXE</PackageLocation>
+				<SetupIcon>&lt;MachineDrive&gt;\AdminStudio\Current\Source\AdminStudioIDE\AdminWorkFlow\res\AdminStudio.ico,0</SetupIcon>
+				<Copyright>Copyright © 2020 Flexera. All Rights Reserved.</Copyright>
+			</Setupexe>
+		</Release>
+		<Release>
+			<Build>
+				<Name>LANDesk</Name>
+				<BuildLocation>&lt;MediaLocation&gt;\Suite</BuildLocation>
+				<UILangs>1033</UILangs>
+				<DefaultLang>1033</DefaultLang>
+				<UpdateUrl>http://</UpdateUrl>
+				<CachePackagesLocally>Yes</CachePackagesLocally>
+				<DigitalSPC>&lt;PATH_TO_CURRENT_FILES&gt;\FlexeraCertExpire2021.pfx?auto</DigitalSPC>
+				<DigitalPassword>3E5FF55FAFCC777AF92813</DigitalPassword>
+				<PreBuildEvent>
+					<Command/>
+				</PreBuildEvent>
+				<PostBuildEvent>
+					<Command/>
+				</PostBuildEvent>
+				<ReleaseFlags>EXCLUDE_SYMANTEC</ReleaseFlags>
+			</Build>
+			<Signing>
+				<SignatureURL>http://www.flexerasoftware.com</SignatureURL>
+				<SignEnabled>Yes</SignEnabled>
+				<UseMyVersionInfo>Yes</UseMyVersionInfo>
+			</Signing>
+			<Setupexe>
+				<ExeFileName>AdminStudio2020LANDesk.exe</ExeFileName>
+				<PackageLocation>EXE</PackageLocation>
+				<SetupIcon>&lt;MachineDrive&gt;\AdminStudio\Current\Source\AdminStudioIDE\AdminWorkFlow\res\AdminStudio.ico,0</SetupIcon>
+				<Copyright>Copyright © 2020 Flexera. All Rights Reserved.</Copyright>
+			</Setupexe>
+		</Release>
+		<Release>
+			<Build>
+				<Name>NovellZENworks</Name>
+				<BuildLocation>&lt;MediaLocation&gt;\Suite</BuildLocation>
+				<UILangs>1033</UILangs>
+				<DefaultLang>1033</DefaultLang>
+				<UpdateUrl>http://</UpdateUrl>
+				<CachePackagesLocally>Yes</CachePackagesLocally>
+				<DigitalSPC>&lt;PATH_TO_CURRENT_FILES&gt;\FlexeraCertExpire2021.pfx?auto</DigitalSPC>
+				<DigitalPassword>3E5FF55FAFCC777AF92813</DigitalPassword>
+				<PreBuildEvent>
+					<Command/>
+				</PreBuildEvent>
+				<PostBuildEvent>
+					<Command/>
+				</PostBuildEvent>
+				<ReleaseFlags>EXCLUDE_LANDESK_SYMANTEC,EXCLUDE_SYMANTEC</ReleaseFlags>
+			</Build>
+			<Signing>
+				<SignatureURL>http://www.flexerasoftware.com</SignatureURL>
+				<SignEnabled>Yes</SignEnabled>
+				<UseMyVersionInfo>Yes</UseMyVersionInfo>
+			</Signing>
+			<Setupexe>
+				<ExeFileName>AdminStudio2020NovellZENworks.exe</ExeFileName>
+				<PackageLocation>EXE</PackageLocation>
+				<SetupIcon>&lt;MachineDrive&gt;\AdminStudio\Current\Source\AdminStudioIDE\AdminWorkFlow\res\AdminStudio.ico,0</SetupIcon>
+				<Copyright>Copyright © 2020 Flexera. All Rights Reserved.</Copyright>
+			</Setupexe>
+		</Release>
+	</Releases>
+	<Properties>
+		<SetProperty Name="ProductName" Value="ID_STRING172"/>
+		<SetProperty Name="ISInstallDir" Value="[ProgramFilesFolder]AdminStudio\2020" FormatPropertyValue="yes"/>
+		<SetProperty Name="SharedInstallDir" Value="[ProgramFilesFolder]AdminStudio Shared" FormatPropertyValue="yes"/>
+		<SetProperty Name="ISAcceptEula" Value="false"/>
+	</Properties>
+	<UserInterface xmlns="installshield/2018.1/bootstrap/ui">
+		<Resources>
+			<FontSet Name="BodyFonts">
+				<Font Name="Microsoft JhengHei UI" Size="10" Language="1028"/>
+				<Font Name="SimSun" Size="10" Language="1028"/>
+				<Font Name="Meiryo UI" Size="10" Language="1041"/>
+				<Font Name="MS Mincho" Size="10" Language="1041"/>
+				<Font Name="Malgun Gothic" Size="10" Language="1042"/>
+				<Font Name="Dotum" Size="10" Language="1042"/>
+				<Font Name="Microsoft YaHei UI" Size="10" Language="2052"/>
+				<Font Name="SimSun" Size="10" Language="2052"/>
+				<Font Name="Calibri" Size="10"/>
+				<Font Name="Verdana" Size="8"/>
+				<Font Name="Arial" Size="8"/>
+			</FontSet>
+			<Class Name="Header" Pen="0xDEA100">
+				<Class.FontSet BasedOn="BodyFonts" Size="180"/>
+			</Class>
+			<Class Name="Body" Pen="0xf0f0f0">
+				<Class.FontSet BasedOn="BodyFonts" Weight="400"/>
+			</Class>
+			<Class Name="BodyButton" Pen="0x101010">
+				<Class.FontSet BasedOn="BodyFonts" Weight="400"/>
+			</Class>
+			<Class Name="BodyBlack" Pen="0xFFFFFF">
+				<Class.FontSet BasedOn="BodyFonts" Weight="400"/>
+			</Class>
+			<Class Name="BodyItalics" Pen="0xc8c8c8">
+				<Class.FontSet BasedOn="BodyFonts" Weight="500" Italic="true"/>
+			</Class>
+			<Class Name="BodyBoldBlack" Pen="0xFFFFFF">
+				<Class.FontSet BasedOn="BodyFonts" Weight="600"/>
+			</Class>
+			<Class Name="BodyCombo" Pen="0xc8c8c8" Background="0x3e3e3e">
+				<Class.FontSet BasedOn="BodyFonts"/>
+			</Class>
+			<Class Name="BodyList" Pen="0x808080">
+				<Class.FontSet BasedOn="BodyFonts" Size="140" Weight="700"/>
+			</Class>
+			<SolidBrush Name="DialogBackground" Color="0xFFFFFF"/>
+			<GradientBrush Name="Header" Type="Vertical" Dither="">
+				<Vertex X="0" Y="0" Color="0x333333"/>
+				<Vertex X="100" Y="3" Color="0x333333"/>
+				<Rectangle UpperLeft="0" LowerRight="1"/>
+				<Vertex X="0" Y="3" Color="0x333333"/>
+				<Vertex X="100" Y="5" Color="0x333333"/>
+				<Rectangle UpperLeft="2" LowerRight="3"/>
+				<Vertex X="0" Y="5" Color="0x333333"/>
+				<Vertex X="100" Y="25" Color="0x333333"/>
+				<Rectangle UpperLeft="4" LowerRight="5"/>
+				<Vertex X="0" Y="25" Color="0x333333"/>
+				<Vertex X="100" Y="50" Color="0x333333"/>
+				<Rectangle UpperLeft="6" LowerRight="7"/>
+				<Vertex X="0" Y="50" Color="0x333333"/>
+				<Vertex X="100" Y="100" Color="0x333333"/>
+				<Rectangle UpperLeft="8" LowerRight="9"/>
+			</GradientBrush>
+			<ImageBrush Name="Body" Resource="ASBackground600by400.png"/>
+			<Class Name="HeaderBlack" Pen="0xFFFFFF">
+				<Class.FontSet BasedOn="BodyFonts" Size="180"/>
+			</Class>
+			<Class Name="BodyItalicsBlack" Pen="0xFFFFFF">
+				<Class.FontSet BasedOn="BodyFonts" Weight="500" Italic="true"/>
+			</Class>
+			<ImageBrush Name="ProgressBackground" Resource="BG2.png"/>
+			<Class Name="BodyListWhite" Pen="0xFFFFFF" Background="0x333333">
+				<Class.FontSet BasedOn="BodyFonts" Size="120" Weight="600"/>
+			</Class>
+			<SolidBrush Color="0x808080" Name="FeatureSelection"/>
+			<Class Name="BodyWhite"/>
+			<FlatButton Name="HoverBorder">
+				<FlatButton.Border Hot="00A1DE" Press="00A1DE" Default="333333"/>
+				<FlatButton.Fill Hot="333333" Normal="333333" Press="333333" Default="333333"/>
+				<FlatButton.Text Normal="FFFFFF" Press="00A1DE" Default="00A1DE" Hot="00A1DE"/>
+			</FlatButton>
+		</Resources>
+		<Wizard Format="Glass" Caption="IDS_PRODUCTNAME_INSTALLSHIELD" Icon="ASNew.ico" Resize="false">
+			<Wizard.Header Background="Header" Class="Header"/>
+			<Wizard.View Margin="false" Height="242" Width="400" Background="Body" Transition="true"/>
+			<Wizard.Navigation Spacing="group" Direction="RTL" Margin="10" Class="BodyButton"/>
+			<Wizard.Visible>
+				<Any>
+					<Property Name="ISSplashActive" Convert="String" Compare="Equal" CompareTo="false"/>
+				</Any>
+			</Wizard.Visible>
+			<Page Name="InstallationLanguage" Caption="IDS_INSTALLATION_LANGUAGE_CAPTION" Focus="">
+				<Page.Visible>
+					<Any>
+						<Property Name="ISShowLanguageSelection" Convert="String" Compare="Equal" CompareTo="true"/>
+					</Any>
+				</Page.Visible>
+				<Label Name="IDC_LABEL1" Position="21,11,358,10" Text="IDS_INSTALLATION_LANGUAGE_DIRECTIONS" Class="Body" Anchor="SIZE_X" Style="SS_NOPREFIX"/>
+				<ComboBox Name="IDC_LANGUAGE" Position="21,21,358,200" Property="ISSelectedLanguage" Anchor="SIZE_X" Style="CBS_DROPDOWNLIST" Items="ISLanguageList"/>
+				<Next/>
+			</Page>
+			<Page Name="InstallationRemoval" Caption="IDS_WELCOME_UNINSTALL_CAPTION" Focus="">
+				<Page.Visible>
+					<Any>
+						<Mode Value="remove"/>
+					</Any>
+				</Page.Visible>
+				<Image Name="IDB_BMP" Position="21,19,40,40" Resource="Rem.png"/>
+				<Label Name="IDC_LABEL1" Position="67,23,323,40" Text="IDS_WELCOME_UNINSTALL_DIRECTIONS" Class="Body" Anchor="SIZE_X" Style="SS_NOPREFIX"/>
+				<Install Text="IDS_REMOVE_BUTTON">
+					<Install.Click>
+						<SetProperty Name="ISProgressCaption" Value="IDS_PROGRESS_CAPTION_UNINSTALLING"/>
+						<SetProperty Name="ISProgressSummary" Value="IDS_PROGRESS_TITLE_UNINSTALLING"/>
+						<Install Page="InstallationProgress"/>
+					</Install.Click>
+				</Install>
+			</Page>
+			<Page Name="UnsupportedOS" Caption="ID_STRING100">
+				<Page.Visible>
+					<All>
+						<Mode Value="install"/>
+						<Property Name="IsRunningXP" Convert="String" Compare="Equal" CompareTo="1"/>
+					</All>
+				</Page.Visible>
+				<Label Name="Label" Position="10,10,380,14" Text="ID_STRING101" Class="Body"/>
+				<Button Name="Button" Position="10,60,80,14" Text="ID_STRING103" Class="BodyButton">
+					<Button.Click>
+						<Open Target="http://support.installshield.com/kb/view.asp?articleid=Q213488" Verb="open"/>
+					</Button.Click>
+				</Button>
+				<Label Name="Label1" Position="11,34,380,14" Text="ID_STRING105" Class="Body"/>
+			</Page>
+			<Page Name="InstallationWelcome" Caption="" Focus="">
+				<Page.Header Image="FlexeraLogo.png"/>
+				<Page.Visible>
+					<Any>
+						<Mode Value="install"/>
+					</Any>
+				</Page.Visible>
+				<Image Name="IDC_IMAGE1" Position="13,0,124,19" Resource="AdminStudioProductName.png" Style="SS_REALSIZECONTROL" Anchor=""/>
+				<Label Name="IDC_LABEL1" Position="86,30,304,41" Text="IDS_INSTALL_WELCOME_CAPTION" Class="Header" Anchor="SIZE_X" Style="SS_NOPREFIX"/>
+				<Label Name="IDC_LABEL2" Position="86,75,289,20" Text="IDS_WELCOME_INSTALL_DIRECTIONS" Class="Body" Anchor="SIZE_X|MOVE_Y" Style="SS_NOPREFIX"/>
+				<Label Name="IDC_LABEL3" Position="86,176,289,14" Text="IDS_WELCOME_INSTALL_COPYRIGHT" Class="BodyItalicsBlack" Anchor="SIZE_X|MOVE_Y" Style="SS_NOPREFIX"/>
+				<Next>
+					<Next.Click>
+						<SetProperty Name="ISProgressCaption" Value="IDS_PROGRESS_CAPTION_INSTALLING"/>
+						<SetProperty Name="ISProgressSummary" Value="IDS_PROGRESS_TITLE_INSTALLING"/>
+						<Open Target="http://support.installshield.com/kb/view.asp?articleid=Q105511" Verb="open">
+							<Any>
+								<Property Name="IsRunningXP" Convert="String" Compare="Equal" CompareTo="1"/>
+							</Any>
+						</Open>
+					</Next.Click>
+					<Next.Enabled>
+						<Any>
+							<Property Name="ISAcceptEula" Convert="String" Compare="Equal" CompareTo="true"/>
+						</Any>
+					</Next.Enabled>
+				</Next>
+				<Label Name="Label" Position="86,196,289,34" Text="ID_STRING94" Anchor="SIZE_X|MOVE_Y" Class="BodyBoldBlack" Style="SS_NOPREFIX">
+					<Label.Visible>
+						<Any>
+							<Property Name="ASINSTALLED" Convert="String" Compare="Contains" CompareTo="AdminStudio"/>
+						</Any>
+					</Label.Visible>
+				</Label>
+				<Label Name="Label1" Position="86,128,279,38" Text="ID_STRING169" Class="Body"/>
+				<CheckBox Name="CheckBox" Position="86,105,58,13" Text="ID_STRING170" Class="Body" Property="ISAcceptEula==true"/>
+				<HyperLink Name="HyperLink" Position="148,108,122,14" Text="ID_STRING171" Resource="https://www.flexera.com/legal/clickthrough"/>
+			</Page>
+			<Page Caption="IDS_BROWSEFOLDER_CAPTION" Name="BrowseFolder">
+				<Page.Visible>
+					<Any>
+						<Mode Value="install"/>
+					</Any>
+				</Page.Visible>
+				<Label Name="IDC_LABEL1" Position="10,10,380,30" Text="IDS_BROWSEFOLDER_CHANGEFOLDER" Class="Body" Anchor="SIZE_X"/>
+				<Image Name="IDC_IMAGE1" Position="10,45,35,28" Resource="DestFolder.png" Anchor="" Style="SS_REALSIZEIMAGE"/>
+				<Label Name="IDC_LABEL2" Position="53,45,280,10" Text="IDS_BROWSEFOLDER_INSTALLTO" Class="Body" Anchor="SIZE_X"/>
+				<Label Name="IDC_LABEL3" Position="53,63,280,10" Class="Body" Anchor="SIZE_X" Property="ISInstallDir"/>
+				<Button Name="IDC_FOLDER_DLG" Position="338,42,50,14" Text="IDS_CHANGE_BUTTON" Anchor="MOVE_X">
+					<Button.Click>
+						<BrowseFolder Property="ISInstallDir" Caption="IDS_BROWSEFOLDER_INSTALLTO"/>
+					</Button.Click>
+				</Button>
+				<Next/>
+				<Back/>
+				<Page.Header Image=""/>
+			</Page>
+			<Page Caption="ID_STRING14" Name="SharedFolder">
+				<Page.Visible>
+					<Any>
+						<Mode Value="install"/>
+					</Any>
+				</Page.Visible>
+				<Label Name="IDC_LABEL1" Position="10,10,380,30" Text="ID_STRING15" Class="Body" Anchor="SIZE_X"/>
+				<Image Name="IDC_IMAGE1" Position="10,45,35,28" Resource="DestFolder.png" Anchor="" Style="SS_REALSIZEIMAGE"/>
+				<Label Name="IDC_LABEL2" Position="53,45,280,30" Text="ID_STRING16" Class="Body" Anchor="SIZE_X"/>
+				<Label Name="IDC_LABEL3" Position="53,83,280,10" Class="Body" Anchor="SIZE_X" Property="SharedInstallDir"/>
+				<Button Name="IDC_FOLDER_DLG" Position="338,42,50,14" Text="IDS_CHANGE_BUTTON" Anchor="MOVE_X">
+					<Button.Click>
+						<BrowseFolder Property="SharedInstallDir" Caption="ID_STRING16"/>
+					</Button.Click>
+				</Button>
+				<Next/>
+				<Back/>
+			</Page>
+			<Page Name="MaintenanceWelcome" Caption="IDS_WELCOME_MAINTENANCE_CAPTION" Focus="">
+				<Page.Visible>
+					<Any>
+						<Mode Value="maintenance"/>
+					</Any>
+				</Page.Visible>
+				<CommandLink Name="IDC_REPAIR" Position="10,10,380,63" Text="IDS_WELCOME_MAINTENANCE_REPAIR" Resource="Rep.png" Class="Header" Anchor="SIZE_X" Theme="HoverBorder">
+					<CommandLink.Note Text="IDS_WELCOME_MAINTENANCE_REPAIR_NOTE" Class="BodyItalics"/>
+					<CommandLink.Click>
+						<SetProperty Name="IsInstallMode" Value="repair"/>
+						<SetProperty Name="ISProgressCaption" Value="IDS_PROGRESS_CAPTION_INSTALLING"/>
+						<SetProperty Name="ISProgressSummary" Value="IDS_PROGRESS_TITLE_INSTALLING"/>
+						<Install Page="InstallationProgress"/>
+					</CommandLink.Click>
+				</CommandLink>
+				<CommandLink Name="IDC_REMOVE" Position="10,153,380,63" Text="IDS_WELCOME_MAINTENANCE_REMOVE" Resource="Rem.png" Class="Header" Anchor="SIZE_X" Theme="HoverBorder">
+					<CommandLink.Note Text="IDS_WELCOME_MAINTENANCE_REMOVE_NOTE" Class="BodyItalics"/>
+					<CommandLink.Click>
+						<SetProperty Name="IsInstallMode" Value="remove"/>
+						<SetProperty Name="ISProgressCaption" Value="IDS_PROGRESS_CAPTION_UNINSTALLING"/>
+						<SetProperty Name="ISProgressSummary" Value="IDS_PROGRESS_TITLE_UNINSTALLING"/>
+						<Install Page="InstallationProgress"/>
+					</CommandLink.Click>
+				</CommandLink>
+				<CommandLink Name="IDC_MODIFY" Position="10,79,380,68" Text="IDS_WELCOME_MODIFY_TEXT" Resource="Cust.png" Class="Header" Anchor="SIZE_X" Theme="HoverBorder">
+					<CommandLink.Note Text="IDS_WELCOME_MODIFY" Class="BodyItalics"/>
+					<CommandLink.Click>
+						<SetProperty Name="IsInstallMode" Value="modify"/>
+						<SetActivePage Page="InstallationFeatures1"/>
+					</CommandLink.Click>
+				</CommandLink>
+			</Page>
+			<Page Name="BrowseStageFolder" Caption="IDS_WELCOME_STAGE_CAPTION" Focus="">
+				<Page.Visible>
+					<Any>
+						<Mode Value="stage"/>
+					</Any>
+				</Page.Visible>
+				<Label Name="IDC_LABEL1" Position="10,10,380,30" Text="IDS_WELCOME_STAGE_DIRECTIONS" Class="Body" Anchor="SIZE_X" Style="SS_NOPREFIX"/>
+				<Image Name="IDC_IMAGE1" Position="10,45,35,28" Resource="DestFolder.png" Anchor="" Style="SS_REALSIZEIMAGE"/>
+				<Label Name="IDC_LABEL2" Position="53,45,280,10" Text="IDS_WELCOME_STAGE_NOTE" Class="Body" Anchor="SIZE_X"/>
+				<Label Name="IDC_LABEL3" Position="53,63,280,10" Class="Body" Anchor="SIZE_X" Property="ISRootStagePath" Style="SS_NOPREFIX"/>
+				<Button Name="IDC_FOLDER_DLG" Position="338,42,50,14" Text="IDS_CHANGE_BUTTON" Anchor="MOVE_X">
+					<Button.Click>
+						<BrowseFolder Property="ISRootStagePath" Caption="IDS_WELCOME_STAGE_BROWSE_CAPTION"/>
+					</Button.Click>
+				</Button>
+				<Install/>
+			</Page>
+			<Page Name="InstallationType" Caption="IDS_INSTALLTYPE_CAPTION" Focus="">
+				<Page.Visible>
+					<All>
+						<Mode Value="install"/>
+						<Property Name="EDITION" Convert="String" Compare="NotEqual" CompareTo="LANDesk"/>
+					</All>
+				</Page.Visible>
+				<CommandLink Name="IDC_COMPLETE" Position="11,4,380,63" Text="IDS_INSTALLTYPE_TYPICAL" Resource="Typ.png" Class="Header" Anchor="SIZE_X" Theme="HoverBorder">
+					<CommandLink.Note Text="IDS_INSTALLTYPE_TYPICAL_NOTE" Class="BodyItalics"/>
+					<CommandLink.Click>
+						<SetProperty Name="ADDLOCAL" Value="ALL"/>
+						<SetProperty Name="SUITELIMEDITIONPROPS"/>
+						<Install Page="InstallationProgress"/>
+					</CommandLink.Click>
+				</CommandLink>
+				<CommandLink Name="IDC_CUSTOM" Position="11,73,380,63" Text="IDS_INSTALLTYPE_CUSTOM" Resource="Cust.png" Class="Header" Anchor="SIZE_X" Theme="HoverBorder">
+					<CommandLink.Note Text="IDS_INSTALLTYPE_CUSTOM_NOTE" Class="BodyItalics"/>
+					<CommandLink.Click>
+						<SetProperty Name="SUITELIMEDITIONPROPS"/>
+						<SetActivePage Page="InstallationFeatures1"/>
+					</CommandLink.Click>
+				</CommandLink>
+				<Back/>
+				<Next>
+					<Next.Enabled>
+						<Not/>
+					</Next.Enabled>
+				</Next>
+				<Page.Header/>
+			</Page>
+			<Page Name="InstallationType_LANDesk" Caption="IDS_INSTALLTYPE_CAPTION">
+				<Page.Visible>
+					<All>
+						<Mode Value="install"/>
+						<Property Name="EDITION" Convert="String" Compare="Equal" CompareTo="LANDesk"/>
+					</All>
+				</Page.Visible>
+				<CommandLink Name="IDC_COMPLETE_LD" Position="11,4,380,75" Text="IDS_INSTALLTYPE_COMPLETE" Resource="Typ.png" Class="Header" Anchor="SIZE_X">
+					<CommandLink.Note Text="IDS_INSTALLTYPE_COMPLETE_NOTE_LD" Class="BodyItalics"/>
+					<CommandLink.Click>
+						<SetProperty Value="ADDLOCAL= INSTALLLEVEL=100 SETUPTYPE_LANDESK=Complete" Name="SUITELIMEDITIONPROPS"/>
+						<Install Page="InstallationProgress"/>
+					</CommandLink.Click>
+				</CommandLink>
+				<CommandLink Name="IDC_CUSTOM_LD" Position="11,92,380,62" Text="IDS_INSTALLTYPE_TYPICAL" Resource="Cust.png" Class="Header" Anchor="SIZE_X">
+					<CommandLink.Note Text="IDS_INSTALLTYPE_TYPICAL_NOTE_LD" Class="BodyItalics"/>
+					<CommandLink.Click>
+						<SetProperty Name="SUITELIMEDITIONPROPS" Value="ADDLOCAL= INSTALLLEVEL=40 HIDEFROMLANDESK=1"/>
+						<Install Page="InstallationProgress"/>
+					</CommandLink.Click>
+				</CommandLink>
+				<Back/>
+				<Next>
+					<Next.Enabled>
+						<Not/>
+					</Next.Enabled>
+				</Next>
+			</Page>
+			<Page Name="InstallationFeatures1" Caption="IDS_CUSTOMSETUP_CAPTION">
+				<Label Name="IDC_LABEL1" Position="21,10,358,10" Text="IDS_CUSTOMSETUP_DIRECTIONS" Class="Body" Anchor="SIZE_X"/>
+				<FeatureSelectionTree Name="IDC_TV_1" Position="21,29,254,95" Class="BodyListWhite" Item.Height="24" Color.Focus="0xDEA100" Color.NoFocus="0xDEA100" Background="FeatureSelection"/>
+				<Label Name="IDC_DESC" Position="289,37,84,122" Property="ISFeatureDescription" Class="Body"/>
+				<GroupBox Name="IDC_GROUPDESC" Position="282,25,98,141" Class="Body"/>
+				<Label Name="IDC_COST" Position="288,180,86,24" Property="ISFeatureCost" Class="BodyBlack"/>
+				<GroupBox Name="IDC_GROUPCOST" Position="282,170,98,40" Class="BodyBlack"/>
+				<Install>
+					<Install.Click>
+						<Install Page="InstallationProgress"/>
+					</Install.Click>
+				</Install>
+				<Back/>
+			</Page>
+			<Page Name="InstallationProgress" Caption="[ISProgressCaption]" Background="ProgressBackground" Focus="">
+				<Label Name="IDC_LABEL1" Position="67,192,312,10" Text="[ISProgressSummary]" Class="BodyButton" Anchor="SIZE_X" Style="SS_NOPREFIX"/>
+				<Label Name="IDC_INSTALL_STATUS" Position="67,204,312,10" Property="ISInstallStatus" Class="BodyButton" Anchor="SIZE_X" Style="SS_NOPREFIX"/>
+				<Label Name="IDC_PARCEL_STATUS" Position="67,216,312,10" Property="ISParcelStatus" Class="BodyButton" Anchor="SIZE_X" Style="SS_NOPREFIX|SS_PATHELLIPSIS"/>
+				<ProgressBar Name="IDC_ALL_PROGRESS" Position="67,226,312,13" Property="ISParcelProgress" Style="WS_CLIPSIBLINGS" Anchor="SIZE_X"/>
+				<Image Name="Image" Position="21,198,40,40" Resource="FlexeraX.png"/>
+				<Billboard Name="Billboard" Position="0,0,411,190" Style="SS_REALSIZECONTROL">
+					<Image Name="Image 1" Text="ID_BB_1" Resource="521_Billboards-AdminStudio-Release_Intune-Compatibility_1.png" Duration="15"/>
+					<Image Name="Image 2" Text="ID_BB_2" Resource="521_Billboards-AdminStudio-Release_Process-Automatically_2.png" Duration="15"/>
+					<Image Name="Image 3" Text="ID_STRING176" Resource="521_Billboards-for-AdminStudio-Release_Assess-App-Coverage_3.png" Duration="15"/>
+					<Image Name="Image 4" Text="ID_STRING177" Resource="521_Billboards-for-AdminStudio-Release_Uncover-Unmanaged-Apps_4.png" Duration="15"/>
+				</Billboard>
+			</Page>
+			<Page Name="InstallationComplete" Caption="" Focus="">
+				<Page.Header Image=""/>
+				<Image Name="IDC_IMAGE1" Position="13,36,124,19" Resource="AdminStudioProductName.png" Style="SS_REALSIZECONTROL" Anchor=""/>
+				<Label Name="IDC_LABEL1" Position="86,73,289,20" Text="IDS_COMPLETE_DIRECTIONS" Class="Header" Anchor="SIZE_X" Style="SS_NOPREFIX"/>
+				<Label Name="IDC_LABEL2" Position="86,108,289,20" Property="ISInstallStatus" Class="Body" Anchor="SIZE_X|MOVE_Y" Style="SS_NOPREFIX"/>
+				<Finish>
+					<Finish.Click>
+						<Open Target="http://www.flexerasoftware.com/landing/landesk-download.html" Verb="open">
+							<All>
+								<Property Name="ProductName" Convert="String" Compare="Equal" CompareTo="AdminStudio LE for LANDesk Management Suite"/>
+								<Mode Value="install"/>
+							</All>
+						</Open>
+					</Finish.Click>
+				</Finish>
+				<Cancel>
+					<Cancel.Visible>
+						<Not/>
+					</Cancel.Visible>
+				</Cancel>
+			</Page>
+		</Wizard>
+		<Dialogs>
+			<Dialog Name="ISPassiveInstallation" Caption="IDS_PRODUCTNAME_INSTALLSHIELD" Height="102" Width="345" Background="DialogBackground">
+				<Label Name="IDC_LABEL1" Position="18,7,266,10" Text="[ISProgressCaption]" Style="SS_NOPREFIX" Class="BodyBold" Anchor="SIZE_X"/>
+				<Label Name="IDC_LABEL2" Position="56,28,312,10" Text="[ISProgressSummary]" Style="SS_NOPREFIX" Class="Body" Anchor="SIZE_X"/>
+				<Label Name="IDC_INSTALL_STATUS" Position="56,39,312,10" Property="ISInstallStatus" Style="SS_NOPREFIX" Class="BodyBold" Anchor="SIZE_X"/>
+				<Label Name="IDC_PARCEL_STATUS" Position="56,50,312,10" Property="ISParcelStatus" Style="SS_NOPREFIX|SS_PATHELLIPSIS" Class="Body" Anchor="SIZE_X"/>
+				<ProgressBar Name="IDC_ALL_PROGRESS" Position="56,62,275,13" Property="ISInstallProgress" Style="WS_CLIPSIBLINGS" Anchor="SIZE_X">
+					<ProgressBar.Visible>
+						<Any>
+							<Property Name="ISInstallMode" Convert="String" Compare="NotEqual" CompareTo="update"/>
+						</Any>
+					</ProgressBar.Visible>
+				</ProgressBar>
+				<Image Position="13,27,40,40" Resource="Application.png"/>
+				<Button Name="IDCANCEL" Position="282,81,50,14" Text="IDS_CANCEL_BUTTON" Class="Body">
+					<Button.Click>
+						<CloseWindow ReturnCode="IDCANCEL"/>
+					</Button.Click>
+				</Button>
+			</Dialog>
+			<Dialog Name="ISDownloadProgress" Caption="IDS_PRODUCTNAME_INSTALLSHIELD" Height="83" Width="315" Background="DialogBackground">
+				<Label Name="IDC_LABEL1" Position="20,20,275,10" Text="IDS_DOWNLOADING_UPDATE" Class="Body" Anchor="SIZE_X" Style="SS_NOPREFIX"/>
+				<Label Name="IDC_PARCEL_STATUS" Position="20,30,275,10" Property="ISParcelStatus" Class="BodyBold" Anchor="SIZE_X" Style="SS_NOPREFIX"/>
+				<ProgressBar Name="IDC_PARCEL_PROGRESS" Position="20,40,275,13" Property="ISParcelProgress" Style="WS_CLIPSIBLINGS" Anchor="SIZE_X"/>
+				<Button Name="IDCANCEL" Position="245,59,50,14" Text="IDS_CANCEL_BUTTON" Class="Body"/>
+			</Dialog>
+			<Dialog Name="ISPromptForSourceMedia" Caption="IDS_PRODUCTNAME_INSTALLSHIELD" Height="130" Width="350" Background="DialogBackground">
+				<Label Name="IDC_LABEL1" Position="20,17,275,20" Text="IDS_SUITEERROR_MEDIAFILEMISSING" Class="BodyBlack" Style="SS_NOPREFIX"/>
+				<Image Name="IDC_IMAGE1" Position="20,56,24,28" Resource="Folder.png" Style="SS_REALSIZEIMAGE"/>
+				<Label Name="IDC_LABEL2" Position="47,56,230,10" Text="IDS_SUITEERROR_MEDIAFILEMISSING_SOURCEPATH" Class="BodyBlack" Style="SS_NOPREFIX"/>
+				<Label Name="IDC_LABEL3" Position="47,74,230,10" Property="ISSourceMediaFile" Class="BodyBlack" Style="SS_NOPREFIX"/>
+				<Button Name="IDC_FOLDER_DLG" Position="284,56,50,14" Text="IDS_CHANGE_BUTTON">
+					<Button.Click>
+						<BrowseFile Property="ISSourceMediaFile" Caption="IDS_SUITEERROR_MEDIAFILEMISSING_SOURCEPATH"/>
+					</Button.Click>
+				</Button>
+				<Button Name="IDOK" Position="219,110,50,14" Text="IDS_OK_BUTTON"/>
+				<Button Name="IDCANCEL" Position="284,110,50,14" Text="IDS_CANCEL_BUTTON"/>
+			</Dialog>
+			<Dialog Name="ISFilesInUse" Caption="IDS_PRODUCTNAME_INSTALLSHIELD" Height="160" Width="350" Background="DialogBackground">
+				<Label Name="IDC_LABEL1" Position="20,10,310,20" Text="IDS_FILESINUSE_DIRECTIONS" Class="BodyBlack" Style="SS_NOPREFIX"/>
+				<ListBox Name="IDC_LIST" Position="20,35,310,100" Style="WS_CAPTION|LBS_NOSEL" Items="ISFilesInUseList"/>
+				<Button Name="IDRETRY" Position="154,140,50,14" Text="IDS_FILESINUSE_RETRY"/>
+				<Button Name="IDIGNORE" Position="219,140,50,14" Text="IDS_FILESINUSE_IGNORE"/>
+				<Button Name="IDCANCEL" Position="284,140,50,14" Text="IDS_FILESINUSE_EXIT"/>
+			</Dialog>
+			<Dialog Name="ISRMFilesInUse" Caption="IDS_PRODUCTNAME_INSTALLSHIELD" Height="190" Width="350" Background="DialogBackground">
+				<Label Name="IDC_LABEL1" Position="20,10,310,20" Text="IDS_RMFILESINUSE_DIRECTIONS" Class="BodyBlack" Style="SS_NOPREFIX"/>
+				<ListBox Name="IDC_LIST" Position="20,35,310,100" Style="WS_CAPTION|LBS_NOSEL" Items="ISFilesInUseList"/>
+				<RadioButton Name="IDC_RADIO_1" Property="ISCloseApplications==true" Position="20,135,310,10" Text="IDS_RMFILESINUSE_CLOSERESTART">
+					<RadioButton.Click>
+						<SetProperty Name="ISCloseApplications" Value="true"/>
+					</RadioButton.Click>
+				</RadioButton>
+				<RadioButton Name="IDC_RADIO_2" Property="ISCloseApplications==false" Position="20,148,310,10" Text="IDS_RMFILESINUSE_REBOOTAFTER">
+					<RadioButton.Click>
+						<SetProperty Name="ISCloseApplications" Value="false"/>
+					</RadioButton.Click>
+				</RadioButton>
+				<Button Name="IDOK" Position="219,170,50,14" Text="IDS_OK_BUTTON">
+					<Button.Click>
+						<CloseWindow ReturnCode="IDOK"/>
+					</Button.Click>
+				</Button>
+				<Button Name="IDCANCEL" Position="284,170,50,14" Text="IDS_CANCEL_BUTTON">
+					<Button.Click>
+						<CloseWindow ReturnCode="IDCANCEL"/>
+					</Button.Click>
+				</Button>
+			</Dialog>
+			<Dialog Name="ISUpgradeParcel" Caption="IDS_PRODUCTNAME_INSTALLSHIELD" Height="190" Width="350" Background="DialogBackground">
+				<Label Name="IDC_LABEL1" Position="20,10,310,20" Text="IDS_SUITE_UPGRADE_PARCELS" Class="BodyBlack" Style="SS_NOPREFIX"/>
+				<ListBox Name="IDC_LIST" Position="20,35,310,120" Style="WS_CAPTION|LBS_NOSEL" Items="ISParcelUpgradeList"/>
+				<Button Name="IDOK" Position="219,170,50,14" Text="IDS_OK_BUTTON"/>
+				<Button Name="IDCANCEL" Position="284,170,50,14" Text="IDS_CANCEL_BUTTON"/>
+			</Dialog>
+		</Dialogs>
+	</UserInterface>
+	<Resources>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\body.jpg"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\ISLogo.gif"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\Remove.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\Repair.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\Splash.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\Typical.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\Application.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\Folder.png"/>
+		<Resource Source="&lt;MachineDrive&gt;\AdminStudio\Current\Build\Binaries\Eula.rtf"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\AS.ico"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\ASLogoBig.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\ASLogoSmall.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\ASproductbox11.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\Custom.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\ASlogoRev.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\BG2.png"/>
+		<Resource lcid="1033" Source="&lt;ISProjectDataFolder&gt;\Resources\0409\1-ConfigureTestPrepare.png"/>
+		<Resource lcid="1033" Source="&lt;ISProjectDataFolder&gt;\Resources\0409\2-PublishMac.png"/>
+		<Resource lcid="1033" Source="&lt;ISProjectDataFolder&gt;\Resources\0409\3-ProvisionVirtualMachines.png"/>
+		<Resource lcid="1033" Source="&lt;ISProjectDataFolder&gt;\Resources\0409\4-TestEXE.PNG"/>
+		<Resource lcid="1033" Source="&lt;ISProjectDataFolder&gt;\Resources\0409\5-TestForAzure.png"/>
+		<Resource lcid="1033" Source="&lt;ISProjectDataFolder&gt;\Resources\0409\5-ExeInstallers.png"/>
+		<Resource lcid="1033" Source="&lt;ISProjectDataFolder&gt;\Resources\0409\4-Powershell.png"/>
+		<Resource lcid="1033" Source="&lt;ISProjectDataFolder&gt;\Resources\0409\3-SCCM.png"/>
+		<Resource lcid="1033" Source="&lt;ISProjectDataFolder&gt;\Resources\0409\2-WindowsServer.png"/>
+		<Resource lcid="1033" Source="&lt;ISProjectDataFolder&gt;\Resources\0409\1-Java.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\0409\1-AS_Install_600x398_Apr18.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\0409\2-AS_Install_600x398_Apr18.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\0409\3-AS_Install_600x398_Apr18.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\0409\4-AS_Install_600x398_Apr18.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\AS 2018\ASBackground600by400.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\AS 2018\ASNew.ico"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\AS 2018\Rem.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\AS 2018\FlexeraLogo.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\AS 2018\AdminStudioProductName.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\AS 2018\DestFolder.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\AS 2018\Repair.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\AS 2018\Mod.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\AS 2018\remove.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\AS 2018\Typ.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\AS 2018\Cust.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\AS 2018\FlexeraX.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\AS 2018\1-AS_Install_600x398_Apr18-01.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\AS 2018\2-AS_Install_600x398_Apr18-01.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\AS 2018\3-AS_Install_600x398_Apr18-01.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\AS 2018\4-AS_Install_600x398_Apr18-01.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\AS 2018\Rep.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\0409\_1628_AS_MSIX_BillBrdMSIX.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\0409\_2628_AS_MSIX_BillBrd4.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\0409\_3628_AS_MSIX_BillBrdJava.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\0409\_4628_AS_MSIX_BillBrdPwrSh.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\0409\_5628_AS_MSIX_BillBrdUser.png"/>
+		<Resource Source="&lt;ISProjectFolder&gt;\AdminStudioSuite\Resources\AS 2018\895_AS_BannersR3-1.png"/>
+		<Resource Source="&lt;ISProjectFolder&gt;\AdminStudioSuite\Resources\AS 2018\895_AS_BannersR3-2.png"/>
+		<Resource Source="&lt;ISProjectFolder&gt;\AdminStudioSuite\Resources\AS 2018\895_AS_BannersR3-3.png"/>
+		<Resource Source="&lt;ISProjectFolder&gt;\AdminStudioSuite\Resources\AS 2018\895_AS_BannersR3-3a.png"/>
+		<Resource Source="&lt;ISProjectFolder&gt;\AdminStudioSuite\Resources\AS 2018\895_AS_BannersR3-4.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\AS 2018\895_AS_BannersR3-01.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\AS2019\1164_adminstudio_1_607x307.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\AS2019\1164_adminstudio_2_607x307.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\AS2019\1416_AdminStudio-Package-Feed-Module-Installation_Billboard_1.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\AS2019\1416_AdminStudio-Package-Feed-Module-Installation_Billboard_2.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\AS2019\241_AdminStudio_Banners_607x307_1.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\AS2019\241_AdminStudio_Banners_607x307_2.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\AS2020\521_Billboards-AdminStudio-Release_Intune-Compatibility_1.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\AS2020\521_Billboards-AdminStudio-Release_Process-Automatically_2.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\AS2020\521_Billboards-for-AdminStudio-Release_Assess-App-Coverage_3.png"/>
+		<Resource Source="&lt;ISProjectDataFolder&gt;\Resources\AS2020\521_Billboards-for-AdminStudio-Release_Uncover-Unmanaged-Apps_4.png"/>
+	</Resources>
+	<ARPInfo>
+		<Version>19.0</Version>
+		<Publisher>ID_STRING</Publisher>
+		<URLInfoAbout>ID_STRING1</URLInfoAbout>
+		<Contact>ID_STRING2</Contact>
+		<HelpLink>ID_STRING3</HelpLink>
+		<URLUpdateInfo>ID_STRING4</URLUpdateInfo>
+		<Icon>&lt;CurrentFolder&gt;\Source\AdminStudioIDE\AdminWorkFlow\res\ASNew.ico,0</Icon>
+		<Comments>ID_STRING93</Comments>
+	</ARPInfo>
+	<Mode>
+		<Install>
+			<When>
+				<Any>
+					<Not>
+						<DetectPrimary Id="*"/>
+					</Not>
+					<SuiteInstalled SuiteId="*" Version="*" Compare="NotEqual"/>
+				</Any>
+			</When>
+		</Install>
+		<Maintenance>
+			<When>
+				<Any>
+					<DetectPrimary Id="*"/>
+				</Any>
+			</When>
+		</Maintenance>
+	</Mode>
+	<LanguageSelection RequireExactMatch="1028,2052" ShowLanguageSelection="yes" RTLLangs="1025,1037" Default="1033">1033</LanguageSelection>
+	<SelectionTree>
+		<Selection Name="Core" DisplayName="ID_STRING6" Install="{333FE59A-B126-42E0-A5F2-48BB77835F28} {893E72E6-39D9-4B9E-8FF7-CF25A90BD92B} {6ED04275-3CF9-4F96-B0E6-558A685BC51B} {726F97A8-63B9-4A58-ACFB-B8A56B383740} {0BAA2166-9896-491F-B078-56AF98EC7051} {a0f7f2eb-ed14-4351-a30e-ef802db4b38f} {f89088b7-3d4f-4107-862b-bf7250f2f085} {E60EDE84-627E-4094-8BC2-6C732E7E73D3} {D82A2099-233D-49FA-8ADA-764BF00C2F1F} {826F97A8-63B9-4A58-ACFB-B8A56B383740} {725740DF-4660-4C8D-A163-0E8CA7C17202} {2A0CC195-B3AF-4B63-8F5C-1F88A7E28ADF} {7CF06819-7AA4-4e3e-AC77-07931178671B} {0BE9572E-8558-404f-B0A5-8C347D145655} {270b0954-35ca-4324-bbc6-ba5db9072dad} {340b0957-35ca-1324-bbc9-ba5db9082dad} {D6FDF152-1EC3-4B86-AAB9-FA925D5DE478} {66563DD3-1518-4D3A-BABE-679A008EDCC0} {8F1AC57B-8E82-4ADB-A11C-FA78891003BA} {BE3D6277-EA4C-48F7-80CA-D8FB84ACC10C} {E8353843-8E49-4DA4-83F4-18F977B40A6D} {5D8382D6-FCB8-4F26-BE7E-8649ED454CFA} {47C4119B-3ADD-4803-B278-9ABA39415D83} {40A1B563-401D-4A79-B292-276003A13E29} {2A224B02-B9BD-474C-8F85-821ED1A1EB44} {7F0490B7-3919-4870-9F84-A2163AD9D397} {1871BFC3-52A6-4436-83BE-0CA8FE6D5938} {F3C33525-C19A-4A63-9D48-B98A705BCC47} {78A7BCB9-8E55-41BE-A023-524707B993EC} {7E2DEAF9-A9C5-4A3B-B68B-AAE527552ABE}" Cost="1309461708" AllowSelectionChange="no" Description="ID_STRING143"/>
+		<Selection Name="ApplicationManagement" DisplayName="ID_STRING137" Cost="10000000" Install="{6DDE17B6-351E-4B16-8D77-7D22E30951AD}" Description="ID_STRING144"/>
+		<Selection Name="Editor" DisplayName="ID_STRING8" Install="{D50101BD-33A1-40B1-9E84-34E973CE9DE9} {340b0957-35ca-1324-bbc9-ba5db9082dad} {826F97A8-63B9-4A58-ACFB-B8A56B383740} {726F97A8-63B9-4A58-ACFB-B8A56B383740} {0BE9572E-8558-404f-B0A5-8C347D145655} {270b0954-35ca-4324-bbc6-ba5db9072dad} {333FE59A-B126-42E0-A5F2-48BB77835F28} {893E72E6-39D9-4B9E-8FF7-CF25A90BD92B} {6ED04275-3CF9-4F96-B0E6-558A685BC51B} {0BAA2166-9896-491F-B078-56AF98EC7051} {a0f7f2eb-ed14-4351-a30e-ef802db4b38f} {f89088b7-3d4f-4107-862b-bf7250f2f085} {E60EDE84-627E-4094-8BC2-6C732E7E73D3} {47C4119B-3ADD-4803-B278-9ABA39415D83} {9C5CE783-05CC-4790-8696-A9E8E056349B}" Description="ID_STRING9" Cost="524288000" ReleaseFlags="EXCLUDE_LANDESK_SYMANTEC"/>
+		<Selection Name="Tuner" DisplayName="ID_STRING116" Install="{A9763FA8-368B-4C11-90D1-7A10615932DA}" Cost="24117248" Description="ID_STRING118" ReleaseFlags="EXCLUDE_SYMANTEC"/>
+		<Selection Name="ApplicationVirtualizationandRepackaging" DisplayName="ID_STRING139" Install="{37C0EA70-1862-4593-8E34-071801365C7E}" Cost="387973120" Description="ID_STRING141"/>
+		<Selection Name="ProcessTemplateEditor" DisplayName="ID_STRING131" Install="{75BACBAF-39CA-4EF3-851D-91190869094C}" Cost="1000000" Description="ID_STRING142"/>
+		<Selection Name="QualityMonitor" DisplayName="ID_STRING129" Description="ID_STRING130" Install="{30F2BB74-E2C8-4522-89DB-6707DB379D2E}" Cost="15728640" ReleaseFlags="FULL" Visible="No"/>
+		<Selection Name="ApplicationIsolationWizard" DisplayName="ID_STRING134" Description="ID_STRING135" Cost="1694064" Install="{337F53FD-5F88-497D-93B8-F44AED4B028D}" ReleaseFlags="EXCLUDE_LANDESK_SYMANTEC" Visible="No"/>
+		<Selection Name="WiseScriptEditor" DisplayName="ID_STRING165" Description="ID_STRING166" Cost="26000000" Install="{37634D53-3E83-458E-A12D-839D71B901D2}"/>
+	</SelectionTree>
+	<Parcels>
+		<Msi ParcelType="Dependency">
+			<UIProperties>
+				<Id>{78A7BCB9-8E55-41BE-A023-524707B993EC}</Id>
+				<DisplayName>ID_STRING162</DisplayName>
+			</UIProperties>
+			<Property Name="ProgressCapture">Full</Property>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{1F0A04E3-06A8-44EF-AC01-140F861FC9BC}">
+					<File Name="Microsoft SQLServer2012NativeClientx86.msi" LinkPath="&lt;ISProductFolder&gt;\SetupPrerequisites\SQLFeaturePack\SQL2012NativeClientForTLS"/>
+				</Folder>
+			</Package>
+			<Property Name="Elevation">Required</Property>
+			<Operation Name="Install" Target="Microsoft SQLServer2012NativeClientx86.msi">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<CommandLine>IACCEPTSQLNCLILICENSETERMS=YES</CommandLine>
+				<Silent>IACCEPTSQLNCLILICENSETERMS=YES</Silent>
+			</Operation>
+			<Operation Name="Remove">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+			</Operation>
+			<Operation Name="Repair">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+			</Operation>
+			<Operation Name="Modify">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+			</Operation>
+			<Detect>
+				<When>
+					<Any>
+						<MsiInstalled ProductCode="*" PackageCode="*"/>
+					</Any>
+				</When>
+			</Detect>
+			<Eligible>
+				<When>
+					<Any>
+						<Platform Architecture="x86" OSVersion="6.0-"/>
+					</Any>
+				</When>
+			</Eligible>
+		</Msi>
+		<Msi ParcelType="Dependency">
+			<UIProperties>
+				<Id>{7E2DEAF9-A9C5-4A3B-B68B-AAE527552ABE}</Id>
+				<DisplayName>ID_STRING163</DisplayName>
+			</UIProperties>
+			<Property Name="ProgressCapture">Full</Property>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{A43EDF8F-8661-4F5D-8A1E-EDBBC52D449A}">
+					<File Name="Microsoft SQLServer2012NativeClientx64.msi" LinkPath="&lt;ISProductFolder&gt;\SetupPrerequisites\SQLFeaturePack\SQL2012NativeClientForTLS"/>
+				</Folder>
+			</Package>
+			<Property Name="Elevation">Required</Property>
+			<Operation Name="Install" Target="Microsoft SQLServer2012NativeClientx64.msi">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<CommandLine>IACCEPTSQLNCLILICENSETERMS=YES</CommandLine>
+				<Silent>IACCEPTSQLNCLILICENSETERMS=YES</Silent>
+			</Operation>
+			<Operation Name="Remove">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+			</Operation>
+			<Operation Name="Repair">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+			</Operation>
+			<Operation Name="Modify">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+			</Operation>
+			<Detect>
+				<When>
+					<Any>
+						<MsiInstalled ProductCode="*" PackageCode="*"/>
+					</Any>
+				</When>
+			</Detect>
+			<Eligible>
+				<When>
+					<Any>
+						<Platform Architecture="x64" OSVersion="6.0-"/>
+					</Any>
+				</When>
+			</Eligible>
+		</Msi>
+		<Exe ParcelType="Dependency">
+			<UIProperties>
+				<DisplayName>ID_STRING17</DisplayName>
+				<Id>{D82A2099-233D-49FA-8ADA-764BF00C2F1F}</Id>
+			</UIProperties>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{D82A2099-233D-49FA-8ADA-764BF00C2F1F}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/suiteredists">
+					<File Name="ShellExecuteAndWait.exe" LinkPath="&lt;MachineDrive&gt;\AdminStudio\Current\Build\Binaries"/>
+				</Folder>
+			</Package>
+			<Operation Name="Install" Target="ShellExecuteAndWait.exe">
+				<CommandLine>C:\Windows\System32\ocsetup.exe NetFx3 /quiet /norestart</CommandLine>
+				<Silent>C:\Windows\System32\ocsetup.exe NetFx3 /quiet /norestart</Silent>
+				<Property Name="RebootCodes">1641,3010</Property>
+				<Property Name="RebootRequest">DetectIgnore</Property>
+			</Operation>
+			<Detect>
+				<When>
+					<All>
+						<RegistryValue Key="HKLM\Software\Microsoft\NET Framework Setup\NDP\v3.0\Setup" ValueName="InstallSuccess" Convert="DWORD" Compare="Equal" CompareTo="1" Check64Bit="False"/>
+					</All>
+				</When>
+			</Detect>
+			<Eligible>
+				<When>
+					<Any>
+						<Platform OSVersion="6.1-6.1" ProductType="Server,DomainController" Architecture="x64"/>
+					</Any>
+				</When>
+			</Eligible>
+			<Property Name="Elevation">Required</Property>
+		</Exe>
+		<Exe ParcelType="Dependency">
+			<UIProperties>
+				<Id>{333FE59A-B126-42E0-A5F2-48BB77835F28}</Id>
+				<DisplayName>ID_STRING11</DisplayName>
+			</UIProperties>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{8C5CA810-210F-4513-A1F2-079D2C750D6A}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/suiteredists">
+					<File Name="Windows6.0-KB958655-v2-x86.msu" LinkPath="&lt;ISProductFolder&gt;\SetupPrerequisites\Windows Installer\4.5\x86\Vista"/>
+				</Folder>
+			</Package>
+			<Property Name="Elevation">Required</Property>
+			<Operation Name="Install" Target="[SystemFolder]wusa.exe">
+				<CommandLine>"[ISPREREQDIR]Windows6.0-KB958655-v2-x86.msu" /quiet /norestart</CommandLine>
+				<Silent>"[ISPREREQDIR]Windows6.0-KB958655-v2-x86.msu" /quiet /norestart</Silent>
+				<Property Name="RebootRequest">DetectIgnore</Property>
+				<Property Name="RebootCodes">3010,8192,1641</Property>
+			</Operation>
+			<Detect>
+				<When>
+					<All>
+						<FileValue Path="[SystemFolder]msi.dll" Convert="Version" Compare="GreaterEqual" CompareTo="4.5.6000.20955"/>
+					</All>
+				</When>
+			</Detect>
+			<Eligible>
+				<When>
+					<Any>
+						<Platform OSVersion="6.0-6.0" Architecture="x86" ProductType="Workstation"/>
+					</Any>
+				</When>
+			</Eligible>
+		</Exe>
+		<Exe ParcelType="Dependency">
+			<UIProperties>
+				<Id>{893E72E6-39D9-4B9E-8FF7-CF25A90BD92B}</Id>
+				<DisplayName>ID_STRING12</DisplayName>
+			</UIProperties>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{65A42EAB-4E19-4976-93A9-E56226EC1FAF}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/suiteredists">
+					<File Name="Windows6.0-KB958655-v2-x64.msu" LinkPath="&lt;ISProductFolder&gt;\SetupPrerequisites\Windows Installer\4.5\x64\Vista"/>
+				</Folder>
+			</Package>
+			<Property Name="Elevation">Required</Property>
+			<Operation Name="Install" Target="[SystemFolder]wusa.exe">
+				<CommandLine>"[ISPREREQDIR]Windows6.0-KB958655-v2-x64.msu" /quiet /norestart</CommandLine>
+				<Silent>"[ISPREREQDIR]Windows6.0-KB958655-v2-x64.msu" /quiet /norestart</Silent>
+				<Property Name="RebootRequest">DetectIgnore</Property>
+				<Property Name="RebootCodes">3010,8192,1641</Property>
+			</Operation>
+			<Detect>
+				<When>
+					<All>
+						<FileValue CompareTo="4.5.6000.20955" Path="[SystemFolder]msi.dll" Convert="Version" Compare="GreaterEqual"/>
+					</All>
+				</When>
+			</Detect>
+			<Eligible>
+				<When>
+					<Any>
+						<Platform OSVersion="6.0-6.0" Architecture="x64" ProductType="Workstation"/>
+					</Any>
+				</When>
+			</Eligible>
+		</Exe>
+		<Exe ParcelType="Dependency">
+			<UIProperties>
+				<Id>{6ED04275-3CF9-4F96-B0E6-558A685BC51B}</Id>
+				<DisplayName>ID_STRING13</DisplayName>
+			</UIProperties>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{29AC9DD6-56FF-4595-AFF7-D5941FEC8E23}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/suiteredists">
+					<File Name="WindowsXP-KB942288-v3-x86.exe" LinkPath="&lt;ISProductFolder&gt;\SetupPrerequisites\Windows Installer\4.5\x86\Pre-Vista"/>
+				</Folder>
+			</Package>
+			<Property Name="Elevation">Required</Property>
+			<Operation Name="Install" Target="WindowsXP-KB942288-v3-x86.exe">
+				<CommandLine>/quiet /norestart</CommandLine>
+				<Silent>/quiet /norestart</Silent>
+				<Property Name="RebootRequest">DetectIgnore</Property>
+				<Property Name="RebootCodes">3010,8192,1641</Property>
+			</Operation>
+			<Detect>
+				<When>
+					<All>
+						<FileValue Path="[SystemFolder]msi.dll" Convert="Version" Compare="GreaterEqual" CompareTo="4.5.6001.22159"/>
+					</All>
+				</When>
+			</Detect>
+			<Eligible>
+				<When>
+					<Any>
+						<Platform OSVersion="5.1-5.1" ServicePack="2-" Architecture="x86"/>
+					</Any>
+				</When>
+			</Eligible>
+		</Exe>
+		<Exe ParcelType="Dependency">
+			<UIProperties>
+				<DisplayName>ID_STRING26</DisplayName>
+				<Id>{0BAA2166-9896-491F-B078-56AF98EC7051}</Id>
+				<Description>
+					<en-us>This prerequisite installs the Windows Installer 4.5 engine on x64-based systems running Windows Server 2003 SP1, Windows Server 2003 SP2 or Windows XP.</en-us>
+				</Description>
+				<UpdateURL>http://saturn.installshield.com/is/prerequisites/windows installer 4.5 for windows server 2003 and xp (x64).prq</UpdateURL>
+			</UIProperties>
+			<Property Name="OnReboot">Defer</Property>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{0BAA2166-9896-491F-B078-56AF98EC7051}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/suiteredists">
+					<File Name="WindowsServer2003-KB942288-v4-x64.exe" LinkPath="&lt;ISProductFolder&gt;\SetupPrerequisites\Windows Installer\4.5\x64\Pre-Vista"/>
+				</Folder>
+			</Package>
+			<Operation Name="Install" Target="WindowsServer2003-KB942288-v4-x64.exe">
+				<CommandLine>/quiet /norestart</CommandLine>
+				<Silent>/quiet /norestart</Silent>
+				<Property Name="RebootRequest">DetectIgnore</Property>
+				<Property Name="RebootCodes">3010,8192,1641</Property>
+			</Operation>
+			<Detect>
+				<When>
+					<All>
+						<FileValue Path="[SystemFolder]msi.dll" Convert="Version" Compare="GreaterEqual" CompareTo="4.5.6001.22159"/>
+					</All>
+				</When>
+			</Detect>
+			<Eligible>
+				<When>
+					<Any>
+						<Platform OSVersion="5.2-5.2" ServicePack="1-" ProductType="Server,DomainController" Architecture="x64"/>
+						<Platform OSVersion="5.2-5.2" ProductType="Workstation" Architecture="x64"/>
+					</Any>
+				</When>
+			</Eligible>
+			<Property Name="Elevation">Required</Property>
+		</Exe>
+		<Exe ParcelType="Dependency">
+			<UIProperties>
+				<DisplayName>ID_STRING27</DisplayName>
+				<Id>{a0f7f2eb-ed14-4351-a30e-ef802db4b38f}</Id>
+				<Description>
+					<en-us>This prerequisite installs the Windows Installer 4.5 engine on x86-based systems running Windows Server 2003 SP1 or Windows Server 2003 SP2.</en-us>
+				</Description>
+				<UpdateURL>http://saturn.installshield.com/is/prerequisites/windows installer 4.5 for windows server 2003 sp1 and later (x86).prq</UpdateURL>
+			</UIProperties>
+			<Property Name="OnReboot">Reboot</Property>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{a0f7f2eb-ed14-4351-a30e-ef802db4b38f}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/suiteredists">
+					<File Name="WindowsServer2003-KB942288-v4-x86.exe" LinkPath="&lt;ISProductFolder&gt;\SetupPrerequisites\Windows Installer\4.5\x86\Pre-Vista"/>
+				</Folder>
+			</Package>
+			<Operation Name="Install" Target="WindowsServer2003-KB942288-v4-x86.exe">
+				<CommandLine>/quiet /norestart</CommandLine>
+				<Silent>/quiet /norestart</Silent>
+				<Property Name="RebootRequest">DetectIgnore</Property>
+				<Property Name="RebootCodes">3010,8192,1641</Property>
+			</Operation>
+			<Detect>
+				<When>
+					<All>
+						<FileValue Path="[SystemFolder]msi.dll" Convert="Version" Compare="GreaterEqual" CompareTo="4.5.6001.22159"/>
+					</All>
+				</When>
+			</Detect>
+			<Eligible>
+				<When>
+					<Any>
+						<Platform OSVersion="5.2-5.2" ServicePack="1-" ProductType="Server,DomainController" Architecture="x86"/>
+					</Any>
+				</When>
+			</Eligible>
+			<Property Name="Elevation">Required</Property>
+		</Exe>
+		<Exe ParcelType="Dependency">
+			<UIProperties>
+				<DisplayName>ID_STRING28</DisplayName>
+				<Id>{f89088b7-3d4f-4107-862b-bf7250f2f085}</Id>
+				<Description>
+					<en-us>This prerequisite installs the Windows Installer 4.5 engine on x64-based systems running Windows Server 2008. The engine includes the fix detailed in Microsoft KB958655.</en-us>
+				</Description>
+				<UpdateURL>http://saturn.installshield.com/is/prerequisites/windows installer 4.5 for windows server 2008 (x64).prq</UpdateURL>
+			</UIProperties>
+			<Property Name="OnReboot">Reboot</Property>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{f89088b7-3d4f-4107-862b-bf7250f2f085}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/suiteredists">
+					<File Name="Windows6.0-KB958655-v2-x64.msu" LinkPath="&lt;ISProductFolder&gt;\SetupPrerequisites\Windows Installer\4.5\x64\Server2008"/>
+				</Folder>
+			</Package>
+			<Operation Name="Install" Target="[SystemFolder]wusa.exe">
+				<CommandLine>"[ISPREREQDIR]Windows6.0-KB958655-v2-x64.msu" /quiet /norestart</CommandLine>
+				<Silent>"[ISPREREQDIR]Windows6.0-KB958655-v2-x64.msu" /quiet /norestart</Silent>
+				<Property Name="RebootRequest">DetectIgnore</Property>
+				<Property Name="RebootCodes">3010,8192,1641</Property>
+			</Operation>
+			<Detect>
+				<When>
+					<All>
+						<FileValue Path="[SystemFolder]msi.dll" Convert="Version" Compare="GreaterEqual" CompareTo="4.5.6001.22303"/>
+					</All>
+				</When>
+			</Detect>
+			<Eligible>
+				<When>
+					<Any>
+						<Platform OSVersion="6.0-6.0" ProductType="Server,DomainController" Architecture="x64"/>
+					</Any>
+				</When>
+			</Eligible>
+			<Property Name="Elevation">Required</Property>
+		</Exe>
+		<Exe ParcelType="Dependency">
+			<UIProperties>
+				<DisplayName>ID_STRING29</DisplayName>
+				<Id>{E60EDE84-627E-4094-8BC2-6C732E7E73D3}</Id>
+				<Description>
+					<en-us>This prerequisite installs the Windows Installer 4.5 engine on x86-based systems running Windows Server 2008. The engine includes the fix detailed in Microsoft KB958655.</en-us>
+				</Description>
+				<UpdateURL>http://saturn.installshield.com/is/prerequisites/windows installer 4.5 for windows server 2008 (x86).prq</UpdateURL>
+			</UIProperties>
+			<Property Name="OnReboot">Reboot</Property>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{E60EDE84-627E-4094-8BC2-6C732E7E73D3}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/suiteredists">
+					<File Name="Windows6.0-KB958655-v2-x86.msu" LinkPath="&lt;ISProductFolder&gt;\SetupPrerequisites\Windows Installer\4.5\x86\Server2008"/>
+				</Folder>
+			</Package>
+			<Operation Name="Install" Target="[SystemFolder]wusa.exe">
+				<CommandLine>"[ISPREREQDIR]Windows6.0-KB958655-v2-x86.msu"  /quiet /norestart</CommandLine>
+				<Silent>"[ISPREREQDIR]Windows6.0-KB958655-v2-x86.msu"  /quiet /norestart</Silent>
+				<Property Name="RebootRequest">DetectIgnore</Property>
+				<Property Name="RebootCodes">3010,8192,1641</Property>
+			</Operation>
+			<Detect>
+				<When>
+					<All>
+						<FileValue Path="[SystemFolder]msi.dll" Convert="Version" Compare="GreaterEqual" CompareTo="4.5.6001.22303"/>
+					</All>
+				</When>
+			</Detect>
+			<Eligible>
+				<When>
+					<Any>
+						<Platform OSVersion="6.0-6.0" ProductType="Server,DomainController" Architecture="x86"/>
+					</Any>
+				</When>
+			</Eligible>
+			<Property Name="Elevation">Required</Property>
+		</Exe>
+		<Msi ParcelType="Dependency">
+			<UIProperties>
+				<DisplayName>ID_STRING25</DisplayName>
+				<Id>{826F97A8-63B9-4A58-ACFB-B8A56B383740}</Id>
+			</UIProperties>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{826F97A8-63B9-4A58-ACFB-B8A56B383740}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/suiteredists">
+					<File Name="msxml6_x86.msi" LinkPath="&lt;ISProductFolder&gt;\SetupPrerequisites\MSXML 6.0 SP1\x86"/>
+				</Folder>
+			</Package>
+			<Operation Name="Install" Target="msxml6_x86.msi">
+				<CommandLine/>
+				<Silent/>
+				<Property Name="RebootRequest">DetectIgnore</Property>
+			</Operation>
+			<Eligible>
+				<When>
+					<Any>
+						<Platform OSVersion="5.0-5.0" ServicePack="4-"/>
+						<Platform OSVersion="5.2-5.2" ProductType="Server,DomainController" Architecture="x86"/>
+						<Platform OSVersion="5.1-5.1" ProductType="Workstation" Architecture="x86"/>
+					</Any>
+				</When>
+			</Eligible>
+			<Property Name="ProgressCapture">Full</Property>
+			<EnableLogging/>
+			<Property Name="Elevation">Required</Property>
+			<Detect>
+				<When>
+					<Any>
+						<MsiInstalled ProductCode="*" PackageCode="*"/>
+					</Any>
+				</When>
+			</Detect>
+		</Msi>
+		<Msi ParcelType="Dependency">
+			<UIProperties>
+				<DisplayName>ID_STRING24</DisplayName>
+				<Id>{726F97A8-63B9-4A58-ACFB-B8A56B383740}</Id>
+			</UIProperties>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{726F97A8-63B9-4A58-ACFB-B8A56B383740}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/suiteredists">
+					<File Name="msxml6_x64.msi" LinkPath="&lt;ISProductFolder&gt;\SetupPrerequisites\MSXML 6.0 SP1\x64"/>
+				</Folder>
+			</Package>
+			<Operation Name="Install" Target="msxml6_x64.msi">
+				<CommandLine/>
+				<Silent/>
+				<Property Name="RebootRequest">DetectIgnore</Property>
+			</Operation>
+			<Eligible>
+				<When>
+					<Any>
+						<Platform OSVersion="5.2-5.2" ProductType="Server,DomainController" Architecture="x64"/>
+						<Platform OSVersion="5.2-5.2" ProductType="Workstation" Architecture="x64"/>
+					</Any>
+				</When>
+			</Eligible>
+			<Property Name="ProgressCapture">Full</Property>
+			<EnableLogging/>
+			<Property Name="Elevation">Required</Property>
+			<Detect>
+				<When>
+					<Any>
+						<MsiInstalled ProductCode="*" PackageCode="*"/>
+					</Any>
+				</When>
+			</Detect>
+		</Msi>
+		<Exe ParcelType="Dependency">
+			<UIProperties>
+				<DisplayName>ID_STRING96</DisplayName>
+				<Id>{0BE9572E-8558-404f-B0A5-8C347D145655}</Id>
+			</UIProperties>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{0BE9572E-8558-404f-B0A5-8C347D145655}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/suiteredists/vs2008sp1">
+					<File Name="vcredist_x86.exe" LinkPath="&lt;ISProductFolder&gt;\SetupPrerequisites\VC 2008 SP1 Redist"/>
+				</Folder>
+			</Package>
+			<Operation Name="Install" Target="vcredist_x86.exe">
+				<CommandLine>/q</CommandLine>
+				<Silent>/q</Silent>
+				<Property Name="RebootCodes">3010,8192,1641,1046</Property>
+				<Property Name="RebootRequest">DetectIgnore</Property>
+			</Operation>
+			<Detect>
+				<When>
+					<Any>
+						<RegistryExists Key="HKLM\Software\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\D20352A90C039D93DBF6126ECE614057" Check64Bit="True"/>
+					</Any>
+				</When>
+			</Detect>
+			<Eligible>
+				<When>
+					<Any>
+						<Platform OSVersion="5.0-5.0" ServicePack="4-"/>
+						<Platform OSVersion="6.1-6.1"/>
+						<Platform OSVersion="6.0-6.0"/>
+						<Platform OSVersion="5.1-5.1" ProductType="Workstation" Architecture="x86"/>
+						<Platform OSVersion="5.2-5.2" ProductType="Server,DomainController"/>
+						<Platform OSVersion="6.2-6.2"/>
+					</Any>
+				</When>
+			</Eligible>
+			<Property Name="Elevation">Required</Property>
+		</Exe>
+		<Exe ParcelType="Dependency">
+			<UIProperties>
+				<DisplayName>ID_STRING108</DisplayName>
+				<Id>{270b0954-35ca-4324-bbc6-ba5db9072dad}</Id>
+			</UIProperties>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{270b0954-35ca-4324-bbc6-ba5db9072dad}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/suiteredists/vs2010sp1">
+					<File Name="vcredist_x86.exe" LinkPath="&lt;ISProductFolder&gt;\SetupPrerequisites\VC 2010 SP1 Redist\x86"/>
+				</Folder>
+			</Package>
+			<Operation Name="Install" Target="vcredist_x86.exe">
+				<CommandLine>/q</CommandLine>
+				<Silent>/q</Silent>
+				<Property Name="RebootCodes">3010,8192,1641,1046</Property>
+				<Property Name="RebootRequest">DetectIgnore</Property>
+			</Operation>
+			<Detect>
+				<When>
+					<Any>
+						<RegistryExists Key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}" Check64Bit="False"/>
+					</Any>
+				</When>
+			</Detect>
+			<Eligible>
+				<When>
+					<Any>
+						<Platform OSVersion="5.0-"/>
+					</Any>
+				</When>
+			</Eligible>
+			<Property Name="Elevation">Required</Property>
+		</Exe>
+		<Exe ParcelType="Dependency">
+			<UIProperties>
+				<DisplayName>ID_STRING109</DisplayName>
+				<Id>{340b0957-35ca-1324-bbc9-ba5db9082dad}</Id>
+			</UIProperties>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{340b0957-35ca-1324-bbc9-ba5db9082dad}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/suiteredists/vs2012">
+					<File Name="vcredist_x86.exe" LinkPath="&lt;ISProductFolder&gt;\SetupPrerequisites\VC 2012 Redist\x86"/>
+				</Folder>
+			</Package>
+			<Operation Name="Install" Target="vcredist_x86.exe">
+				<CommandLine>/q</CommandLine>
+				<Silent>/q</Silent>
+				<Property Name="RebootCodes">3010,8192,1641,1046</Property>
+				<Property Name="RebootRequest">DetectIgnore</Property>
+			</Operation>
+			<Detect>
+				<When>
+					<Any>
+						<RegistryExists Key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{2F73A7B2-E50E-39A6-9ABC-EF89E4C62E36}" Check64Bit="False"/>
+					</Any>
+				</When>
+			</Detect>
+			<Eligible>
+				<When>
+					<Any>
+						<Platform OSVersion="5.1-"/>
+					</Any>
+				</When>
+			</Eligible>
+			<Property Name="Elevation">Required</Property>
+		</Exe>
+		<Exe ParcelType="Dependency">
+			<UIProperties>
+				<Id>{F3C33525-C19A-4A63-9D48-B98A705BCC47}</Id>
+				<DisplayName>ID_STRING158</DisplayName>
+			</UIProperties>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{2DD64959-F809-4BDB-8D59-27364D3553E5}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/suiteredists/vs2012">
+					<File Name="vcredist_x86.exe" LinkPath="&lt;ISProductFolder&gt;\SetupPrerequisites\VC 2012 Redist\Update4\x86"/>
+				</Folder>
+			</Package>
+			<Property Name="Elevation">Required</Property>
+			<Operation Name="Install" Target="vcredist_x86.exe">
+				<CommandLine>/q</CommandLine>
+				<Silent>/q</Silent>
+				<Property Name="RebootRequest">DetectIgnore</Property>
+				<Property Name="RebootCodes">3010,8192,1641,1046</Property>
+			</Operation>
+			<Detect>
+				<When>
+					<Any>
+						<RegistryExists Check64Bit="False" Key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}"/>
+					</Any>
+				</When>
+			</Detect>
+			<Eligible>
+				<When>
+					<Any>
+						<Platform OSVersion="5.1-"/>
+					</Any>
+				</When>
+			</Eligible>
+		</Exe>
+		<Exe ParcelType="Dependency">
+			<UIProperties>
+				<DisplayName>ID_STRING152</DisplayName>
+				<Id>{47C4119B-3ADD-4803-B278-9ABA39415D83}</Id>
+			</UIProperties>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{47C4119B-3ADD-4803-B278-9ABA39415D83}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/suiteredists/vs2015">
+					<File Name="vc_redist.x86.exe" LinkPath="&lt;ISProductFolder&gt;\SetupPrerequisites\VC 2015 Redist\Update3"/>
+				</Folder>
+			</Package>
+			<Operation Name="Install" Target="vc_redist.x86.exe">
+				<CommandLine>/q /norestart</CommandLine>
+				<Silent>/q /norestart</Silent>
+				<Property Name="RebootCodes">3010,8192,1641,1046</Property>
+				<Property Name="RebootRequest">DetectIgnore</Property>
+				<Property Name="ExitBehavior">DetectPrompt</Property>
+			</Operation>
+			<Detect>
+				<When>
+					<Any>
+						<Not>
+							<FileValue Path="[SystemFolder]msvcp140.dll" Compare="LessThan" CompareTo="14.0.24212" Convert="Version"/>
+							<Not>
+								<FileExists Path="[SystemFolder]msvcp140.dll"/>
+							</Not>
+						</Not>
+					</Any>
+				</When>
+			</Detect>
+			<Eligible>
+				<When>
+					<Any>
+						<Platform OSVersion="5.1-"/>
+					</Any>
+				</When>
+			</Eligible>
+			<Property Name="Elevation">Required</Property>
+		</Exe>
+		<Msi ParcelType="Dependency">
+			<UIProperties>
+				<Id>{6DDE17B6-351E-4B16-8D77-7D22E30951AD}</Id>
+				<DisplayName>ID_STRING138</DisplayName>
+			</UIProperties>
+			<Property Name="ProgressCapture">Full</Property>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations\AS2020">
+				<Folder Name="{0E308CE4-633D-4FC0-BE07-321E6C25D1DF}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/18/R2/suite/tools">
+					<File Name="Applic~1.cab" LinkPath="&lt;PATH_TO_ADMINSTUDIO_BUI_FILES&gt;\ApplicationManagement\MSI\DiskImages\DISK1"/>
+					<File Name="AdminStudio Application Management.msi" LinkPath="&lt;PATH_TO_ADMINSTUDIO_BUI_FILES&gt;\ApplicationManagement\MSI\DiskImages\DISK1"/>
+				</Folder>
+			</Package>
+			<Property Name="Elevation">Required</Property>
+			<Operation Name="Install" Target="AdminStudio Application Management.msi">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<CommandLine>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" REBOOT=Supress ARPSYSTEMCOMPONENT=1 PRODUCTID="[PRODUCTID]" INSTALLDIR="[ISInstallDir]"</CommandLine>
+				<Silent>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" REBOOT=Supress ARPSYSTEMCOMPONENT=1 PRODUCTID="[PRODUCTID]" INSTALLDIR="[ISInstallDir]"</Silent>
+				<Property Name="RebootRequest">DetectIgnore</Property>
+			</Operation>
+			<Operation Name="Remove">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<CommandLine>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" REBOOT=Supress ARPSYSTEMCOMPONENT=1 PRODUCTID="[PRODUCTID]" INSTALLDIR="[ISInstallDir]"</CommandLine>
+				<Silent>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" REBOOT=Supress ARPSYSTEMCOMPONENT=1 PRODUCTID="[PRODUCTID]" INSTALLDIR="[ISInstallDir]"</Silent>
+				<Property Name="RebootRequest">DetectDelay</Property>
+			</Operation>
+			<Operation Name="Repair">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<CommandLine>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" REBOOT=Supress ARPSYSTEMCOMPONENT=1 PRODUCTID="[PRODUCTID]" INSTALLDIR="[ISInstallDir]"</CommandLine>
+				<Silent>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" REBOOT=Supress ARPSYSTEMCOMPONENT=1 PRODUCTID="[PRODUCTID]" INSTALLDIR="[ISInstallDir]"</Silent>
+				<Property Name="RebootRequest">DetectDelay</Property>
+			</Operation>
+			<Operation Name="Modify">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<CommandLine>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" REBOOT=Supress ARPSYSTEMCOMPONENT=1 PRODUCTID="[PRODUCTID]" INSTALLDIR="[ISInstallDir]"</CommandLine>
+				<Silent>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" REBOOT=Supress ARPSYSTEMCOMPONENT=1 PRODUCTID="[PRODUCTID]" INSTALLDIR="[ISInstallDir]"</Silent>
+				<Property Name="RebootRequest">DetectDelay</Property>
+			</Operation>
+			<EnableLogging LogName="ApplicationManagement2020.log" LogOptions="*v"/>
+		</Msi>
+		<Msi ParcelType="Dependency">
+			<UIProperties>
+				<Id>{9C5CE783-05CC-4790-8696-A9E8E056349B}</Id>
+				<DisplayName>ID_STRING179</DisplayName>
+			</UIProperties>
+			<Property Name="ProgressCapture">Full</Property>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations\IS2020">
+				<Folder Name="{D3C632A4-26A1-4162-AB81-1C02EC4CBFBD}" Location="Stream" Url="http://saturn.installshield.com/product/adminstudio/20/suite/tools">
+					<File Name="InstallShield2020.msi" LinkPath="&lt;PATH_TO_DOMESTIC_FILES&gt;\SuitePackage"/>
+					<File Name="0x0409.ini" LinkPath="&lt;PATH_TO_DOMESTIC_FILES&gt;\SuitePackage"/>
+					<File Name="Always~1.cab" LinkPath="&lt;PATH_TO_DOMESTIC_FILES&gt;\SuitePackage"/>
+					<File Name="Always~2.cab" LinkPath="&lt;PATH_TO_DOMESTIC_FILES&gt;\SuitePackage"/>
+					<File Name="setup.exe" LinkPath="&lt;PATH_TO_DOMESTIC_FILES&gt;\SuitePackage"/>
+					<File Name="Setup.ini" LinkPath="&lt;PATH_TO_DOMESTIC_FILES&gt;\SuitePackage"/>
+					<File Name="ThirdP~1.cab" LinkPath="&lt;PATH_TO_DOMESTIC_FILES&gt;\SuitePackage"/>
+					<File Name="WindowsInstaller-KB893803-x86.exe" LinkPath="&lt;PATH_TO_DOMESTIC_FILES&gt;\SuitePackage"/>
+				</Folder>
+			</Package>
+			<Property Name="Elevation">Required</Property>
+			<Operation Name="Install" Target="InstallShield2020.msi">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<CommandLine>REBOOT=ReallySupress ADMINSTUDIOINSTALL=1 [ISCommandLine] ARPSYSTEMCOMPONENT=1</CommandLine>
+				<Silent>REBOOT=ReallySupress ADMINSTUDIOINSTALL=1 [ISCommandLine] ARPSYSTEMCOMPONENT=1</Silent>
+				<Property Name="RebootRequest">DetectDelay</Property>
+			</Operation>
+			<Operation Name="Remove">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<CommandLine>REBOOT=ReallySupress ADMINSTUDIOINSTALL=1 [ISCommandLine] ARPSYSTEMCOMPONENT=1</CommandLine>
+				<Silent>REBOOT=ReallySupress ADMINSTUDIOINSTALL=1 [ISCommandLine] ARPSYSTEMCOMPONENT=1</Silent>
+				<Property Name="RebootRequest">DetectDelay</Property>
+			</Operation>
+			<Operation Name="Repair">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<CommandLine>REBOOT=ReallySupress ADMINSTUDIOINSTALL=1 [ISCommandLine] ARPSYSTEMCOMPONENT=1</CommandLine>
+				<Silent>REBOOT=ReallySupress ADMINSTUDIOINSTALL=1 [ISCommandLine] ARPSYSTEMCOMPONENT=1</Silent>
+				<Property Name="RebootRequest">DetectExit</Property>
+			</Operation>
+			<Operation Name="Modify">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<CommandLine>REBOOT=ReallySupress ADMINSTUDIOINSTALL=1 [ISCommandLine] ARPSYSTEMCOMPONENT=1</CommandLine>
+				<Silent>REBOOT=ReallySupress ADMINSTUDIOINSTALL=1 [ISCommandLine] ARPSYSTEMCOMPONENT=1</Silent>
+				<Property Name="RebootRequest">DetectExit</Property>
+			</Operation>
+			<Property Name="UpgradeType">Auto</Property>
+			<EnableLogging LogName="InstallShield2020_AS.log" LogOptions="*v"/>
+		</Msi>
+		<Msi>
+			<UIProperties>
+				<Id>{725740DF-4660-4C8D-A163-0E8CA7C17202}</Id>
+				<DisplayName>ID_STRING35</DisplayName>
+			</UIProperties>
+			<Property Name="ProgressCapture">Full</Property>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations\AS2020">
+				<Folder Name="{03985C1A-32CB-499D-BEAA-2CA50192FCF8}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/18/suite/ide">
+					<File Name="AdminS~1.cab" LinkPath="&lt;PATH_TO_DISK1_FILES&gt;"/>
+					<File Name="AdminS~2.cab" LinkPath="&lt;PATH_TO_DISK1_FILES&gt;"/>
+					<File Name="AdminS~3.cab" LinkPath="&lt;PATH_TO_DISK1_FILES&gt;"/>
+					<File Name="AdminStudio.msi" LinkPath="&lt;PATH_TO_DISK1_FILES&gt;"/>
+					<File Name="ASSCCM.cab" LinkPath="&lt;PATH_TO_DISK1_FILES&gt;"/>
+					<File Name="Client.cab" LinkPath="&lt;PATH_TO_DISK1_FILES&gt;"/>
+					<File Name="Confli~1.cab" LinkPath="&lt;PATH_TO_DISK1_FILES&gt;"/>
+					<File Name="Conver~1.cab" LinkPath="&lt;PATH_TO_DISK1_FILES&gt;"/>
+					<File Name="CoreFi~1.cab" LinkPath="&lt;PATH_TO_DISK1_FILES&gt;"/>
+					<File Name="Develo~1.cab" LinkPath="&lt;PATH_TO_DISK1_FILES&gt;"/>
+					<File Name="Distri~1.cab" LinkPath="&lt;PATH_TO_DISK1_FILES&gt;"/>
+					<File Name="Editor.cab" LinkPath="&lt;PATH_TO_DISK1_FILES&gt;"/>
+					<File Name="JobMan~1.cab" LinkPath="&lt;PATH_TO_DISK1_FILES&gt;"/>
+					<File Name="Patch_~1.cab" LinkPath="&lt;PATH_TO_DISK1_FILES&gt;"/>
+					<File Name="Progra~1.cab" LinkPath="&lt;PATH_TO_DISK1_FILES&gt;"/>
+					<File Name="Remote~1.cab" LinkPath="&lt;PATH_TO_DISK1_FILES&gt;"/>
+					<File Name="Repack~1.cab" LinkPath="&lt;PATH_TO_DISK1_FILES&gt;"/>
+					<File Name="Repack~2.cab" LinkPath="&lt;PATH_TO_DISK1_FILES&gt;"/>
+					<File Name="Report~1.cab" LinkPath="&lt;PATH_TO_DISK1_FILES&gt;"/>
+					<File Name="Shared~1.cab" LinkPath="&lt;PATH_TO_DISK1_FILES&gt;"/>
+					<File Name="Suppor~1.cab" LinkPath="&lt;PATH_TO_DISK1_FILES&gt;"/>
+					<File Name="Applic~1.cab" LinkPath="&lt;PATH_TO_DISK1_FILES&gt;"/>
+					<File Name="AppCom~1.cab" LinkPath="&lt;PATH_TO_DISK1_FILES&gt;"/>
+					<File Name="Citrix.cab" LinkPath="&lt;PATH_TO_DISK1_FILES&gt;"/>
+					<File Name="Qualit~1.cab" LinkPath="&lt;PATH_TO_DISK1_FILES&gt;"/>
+					<File Name="Tuner.cab" LinkPath="&lt;PATH_TO_DISK1_FILES&gt;"/>
+				</Folder>
+			</Package>
+			<Property Name="Elevation">Required</Property>
+			<Operation Name="Install" Target="AdminStudio.msi">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<CommandLine>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" REBOOT=Supress INSTALLDIR="[ISInstallDir]" INSTALLDIR_SHARED="[SharedInstallDir]" ARPSYSTEMCOMPONENT=1 PRODUCTID="[PRODUCTID]" [ASCommandLine]</CommandLine>
+				<Silent>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" REBOOT=Supress INSTALLDIR="[ISInstallDir]" INSTALLDIR_SHARED="[SharedInstallDir]" ARPSYSTEMCOMPONENT=1 PRODUCTID="[PRODUCTID]" [ASCommandLine]</Silent>
+				<Property Name="RebootRequest">DetectDelay</Property>
+			</Operation>
+			<Operation Name="Remove" Target="AdminStudio.msi">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<CommandLine>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" REBOOT=Supress INSTALLDIR="[ISInstallDir]" INSTALLDIR_SHARED="[SharedInstallDir]" ARPSYSTEMCOMPONENT=1 PRODUCTID="[PRODUCTID]" [ASCommandLine]</CommandLine>
+				<Silent>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" REBOOT=Supress INSTALLDIR="[ISInstallDir]" INSTALLDIR_SHARED="[SharedInstallDir]" ARPSYSTEMCOMPONENT=1 PRODUCTID="[PRODUCTID]" [ASCommandLine]</Silent>
+				<Property Name="RebootRequest">DetectDelay</Property>
+			</Operation>
+			<Operation Name="Repair" Target="AdminStudio.msi">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<CommandLine>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" REBOOT=Supress INSTALLDIR="[ISInstallDir]" INSTALLDIR_SHARED="[SharedInstallDir]" ARPSYSTEMCOMPONENT=1 PRODUCTID="[PRODUCTID]" [ASCommandLine]</CommandLine>
+				<Silent>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" REBOOT=Supress INSTALLDIR="[ISInstallDir]" INSTALLDIR_SHARED="[SharedInstallDir]" ARPSYSTEMCOMPONENT=1 PRODUCTID="[PRODUCTID]" [ASCommandLine]</Silent>
+				<Property Name="RebootRequest">DetectDelay</Property>
+			</Operation>
+			<Operation Name="Modify" Target="AdminStudio.msi">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<CommandLine>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" REBOOT=Supress INSTALLDIR="[ISInstallDir]" INSTALLDIR_SHARED="[SharedInstallDir]" ARPSYSTEMCOMPONENT=1 PRODUCTID="[PRODUCTID]" [ASCommandLine]</CommandLine>
+				<Silent>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" REBOOT=Supress INSTALLDIR="[ISInstallDir]" INSTALLDIR_SHARED="[SharedInstallDir]" ARPSYSTEMCOMPONENT=1 PRODUCTID="[PRODUCTID]" [ASCommandLine]</Silent>
+				<Property Name="RebootRequest">DetectDelay</Property>
+			</Operation>
+			<EnableLogging LogName="AdminStudio2020Suite.log" LogOptions="*v"/>
+		</Msi>
+		<Msi ParcelType="Dependency">
+			<UIProperties>
+				<Id>{37C0EA70-1862-4593-8E34-071801365C7E}</Id>
+				<DisplayName>ID_STRING140</DisplayName>
+			</UIProperties>
+			<Property Name="ProgressCapture">Full</Property>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations\AS2020">
+				<Folder Name="{43CC84C0-4849-45E3-96D9-569A5592C331}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/18/suite/tools">
+					<File Name="AppVir~1.cab" LinkPath="&lt;PATH_TO_ADMINSTUDIO_BUI_FILES&gt;\AppVirtAndRepackagerMSI\MSI\DiskImages\DISK1"/>
+					<File Name="AdminStudio Application Virtualization and Repackaging.msi" LinkPath="&lt;PATH_TO_ADMINSTUDIO_BUI_FILES&gt;\AppVirtAndRepackagerMSI\MSI\DiskImages\DISK1"/>
+				</Folder>
+			</Package>
+			<Property Name="Elevation">Required</Property>
+			<Operation Name="Install" Target="AdminStudio Application Virtualization and Repackaging.msi">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<CommandLine>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</CommandLine>
+				<Silent>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</Silent>
+				<Property Name="RebootRequest">DetectIgnore</Property>
+			</Operation>
+			<Operation Name="Remove">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<CommandLine>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</CommandLine>
+				<Silent>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</Silent>
+				<Property Name="RebootRequest">DetectDelay</Property>
+			</Operation>
+			<Operation Name="Repair">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<CommandLine>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</CommandLine>
+				<Silent>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</Silent>
+				<Property Name="RebootRequest">DetectDelay</Property>
+			</Operation>
+			<Operation Name="Modify">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<CommandLine>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</CommandLine>
+				<Silent>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</Silent>
+				<Property Name="RebootRequest">DetectDelay</Property>
+			</Operation>
+			<EnableLogging LogName="AppVirtAndRepackaging2020.log" LogOptions="*v"/>
+		</Msi>
+		<Msi ParcelType="Dependency">
+			<UIProperties>
+				<Id>{A9763FA8-368B-4C11-90D1-7A10615932DA}</Id>
+				<DisplayName>ID_STRING117</DisplayName>
+			</UIProperties>
+			<Property Name="ProgressCapture">Full</Property>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations\AS2020">
+				<Folder Name="{E0379458-1594-4454-A1FF-1E09A7161FFC}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/18/suite/tools">
+					<File Name="AdminStudio Tuner.msi" LinkPath="&lt;PATH_TO_ADMINSTUDIO_BUI_FILES&gt;\Tuner\MSI\DiskImages\DISK1"/>
+					<File Name="Tuner.cab" LinkPath="&lt;PATH_TO_ADMINSTUDIO_BUI_FILES&gt;\Tuner\MSI\DiskImages\DISK1"/>
+				</Folder>
+			</Package>
+			<Property Name="Elevation">Required</Property>
+			<Operation Name="Install" Target="AdminStudio Tuner.msi">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<Property Name="RebootRequest">DetectIgnore</Property>
+				<CommandLine>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</CommandLine>
+				<Silent>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</Silent>
+			</Operation>
+			<Operation Name="Remove" Target="Tuner.msi">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<Property Name="RebootRequest">DetectDelay</Property>
+				<CommandLine>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</CommandLine>
+				<Silent>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</Silent>
+			</Operation>
+			<Operation Name="Repair" Target="Tuner.msi">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<Property Name="RebootRequest">DetectDelay</Property>
+				<CommandLine>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</CommandLine>
+				<Silent>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</Silent>
+			</Operation>
+			<Operation Name="Modify" Target="Tuner.msi">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<Property Name="RebootRequest">DetectDelay</Property>
+				<CommandLine>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</CommandLine>
+				<Silent>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</Silent>
+			</Operation>
+			<EnableLogging LogName="Tuner2020.log" LogOptions="*v"/>
+		</Msi>
+		<Msi ParcelType="Dependency">
+			<UIProperties>
+				<Id>{30F2BB74-E2C8-4522-89DB-6707DB379D2E}</Id>
+				<DisplayName>ID_STRING132</DisplayName>
+			</UIProperties>
+			<Property Name="ProgressCapture">Full</Property>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations\AS2020">
+				<Folder Name="{FF4FE2FA-4D66-424D-8A37-1104F7B237FB}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/18/suite/tools">
+					<File Name="Qualit~1.cab" LinkPath="&lt;PATH_TO_ADMINSTUDIO_BUI_FILES&gt;\QualityMonitor\MSI\DiskImages\DISK1"/>
+					<File Name="AdminStudio Quality Monitor.msi" LinkPath="&lt;PATH_TO_ADMINSTUDIO_BUI_FILES&gt;\QualityMonitor\MSI\DiskImages\DISK1"/>
+				</Folder>
+			</Package>
+			<Property Name="Elevation">Required</Property>
+			<Operation Name="Install" Target="AdminStudio Quality Monitor.msi">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<Property Name="RebootRequest">DetectIgnore</Property>
+				<CommandLine>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</CommandLine>
+				<Silent>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</Silent>
+			</Operation>
+			<Operation Name="Remove">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<Property Name="RebootRequest">DetectDelay</Property>
+				<CommandLine>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</CommandLine>
+				<Silent>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</Silent>
+			</Operation>
+			<Operation Name="Repair">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<Property Name="RebootRequest">DetectDelay</Property>
+				<CommandLine>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</CommandLine>
+				<Silent>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</Silent>
+			</Operation>
+			<Operation Name="Modify">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<Property Name="RebootRequest">DetectDelay</Property>
+				<CommandLine>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</CommandLine>
+				<Silent>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</Silent>
+			</Operation>
+			<EnableLogging LogName="QualityMonitor2020.log" LogOptions="*v"/>
+		</Msi>
+		<Msi ParcelType="Dependency">
+			<UIProperties>
+				<Id>{75BACBAF-39CA-4EF3-851D-91190869094C}</Id>
+				<DisplayName>ID_STRING133</DisplayName>
+			</UIProperties>
+			<Property Name="ProgressCapture">Full</Property>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations\AS2020">
+				<Folder Name="{5FAD4EDA-A9A7-4DD1-8365-5CEA54F29FF2}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/18/suite/tools">
+					<File Name="Proces~1.cab" LinkPath="&lt;PATH_TO_ADMINSTUDIO_BUI_FILES&gt;\ProcessTemplateEditor\MSI\DiskImages\DISK1"/>
+					<File Name="AdminStudio Process Template Editor.msi" LinkPath="&lt;PATH_TO_ADMINSTUDIO_BUI_FILES&gt;\ProcessTemplateEditor\MSI\DiskImages\DISK1"/>
+				</Folder>
+			</Package>
+			<Property Name="Elevation">Required</Property>
+			<Operation Name="Install" Target="AdminStudio Process Template Editor.msi">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<Property Name="RebootRequest">DetectIgnore</Property>
+				<CommandLine>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</CommandLine>
+				<Silent>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</Silent>
+			</Operation>
+			<Operation Name="Remove">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<Property Name="RebootRequest">DetectDelay</Property>
+				<CommandLine>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</CommandLine>
+				<Silent>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</Silent>
+			</Operation>
+			<Operation Name="Repair">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<Property Name="RebootRequest">DetectDelay</Property>
+				<CommandLine>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</CommandLine>
+				<Silent>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</Silent>
+			</Operation>
+			<Operation Name="Modify">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<Property Name="RebootRequest">DetectDelay</Property>
+				<CommandLine>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</CommandLine>
+				<Silent>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</Silent>
+			</Operation>
+			<EnableLogging LogName="ProcessTemplateEditor2020.log" LogOptions="*v"/>
+		</Msi>
+		<Msi ParcelType="Dependency">
+			<UIProperties>
+				<Id>{337F53FD-5F88-497D-93B8-F44AED4B028D}</Id>
+				<DisplayName>ID_STRING136</DisplayName>
+			</UIProperties>
+			<Property Name="ProgressCapture">Full</Property>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations\AS2020">
+				<Folder Name="{DC7BB61F-E002-4CA8-A372-F13E98E4680E}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/18/suite/tools">
+					<File Name="Applic~1.cab" LinkPath="&lt;PATH_TO_ADMINSTUDIO_BUI_FILES&gt;\ApplicationIsolationWizard\MSI\DiskImages\DISK1"/>
+					<File Name="AdminStudio Application Isolation Wizard.msi" LinkPath="&lt;PATH_TO_ADMINSTUDIO_BUI_FILES&gt;\ApplicationIsolationWizard\MSI\DiskImages\DISK1"/>
+				</Folder>
+			</Package>
+			<Property Name="Elevation">Required</Property>
+			<Operation Name="Install" Target="AdminStudio Application Isolation Wizard.msi">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<Property Name="RebootRequest">DetectIgnore</Property>
+				<CommandLine>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</CommandLine>
+				<Silent>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</Silent>
+			</Operation>
+			<Operation Name="Remove">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<CommandLine>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</CommandLine>
+				<Silent>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</Silent>
+				<Property Name="RebootRequest">DetectDelay</Property>
+			</Operation>
+			<Operation Name="Repair">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<CommandLine>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</CommandLine>
+				<Silent>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</Silent>
+				<Property Name="RebootRequest">DetectDelay</Property>
+			</Operation>
+			<Operation Name="Modify">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<CommandLine>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</CommandLine>
+				<Silent>[SUITELIMEDITIONPROPS] EDITION="[EDITION]" ARPSYSTEMCOMPONENT=1</Silent>
+				<Property Name="RebootRequest">DetectDelay</Property>
+			</Operation>
+			<EnableLogging LogName="ApplicationIsolationWizard2020.log" LogOptions="*v"/>
+		</Msi>
+		<Exe ParcelType="Dependency">
+			<UIProperties>
+				<DisplayName>ID_STRING91</DisplayName>
+				<Id>{7CF06819-7AA4-4e3e-AC77-07931178671B}</Id>
+			</UIProperties>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{7CF06819-7AA4-4e3e-AC77-07931178671B}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/suiteredists">
+					<File Name="wic_x64_enu.exe" LinkPath="&lt;ISProductFolder&gt;\SetupPrerequisites\WindowsImagingComponent\x64"/>
+				</Folder>
+			</Package>
+			<Operation Name="Install" Target="wic_x64_enu.exe">
+				<CommandLine>/quiet /norestart</CommandLine>
+				<Silent>/quiet /norestart</Silent>
+				<Property Name="RebootCodes">1641,3010</Property>
+				<Property Name="RebootRequest">DetectIgnore</Property>
+			</Operation>
+			<Detect>
+				<When>
+					<Any>
+						<Any>
+							<FileValue Path="[System64Folder]windowscodecs.dll" Compare="GreaterEqual" CompareTo="6.0.5840.16388" Convert="Version"/>
+						</Any>
+					</Any>
+				</When>
+			</Detect>
+			<Eligible>
+				<When>
+					<Any>
+						<Platform OSVersion="5.2-5.2" ProductType="Server,DomainController" Architecture="x64"/>
+						<Platform OSVersion="5.2-5.2" ProductType="Workstation" Architecture="x64"/>
+					</Any>
+				</When>
+			</Eligible>
+			<Property Name="Elevation">Required</Property>
+		</Exe>
+		<Exe ParcelType="Dependency">
+			<UIProperties>
+				<DisplayName>ID_STRING90</DisplayName>
+				<Id>{2A0CC195-B3AF-4B63-8F5C-1F88A7E28ADF}</Id>
+			</UIProperties>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{2A0CC195-B3AF-4B63-8F5C-1F88A7E28ADF}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/suiteredists">
+					<File Name="wic_x86_enu.exe" LinkPath="&lt;ISProductFolder&gt;\SetupPrerequisites\WindowsImagingComponent\x86"/>
+				</Folder>
+			</Package>
+			<Operation Name="Install" Target="wic_x86_enu.exe">
+				<CommandLine>/quiet /norestart</CommandLine>
+				<Silent>/quiet /norestart</Silent>
+				<Property Name="RebootCodes">1641,3010</Property>
+				<Property Name="RebootRequest">DetectIgnore</Property>
+			</Operation>
+			<Detect>
+				<When>
+					<Any>
+						<Any>
+							<FileValue Path="[SystemFolder]windowscodecs.dll" Compare="GreaterEqual" CompareTo="6.0.5840.16388" Convert="Version"/>
+						</Any>
+					</Any>
+				</When>
+			</Detect>
+			<Eligible>
+				<When>
+					<Any>
+						<Platform OSVersion="5.2-5.2" ServicePack="1-" ProductType="Server,DomainController" Architecture="x86"/>
+						<Platform OSVersion="5.1-5.1" ServicePack="2-" ProductType="Workstation" Architecture="x86"/>
+					</Any>
+				</When>
+			</Eligible>
+			<Property Name="Elevation">Required</Property>
+		</Exe>
+		<Msi ParcelType="Dependency">
+			<UIProperties>
+				<Id>{D50101BD-33A1-40B1-9E84-34E973CE9DE9}</Id>
+				<DisplayName>ID_STRING110</DisplayName>
+			</UIProperties>
+			<Property Name="ProgressCapture">Full</Property>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{6CADB715-F77E-4559-9073-00B2B00E1F08}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/suiteredists">
+					<File Name="Microsoft Visual Basic 6 SP6 - KB2708437 Update.msi" LinkPath="&lt;CurrentFolder&gt;\Build\Binaries"/>
+				</Folder>
+			</Package>
+			<Property Name="Elevation">Required</Property>
+			<Operation Name="Install" Target="Microsoft Visual Basic 6 SP6 - KB2708437 Update.msi">
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<Property Name="RebootRequest">DetectIgnore</Property>
+			</Operation>
+			<Detect>
+				<When>
+					<Any>
+						<MsiInstalled ProductCode="{DE4F56C1-B6D3-441A-95A0-7A6A289F5A44}" ProductVersion="1.0.0.0" Compare="Equal"/>
+					</Any>
+				</When>
+			</Detect>
+		</Msi>
+		<Exe ParcelType="Dependency">
+			<UIProperties>
+				<Id>{1871BFC3-52A6-4436-83BE-0CA8FE6D5938}</Id>
+				<DisplayName>ID_STRING157</DisplayName>
+			</UIProperties>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{1755ED4D-CF7C-4B31-A6E5-20FFACAD7FBC}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/suiteredists">
+					<File Name="NDP452-KB2901907-x86-x64-AllOS-ENU.exe" LinkPath="&lt;ISProductFolder&gt;\SetupPrerequisites\Microsoft .net\4.5\Full"/>
+				</Folder>
+			</Package>
+			<Property Name="Elevation">Required</Property>
+			<Operation Name="Install" Target="NDP452-KB2901907-x86-x64-AllOS-ENU.exe">
+				<CommandLine>/q /norestart</CommandLine>
+				<Silent>/q /norestart</Silent>
+				<Property Name="RebootRequest">DetectIgnore</Property>
+				<Property Name="RebootCodes">1641,3010</Property>
+			</Operation>
+			<Eligible>
+				<When>
+					<Any>
+						<Platform OSVersion="6.0-6.0" ServicePack="2-"/>
+						<Platform OSVersion="6.1-6.1" ServicePack="1-"/>
+						<Platform OSVersion="6.2-6.2"/>
+						<Platform OSVersion="6.3-6.3"/>
+						<Platform OSVersion="10.0-10.0"/>
+					</Any>
+				</When>
+			</Eligible>
+			<Detect>
+				<When>
+					<Any>
+						<RegistryValue Check64Bit="False" Key="HKLM\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full" ValueName="Release" Convert="DWORD" Compare="GreaterEqual" CompareTo="379893"/>
+					</Any>
+				</When>
+			</Detect>
+		</Exe>
+		<Exe ParcelType="Dependency">
+			<UIProperties>
+				<Id>{7F0490B7-3919-4870-9F84-A2163AD9D397}</Id>
+				<DisplayName>ID_STRING156</DisplayName>
+			</UIProperties>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{DC4CC4CD-92F7-4C7F-BF1C-3BCBA077E105}" Location="Url" Url="https://download.microsoft.com/download/F/9/4/F942F07D-F26F-4F30-B4E3-EBD54FABA377/NDP462-KB3151800-x86-x64-AllOS-ENU.exe">
+					<File Name="NDP462-KB3151800-x86-x64-AllOS-ENU.exe" LinkPath="&lt;ISProductFolder&gt;\SetupPrerequisites\Microsoft .net\4.6.2"/>
+				</Folder>
+			</Package>
+			<Property Name="Elevation">Required</Property>
+			<Operation Name="Install" Target="NDP462-KB3151800-x86-x64-AllOS-ENU.exe">
+				<CommandLine>/q /norestart</CommandLine>
+				<Silent>/q /norestart</Silent>
+				<Property Name="RebootRequest">DetectDelay</Property>
+				<Property Name="RebootCodes">1641,3010</Property>
+			</Operation>
+			<Eligible>
+				<When>
+					<Any>
+						<Platform OSVersion="6.0-6.0" ServicePack="2-"/>
+						<Platform OSVersion="6.1-6.1" ServicePack="1-"/>
+						<Platform OSVersion="6.2-6.2"/>
+						<Platform OSVersion="6.3-6.3"/>
+						<Platform OSVersion="10.0-10.0"/>
+					</Any>
+				</When>
+			</Eligible>
+			<Detect>
+				<When>
+					<Any>
+						<RegistryValue Key="HKLM\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full" ValueName="Release" Convert="DWORD" Compare="GreaterEqual" CompareTo="394271" Check64Bit="False"/>
+					</Any>
+				</When>
+			</Detect>
+		</Exe>
+		<Msi ParcelType="Dependency">
+			<UIProperties>
+				<DisplayName>ID_STRING154</DisplayName>
+				<Id>{40A1B563-401D-4A79-B292-276003A13E29}</Id>
+			</UIProperties>
+			<Property Name="ProgressCapture">Full</Property>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{40A1B563-401D-4A79-B292-276003A13E29}" Location="Url" Url="https://download.microsoft.com/download/1/3/0/13089488-91FC-4E22-AD68-5BE58BD5C014/ENU/x86">
+					<File Name="SQLSysClrTypes.msi" LinkPath="&lt;ISProductFolder&gt;\SetupPrerequisites\SQLFeaturePack\2014\x86"/>
+				</Folder>
+			</Package>
+			<Operation Name="Install" Target="SQLSysClrTypes.msi">
+				<CommandLine/>
+				<Silent/>
+				<Property Name="RebootCodes">1046,3010</Property>
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<Property Name="RebootRequest">DetectIgnore</Property>
+			</Operation>
+			<Detect>
+				<When>
+					<Any>
+						<Not>
+							<RegistryValue Key="HKLM\SOFTWARE\Microsoft\Microsoft SQL Server 2014 Redist\SQL Server System CLR Types\CurrentVersion" ValueName="Version" Compare="LessThan" CompareTo="12.0.2402.11" Convert="Version" Check64Bit="False"/>
+							<Not>
+								<RegistryExists Key="HKLM\SOFTWARE\Microsoft\Microsoft SQL Server 2014 Redist\SQL Server System CLR Types\CurrentVersion" ValueName="Version" Check64Bit="False"/>
+							</Not>
+						</Not>
+					</Any>
+				</When>
+			</Detect>
+			<Eligible>
+				<When>
+					<Any>
+						<Platform OSVersion="6.0-6.0" ServicePack="2-"/>
+						<Platform OSVersion="6.1-6.1"/>
+						<Platform OSVersion="6.2-6.2"/>
+						<Platform OSVersion="6.3-6.3"/>
+						<Platform OSVersion="10.0-10.0"/>
+					</Any>
+				</When>
+			</Eligible>
+			<Property Name="Elevation">Required</Property>
+		</Msi>
+		<Msi ParcelType="Dependency">
+			<UIProperties>
+				<DisplayName>ID_STRING155</DisplayName>
+				<Id>{2A224B02-B9BD-474C-8F85-821ED1A1EB44}</Id>
+			</UIProperties>
+			<Property Name="ProgressCapture">Full</Property>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{2A224B02-B9BD-474C-8F85-821ED1A1EB44}" Location="Url" Url="https://download.microsoft.com/download/A/1/2/A129F694-233C-4C7C-860F-F73139CF2E01/ENU/x86">
+					<File Name="ReportViewer.msi" LinkPath="&lt;ISProductFolder&gt;\SetupPrerequisites\ReportViewer2015"/>
+				</Folder>
+			</Package>
+			<Operation Name="Install" Target="ReportViewer.msi">
+				<CommandLine/>
+				<Silent/>
+				<Property Name="RebootCodes">1641,3010</Property>
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<Property Name="RebootRequest">DetectIgnore</Property>
+			</Operation>
+			<Detect>
+				<When>
+					<Any>
+						<Not>
+							<RegistryValue Key="HKLM\Software\Microsoft\Microsoft SQL Server 2014 Redist\Microsoft Report Viewer 2015 Runtime" ValueName="Version" Compare="LessThan" CompareTo="12.0.2402.15" Convert="Version" Check64Bit="False"/>
+							<Not>
+								<RegistryExists Key="HKLM\Software\Microsoft\Microsoft SQL Server 2014 Redist\Microsoft Report Viewer 2015 Runtime" ValueName="Version" Check64Bit="False"/>
+							</Not>
+						</Not>
+					</Any>
+				</When>
+			</Detect>
+			<Eligible>
+				<When>
+					<Any>
+						<Platform OSVersion="6.1-6.1"/>
+						<Platform OSVersion="6.0-6.0" ServicePack="2-"/>
+						<Platform OSVersion="6.2-6.2"/>
+						<Platform OSVersion="6.3-6.3"/>
+						<Platform OSVersion="10.0-10.0"/>
+					</Any>
+				</When>
+			</Eligible>
+			<Property Name="Elevation">Required</Property>
+		</Msi>
+		<Exe ParcelType="Dependency">
+			<UIProperties>
+				<Id>{E8353843-8E49-4DA4-83F4-18F977B40A6D}</Id>
+				<DisplayName>ID_STRING148</DisplayName>
+			</UIProperties>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{04165531-BD92-4F70-B0A0-88D4304D53A1}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/suiteredists">
+					<File Name="Windows6.1-KB2922229-x86.msu" LinkPath="&lt;CurrentFolder&gt;\Build\Binaries\PreReqs"/>
+				</Folder>
+			</Package>
+			<Property Name="Elevation">Required</Property>
+			<Operation Name="Install" Target="[SystemFolder]wusa.exe">
+				<CommandLine>"[ISPREREQDIR]Windows6.1-KB2922229-x86.msu" /quiet /norestart</CommandLine>
+				<Silent>"[ISPREREQDIR]Windows6.1-KB2922229-x86.msu" /quiet /norestart</Silent>
+				<Property Name="RebootRequest">DetectIgnore</Property>
+				<Property Name="RebootCodes">3010,8192,1641</Property>
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+			</Operation>
+			<Eligible>
+				<When>
+					<Any>
+						<Platform OSVersion="6.1" ServicePack="1" ProductType="Workstation" Architecture="x86"/>
+					</Any>
+				</When>
+			</Eligible>
+		</Exe>
+		<Exe ParcelType="Dependency">
+			<UIProperties>
+				<Id>{5D8382D6-FCB8-4F26-BE7E-8649ED454CFA}</Id>
+				<DisplayName>ID_STRING149</DisplayName>
+			</UIProperties>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{0FD2F596-9F8F-47C8-AB28-9656EA96A58B}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/suiteredists">
+					<File Name="Windows6.1-KB2922229-x64.msu" LinkPath="&lt;CurrentFolder&gt;\Build\Binaries\PreReqs"/>
+				</Folder>
+			</Package>
+			<Property Name="Elevation">Required</Property>
+			<Operation Name="Install" Target="[SystemFolder]wusa.exe">
+				<CommandLine>"[ISPREREQDIR]Windows6.1-KB2922229-x64.msu" /quiet /norestart</CommandLine>
+				<Silent>"[ISPREREQDIR]Windows6.1-KB2922229-x64.msu" /quiet /norestart</Silent>
+				<Property Name="RebootRequest">DetectIgnore</Property>
+				<Property Name="ExitBehavior">DetectIgnore</Property>
+				<Property Name="RebootCodes">3010,8192,1641</Property>
+			</Operation>
+			<Eligible>
+				<When>
+					<Any>
+						<Platform OSVersion="6.1" ServicePack="1" ProductType="Workstation" Architecture="x64"/>
+					</Any>
+				</When>
+			</Eligible>
+		</Exe>
+		<Exe ParcelType="Dependency">
+			<UIProperties>
+				<Id>{D6FDF152-1EC3-4B86-AAB9-FA925D5DE478}</Id>
+				<DisplayName>ID_STRING123</DisplayName>
+			</UIProperties>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{E1FFB6B8-DA5E-4365-BEF2-7C1D484D255A}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/suiteredists">
+					<File Name="Windows6.1-KB2506143-x86.msu" LinkPath="&lt;CurrentFolder&gt;\Build\Binaries\PreReqs"/>
+				</Folder>
+			</Package>
+			<Property Name="Elevation">Required</Property>
+			<Operation Name="Install" Target="[SystemFolder]wusa.exe">
+				<CommandLine>"[ISPREREQDIR]Windows6.1-KB2506143-x86.msu" /quiet /norestart</CommandLine>
+				<Silent>"[ISPREREQDIR]Windows6.1-KB2506143-x86.msu" /quiet /norestart</Silent>
+				<Property Name="RebootRequest">DetectReboot</Property>
+				<Property Name="RebootCodes">3010,8192,1641</Property>
+			</Operation>
+			<Eligible>
+				<When>
+					<Any>
+						<Platform OSVersion="6.1" ServicePack="1" Architecture="x86"/>
+					</Any>
+				</When>
+			</Eligible>
+			<Detect>
+				<When>
+					<Any>
+						<RegistryValue Check64Bit="False" Key="HKLM\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine" ValueName="PowerShellVersion" Convert="String" Compare="GreaterEqual" CompareTo="3.0"/>
+					</Any>
+				</When>
+			</Detect>
+		</Exe>
+		<Exe ParcelType="Dependency">
+			<UIProperties>
+				<Id>{66563DD3-1518-4D3A-BABE-679A008EDCC0}</Id>
+				<DisplayName>ID_STRING124</DisplayName>
+			</UIProperties>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{4272EB21-804C-41FE-85F8-65662B50DB8E}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/suiteredists">
+					<File Name="Windows6.1-KB2506143-x64.msu" LinkPath="&lt;CurrentFolder&gt;\Build\Binaries\PreReqs"/>
+				</Folder>
+			</Package>
+			<Property Name="Elevation">Required</Property>
+			<Operation Name="Install" Target="[SystemFolder]wusa.exe">
+				<CommandLine>"[ISPREREQDIR]Windows6.1-KB2506143-x64.msu" /quiet /norestart</CommandLine>
+				<Silent>"[ISPREREQDIR]Windows6.1-KB2506143-x64.msu" /quiet /norestart</Silent>
+				<Property Name="RebootRequest">DetectReboot</Property>
+				<Property Name="RebootCodes">3010,8192,1641</Property>
+			</Operation>
+			<Eligible>
+				<When>
+					<Any>
+						<Platform OSVersion="6.1" ServicePack="1" Architecture="x64"/>
+					</Any>
+				</When>
+			</Eligible>
+			<Detect>
+				<When>
+					<Any>
+						<RegistryValue Check64Bit="False" Key="HKLM\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine" ValueName="PowerShellVersion" Convert="String" Compare="GreaterEqual" CompareTo="3.0"/>
+					</Any>
+				</When>
+			</Detect>
+		</Exe>
+		<Exe ParcelType="Dependency">
+			<UIProperties>
+				<Id>{8F1AC57B-8E82-4ADB-A11C-FA78891003BA}</Id>
+				<DisplayName>ID_STRING126</DisplayName>
+			</UIProperties>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{F51644C9-1D4C-4276-A32A-4D22E5E48535}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/suiteredists">
+					<File Name="Windows6.0-KB2506146-x86.msu" LinkPath="&lt;CurrentFolder&gt;\Build\Binaries\PreReqs"/>
+				</Folder>
+			</Package>
+			<Property Name="Elevation">Required</Property>
+			<Operation Name="Install" Target="[SystemFolder]wusa.exe">
+				<CommandLine>"[ISPREREQDIR]Windows6.0-KB2506146-x86.msu" /quiet /norestart</CommandLine>
+				<Silent>"[ISPREREQDIR]Windows6.0-KB2506146-x86.msu" /quiet /norestart</Silent>
+				<Property Name="RebootRequest">DetectReboot</Property>
+				<Property Name="RebootCodes">3010,8192,1641</Property>
+			</Operation>
+			<Eligible>
+				<When>
+					<Any>
+						<Platform OSVersion="6.0" ServicePack="2" Architecture="x86"/>
+					</Any>
+				</When>
+			</Eligible>
+			<Detect>
+				<When>
+					<Any>
+						<RegistryValue Check64Bit="False" Key="HKLM\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine" ValueName="PowerShellVersion" Convert="String" Compare="GreaterEqual" CompareTo="3.0"/>
+					</Any>
+				</When>
+			</Detect>
+		</Exe>
+		<Exe ParcelType="Dependency">
+			<UIProperties>
+				<Id>{BE3D6277-EA4C-48F7-80CA-D8FB84ACC10C}</Id>
+				<DisplayName>ID_STRING145</DisplayName>
+			</UIProperties>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{1AA90C94-23F8-40F2-8D45-C0D87A84E424}" Location="Url" Url="http://saturn.installshield.com/product/adminstudio/suiteredists">
+					<File Name="Windows6.0-KB2506146-x64.msu" LinkPath="&lt;CurrentFolder&gt;\Build\Binaries\PreReqs"/>
+				</Folder>
+			</Package>
+			<Property Name="Elevation">Required</Property>
+			<Operation Name="Install" Target="[SystemFolder]wusa.exe">
+				<CommandLine>"[ISPREREQDIR]Windows6.0-KB2506146-x64.msu" /quiet /norestart</CommandLine>
+				<Silent>"[ISPREREQDIR]Windows6.0-KB2506146-x64.msu" /quiet /norestart</Silent>
+				<Property Name="RebootRequest">DetectReboot</Property>
+				<Property Name="RebootCodes">3010,8192,1641</Property>
+			</Operation>
+			<Eligible>
+				<When>
+					<Any>
+						<Platform OSVersion="6.0" ServicePack="2" Architecture="x64"/>
+					</Any>
+				</When>
+			</Eligible>
+			<Detect>
+				<When>
+					<Any>
+						<RegistryValue Check64Bit="False" Key="HKLM\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine" ValueName="PowerShellVersion" Convert="String" Compare="GreaterEqual" CompareTo="3.0"/>
+					</Any>
+				</When>
+			</Detect>
+		</Exe>
+		<Exe ParcelType="Dependency">
+			<UIProperties>
+				<Id>{37634D53-3E83-458E-A12D-839D71B901D2}</Id>
+				<DisplayName>ID_STRING164</DisplayName>
+			</UIProperties>
+			<Package Name="[LocalAppDataFolder]Downloaded Installations">
+				<Folder Name="{4EAC117A-76B0-42D6-9A5F-56F5D884E490}" Location="Stream">
+					<File Name="WiseScriptPackageEditor.exe" LinkPath="&lt;MachineDrive&gt;\WiseScriptEditorForAdminStudio"/>
+				</Folder>
+			</Package>
+			<Property Name="Elevation">Required</Property>
+			<Operation Name="Install" Target="WiseScriptPackageEditor.exe">
+				<CommandLine>/S /v/qn</CommandLine>
+				<Silent> /S /v/qn</Silent>
+			</Operation>
+			<Operation Name="Remove" Target="WiseScriptPackageEditor.exe">
+				<Silent>/X  /S /v/qn</Silent>
+				<CommandLine>/X  /S /v/qn</CommandLine>
+			</Operation>
+			<Operation Name="Repair" Target="WiseScriptPackageEditor.exe">
+				<CommandLine>/S /v/qn</CommandLine>
+				<Silent>/S /v/qn</Silent>
+			</Operation>
+			<Operation Name="Modify" Target="WiseScriptPackageEditor.exe">
+				<CommandLine>/S /v/qn</CommandLine>
+				<Silent>/S /v/qn</Silent>
+			</Operation>
+			<Detect>
+				<When>
+					<Any>
+						<FileExists Path="[ProgramFilesFolder]\WiseScript Package Editor\WiseScript Package Editor\WISE32.exe"/>
+					</Any>
+				</When>
+			</Detect>
+		</Exe>
+	</Parcels>
+	<Languages>
+		<Language lcid="1033">
+			<IDS_BACK_BUTTON TimeStamp="-450941363">&lt; &amp;Back</IDS_BACK_BUTTON>
+			<IDS_BROWSEFOLDER_CAPTION TimeStamp="-450941363">Destination Folder</IDS_BROWSEFOLDER_CAPTION>
+			<IDS_BROWSEFOLDER_CHANGEFOLDER TimeStamp="-450941363">Click Next to install to this folder, or click Change to install to a different folder.</IDS_BROWSEFOLDER_CHANGEFOLDER>
+			<IDS_BROWSEFOLDER_INSTALLTO TimeStamp="-450941363">Install [ProductName] to:</IDS_BROWSEFOLDER_INSTALLTO>
+			<IDS_CANCEL_BUTTON TimeStamp="-450941363">Cancel</IDS_CANCEL_BUTTON>
+			<IDS_CHANGE_BUTTON TimeStamp="-450941363">&amp;Change...</IDS_CHANGE_BUTTON>
+			<IDS_COMPLETE_DIRECTIONS TimeStamp="-450941363">InstallShield Wizard Completed</IDS_COMPLETE_DIRECTIONS>
+			<IDS_CUSTOMERINFO_CAPTION TimeStamp="-450941363">Customer Information</IDS_CUSTOMERINFO_CAPTION>
+			<IDS_CUSTOMERINFO_ORGANIZATION TimeStamp="-450941363">&amp;Organization:</IDS_CUSTOMERINFO_ORGANIZATION>
+			<IDS_CUSTOMERINFO_SERIALNUMBER TimeStamp="-450941363">&amp;Serial Number:</IDS_CUSTOMERINFO_SERIALNUMBER>
+			<IDS_CUSTOMERINFO_USERNAME TimeStamp="-450941363">&amp;User Name:</IDS_CUSTOMERINFO_USERNAME>
+			<IDS_CUSTOMSETUP_CAPTION TimeStamp="-450941363">Custom Setup</IDS_CUSTOMSETUP_CAPTION>
+			<IDS_CUSTOMSETUP_DIRECTIONS TimeStamp="-450941363">Select the program features you want installed.</IDS_CUSTOMSETUP_DIRECTIONS>
+			<IDS_CUSTOMSETUP_FEATUREDESCRIPTION TimeStamp="-1708732042"/>
+			<IDS_CUSTOMSETUP_FEATURESIZE TimeStamp="-450941363">Feature size</IDS_CUSTOMSETUP_FEATURESIZE>
+			<IDS_ERROR_OPENREAD TimeStamp="-450941363">Error opening file for read: [3] GetLastError: [2].</IDS_ERROR_OPENREAD>
+			<IDS_FILE TimeStamp="-450941363">File: [1]</IDS_FILE>
+			<IDS_FILESINUSE_DIRECTIONS TimeStamp="-450941363">The following applications are using files that need to be updated by this setup. Close these applications and click Retry to continue.</IDS_FILESINUSE_DIRECTIONS>
+			<IDS_FILESINUSE_EXIT TimeStamp="-450941363">&amp;Exit</IDS_FILESINUSE_EXIT>
+			<IDS_FILESINUSE_IGNORE TimeStamp="-450941363">&amp;Ignore</IDS_FILESINUSE_IGNORE>
+			<IDS_FILESINUSE_RETRY TimeStamp="-450941363">&amp;Retry</IDS_FILESINUSE_RETRY>
+			<IDS_FINISH_BUTTON TimeStamp="-450941363">&amp;Finish</IDS_FINISH_BUTTON>
+			<IDS_INSTALLATION_LANGUAGE_CAPTION TimeStamp="-450941363">Choose Setup Language</IDS_INSTALLATION_LANGUAGE_CAPTION>
+			<IDS_INSTALLATION_LANGUAGE_DIRECTIONS TimeStamp="-450941363">Select the language for this installation from the choices below.</IDS_INSTALLATION_LANGUAGE_DIRECTIONS>
+			<IDS_INSTALLATION_PASSWORD TimeStamp="-450941363">Please enter the password</IDS_INSTALLATION_PASSWORD>
+			<IDS_INSTALLTYPE_CAPTION TimeStamp="-450941363">Setup Type</IDS_INSTALLTYPE_CAPTION>
+			<IDS_INSTALLTYPE_COMPLETE TimeStamp="-1574539761">&amp;Complete</IDS_INSTALLTYPE_COMPLETE>
+			<IDS_INSTALLTYPE_COMPLETE_NOTE TimeStamp="-450941363">All program features will be installed. (Requires the most disk space.)</IDS_INSTALLTYPE_COMPLETE_NOTE>
+			<IDS_INSTALLTYPE_CUSTOM TimeStamp="-450941363">Cu&amp;stom</IDS_INSTALLTYPE_CUSTOM>
+			<IDS_INSTALLTYPE_CUSTOM_NOTE TimeStamp="-450941363">Choose which program features you want installed and where they will be installed. Recommended for advanced users.</IDS_INSTALLTYPE_CUSTOM_NOTE>
+			<IDS_INSTALL_BUTTON TimeStamp="-450941363">&amp;Install</IDS_INSTALL_BUTTON>
+			<IDS_INSTALL_SUCCESS TimeStamp="-450941363">The InstallShield Wizard has successfully installed [ProductName]. Click Finish to exit the wizard.</IDS_INSTALL_SUCCESS>
+			<IDS_INSTALL_WELCOME_CAPTION TimeStamp="-450941363">Welcome to the InstallShield Wizard for [ProductName]</IDS_INSTALL_WELCOME_CAPTION>
+			<IDS_LANGUAGE_1025 TimeStamp="-450941363">Arabic</IDS_LANGUAGE_1025>
+			<IDS_LANGUAGE_1026 TimeStamp="-450941363">Bulgarian</IDS_LANGUAGE_1026>
+			<IDS_LANGUAGE_1027 TimeStamp="-450941363">Catalan</IDS_LANGUAGE_1027>
+			<IDS_LANGUAGE_1028 TimeStamp="-450941363">Chinese (Traditional)</IDS_LANGUAGE_1028>
+			<IDS_LANGUAGE_1029 TimeStamp="-450941363">Czech</IDS_LANGUAGE_1029>
+			<IDS_LANGUAGE_1030 TimeStamp="-450941363">Danish</IDS_LANGUAGE_1030>
+			<IDS_LANGUAGE_1031 TimeStamp="-450941363">German</IDS_LANGUAGE_1031>
+			<IDS_LANGUAGE_1032 TimeStamp="-450941363">Greek</IDS_LANGUAGE_1032>
+			<IDS_LANGUAGE_1033 TimeStamp="-450941363">English (United States)</IDS_LANGUAGE_1033>
+			<IDS_LANGUAGE_1034 TimeStamp="-450941363">Spanish</IDS_LANGUAGE_1034>
+			<IDS_LANGUAGE_1035 TimeStamp="-450941363">Finnish</IDS_LANGUAGE_1035>
+			<IDS_LANGUAGE_1036 TimeStamp="-450941363">French (Standard)</IDS_LANGUAGE_1036>
+			<IDS_LANGUAGE_1037 TimeStamp="-450941363">Hebrew</IDS_LANGUAGE_1037>
+			<IDS_LANGUAGE_1038 TimeStamp="-450941363">Hungarian</IDS_LANGUAGE_1038>
+			<IDS_LANGUAGE_1040 TimeStamp="-450941363">Italian</IDS_LANGUAGE_1040>
+			<IDS_LANGUAGE_1041 TimeStamp="-450941363">Japanese</IDS_LANGUAGE_1041>
+			<IDS_LANGUAGE_1042 TimeStamp="-450941363">Korean</IDS_LANGUAGE_1042>
+			<IDS_LANGUAGE_1043 TimeStamp="-450941363">Dutch</IDS_LANGUAGE_1043>
+			<IDS_LANGUAGE_1044 TimeStamp="-450941363">Norwegian</IDS_LANGUAGE_1044>
+			<IDS_LANGUAGE_1045 TimeStamp="-450941363">Polish</IDS_LANGUAGE_1045>
+			<IDS_LANGUAGE_1046 TimeStamp="-450941363">Portuguese (Brazilian)</IDS_LANGUAGE_1046>
+			<IDS_LANGUAGE_1048 TimeStamp="-450941363">Romanian</IDS_LANGUAGE_1048>
+			<IDS_LANGUAGE_1049 TimeStamp="-450941363">Russian</IDS_LANGUAGE_1049>
+			<IDS_LANGUAGE_1050 TimeStamp="-450941363">Croatian</IDS_LANGUAGE_1050>
+			<IDS_LANGUAGE_1051 TimeStamp="-450941363">Slovak</IDS_LANGUAGE_1051>
+			<IDS_LANGUAGE_1053 TimeStamp="-450941363">Swedish</IDS_LANGUAGE_1053>
+			<IDS_LANGUAGE_1054 TimeStamp="-450941363">Thai</IDS_LANGUAGE_1054>
+			<IDS_LANGUAGE_1055 TimeStamp="-450941363">Turkish</IDS_LANGUAGE_1055>
+			<IDS_LANGUAGE_1057 TimeStamp="-450941363">Indonesian</IDS_LANGUAGE_1057>
+			<IDS_LANGUAGE_1060 TimeStamp="-450941363">Slovenian</IDS_LANGUAGE_1060>
+			<IDS_LANGUAGE_1069 TimeStamp="-450941363">Basque</IDS_LANGUAGE_1069>
+			<IDS_LANGUAGE_2052 TimeStamp="-450941363">Chinese (Simplified)</IDS_LANGUAGE_2052>
+			<IDS_LANGUAGE_2070 TimeStamp="-450941363">Portuguese (Standard)</IDS_LANGUAGE_2070>
+			<IDS_LANGUAGE_3084 TimeStamp="-450941363">French (Canadian)</IDS_LANGUAGE_3084>
+			<IDS_LANGUAGE_3098 TimeStamp="-450941363">Serbian (Cyrillic)</IDS_LANGUAGE_3098>
+			<IDS_LICENSEAGREEMENT_ACCEPT TimeStamp="-450941363">I &amp;accept the terms in the license agreement</IDS_LICENSEAGREEMENT_ACCEPT>
+			<IDS_LICENSEAGREEMENT_CAPTION TimeStamp="-450941363">License Agreement</IDS_LICENSEAGREEMENT_CAPTION>
+			<IDS_LICENSEAGREEMENT_DIRECTIONS TimeStamp="-450941363">Please read the following license agreement carefully.</IDS_LICENSEAGREEMENT_DIRECTIONS>
+			<IDS_LICENSEAGREEMENT_REJECT TimeStamp="-450941363">I &amp;do not accept the terms in the license agreement</IDS_LICENSEAGREEMENT_REJECT>
+			<IDS_NEXT_BUTTON TimeStamp="-450941363">&amp;Next &gt;</IDS_NEXT_BUTTON>
+			<IDS_OK_BUTTON TimeStamp="-450941363">OK</IDS_OK_BUTTON>
+			<IDS_PRINT_BUTTON TimeStamp="-450941363">&amp;Print</IDS_PRINT_BUTTON>
+			<IDS_PRODUCTNAME_INSTALLSHIELD TimeStamp="-450941363">[ProductName] - InstallShield Wizard</IDS_PRODUCTNAME_INSTALLSHIELD>
+			<IDS_PROGRESS_CAPTION_INSTALLING TimeStamp="-450941363">Installing [ProductName]</IDS_PROGRESS_CAPTION_INSTALLING>
+			<IDS_PROGRESS_CAPTION_UNINSTALLING TimeStamp="-450941363">Uninstalling [ProductName]</IDS_PROGRESS_CAPTION_UNINSTALLING>
+			<IDS_PROGRESS_TITLE_INSTALLING TimeStamp="-450941363">The program features you selected are being installed.</IDS_PROGRESS_TITLE_INSTALLING>
+			<IDS_PROGRESS_TITLE_UNINSTALLING TimeStamp="-450941363">The program features you selected are being uninstalled.</IDS_PROGRESS_TITLE_UNINSTALLING>
+			<IDS_REMOVE_BUTTON TimeStamp="-450941363">&amp;Remove</IDS_REMOVE_BUTTON>
+			<IDS_RMFILESINUSE_CLOSERESTART TimeStamp="-450941363">Automatically close and attempt to restart applications.</IDS_RMFILESINUSE_CLOSERESTART>
+			<IDS_RMFILESINUSE_DIRECTIONS TimeStamp="-450941363">The following applications are using files that need to be updated by this setup.</IDS_RMFILESINUSE_DIRECTIONS>
+			<IDS_RMFILESINUSE_REBOOTAFTER TimeStamp="-450941363">Do not close applications. (A reboot will be required.)</IDS_RMFILESINUSE_REBOOTAFTER>
+			<IDS_SUITEERROR_ABORTCONDITION TimeStamp="-450941363">The following items are required to launch this setup:</IDS_SUITEERROR_ABORTCONDITION>
+			<IDS_SUITEERROR_FAILEDLAUNCHTEMP TimeStamp="-450941363">The setup could not start in a temporary folder. Contact your vendor for assistance.</IDS_SUITEERROR_FAILEDLAUNCHTEMP>
+			<IDS_SUITEERROR_INVALIDCMDLINE TimeStamp="-450941363">The setup command line is invalid. The setup cannot proceed.</IDS_SUITEERROR_INVALIDCMDLINE>
+			<IDS_SUITEERROR_INVALIDSTAGEPATH TimeStamp="-450941363">The destination folder that was entered for a staging-only operation could not be created.</IDS_SUITEERROR_INVALIDSTAGEPATH>
+			<IDS_SUITEERROR_MD5CHECKFAILED TimeStamp="-450941363">MD5 check failed for the current file to be staged. The file may be corrupted.</IDS_SUITEERROR_MD5CHECKFAILED>
+			<IDS_SUITEERROR_MEDIAFILEMISSING TimeStamp="-450941363">The package that you are trying to install requires a file that is not available. To continue, specify an alternate path to this file.</IDS_SUITEERROR_MEDIAFILEMISSING>
+			<IDS_SUITEERROR_MEDIAFILEMISSING_SOURCEPATH TimeStamp="-450941363">Specify the path to this file:</IDS_SUITEERROR_MEDIAFILEMISSING_SOURCEPATH>
+			<IDS_SUITEERROR_NORUNNINGUI TimeStamp="-450941363">No UI DLL was loaded and initialized, possibly due to a missing UI resource. Contact your vendor for assistance.</IDS_SUITEERROR_NORUNNINGUI>
+			<IDS_SUITEERROR_NOSETUPXML TimeStamp="-450941363">No setup.xml file was found in the running suite setup. Contact your vendor for assistance.</IDS_SUITEERROR_NOSETUPXML>
+			<IDS_SUITEERROR_PASSWORDINVALID TimeStamp="-450941363">The setup password is incorrect or was not entered. The setup cannot proceed.</IDS_SUITEERROR_PASSWORDINVALID>
+			<IDS_SUITEERROR_RESCOPY TimeStamp="-450941363">Failed to copy or download a file that is necessary to run this setup. Contact your vendor for assistance.</IDS_SUITEERROR_RESCOPY>
+			<IDS_SUITEERROR_RESEXTRACT TimeStamp="-450941363">Failed to extract a file that is necessary to run this setup. Contact your vendor for assistance.</IDS_SUITEERROR_RESEXTRACT>
+			<IDS_SUITEERROR_STAGEDOWNLOADFAIL TimeStamp="-450941363">An unknown failure occurred attempting to cache a file from either a remote server or a local path. Contact your vendor for assistance.</IDS_SUITEERROR_STAGEDOWNLOADFAIL>
+			<IDS_SUITEERROR_STAGEEXTRACT TimeStamp="-450941363">Failed to extract a file while staging. Either the file is not present in the stream or the file could not be written to the target machine.</IDS_SUITEERROR_STAGEEXTRACT>
+			<IDS_SUITEERROR_STATEINFOINIT TimeStamp="-450941363">Failed to read or initialize setup state information; missing SuiteId attribute on setup.xml setup element. Contact your vendor for assistance.</IDS_SUITEERROR_STATEINFOINIT>
+			<IDS_SUITEERROR_TXFAILED TimeStamp="-450941363">Failed to communicate with the current out-of-process transaction handler. Contact your vendor for assistance.</IDS_SUITEERROR_TXFAILED>
+			<IDS_SUITE_ASKREBOOT TimeStamp="-450941363">The installer must restart your system before configuration of [2] can continue.  Click Yes to restart now or No if you plan to restart later.</IDS_SUITE_ASKREBOOT>
+			<IDS_SUITE_CONFIRMCANCEL TimeStamp="-450941363">Are you sure you want to cancel [ProductName] installation?</IDS_SUITE_CONFIRMCANCEL>
+			<IDS_SUITE_INITIALIZING TimeStamp="-450941363">Initializing</IDS_SUITE_INITIALIZING>
+			<IDS_SUITE_INSTALLING TimeStamp="-450941363">Installing</IDS_SUITE_INSTALLING>
+			<IDS_SUITE_INSTALLING_PARCEL TimeStamp="-450941363">Installing package [1]</IDS_SUITE_INSTALLING_PARCEL>
+			<IDS_SUITE_INTERRUPTED TimeStamp="-450941363">The wizard was interrupted before [ProductName] could be completely installed.</IDS_SUITE_INTERRUPTED>
+			<IDS_SUITE_MINOR_DOWNGRADE TimeStamp="-450941363">A later version of '[ProductName]' is already installed on this machine. The setup cannot continue.</IDS_SUITE_MINOR_DOWNGRADE>
+			<IDS_SUITE_MODIFYING_PARCEL TimeStamp="-450941363">Modifying package [1]</IDS_SUITE_MODIFYING_PARCEL>
+			<IDS_SUITE_PACKAGEFAIL TimeStamp="-450941363">The installation of %s appears to have failed. Do you want to continue the installation?</IDS_SUITE_PACKAGEFAIL>
+			<IDS_SUITE_PARCEL_ERROR TimeStamp="-450941363">Package [1] Error:
+[2]</IDS_SUITE_PARCEL_ERROR>
+			<IDS_SUITE_PARCEL_OPERATION_COMPLETE TimeStamp="-450941363">Package [1] operation complete</IDS_SUITE_PARCEL_OPERATION_COMPLETE>
+			<IDS_SUITE_PREPARING_FOR_OPERATION TimeStamp="-450941363">Preparing for operation</IDS_SUITE_PREPARING_FOR_OPERATION>
+			<IDS_SUITE_REBOOTING TimeStamp="-450941363">Rebooting</IDS_SUITE_REBOOTING>
+			<IDS_SUITE_REGISTERING_SUITE TimeStamp="-450941363">Registering Suite</IDS_SUITE_REGISTERING_SUITE>
+			<IDS_SUITE_REMOVING_PARCEL TimeStamp="-450941363">Removing package [1]</IDS_SUITE_REMOVING_PARCEL>
+			<IDS_SUITE_REPAIRING_PARCEL TimeStamp="-450941363">Repairing package [1]</IDS_SUITE_REPAIRING_PARCEL>
+			<IDS_SUITE_STAGING TimeStamp="-450941363">Staging</IDS_SUITE_STAGING>
+			<IDS_SUITE_UNREGISTERING_SUITE TimeStamp="-450941363">Unregistering Suite</IDS_SUITE_UNREGISTERING_SUITE>
+			<IDS_SUITE_UPGRADE_PARCELS TimeStamp="-450941363">This installation will upgrade the following packages. Do you want to continue?</IDS_SUITE_UPGRADE_PARCELS>
+			<IDS_UITEXT_Bytes TimeStamp="-450941363">bytes</IDS_UITEXT_Bytes>
+			<IDS_UITEXT_GB TimeStamp="-450941363">GB</IDS_UITEXT_GB>
+			<IDS_UITEXT_KB TimeStamp="-450941363">KB</IDS_UITEXT_KB>
+			<IDS_UITEXT_MB TimeStamp="-450941363">MB</IDS_UITEXT_MB>
+			<IDS_UNINSTALL_SUCCESS TimeStamp="-450941363">The InstallShield Wizard has successfully uninstalled [ProductName]. Click Finish to exit the wizard.</IDS_UNINSTALL_SUCCESS>
+			<IDS_WELCOME_INSTALL_COPYRIGHT TimeStamp="-450941363">WARNING: This program is protected by copyright law and international treaties.</IDS_WELCOME_INSTALL_COPYRIGHT>
+			<IDS_WELCOME_INSTALL_DIRECTIONS TimeStamp="-450941363">The InstallShield(R) Wizard will install [ProductName] on your computer. To continue, click Next.</IDS_WELCOME_INSTALL_DIRECTIONS>
+			<IDS_WELCOME_MAINTENANCE_CAPTION TimeStamp="-450941363">Program Maintenance</IDS_WELCOME_MAINTENANCE_CAPTION>
+			<IDS_WELCOME_MAINTENANCE_MODIFY TimeStamp="-450941363">&amp;Modify</IDS_WELCOME_MAINTENANCE_MODIFY>
+			<IDS_WELCOME_MAINTENANCE_MODIFY_NOTE TimeStamp="-450941363">Change which program features are installed. This option displays the Custom Selection dialog in which you can change the way features are installed.</IDS_WELCOME_MAINTENANCE_MODIFY_NOTE>
+			<IDS_WELCOME_MAINTENANCE_REMOVE TimeStamp="-450941363">&amp;Remove</IDS_WELCOME_MAINTENANCE_REMOVE>
+			<IDS_WELCOME_MAINTENANCE_REMOVE_NOTE TimeStamp="-450941363">Remove [ProductName] from your computer.</IDS_WELCOME_MAINTENANCE_REMOVE_NOTE>
+			<IDS_WELCOME_MAINTENANCE_REPAIR TimeStamp="-450941363">Re&amp;pair</IDS_WELCOME_MAINTENANCE_REPAIR>
+			<IDS_WELCOME_MAINTENANCE_REPAIR_NOTE TimeStamp="-450941363">Repair installation errors in the program. This option fixes missing or corrupt files, shortcuts, and registry entries.</IDS_WELCOME_MAINTENANCE_REPAIR_NOTE>
+			<IDS_WELCOME_STAGE_BROWSE_CAPTION TimeStamp="-450941363">Browse to the destination folder.</IDS_WELCOME_STAGE_BROWSE_CAPTION>
+			<IDS_WELCOME_STAGE_CAPTION TimeStamp="-450941363">Change Current Destination Folder</IDS_WELCOME_STAGE_CAPTION>
+			<IDS_WELCOME_STAGE_DIRECTIONS TimeStamp="-450941363">Enter the network location or click Change to browse to a location.  Click Install to create a server image of [ProductName] at the specified network location or click Cancel to exit the wizard.</IDS_WELCOME_STAGE_DIRECTIONS>
+			<IDS_WELCOME_STAGE_NOTE TimeStamp="-450941363">&amp;Look in:</IDS_WELCOME_STAGE_NOTE>
+			<IDS_WELCOME_UNINSTALL_CAPTION TimeStamp="-450941363">Remove the Program</IDS_WELCOME_UNINSTALL_CAPTION>
+			<IDS_WELCOME_UNINSTALL_DIRECTIONS TimeStamp="-450941363">Click Remove to remove [ProductName] from your computer. After removal, this program will no longer be available for use.</IDS_WELCOME_UNINSTALL_DIRECTIONS>
+			<ID_STRING TimeStamp="-1574550509">Flexera</ID_STRING>
+			<ID_STRING1 TimeStamp="-2136947637">http://www.flexerasoftware.com/products/adminstudio.htm</ID_STRING1>
+			<ID_STRING2 TimeStamp="-450935155">Technical Support</ID_STRING2>
+			<ID_STRING3 TimeStamp="-2136964053">http://www.flexerasoftware.com/support.htm</ID_STRING3>
+			<ID_STRING4 TimeStamp="-2136994709">http://www.flexerasoftware.com</ID_STRING4>
+			<ID_STRING6 TimeStamp="-1054625044">AdminStudio Core Files</ID_STRING6>
+			<ID_STRING7 TimeStamp="1176441833">InstallShield2012 Premier</ID_STRING7>
+			<ID_STRING8 TimeStamp="-450907570">InstallShield Editor</ID_STRING8>
+			<ID_STRING9 TimeStamp="-1155274677">Create and customize  installations (InstallShield project files) and Windows Installer packages. You can edit an installation package directly or through transforms and patches.</ID_STRING9>
+			<ID_STRING10 TimeStamp="-450900274">.NET 3.5 SP1</ID_STRING10>
+			<ID_STRING11 TimeStamp="496961808">Windows Installer 4.5 for Windows Vista (x86)</ID_STRING11>
+			<ID_STRING12 TimeStamp="497017072">Windows Installer 4.5 for Windows Vista (x64)</ID_STRING12>
+			<ID_STRING13 TimeStamp="496976144">Windows Installer 4.5 for Windows XP SP2 and later (x86)</ID_STRING13>
+			<ID_STRING14 TimeStamp="631188302">AdminStudio Shared Location</ID_STRING14>
+			<ID_STRING15 TimeStamp="631219022">Select the directory where the shared files will be installed for [ProductName].</ID_STRING15>
+			<ID_STRING16 TimeStamp="631182190">The data for [ProductName] will be installed in the shared location specified below. To install the files to a different location, click Change and select another location.</ID_STRING16>
+			<ID_STRING17 TimeStamp="1168104526">Microsoft .NET Framework 3.0 OS Component</ID_STRING17>
+			<ID_STRING18 TimeStamp="1168061550">Microsoft .NET Framework 3.5 SP1</ID_STRING18>
+			<ID_STRING19 TimeStamp="1168073838">Microsoft ReportViewer 2010</ID_STRING19>
+			<ID_STRING20 TimeStamp="1168084078">Microsoft SQL Server 2008 Management Objects 10.00.2531 (x64)</ID_STRING20>
+			<ID_STRING21 TimeStamp="1168098414">Microsoft SQL Server 2008 Management Objects 10.00.2531 (x86)</ID_STRING21>
+			<ID_STRING22 TimeStamp="1168049294">Microsoft SQL Server System CLR Types 10.00.2531 (x64)</ID_STRING22>
+			<ID_STRING23 TimeStamp="1168059534">Microsoft SQL Server System CLR Types 10.00.2531 (x86)</ID_STRING23>
+			<ID_STRING24 TimeStamp="1168069774">MSXML 6.0 SP1 (x64)</ID_STRING24>
+			<ID_STRING25 TimeStamp="1168084110">MSXML 6.0 SP1</ID_STRING25>
+			<ID_STRING26 TimeStamp="1168049326">Windows Installer 4.5 for Windows Server 2003 and XP (x64)</ID_STRING26>
+			<ID_STRING27 TimeStamp="1168059566">Windows Installer 4.5 for Windows Server 2003 SP1 and later (x86)</ID_STRING27>
+			<ID_STRING28 TimeStamp="1168067758">Windows Installer 4.5 for Windows Server 2008 (x64)</ID_STRING28>
+			<ID_STRING29 TimeStamp="1168080046">Windows Installer 4.5 for Windows Server 2008 (x86)</ID_STRING29>
+			<ID_STRING30 TimeStamp="371167728">AdminStudio Client Tools</ID_STRING30>
+			<ID_STRING32 TimeStamp="1973391374">AdminStudio</ID_STRING32>
+			<ID_STRING33 TimeStamp="1973388143">As11</ID_STRING33>
+			<ID_STRING34 TimeStamp="2107609264">AdminStudio</ID_STRING34>
+			<ID_STRING35 TimeStamp="-2053163763">AdminStudio</ID_STRING35>
+			<ID_STRING36 TimeStamp="-1784739375">AdminStudio Application Isolation Wizard</ID_STRING36>
+			<ID_STRING37 TimeStamp="-1784731183">AdminStudio Distribution Wizard</ID_STRING37>
+			<ID_STRING38 TimeStamp="-1784720943">AdminStudio QualityMonitor</ID_STRING38>
+			<ID_STRING39 TimeStamp="-1784712751">AdminStudio Tuner</ID_STRING39>
+			<ID_STRING40 TimeStamp="-1784706607">AdminStudio Application Compatibility Pack</ID_STRING40>
+			<ID_STRING41 TimeStamp="-1382038705">Microsoft SQL Server System CLR Types 10.00.2531 (x86)</ID_STRING41>
+			<ID_STRING42 TimeStamp="-1382030257">Microsoft SQL Server System CLR Types 10.00.2531 (x64)</ID_STRING42>
+			<ID_STRING43 TimeStamp="-1382079281">Microsoft SQL Server 2008 Management Objects 10.00.2531 (x86)</ID_STRING43>
+			<ID_STRING44 TimeStamp="-1382075057">Microsoft SQL Server 2008 Management Objects 10.00.2531 (x64)</ID_STRING44>
+			<ID_STRING45 TimeStamp="-1591519986"/>
+			<ID_STRING46 TimeStamp="371151568">Installs the client tools such as Application Isolation Wizard, Tuner, Quality Monitor, and Application Compatibility Pack.</ID_STRING46>
+			<ID_STRING47 TimeStamp="1176477484">AdminStudio Enteprise Server</ID_STRING47>
+			<ID_STRING48 TimeStamp="1176465580">AdminStudio Enteprise Server</ID_STRING48>
+			<IDS_INSTALLTYPE_TYPICAL_NOTE TimeStamp="413152781">The most common set of program features will be installed to the default location.  Recommended for most users.</IDS_INSTALLTYPE_TYPICAL_NOTE>
+			<IDS_INSTALLTYPE_TYPICAL TimeStamp="-1574535697">&amp;Typical</IDS_INSTALLTYPE_TYPICAL>
+			<ID_STRING49 TimeStamp="547359654">Installs the AdminStudio Enterprise Server application for AdminStudio.</ID_STRING49>
+			<ID_STRING50 TimeStamp="1218477387">Predeployment Web Console</ID_STRING50>
+			<ID_STRING51 TimeStamp="1218497867">View Predeployment Test results. This feature requires IIS to be installed on the machine.</ID_STRING51>
+			<ID_STRING52 TimeStamp="1218450795">Configuration Manager Web Console</ID_STRING52>
+			<ID_STRING53 TimeStamp="1218467179">Use to configure package distribution options and distribute installation packages without using the Configuration Manager Server console. This feature requires IIS to be installed on the machine.</ID_STRING53>
+			<ID_STRING54 TimeStamp="1352674542">New Feature</ID_STRING54>
+			<ID_STRING55 TimeStamp="1352678638">New Feature1</ID_STRING55>
+			<ID_STRING56 TimeStamp="1352682734">New Feature2</ID_STRING56>
+			<ID_STRING57 TimeStamp="1352684782">New Feature3</ID_STRING57>
+			<ID_STRING58 TimeStamp="1352684782">New Feature4</ID_STRING58>
+			<ID_STRING59 TimeStamp="1352688878">New Feature5</ID_STRING59>
+			<ID_STRING60 TimeStamp="1352690926">New Feature6</ID_STRING60>
+			<ID_STRING61 TimeStamp="1352690926">New Feature7</ID_STRING61>
+			<ID_STRING62 TimeStamp="1352692974">New Feature8</ID_STRING62>
+			<ID_STRING63 TimeStamp="1352695022">New Feature9</ID_STRING63>
+			<ID_STRING64 TimeStamp="1352695022">New Feature10</ID_STRING64>
+			<ID_STRING65 TimeStamp="1352697070">New Feature11</ID_STRING65>
+			<ID_STRING66 TimeStamp="1352699118">New Feature12</ID_STRING66>
+			<ID_STRING67 TimeStamp="1352699118">New Feature13</ID_STRING67>
+			<ID_STRING68 TimeStamp="1352701166">New Feature14</ID_STRING68>
+			<ID_STRING69 TimeStamp="1352703214">New Feature15</ID_STRING69>
+			<ID_STRING70 TimeStamp="1352705262">New Feature16</ID_STRING70>
+			<ID_STRING71 TimeStamp="1352705262">New Feature17</ID_STRING71>
+			<ID_STRING72 TimeStamp="1352707310">New Feature18</ID_STRING72>
+			<ID_STRING73 TimeStamp="1352709358">New Feature19</ID_STRING73>
+			<ID_STRING74 TimeStamp="1352713454">New Feature20</ID_STRING74>
+			<ID_STRING75 TimeStamp="1352715502">New Feature21</ID_STRING75>
+			<ID_STRING76 TimeStamp="1352717550">New Feature22</ID_STRING76>
+			<ID_STRING77 TimeStamp="1352719598">New Feature23</ID_STRING77>
+			<ID_STRING78 TimeStamp="1352719598">New Feature24</ID_STRING78>
+			<ID_STRING79 TimeStamp="1352721646">New Feature25</ID_STRING79>
+			<ID_STRING80 TimeStamp="1352721646">New Feature26</ID_STRING80>
+			<ID_STRING81 TimeStamp="1352723694">New Feature27</ID_STRING81>
+			<ID_STRING82 TimeStamp="1352723694">New Feature28</ID_STRING82>
+			<ID_STRING83 TimeStamp="1352664334">New Feature29</ID_STRING83>
+			<ID_STRING84 TimeStamp="1352664334">New Feature30</ID_STRING84>
+			<ID_STRING85 TimeStamp="1352666382">New Feature31</ID_STRING85>
+			<ID_STRING86 TimeStamp="1352668430">New Feature32</ID_STRING86>
+			<ID_STRING87 TimeStamp="1352670478">New Feature33</ID_STRING87>
+			<ID_STRING88 TimeStamp="1352670478">New Feature34</ID_STRING88>
+			<IDS_WELCOME_MODIFY TimeStamp="1486890410">Change which program features are installed. This option displays the Custom Selection dialog in which you can change the way features are installed.</IDS_WELCOME_MODIFY>
+			<IDS_WELCOME_MODIFY_TEXT TimeStamp="1486888428">&amp;Modify</IDS_WELCOME_MODIFY_TEXT>
+			<AS_IIS_NOT_INSTALLED TimeStamp="1486932876">IIS needs to be installed on this machine in order to install any of the Web related features (Configuration Manager Console and/or Predeployment Test Results).
+
+Please install IIS and restart the setup or deselect the Web related features.</AS_IIS_NOT_INSTALLED>
+			<AS_IIS_60_COMPATIBILITY_NOT_INSTALLED TimeStamp="1486881708">The following windows components are required in order to install any of the Web related features (Configuration Manager Console and/or Predeployment Console):
+
+   1) Internet Information Services
+   2) Web Management Tools
+   3) IIS 6 Management Compatibility
+   4) IIS Metabase and IIS 6 configuration compatibility
+
+Please install these component from the [Control Panel-&gt;Programs and Features-&gt;Turn Windows features on or off] and restart the setup or deselect the Web related features.</AS_IIS_60_COMPATIBILITY_NOT_INSTALLED>
+			<ID_STRING89 TimeStamp="-1314896340">Microsoft .NET Framework 4.0</ID_STRING89>
+			<ID_STRING5 TimeStamp="304127502">NewFeature5</ID_STRING5>
+			<ID_STRING31 TimeStamp="2057348173">Application Compatibility Pack</ID_STRING31>
+			<ID_STRING90 TimeStamp="-1969168948">Windows Imaging Component (x86)</ID_STRING90>
+			<ID_STRING91 TimeStamp="-1969195540">Windows Imaging Component (x64)</ID_STRING91>
+			<ID_STRING92 TimeStamp="-392059669">InstallShield2013</ID_STRING92>
+			<ID_STRING93 TimeStamp="-1196908526">AdminStudio 2020</ID_STRING93>
+			<ID_STRING94 TimeStamp="-358569107">A previous version of AdminStudio has been found on this machine. Click Next to upgrade this version, or click Cancel to exit without performing an upgrade.</ID_STRING94>
+			<ID_STRING95 TimeStamp="-1130272469">The [ProductName] installation cannot continue. Your system does not meet the system requirements of Windows 8, Windows 7, or Windows Vista. Setup will now exit.</ID_STRING95>
+			<ID_STRING96 TimeStamp="-1289696854">Microsoft Visual C++ 2008 SP1 Redistributable Package (x86)</ID_STRING96>
+			<ID_STRING97 TimeStamp="-618605206">MSXML 4.0 Service Pack 2 (Microsoft XML Core Services)</ID_STRING97>
+			<IDS_INSTALLING_WINDOWS_FEATURES TimeStamp="983679147">Installing Windows features/roles...</IDS_INSTALLING_WINDOWS_FEATURES>
+			<ID_STRING98 TimeStamp="-1407094355">Microsoft .NET Framework 4.5</ID_STRING98>
+			<ID_STRING99 TimeStamp="-1130278485">InstallShield 2013 SP1</ID_STRING99>
+			<ID_STRING100 TimeStamp="1403075820">Unsupported Operating System</ID_STRING100>
+			<ID_STRING101 TimeStamp="1403063565">[ProductName] no longer supports this operating system. The installer will now exit.</ID_STRING101>
+			<ID_STRING102 TimeStamp="1403108748">http://support.installshield.com/kb/view.asp?articleid=Q213488</ID_STRING102>
+			<ID_STRING103 TimeStamp="1403098445">More Information</ID_STRING103>
+			<ID_STRING104 TimeStamp="1403096716">The [ProductName] installation cannot continue. Your system does not meet the system requirements of Windows 8, Windows 7, or Windows Vista. Setup will now exit.</ID_STRING104>
+			<ID_STRING105 TimeStamp="1403084173">For more information, click the More Information button to view KB Q213488:</ID_STRING105>
+			<ID_STRING106 TimeStamp="-1188800276">InstallShield 2016</ID_STRING106>
+			<ID_STRING107 TimeStamp="-1121895282">Windows Installer 3.1 (x86)</ID_STRING107>
+			<ID_STRING108 TimeStamp="-1121895282">Microsoft Visual C++ 2010 SP1 Redistributable Package (x86)</ID_STRING108>
+			<ID_STRING109 TimeStamp="-1121874802">Microsoft Visual C++ 2012 Redistributable Package (x86)</ID_STRING109>
+			<ID_STRING110 TimeStamp="-1121864338">Cumulative Update for Microsoft Visual Basic 6.0 SP6 (KB2708437)</ID_STRING110>
+			<IDS_INSTALLTYPE_COMPLETE_NOTE_LD TimeStamp="-987655156">Choose this option to install all of the AdminStudio Enterprise Edition client tools, which enables you to evaluate these tools during your 45-day evaluation period. After the evaluation period ends and you enter your AdminStudio Limited Edition for LANDesk Management Suite serial number, only those tools included in the Limited Edition will be available to you.</IDS_INSTALLTYPE_COMPLETE_NOTE_LD>
+			<IDS_INSTALLTYPE_TYPICAL_NOTE_LD TimeStamp="-987655124">Choose this option to install only the tools included in this Limited Edition.</IDS_INSTALLTYPE_TYPICAL_NOTE_LD>
+			<ID_STRING111 TimeStamp="832748461">Uninstall_InstallShield2013SP1</ID_STRING111>
+			<ID_STRING112 TimeStamp="832760877">Uninstall_InstallShield2012SpringSP1</ID_STRING112>
+			<ID_STRING113 TimeStamp="-1985823891">Uninstall_InstallShield2011</ID_STRING113>
+			<ID_STRING114 TimeStamp="-1985870931">Uninstall_InstallShield2012</ID_STRING114>
+			<ID_STRING115 TimeStamp="-1985838163">Uninstall_InstallShield2012Spring</ID_STRING115>
+			<ID_STRING116 TimeStamp="-1591482897">Tuner</ID_STRING116>
+			<ID_STRING117 TimeStamp="304278377">Tuner</ID_STRING117>
+			<ID_STRING118 TimeStamp="-1155334005">Customize Windows Installer packages by creating transforms.</ID_STRING118>
+			<ID_STRING119 TimeStamp="1260526315">Microsoft ReportViewer 2012</ID_STRING119>
+			<ID_STRING120 TimeStamp="-1432166193">Microsoft System CLR Types for Microsoft SQL Server 2012</ID_STRING120>
+			<ID_STRING121 TimeStamp="-1432221328">Microsoft SQL Server 2012 System CLR Types</ID_STRING121>
+			<ID_STRING122 TimeStamp="1394785550">MSXML 4.0 SP3</ID_STRING122>
+			<IDS_WELCOME_MAINTENANCE_UPDATE TimeStamp="-1281212602">&amp;Update</IDS_WELCOME_MAINTENANCE_UPDATE>
+			<IDS_WELCOME_MAINTENANCE_UPDATE_NOTE TimeStamp="-1281212602">[ProductName] [ISUpdateVersion] is available. Download and install the latest update.</IDS_WELCOME_MAINTENANCE_UPDATE_NOTE>
+			<IDS_PROGRESS_CAPTION_UPDATING TimeStamp="-1281212602">Updating [ProductName]</IDS_PROGRESS_CAPTION_UPDATING>
+			<IDS_PROGRESS_TITLE_UPDATING TimeStamp="-1281212602">Downloading [ProductName] [ISUpdateVersion].</IDS_PROGRESS_TITLE_UPDATING>
+			<IDS_WEBDEPLOY_CAPTION TimeStamp="-1281212602">[ProductName] Server</IDS_WEBDEPLOY_CAPTION>
+			<IDS_WEBDEPLOY_USERNAME TimeStamp="-1281212602">User Name:</IDS_WEBDEPLOY_USERNAME>
+			<IDS_WEBDEPLOY_SERVER TimeStamp="-1281212602">Server:</IDS_WEBDEPLOY_SERVER>
+			<IDS_WEBDEPLOY_PASSWORD TimeStamp="-1281212602">Password:</IDS_WEBDEPLOY_PASSWORD>
+			<IDS_WEBDEPLOY_SITE TimeStamp="-1281212602">Site Name:</IDS_WEBDEPLOY_SITE>
+			<IDS_WEBDEPLOY_LOADCAPTION TimeStamp="-1281212602">Load the publisher profile</IDS_WEBDEPLOY_LOADCAPTION>
+			<IDS_WEBDEPLOY_LOADFILTER TimeStamp="-1281212602">Publisher Profile (*.publishsettings)|*.publishsettings|All Files (*.*)|*.*|</IDS_WEBDEPLOY_LOADFILTER>
+			<IDS_WEBDEPLOY_LOAD_BUTTON TimeStamp="-1281212602">Load Cloud Server Settings</IDS_WEBDEPLOY_LOAD_BUTTON>
+			<IDS_WEBDEPLOY_LOCAL TimeStamp="-1281212602">Local IIS server</IDS_WEBDEPLOY_LOCAL>
+			<IDS_WEBDEPLOY_REMOTE TimeStamp="-1281212602">Remote server</IDS_WEBDEPLOY_REMOTE>
+			<IDS_WEBDEPLOY_PUBPROF TimeStamp="-1281212602">Cloud-based server</IDS_WEBDEPLOY_PUBPROF>
+			<IDS_WEBDEPLOY_SERVERLOC TimeStamp="-1281212602">Select the server onto which [ProductName] will be installed.</IDS_WEBDEPLOY_SERVERLOC>
+			<ID_STRING123 TimeStamp="1621314827">Windows Management Framework 3.0 for Windows 7 SP1 (x86)</ID_STRING123>
+			<ID_STRING124 TimeStamp="1621329163">Windows Management Framework 3.0 for Windows 7 SP1 or 2008 R2 SP1 (x64)</ID_STRING124>
+			<ID_STRING125 TimeStamp="1621328843">Windows Management Framework 3.0 for Windows Server 2008 (x64)</ID_STRING125>
+			<ID_STRING126 TimeStamp="1621316843">Windows Management Framework 3.0 for Windows Server 2008 SP2 (x86)</ID_STRING126>
+			<ID_STRING127 TimeStamp="-391921043">Microsoft .NET Framework 4.5.2</ID_STRING127>
+			<ID_STRING128 TimeStamp="-391961843">Microsoft .NET Framework 4.5.2</ID_STRING128>
+			<ID_STRING129 TimeStamp="-1591532017">Quality Monitor</ID_STRING129>
+			<ID_STRING130 TimeStamp="-1994189298">Runs a series of built-in tests on installed Windows Installer-based products, helping to ensure they run correctly, especially in a locked-down environment.</ID_STRING130>
+			<ID_STRING131 TimeStamp="-1591538161">Process Template Editor</ID_STRING131>
+			<ID_STRING132 TimeStamp="-1859942006">Quality Monitor</ID_STRING132>
+			<ID_STRING133 TimeStamp="-1859929654">Process Template Editor</ID_STRING133>
+			<ID_STRING134 TimeStamp="-1591536948">Application Isolation Wizard</ID_STRING134>
+			<ID_STRING135 TimeStamp="-1591528756">Reduces versioning conflicts by modifying an application so it always loads the versions of components with which it was originally developed and tested.</ID_STRING135>
+			<ID_STRING136 TimeStamp="-1591489812">Application Isolation Wizard</ID_STRING136>
+			<ID_STRING137 TimeStamp="-1591511794">Application Management</ID_STRING137>
+			<ID_STRING138 TimeStamp="-1591511762">Application Management</ID_STRING138>
+			<ID_STRING139 TimeStamp="-1188878707">Application Virtualization and Repackaging</ID_STRING139>
+			<ID_STRING140 TimeStamp="-1188849843">Application Virtualization and Repackaging</ID_STRING140>
+			<ID_STRING141 TimeStamp="-1155317653">Automatically repackage and convert a single package or group of packages into virtual packages. Also, view and edit Microsoft App-V packages. </ID_STRING141>
+			<ID_STRING142 TimeStamp="-1155299221">Create new Process Templates, which define specific, repeatable procedures to accomplish your application migration goals.</ID_STRING142>
+			<ID_STRING143 TimeStamp="-1155303349">Central application for AdminStudio from which you can launch tools, set options, and create and connect to Application Catalogs.</ID_STRING143>
+			<ID_STRING144 TimeStamp="-1155291061">Manage your application portfolio and prepare applications for successful deployment. Test applications for compatibility and validation, identify and resolve conflicts between packages, and manage application deployment data.</ID_STRING144>
+			<ID_STRING145 TimeStamp="614676911">Windows Management Framework 3.0 for Windows Server 2008 SP2 (x64)</ID_STRING145>
+			<ID_STRING146 TimeStamp="-1314607858">msxml6_x86</ID_STRING146>
+			<ID_STRING147 TimeStamp="975441132">InstallShield 2015 SP1</ID_STRING147>
+			<ID_STRING148 TimeStamp="-1440453238">Microsoft Update KB2922229 (x86)</ID_STRING148>
+			<ID_STRING149 TimeStamp="-1440451158">Microsoft Update KB2922229 (x64)</ID_STRING149>
+			<ID_STRING150 TimeStamp="-1306211571">MSXML 4.0 SP3</ID_STRING150>
+			<ID_STRING151 TimeStamp="-1004229685">InstallShield 2016</ID_STRING151>
+			<ID_STRING152 TimeStamp="1696862030">Microsoft Visual C++ 2015 Update 3 Redistributable Package (x86)</ID_STRING152>
+			<ID_STRING153 TimeStamp="1713647435">Microsoft .NET Framework 3.5 SP1</ID_STRING153>
+			<ID_STRING154 TimeStamp="1713647435">Microsoft SQL Server 2014 Express System CLR Types (x86)</ID_STRING154>
+			<ID_STRING155 TimeStamp="1713647435">Microsoft ReportViewer 2015</ID_STRING155>
+			<ID_STRING156 TimeStamp="-2094721488">Microsoft .NET Framework 4.6.2</ID_STRING156>
+			<ID_STRING157 TimeStamp="-1423579373">Microsoft .NET Framework 4.5.2</ID_STRING157>
+			<ID_STRING158 TimeStamp="1671762959">Visual C++ Redistributable for Visual Studio 2012 Update 4</ID_STRING158>
+			<ID_STRING159 TimeStamp="-1373301070">InstallShield 2018</ID_STRING159>
+			<ID_STRING160 TimeStamp="-1817807712">ID_BB_5</ID_STRING160>
+			<ID_STRING161 TimeStamp="1814463206">Microsoft SQL Server 2012 Native Client</ID_STRING161>
+			<ID_STRING162 TimeStamp="1948665218">Microsoft SQLServer2012NativeClientx86</ID_STRING162>
+			<ID_STRING163 TimeStamp="1948679554">Microsoft SQLServer2012NativeClientx64</ID_STRING163>
+			<ID_STRING164 TimeStamp="-182042761">WiseScriptPackageEditor</ID_STRING164>
+			<ID_STRING165 TimeStamp="-47826335">WiseScript Editor</ID_STRING165>
+			<ID_STRING166 TimeStamp="-47836831">WiseScript Editor is a WiseScript authoring environment used to create customized installations.</ID_STRING166>
+			<ID_STRING167 TimeStamp="1705423542">InstallShield2018</ID_STRING167>
+			<ID_STRING168 TimeStamp="-1910003947">InstallShield 2019 R3</ID_STRING168>
+			<ID_STRING169 TimeStamp="-1557719856">By selecting the I agree… option, you agree to be bound by the terms of the Click-Through Purchase Agreement. If you or your company have a separately executed written agreement with Flexera for the product(s), then that separate agreement will apply.</ID_STRING169>
+			<ID_STRING170 TimeStamp="-1557710607">  I agree to the</ID_STRING170>
+			<ID_STRING171 TimeStamp="-1557695184">Click-Through Purchase Agreement</ID_STRING171>
+			<ID_STRING172 TimeStamp="-1196916718">AdminStudio 2020</ID_STRING172>
+			<ID_STRING173 TimeStamp="1277681035">ID_BB_3</ID_STRING173>
+			<ID_STRING174 TimeStamp="1277627819">ID_BB_4</ID_STRING174>
+			<ID_STRING175 TimeStamp="-576253788">InstallShield 2019 R2 MSIX Patch</ID_STRING175>
+			<ID_STRING176 TimeStamp="640124785">ID_BB_3</ID_STRING176>
+			<ID_STRING177 TimeStamp="640128881">ID_BB_4</ID_STRING177>
+			<ID_STRING178 TimeStamp="-1775804726">Cleaning up the Target Sytem...</ID_STRING178>
+			<ID_STRING179 TimeStamp="-894934287">InstallShield2020</ID_STRING179>
+		</Language>
+	</Languages>
+	<AbortConditions>
+		<Message Text="IDS_SUITE_MINOR_DOWNGRADE">
+			<When>
+				<Not>
+					<ParcelRef Id="*"/>
+				</Not>
+			</When>
+		</Message>
+		<Message Text="IDS_SUITE_MINOR_DOWNGRADE">
+			<When>
+				<Any>
+					<SuiteInstalled SuiteId="*" Version="*" Compare="GreaterThan"/>
+				</Any>
+			</When>
+		</Message>
+		<Message Text="ID_STRING95">
+			<When>
+				<All>
+					<Platform OSVersion="-5.2"/>
+					<PropertyValue Name="ISSilentInstall" Convert="String" Compare="Equal" CompareTo="True"/>
+				</All>
+			</When>
+		</Message>
+	</AbortConditions>
+	<WindowsFeaturesDefinitions>
+		<IIS-WebServerRole>
+			<DependsOn>NetFx3</DependsOn>
+			<ItemAllOS>IIS-WebServerRole;IIS-WebServer;IIS-WebServerManagementTools;IIS-ManagementConsole;IIS-CommonHttpFeatures;IIS-DefaultDocument;IIS-DirectoryBrowsing;IIS-HttpErrors;IIS-StaticContent;IIS-HealthAndDiagnostics;IIS-HttpLogging;IIS-RequestMonitor;IIS-Performance;IIS-HttpCompressionStatic;IIS-Security;IIS-RequestFiltering;IIS-ApplicationDevelopment;IIS-ISAPIExtensions;IIS-ISAPIFilter;IIS-NetFxExtensibility;IIS-ASPNET</ItemAllOS>
+			<Client_0600>WAS-WindowsActivationService;WAS-ProcessModel;WAS-NetFxEnvironment;WAS-ConfigurationAPI;IIS-WebServerRole;IIS-WebServer;IIS-WebServerManagementTools;IIS-ManagementConsole;IIS-CommonHttpFeatures;IIS-DefaultDocument;IIS-DirectoryBrowsing;IIS-HttpErrors;IIS-StaticContent;IIS-HealthAndDiagnostics;IIS-HttpLogging;IIS-RequestMonitor;IIS-Performance;IIS-HttpCompressionStatic;IIS-Security;IIS-RequestFiltering;IIS-ApplicationDevelopment;IIS-ISAPIExtensions;IIS-ISAPIFilter;IIS-NetFxExtensibility;IIS-ASPNET</Client_0600>
+			<Server_0600>WAS-WindowsActivationService;WAS-ProcessModel;WAS-NetFxEnvironment;WAS-ConfigurationAPI;IIS-WebServerRole;IIS-WebServer;IIS-WebServerManagementTools;IIS-ManagementConsole;IIS-CommonHttpFeatures;IIS-DefaultDocument;IIS-DirectoryBrowsing;IIS-HttpErrors;IIS-StaticContent;IIS-HealthAndDiagnostics;IIS-HttpLogging;IIS-RequestMonitor;IIS-Performance;IIS-HttpCompressionStatic;IIS-Security;IIS-RequestFiltering;IIS-ApplicationDevelopment;IIS-ISAPIExtensions;IIS-ISAPIFilter;IIS-NetFxExtensibility;IIS-ASPNET</Server_0600>
+			<ServerCore_0600>WAS-WindowsActivationService;WAS-ProcessModel;IIS-WebServerRole;IIS-WebServer;IIS-CommonHttpFeatures;IIS-DefaultDocument;IIS-DirectoryBrowsing;IIS-HttpErrors;IIS-StaticContent;IIS-HealthAndDiagnostics;IIS-HttpLogging;IIS-RequestMonitor;IIS-Performance;IIS-HttpCompressionStatic;IIS-Security;IIS-RequestFiltering;IIS-ApplicationDevelopment;IIS-ISAPIExtensions;IIS-ISAPIFilter</ServerCore_0600>
+			<ServerCore_0601>IIS-WebServerRole;IIS-WebServer;IIS-CommonHttpFeatures;IIS-DefaultDocument;IIS-DirectoryBrowsing;IIS-HttpErrors;IIS-StaticContent;IIS-HealthAndDiagnostics;IIS-HttpLogging;IIS-RequestMonitor;IIS-Performance;IIS-HttpCompressionStatic;IIS-Security;IIS-RequestFiltering;IIS-ApplicationDevelopment;IIS-ISAPIExtensions;IIS-ISAPIFilter;IIS-NetFxExtensibility;IIS-ASPNET</ServerCore_0601>
+			<Client_0602>IIS-WebServerRole;IIS-WebServer;IIS-WebServerManagementTools;IIS-ManagementConsole;IIS-CommonHttpFeatures;IIS-DefaultDocument;IIS-DirectoryBrowsing;IIS-HttpErrors;IIS-StaticContent;IIS-HealthAndDiagnostics;IIS-HttpLogging;IIS-RequestMonitor;IIS-Performance;IIS-HttpCompressionStatic;IIS-Security;IIS-RequestFiltering;IIS-ApplicationDevelopment;IIS-ISAPIExtensions;IIS-ISAPIFilter;NetFx4Extended-ASPNET45;IIS-NetFxExtensibility;IIS-ASPNET</Client_0602>
+			<Server_0602>IIS-WebServerRole;IIS-WebServer;IIS-WebServerManagementTools;IIS-ManagementConsole;IIS-CommonHttpFeatures;IIS-DefaultDocument;IIS-DirectoryBrowsing;IIS-HttpErrors;IIS-StaticContent;IIS-HealthAndDiagnostics;IIS-HttpLogging;IIS-RequestMonitor;IIS-Performance;IIS-HttpCompressionStatic;IIS-Security;IIS-RequestFiltering;IIS-ApplicationDevelopment;IIS-ISAPIExtensions;IIS-ISAPIFilter;NetFx4Extended-ASPNET45;IIS-NetFxExtensibility;IIS-ASPNET</Server_0602>
+			<ServerCore_0602>IIS-WebServerRole;IIS-WebServer;IIS-CommonHttpFeatures;IIS-DefaultDocument;IIS-DirectoryBrowsing;IIS-HttpErrors;IIS-StaticContent;IIS-HealthAndDiagnostics;IIS-HttpLogging;IIS-RequestMonitor;IIS-Performance;IIS-HttpCompressionStatic;IIS-Security;IIS-RequestFiltering;IIS-ApplicationDevelopment;IIS-ISAPIExtensions;IIS-ISAPIFilter;NetFx4Extended-ASPNET45;IIS-NetFxExtensibility;IIS-ASPNET</ServerCore_0602>
+			<Server_1000>IIS-WebServerRole;IIS-WebServer;IIS-WebServerManagementTools;IIS-ManagementConsole;IIS-CommonHttpFeatures;IIS-DefaultDocument;IIS-DirectoryBrowsing;IIS-HttpErrors;IIS-StaticContent;IIS-HealthAndDiagnostics;IIS-HttpLogging;IIS-RequestMonitor;IIS-Performance;IIS-HttpCompressionStatic;IIS-Security;IIS-RequestFiltering;IIS-ApplicationDevelopment;IIS-ISAPIExtensions;IIS-ISAPIFilter;NetFx4Extended-ASPNET45;IIS-NetFxExtensibility;IIS-ASPNET</Server_1000>
+			<ServerCore_1000>IIS-WebServerRole;IIS-WebServer;IIS-CommonHttpFeatures;IIS-DefaultDocument;IIS-DirectoryBrowsing;IIS-HttpErrors;IIS-StaticContent;IIS-HealthAndDiagnostics;IIS-HttpLogging;IIS-RequestMonitor;IIS-Performance;IIS-HttpCompressionStatic;IIS-Security;IIS-RequestFiltering;IIS-ApplicationDevelopment;IIS-ISAPIExtensions;IIS-ISAPIFilter;NetFx4Extended-ASPNET45;IIS-NetFxExtensibility;IIS-ASPNET</ServerCore_1000>
+		</IIS-WebServerRole>
+		<NetFx3>
+			<Client_0600>NetFx3</Client_0600>
+			<Server_0600>NetFx3</Server_0600>
+			<ServerCore_0600/>
+			<Client_0601>NetFx3</Client_0601>
+			<Server_0601>NetFx3</Server_0601>
+			<ServerCore_0601/>
+			<Client_0602>NetFx3</Client_0602>
+			<Server_0602>NetFx3ServerFeatures;NetFx3</Server_0602>
+			<ServerCore_0602>NetFx3ServerFeatures;NetFx3</ServerCore_0602>
+			<Server_1000>NetFx3ServerFeatures;NetFx3</Server_1000>
+			<ServerCore_1000>NetFx3ServerFeatures;NetFx3</ServerCore_1000>
+		</NetFx3>
+		<PowerShell>
+			<Client_0600/>
+			<Server_0600>MicrosoftWindowsPowerShell</Server_0600>
+			<ServerCore_0600/>
+			<Client_0601/>
+			<Server_0601/>
+			<ServerCore_0601>NetFx2-ServerCore;MicrosoftWindowsPowerShell</ServerCore_0601>
+			<Client_0602/>
+			<Server_0602>MicrosoftWindowsPowerShellRoot;MicrosoftWindowsPowerShell;MicrosoftWindowsPowerShellISE;MicrosoftWindowsPowerShellV2</Server_0602>
+			<ServerCore_0602>MicrosoftWindowsPowerShellRoot;MicrosoftWindowsPowerShell;MicrosoftWindowsPowerShellV2</ServerCore_0602>
+			<Server_1000/>
+			<ServerCore_1000/>
+		</PowerShell>
+	</WindowsFeaturesDefinitions>
+	<Actions>
+		<SetProperty Id="CheckforXP" Name="IsRunningXP" Value="1"/>
+		<SetProperty Id="ASUpgradeCheckv13" Name="ASINSTALLED" Value="[@Registry(HKLM\Software\InstallShield\AdminStudio\13.0).KeyValue(Product Location)]" FormatPropertyValue="Yes"/>
+		<SetProperty Id="ASUpgradeCheckv12" Name="ASINSTALLED" Value="[@Registry(HKLM\Software\InstallShield\AdminStudio\12.0).KeyValue(Product Location)]" FormatPropertyValue="Yes"/>
+		<SetProperty Id="ASUpgradeCheckv11.5" Value="[@Registry(HKLM\Software\InstallShield\AdminStudio\11.5).KeyValue(Product Location)]" Name="ASINSTALLED" FormatPropertyValue="Yes"/>
+		<SetProperty Id="ASUpgradeCheckv11" Value="[@Registry(HKLM\Software\InstallShield\AdminStudio\11.0).KeyValue(Product Location)]" Name="ASINSTALLED" FormatPropertyValue="Yes"/>
+		<SetProperty Id="ASUpgradeCheckv14" Value="[@Registry(HKLM\Software\InstallShield\AdminStudio\14.0).KeyValue(Product Location)]" Name="ASINSTALLED" FormatPropertyValue="Yes"/>
+		<SetProperty Id="ASUpgradeCheckv15" Value="[@Registry(HKLM\Software\InstallShield\AdminStudio\15.0).KeyValue(Product Location)]" FormatPropertyValue="Yes" Name="ASINSTALLED"/>
+		<SetProperty Id="ASUpgradeCheckv16" Value="[@Registry(HKLM\Software\InstallShield\AdminStudio\16.0).KeyValue(Product Location)]" Name="ASINSTALLED" FormatPropertyValue="Yes"/>
+		<SetProperty Id="ASUpgradeCheckv17" Name="ASINSTALLED" Value="[@Registry(HKLM\Software\InstallShield\AdminStudio\17.0).KeyValue(Product Location)]" FormatPropertyValue="Yes"/>
+		<SetProperty Id="ASUpgradeCheckv18" FormatPropertyValue="Yes" Name="ASINSTALLED" Value="[@Registry(HKLM\Software\InstallShield\AdminStudio\18.0).KeyValue(Product Location)]"/>
+		<CallInstallScript Id="DeleteFiles" Arguments="Delete_Dir"/>
+		<SetProperty Id="ASUpgradeCheckv19" Name="ASINSTALLED" Value="[@Registry(HKLM\Software\InstallShield\AdminStudio\19.0).KeyValue(Product Location)]" FormatPropertyValue="Yes"/>
+	</Actions>
+	<Events>
+		<OnBegin>
+			<Action Id="ASUpgradeCheckv19">
+				<When>
+					<Any>
+						<RegistryExists Check64Bit="False" Key="HKLM\Software\InstallShield\AdminStudio\19.0"/>
+					</Any>
+				</When>
+			</Action>
+			<Action Id="ASUpgradeCheckv18">
+				<When>
+					<Any>
+						<RegistryExists Check64Bit="False" Key="HKLM\Software\InstallShield\AdminStudio\18.0"/>
+					</Any>
+				</When>
+			</Action>
+			<Action Id="ASUpgradeCheckv17">
+				<When>
+					<Any>
+						<RegistryExists Check64Bit="False" Key="HKLM\Software\InstallShield\AdminStudio\17.0"/>
+					</Any>
+				</When>
+			</Action>
+			<Action Id="CheckforXP">
+				<When>
+					<Any>
+						<Platform OSVersion="-5.2"/>
+					</Any>
+				</When>
+			</Action>
+			<Action Id="ASUpgradeCheckv16">
+				<When>
+					<Any>
+						<RegistryExists Check64Bit="False" Key="HKLM\Software\InstallShield\AdminStudio\16.0"/>
+					</Any>
+				</When>
+			</Action>
+			<Action Id="ASUpgradeCheckv15">
+				<When>
+					<Any>
+						<RegistryExists Check64Bit="False" Key="HKLM\Software\InstallShield\AdminStudio\15.0"/>
+					</Any>
+				</When>
+			</Action>
+			<Action Id="ASUpgradeCheckv14">
+				<When>
+					<Any>
+						<RegistryExists Check64Bit="False" Key="HKLM\Software\InstallShield\AdminStudio\14.0"/>
+					</Any>
+				</When>
+			</Action>
+			<Action Id="ASUpgradeCheckv13">
+				<When>
+					<Any>
+						<RegistryExists Check64Bit="False" Key="HKLM\Software\InstallShield\AdminStudio\13.0"/>
+					</Any>
+				</When>
+			</Action>
+			<Action Id="ASUpgradeCheckv12">
+				<When>
+					<Any>
+						<RegistryExists Check64Bit="False" Key="HKLM\Software\InstallShield\AdminStudio\12.0"/>
+					</Any>
+				</When>
+			</Action>
+			<Action Id="ASUpgradeCheckv11.5">
+				<When>
+					<Any>
+						<RegistryExists Check64Bit="False" Key="HKLM\Software\InstallShield\AdminStudio\11.5"/>
+					</Any>
+				</When>
+			</Action>
+			<Action Id="ASUpgradeCheckv11">
+				<When>
+					<Any>
+						<RegistryExists Check64Bit="False" Key="HKLM\Software\InstallShield\AdminStudio\11.0"/>
+					</Any>
+				</When>
+			</Action>
+		</OnBegin>
+		<OnParcelsInstalled>
+			<Action Id="DeleteFiles" DisplayText="ID_STRING178">
+				<When>
+					<Any>
+						<ParcelAction Id="{37634D53-3E83-458E-A12D-839D71B901D2}" State="remove"/>
+					</Any>
+				</When>
+			</Action>
+		</OnParcelsInstalled>
+	</Events>
+	<InstallScript xmlns="installshield/2018.1/bootstrap/project">
+		<ScriptFiles>
+			<ScriptFile Name="&lt;ISProjectDataFolder&gt;\Script Files\Setup.rul"/>
+		</ScriptFiles>
+		<CompilerOptions>
+			<CompileBeforeBuild Value="1"/>
+			<Debug Value="0"/>
+			<IncludePath Value=""/>
+			<MaxErrors Value="50"/>
+			<MaxWarnings Value="50"/>
+			<OutputPath Value="&lt;ISProjectDataFolder&gt;\Script Files"/>
+			<PreProcessor Value="_ISCRIPT_SUITE_EXTENSION"/>
+			<WarningLevel Value="3"/>
+			<WarningsAsErrors Value="0"/>
+			<LibraryPath Value="0"/>
+		</CompilerOptions>
+		<LinkerOptions>
+			<Library Name="isrtsuite.obl"/>
+		</LinkerOptions>
+	</InstallScript>
+</Setup>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9756c18d-0352-4653-a703-6837dd4a4b09}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ProjectHelpers">
+      <UniqueIdentifier>{a441400e-ef81-4a6a-aad2-d97e35121ff5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{738ad6a0-14ff-45e5-a9d2-6c4472bf0a3b}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\inc_h">
+      <UniqueIdentifier>{ef5e1af9-3ef2-4722-96cb-beb3c25c5fc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ProjectHelpers_h">
+      <UniqueIdentifier>{77fa1cbb-736f-43a8-926a-d5d4a4db6c93}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\PerformanceMonitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ISFolderUtils.cpp">
+      <Filter>Source Files\ProjectHelpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ISProject.cpp">
+      <Filter>Source Files\ProjectHelpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ISProjectBase.cpp">
+      <Filter>Source Files\ProjectHelpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MSIProject.cpp">
+      <Filter>Source Files\ProjectHelpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ProjectHelper.cpp">
+      <Filter>Source Files\ProjectHelpers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\CppUnitHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ISCppUnitLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ISFolderUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MockCollectionHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MockObjectHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PerformanceMonitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ISProject.h">
+      <Filter>Header Files\ProjectHelpers_h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ISProjectBase.h">
+      <Filter>Header Files\ProjectHelpers_h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MSIProject.h">
+      <Filter>Header Files\ProjectHelpers_h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ProjectHelper.h">
+      <Filter>Header Files\ProjectHelpers_h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\IsCppUnit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

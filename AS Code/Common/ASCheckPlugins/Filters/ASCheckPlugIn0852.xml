@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<IgnoredFiles>
+  <File>msvcrt.dll</File>
+  <File>msvcp60.dll</File>
+  <File>msvcr71.dll</File>
+  <File>msvcp71.dll</File>
+  <File>msvcr80.dll</File>
+  <File>msvcp80.dll</File>
+  <File>msvcm80.dll</File>
+  <File>msvcm90.dll</File>
+</IgnoredFiles>

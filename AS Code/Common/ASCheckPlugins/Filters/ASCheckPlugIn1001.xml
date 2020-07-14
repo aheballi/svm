@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<DeprecatedElements>
+
+  <HtmlTags>
+    
+    <!-- <BLINK> -->
+    <Tag>blink</Tag>
+    
+  </HtmlTags>
+
+  <JsMethods>
+
+    <Method>blink</Method>
+    
+  </JsMethods>
+
+</DeprecatedElements>

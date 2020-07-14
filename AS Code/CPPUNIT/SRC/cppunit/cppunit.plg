@@ -1,0 +1,130 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cppunit - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP388.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "..\..\include" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "WIN32" /FR"Debug/" /Fp"Debug/cppunit.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\CppUnit\cppunit-1.8.0\src\cppunit\RepeatedTest.cpp"
+"C:\CppUnit\cppunit-1.8.0\src\cppunit\TestSetUp.cpp"
+"C:\CppUnit\cppunit-1.8.0\src\cppunit\TestFactoryRegistry.cpp"
+"C:\CppUnit\cppunit-1.8.0\src\cppunit\TypeInfoHelper.cpp"
+"C:\CppUnit\cppunit-1.8.0\src\cppunit\Asserter.cpp"
+"C:\CppUnit\cppunit-1.8.0\src\cppunit\Exception.cpp"
+"C:\CppUnit\cppunit-1.8.0\src\cppunit\NotEqualException.cpp"
+"C:\CppUnit\cppunit-1.8.0\src\cppunit\SourceLine.cpp"
+"C:\CppUnit\cppunit-1.8.0\src\cppunit\SynchronizedObject.cpp"
+"C:\CppUnit\cppunit-1.8.0\src\cppunit\TestAssert.cpp"
+"C:\CppUnit\cppunit-1.8.0\src\cppunit\TestCase.cpp"
+"C:\CppUnit\cppunit-1.8.0\src\cppunit\TestFailure.cpp"
+"C:\CppUnit\cppunit-1.8.0\src\cppunit\TestResult.cpp"
+"C:\CppUnit\cppunit-1.8.0\src\cppunit\TestSuite.cpp"
+"C:\CppUnit\cppunit-1.8.0\src\cppunit\TestResultCollector.cpp"
+"C:\CppUnit\cppunit-1.8.0\src\cppunit\TextOutputter.cpp"
+"C:\CppUnit\cppunit-1.8.0\src\cppunit\XmlOutputter.cpp"
+"C:\CppUnit\cppunit-1.8.0\src\cppunit\TestRunner.cpp"
+"C:\CppUnit\cppunit-1.8.0\src\cppunit\TestSucessListener.cpp"
+"C:\CppUnit\cppunit-1.8.0\src\cppunit\TextTestProgressListener.cpp"
+"C:\CppUnit\cppunit-1.8.0\src\cppunit\TextTestResult.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP388.tmp" 
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP389.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "..\..\include" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "WIN32" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\CppUnit\cppunit-1.8.0\src\cppunit\CompilerOutputter.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP389.tmp" 
+<h3>Output Window</h3>
+Compiling...
+RepeatedTest.cpp
+TestSetUp.cpp
+TestFactoryRegistry.cpp
+TypeInfoHelper.cpp
+Asserter.cpp
+Exception.cpp
+NotEqualException.cpp
+SourceLine.cpp
+SynchronizedObject.cpp
+TestAssert.cpp
+TestCase.cpp
+TestFailure.cpp
+TestResult.cpp
+TestSuite.cpp
+TestResultCollector.cpp
+TextOutputter.cpp
+XmlOutputter.cpp
+TestRunner.cpp
+TestSucessListener.cpp
+TextTestProgressListener.cpp
+TextTestResult.cpp
+Compiling...
+CompilerOutputter.cpp
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP38C.tmp" with contents
+[
+/nologo /out:"..\..\lib\cppunitd.lib" 
+".\Debug\RepeatedTest.obj"
+".\Debug\TestSetUp.obj"
+".\Debug\TestFactoryRegistry.obj"
+".\Debug\TypeInfoHelper.obj"
+".\Debug\Asserter.obj"
+".\Debug\Exception.obj"
+".\Debug\NotEqualException.obj"
+".\Debug\SourceLine.obj"
+".\Debug\SynchronizedObject.obj"
+".\Debug\TestAssert.obj"
+".\Debug\TestCase.obj"
+".\Debug\TestFailure.obj"
+".\Debug\TestResult.obj"
+".\Debug\TestSuite.obj"
+".\Debug\CompilerOutputter.obj"
+".\Debug\TestResultCollector.obj"
+".\Debug\TextOutputter.obj"
+".\Debug\XmlOutputter.obj"
+".\Debug\TestRunner.obj"
+".\Debug\TestSucessListener.obj"
+".\Debug\TextTestProgressListener.obj"
+".\Debug\TextTestResult.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP38C.tmp"
+<h3>Output Window</h3>
+Creating library...
+Creating temporary file "C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP38D.tmp" with contents
+[
+/nologo /o"Debug/cppunit.bsc" 
+".\Debug\RepeatedTest.sbr"
+".\Debug\TestSetUp.sbr"
+".\Debug\TestFactoryRegistry.sbr"
+".\Debug\TypeInfoHelper.sbr"
+".\Debug\Asserter.sbr"
+".\Debug\Exception.sbr"
+".\Debug\NotEqualException.sbr"
+".\Debug\SourceLine.sbr"
+".\Debug\SynchronizedObject.sbr"
+".\Debug\TestAssert.sbr"
+".\Debug\TestCase.sbr"
+".\Debug\TestFailure.sbr"
+".\Debug\TestResult.sbr"
+".\Debug\TestSuite.sbr"
+".\Debug\CompilerOutputter.sbr"
+".\Debug\TestResultCollector.sbr"
+".\Debug\TextOutputter.sbr"
+".\Debug\XmlOutputter.sbr"
+".\Debug\TestRunner.sbr"
+".\Debug\TestSucessListener.sbr"
+".\Debug\TextTestProgressListener.sbr"
+".\Debug\TextTestResult.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\AMBERA~1\LOCALS~1\Temp\RSP38D.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+cppunitd.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

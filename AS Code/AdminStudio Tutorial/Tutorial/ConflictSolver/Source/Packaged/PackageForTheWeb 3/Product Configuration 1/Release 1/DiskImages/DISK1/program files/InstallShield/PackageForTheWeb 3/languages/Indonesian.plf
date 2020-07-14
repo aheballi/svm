@@ -1,0 +1,110 @@
+[Dialog1000]
+100=Selamat datang di Program InstallShield Wizard%s
+101=Program InstallShield(r) Wizard akan membantu proses instalasi %s di komputer anda. Untuk terus, klik Selanjutnya.
+
+[Dialog1001]
+0=Perjanjian Lisensi
+1=Mohon baca perjanjian lisensi berikut dengan cermat.
+121=Saya&menerima semua hal yang ada dalam perjanjian lisensi
+122=Saya&tidak menerima syarat-syarat yang tercantum dalam perjanjian lisensi ini
+
+[Dialog1002]
+0=Lokasi untuk menyimpan File
+1=Di mana anda ingin menyimpan file anda?
+101=Mohon masukkan folder di mana anda ingin file anda disimpan. Jika folder tidak ada, akan dibuat untuk anda. Untuk terus, klik Selanjutnya.
+102=S&impan file di folder:
+103=&Mengubah...
+
+[Dialog1003]
+0=Kata Kunci Pembuka
+1=Paket ini telah dilindungi dengan Kata Kunci Pembuka.
+106=&Kata Kunci Pembuka:
+107=Masukkan Kata Kunci Pembuka yang diminta untuk menjalankan paket ini. Perhatikan bahwa Kata Kunci Pembukanya sangat sensitif.  Untuk terus, klik Selanjutnya.
+
+[Dialog1004]
+0=Menulis ulang Perlindungan
+2=Batal
+109=&Ya
+110=&Tidak
+111=Y&a untuk semuanya
+112=T&idak untuk semuanya
+113=File berikut ini telah ada dalam komputer anda:
+114=Anda ingin menulis ulang file ini?
+
+[Dialog1005]
+0=Mengembangkan File
+1=Isi dari paket ini sedang dikembangkan.
+2=Batal
+124=Mohon menunggu sementara Program InstallShield Wizard mengembangkan file - file yang diperlukan untuk dipasang %s di komputer anda. Hal ini akan memakan waktu beberapa saat.
+125=Mengembangkan %s...
+126=Membaca isi paket...
+
+[Dialog1006]
+100=Program InstallShield Wizard Selesai
+101=Program InstallShield Wizard telah menyelesaikan instalasi %s pada komputer anda. Untuk keluar dari program wizard, klik Selesai.
+
+[Strings]
+1=Kesalahan PackageForTheWeb 
+2=Self-extracting executable file sudah rusak.  Instalasi akan dihentikan.
+3=Tidak dapat membuka self-extracting executable file.  File ini di kunci atau sedang digunakan oleh proses yang lain.  Instalasi akan dihentikan.
+4=PackageForTheWeb
+5=Tidak dapat masuk ke source file!
+6=Tidak dapat membuat kabinet file!
+7=Tidak dapat masuk ke jalan yang ditentukan.
+8=Tidak dapat membuat direktori keluaran yang ditentukan.  nama alamatnya salah.9=Tidak dapat memulai proses dekompresi!
+10=EXE file sudah rusak.  Tidak dapat meneruskan.
+11=Tidak dapat mengdekompres EXE file.
+12=Tidak dapat menjalankan baris perintah yang ditentukan!
+13=Program in digunakan di dalam oleh PackageFromTheWeb.  Program ini tidak diboleh dijalankan secara langsung.14=Kepala infomasinya rusak atau hilang!"
+15=File Software Licensing Agreement nya hilang.  Instalasi akan diberhentikan.29=Direktori keluaran yang ditentukan tidak ada. apakah mau dibuat sekarang?30=Kesalahan menulis di file kabinet!
+31=Program instalasi ini dibuat dengan mengunakan versi percobaan dari PackageForTheWeb.  PackageForTheWeb Wizard ini harus dijalankan untuk menjalankan program ini.
+32=Apakah anda mau membatalkan instalasi ini?
+33=Paket ini telah berhasil dikirim.
+34=Tempat di disk tidak cukup untuk membuka paket ini!
+35=Kesalahan di penjagaan! Kunci pembuka tidak cocok.
+36=Pilihan baris perintah salah.
+37=Membuka paket '%s'...
+38=Kesalahan penempatan memori!
+39=Tidak dapat membuka aplikasi untuk membuka paket
+40=Kesalahan yang besar membaca paket data.
+41=Kesalahan besar menulis di paket data.
+42=Program format tidak berlaku dan tidak dapat diperbaharui.
+43=Paket ini kehilangan isi filenya.
+44=Kesalahan umum membaca paket ini.
+45=Paket ini sudah ada file isinya.
+46=Paket ini sudah ditandai dan tidak dapat diperbaharui.
+47=Kesalahan Besar Microsoft
+48=Tidak dapat menginisialisasi extension DLL.
+49=Kesalahan menjalankan Specified Program
+300=Tidak ada kesalahan
+301=Kehilangan kabinet file!
+302=Masukan file bukan cabinet.
+303=Salah Versi kabinet.
+304=Kabinet file sudah rusak!
+305=Kesalahan penempatan memori!
+306=File tipe Kompresi tidak berlaku!
+307=Kesalahan CRC.308=Kesalahan sistem selama dekompresi
+309=Kesalahan data ukuran didalam.
+310=Kesalahan pemilihan kabinet file
+311=Paket dikompresi telah di batalkan.
+312=Tidak dapat membuat direktori keluaran yang telah ditentukan!
+313=Tidak bisa mengolah data membutuhkan ruang di disket
+314=Ruang di drive %s tidak cukup untuk mengekstraksikan paket ini.
+318=Ruang di drive %s tidak cukup untuk mengekstraksikan paket ini.
+323=Saya Setuju
+324=Harap kosongkan hingga  %.2f %s dan tekan Retry (Ulangi Lagi)
+325=Self-extracting executable file sudah rusak.  Instalasi akan dihentikan.
+
+[FinishButton]
+1=Selesai
+2=Lanjutkan
+
+[WizardButtons]
+1=< &Sebelumnya
+2=S&elanjutnya >
+3=Pembatalan
+4=InstallShield Wizard
+
+[Fonts]
+328=12,Arial
+6001=8,MS Sans Serif
