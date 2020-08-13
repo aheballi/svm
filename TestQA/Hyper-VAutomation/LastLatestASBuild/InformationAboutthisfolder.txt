@@ -1,1 +1,0 @@
-This folder is used to copy the latest AS build from build location to the machine where the reverting machines will be controlled to speed up the process.

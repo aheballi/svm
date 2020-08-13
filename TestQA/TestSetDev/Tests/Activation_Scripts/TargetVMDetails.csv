@@ -1,4 +1,0 @@
-"ActualVMName","VMHostName","CheckPointName","TargetDomain","ToRevert","ToInstallLatestBuild","ToAddToDomain"
-"AS04-Windows10-64-003-Automation-ActivationTests","ASW1603ATActest","EvaluationActivations","AR.flexdev.com","1","1","0"
-"AS04-Windows10-64-003-Automation-ActivationTests","ASW1603ATActest","LicenseServerActivations","AR.flexdev.com","1","1","0"
-"AS04-Windows10-64-003-Automation-ActivationTests","ASW1603ATActest","SerialKeyActivations","AR.flexdev.com","1","1","0"
