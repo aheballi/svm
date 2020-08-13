@@ -1,0 +1,14 @@
+ReleaseEngineer
+**!Releas3Eng
+prompt
+cd Builds\AdminstudioQA
+binary
+cd Sheldonopolis\AES
+lcd C:\AMS\AMS_Builds\compressed\Setup\DiskImages\DISK1
+mput *.exe
+cd ..
+cd FNWFM
+lcd C:\AMS\AMS_Builds\FNWFM_COMP\Comp_Setup\DiskImages\DISK1
+mput *.exe
+cd \Builds\AdminStudioQA
+bye

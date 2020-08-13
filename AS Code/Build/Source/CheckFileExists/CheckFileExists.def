@@ -1,0 +1,7 @@
+; CheckFileExists.def : Declares the module parameters.
+
+LIBRARY      "CheckFileExists.dll"
+
+EXPORTS
+	CheckRepackagerPath				@1
+	CheckASSharedPath				@2

@@ -1,0 +1,6 @@
+
+
+LIBRARY "GetIPAddress"
+
+EXPORTS
+	GetMachineIPAddress

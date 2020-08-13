@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="GENERATOR" content="Quadralay WebWorks Publisher 2003 for FrameMaker 8.6.6587.0" />
+    <meta name="TEMPLATEBASE" content="MVSN WWH Template 30-Sep-2005" />
+    <meta name="LASTUPDATED" content="10/31/06 16:13:04" />
+    <title>Selecting a Package for Distribution</title>
+    <link rel="StyleSheet" href="document.css" type="text/css" />
+    <link rel="StyleSheet" href="catalog.css" type="text/css" />
+<script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Set reference to top level help frame
+    //
+    var  WWHFrame = WWHGetWWHFrame("");
+   // -->
+  </script>
+
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/mvsnfooter.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+  </head>
+
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+
+
+<!--<a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq1" src="images/MVSNLOGO.GIF" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>-->
+    <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq2" src="images/MVSNLOGO.GIF" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>
+
+
+    <hr align="left" size="1" color="#C2C2C2"/>
+
+    <!--<blockquote>-->
+<a name="wp1090458"> </a><h1 class="pHeading1">
+Selecting a Package for Distribution
+</h1>
+<a name="wp1090459"> </a><p class="pps_Product_Subheading">
+AdminStudio Enterprise Server 8.0 » SMS Web Console
+</p>
+<a name="wp1090460"> </a><p class="pa_Body">
+To select a package for distribution from SMS Web Console using SMS Distribution, perform the following steps.
+</p>
+<img style="margin-top: 10pt;" hspace="16" alt="Task" src="images/NOTETASK.GIF" />
+<p class="alert">Task</p>
+<a name="wp1090461"> </a><p class="pp_Procedure_Leading">
+To distribute a new package:
+</p>
+<div class="pSmartList1"><ol type="1" class="pSmartList1">
+<a name="wp1090462"> </a><div class="pSmartList1"><li>Launch SMS Web Console. The <b class="cUI_Element">SMS Web Console Home Page</b> opens. </li></div>
+<a name="wp1090463"> </a><div class="pSmartList1"><li>Click Distribute a New Package. The <b class="cUI_Element">Distribute Package Page</b> opens, listing all of the Windows Installer (<span class="cFileNames">.msi</span>) packages in the open Application Catalog.</li></div>
+<a name="wp1090464"> </a><div class="pSmartList1"><li>Click the radio button next to the Application Name of the package that you want to distribute. Only one package can be selected at a time. </li></div>
+<a name="wp1090465"> </a><div class="pSmartList1"><li>Click <b class="cUI_Element">Distribute</b>. The <b class="cUI_Element">PDF Selection Page</b> opens. </li></div>
+<a name="wp1090466"> </a><div class="pSmartList1"><li>In the <b class="cUI_Element">Package Configuration</b> area of SMS Web Console, you specify distribution configuration fields that the SMS server utilizes in the distribution of the package. You can manually enter package and distribution configuration information and settings, or you can choose to attach a Package Definition File (PDF) to an .msi package to pre-populate these fields.</li></div>
+<a name="wp1090467"> </a><p class="pal_Body_Under_List">
+A Package Definition File (PDF) a text file that contains predefined programs and property settings for a package and is used to automate package creation. When you use a package definition file, appropriate fields on the <a href="javascript:WWHClickedPopup('SMSWebConsole8', 'SMSRefViewSMSPackageConfig.htm');" onMouseOver="WWHShowPopup('SMSWebConsole8', 'SMSRefViewSMSPackageConfig.htm', (document.all||document.getElementById||document.layers)?event:null);" onMouseOut="WWHHidePopup();"><span class="cHyperlink">SMS Package Configuration Page</span></a> are populated with the information in the package definition file you selected. A package definition file typically has an <span class="cFileNames">.sms</span> file name extension (<span class="cFileNames">.pdf</span> in previous versions of SMS).
+</p>
+<a name="wp1090471"> </a><p class="pal_Body_Under_List">
+If you want to distribute this application using an existing SMS Package Definition File (PDF/SMS) (either one on the SMS Server or one on the machine where SMS Web Console is installed), select a Package Definition File by performing the following steps:
+</p>
+<div class="pSmartList2"><ol type="a" class="pSmartList2">
+<a name="wp1090472"> </a><div class="pSmartList2"><li>Select the <b class="cUI_Element">Distribute using Package Definition</b> option if you want to distribute this application using an existing SMS Package Definition File (PDF/SMS). When you select this check box, the <b class="cUI_Element">Use Existing Package Definition</b> option is automatically selected, and the existing Package Definitions available on the SMS Server are listed. </li></div>
+<a name="wp1090473"> </a><div class="pSmartList2"><li>Select the <b class="cUI_Element">Use Existing Package Definition</b> option to distribute this application using any Package Definitions available on the SMS Server. When the <b class="cUI_Element">Distribute using Package Definition</b> check box is selected, this option is automatically selected, and the existing Package Definitions available on the SMS Server are listed. Select a Package Definition File from the list. </li></div>
+<a name="wp1090474"> </a><div class="pSmartList2"><li>Select the <b class="cUI_Element">Use Package Definition from the following file</b> option if you want to distribute this application using a PDF/SMS file located on the machine where SMS Console is installed. When you select this option, all of the PDF/SMS files in the following directory are listed:</li></div>
+<a name="wp1090475"> </a><p class="pdpli_Directory_Path_Under_List_Indented">
+&lt;SMS Console Installation Directory&gt;\SMS Console Web Application\Distribution Providers\SMS\PDFs
+</p>
+</ol></div>
+<a name="wp1090476"> </a><div class="pSmartList1"><li>Select a Package Definition File from the list. </li></div>
+<a name="wp1090480"> </a><div class="pSmartList1"><li>Click <b class="cUI_Element">Next</b>. The <a href="javascript:WWHClickedPopup('SMSWebConsole8', 'SMSRefViewSMSPackageConfig.htm');" onMouseOver="WWHShowPopup('SMSWebConsole8', 'SMSRefViewSMSPackageConfig.htm', (document.all||document.getElementById||document.layers)?event:null);" onMouseOut="WWHHidePopup();"><span class="cHyperlink">SMS Package Configuration Page</span></a> appears, listing the information in the PDF/SMS file (if one was selected). </li></div>
+<a name="wp1090484"> </a><div class="pSmartList1"><li>Proceed with the steps in <a href="javascript:WWHClickedPopup('SMSWebConsole8', 'SMSTaskPkgConfigRoot.htm');" onMouseOver="WWHShowPopup('SMSWebConsole8', 'SMSTaskPkgConfigRoot.htm', (document.all||document.getElementById||document.layers)?event:null);" onMouseOut="WWHHidePopup();"><span class="cHyperlink">Setting Package Configuration Options</span></a> to either enter or modify the package configuration options. </li></div>
+</ol></div>
+<a name="wp1090485"> </a><p class="phsa_Heading_See_Also">
+See Also
+</p>
+<a name="wp1090489"> </a><p class="psal_See_Also_Link">
+<a href="javascript:WWHClickedPopup('SMSWebConsole8', 'SMSRefViewSMSPackageConfig.htm');" onMouseOver="WWHShowPopup('SMSWebConsole8', 'SMSRefViewSMSPackageConfig.htm', (document.all||document.getElementById||document.layers)?event:null);" onMouseOut="WWHHidePopup();"><span class="cHyperlink">SMS Package Configuration Page</span></a>
+</p>
+<a name="wp1090493"> </a><p class="psal_See_Also_Link">
+<a href="javascript:WWHClickedPopup('SMSWebConsole8', 'SMSRefViewPDFSelection.htm');" onMouseOver="WWHShowPopup('SMSWebConsole8', 'SMSRefViewPDFSelection.htm', (document.all||document.getElementById||document.layers)?event:null);" onMouseOut="WWHHidePopup();"><span class="cHyperlink">PDF Selection Page</span></a>
+</p>
+
+
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Clear related topics
+    //
+    WWHClearRelatedTopics();
+
+   // -->
+  </script>
+    <!--</blockquote>-->
+
+    <hr />
+
+
+    <table id="SummaryNotReq1" width="97%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top">
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(doctitle);</script><br />
+
+	  </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(releasedate);</script><br />
+          </span>
+
+	</td>
+	<td align="right">
+ 
+          <span style="font-size: 8pt ; font-decoration: underline; font-family: Verdana, Helvetica, Arial">
+            <a href="legal_info.htm">Copyright Information</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>
+
+<!--
+    <table id="SummaryNotReq2" align="right" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="right">
+      <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq3" src="images/MVSNLOGO.GIF" width="125" height="22" border="0" alt="Macrovision Corporation" /></a><br />
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+            Macrovision Corporation<br />
+          </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    2830 De La Cruz Blvd.<br />
+            Santa Clara, CA 95050<br />
+            <a href="http://www.macrovision.com/" target="_blank">www.macrovision.com</a><br />
+            Voice: (408) 743-8600<br />
+            FAX: (408) 743-8610<br />
+            <a href="mailto:support@macrovision.com">support@macrovision.com</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>-->
+
+<script type="text/javascript" language="JavaScript1.2">
+   <!--
+    document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+   // -->
+  </script>
+
+  </body>
+</html>

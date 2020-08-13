@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Navigation>
+
+  <TabSet name="MAIN_NAVIGATION_TABS">
+    <Tab name="NAV_MAIN_DISTRIBUTION" link="/ASDistribution/ASDistribution/default.aspx"/>
+  </TabSet>
+</Navigation>

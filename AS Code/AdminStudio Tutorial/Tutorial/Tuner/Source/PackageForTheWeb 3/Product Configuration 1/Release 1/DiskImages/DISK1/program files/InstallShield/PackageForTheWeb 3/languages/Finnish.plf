@@ -1,0 +1,115 @@
+[Dialog1000]
+100=Tervetuloa InstallShield Wizard -ohjelmaan.
+101=InstallShield(r) Wizard asentaa ohjelman %s tietokoneeseesi.   Jatka napsauttamalla Seuraava.
+
+[Dialog1001]
+0=Käyttöoikeussopimus
+1=Lue seuraava käyttöoikeussopimus huolellisesti.
+121=H&yväksyn käyttöoikeussopimuksen ehdot
+122=En &hyväksy käyttöoikeussopimuksen ehtoja
+
+[Dialog1002]
+0=Tiedostojen tallennus
+1=Mihin tiedostot tallennetaan?
+101=Määritä kansio, johon tiedostot tallennetaan. Jos kansiota ei ole, se luodaan. Jatka napsauttamalla Seuraava.
+102=&Tallenna kansioon:
+103=&Muuta...
+
+[Dialog1003]
+0=Salasana
+1=Tämä paketti on suojattu salasanalla.
+106=S&alasana:
+107=Syötä paketin avaamiseen vaadittava salasana. Kirjainkoko huomioidaan salasanoissa. Jatka napsauttamalla Seuraava.
+
+[Dialog1004]
+0=Korvaussuojaus
+2=Peruuta
+109=&Kyllä
+110=&Ei
+111=K&yllä kaikkiin
+112=E&i kaikkiin
+113=Seuraava tiedosto on jo tietokoneellasi:
+114=Haluatko korvata tämä tiedoston?
+
+[Dialog1005]
+0=Tiedostojen purku
+1=Paketin sisältöä puretaan.
+2=Peruuta
+124=Odota - InstallShield Wizard purkaa tiedostot, jotka tarvitaan ohjelman %s asentamiseen tietokoneeseesi.    Toiminto voi viedä muutamia minuutteja.
+125=Puretaan %s...
+126=Luetaan paketin sisältöä...
+
+[Dialog1006]
+100=InstallShield Wizard valmis
+101=InstallShield Wizard on suorittanut ohjelman %s asennuksen. Lopeta asennusohjelma napsauttamalla Valmis.
+
+[Strings]
+1=PackageForTheWeb-virhe
+2=Tämä itsestään purkautuva ohjelmatiedosto on vahingoittunut. Asennus pysäytetään.
+3=Ei voi avata itsestään purkautuvaa ohjelmatiedostoa. Tiedosto on lukittu tai se on jonkin toisen prosessin käytössä. Asennus pysäytetään.
+4=PackageForTheWeb
+5=Ei voi käyttää lähdetiedostoa!
+6=Ei voi luoda Cabinet-tiedostoa!
+7=Ei voi käyttää annettua polkua.
+8=Ei voi luoda annettua kohdekansiota. Polun nimi ei kelpaa.
+9=Ei voi käynnistää purkutoimenpidettä!
+10=EXE-tiedosto on vahingoittunut. Ei voi jatkaa.
+11=Ei voi purkaa EXE-tiedostoa.
+12=Ei voi suorittaa annettua komentoriviä!
+13=Tämä ohjelma on PackageFromTheWeb-ohjelman sisäisessä käytössä. Sitä ei tulisi suorittaa suoraan.
+14=Vialliset tai puuttuvat otsikkotiedot!
+15=Ohjelmiston käyttöoikeussopimustiedosto puuttuu. Asennus pysäytetään.
+29=Annettua kohdekansiota ei ole olemassa. Luodaanko se?
+30=Virhe kirjoitettaessa Cabinet-tiedostoon!
+31=Tämä asennusohjelma luotiin PackageForTheWeb-ohjelman kokeiluversion avulla. Ohjatun PackageForTheWebin on oltava käytössä tämän ohjelman suorittamiseksi.
+32=Haluatko peruuttaa asennuksen?
+33=Pakkauksen toimitus onnistui.
+34=Liian vähän levytilaa pakkauksen avaamiseen!
+35=Suojausvirhe! Väärä salasana.
+36=Komentorivin valitsin ei kelpaa.
+37=Purkaa tiedostoa '%s'...
+38=Muistinvarausvirhe!
+39=Ei voi avata purkusovellusta
+40=Peruuttamaton virhe luettaessa pakkauksen tietoja.
+41=Peruuttamaton virhe pakkauksen tietoihin kirjoitettaessa.
+42=Ohjelman muoto ei kelpaa eikä sitä voida päivittää.
+43=Tästä pakkauksesta puuttuu tiedostosäilö.
+44=Yleinen virhe luettaessa pakkausta.
+45=Tämä pakkaus sisältää jo tiedostosäilön.
+46=Tämä pakkaus on allekirjoitettu eikä sitä voida päivittää.
+47=Peruuttamaton Microsoftin virhe
+48=Ei voi alustaa laajennuksen DLL:ää.
+49=Virhe suoritettaessa annettua ohjelmaa
+300=Ei virhettä
+301=Puuttuva Cabinet-tiedosto!
+302=Kophdetiedosto ei ole Cabinet.
+303=Cabinet-versio ei kelpaa.
+304=Vahingoittunut Cabinet-tiedosto!
+305=Muistinvarausvirhe!
+306=Väärä tiedostojen pakkaustapa!
+307=CRC-virhe.
+308=Järjestelmävirhe purkamisen aikana
+309=Sisäinen datan kokovirhe.
+310=Väärä Cabinet-tiedosto valittu
+311=Pakkauksen purkaminen on peruutettu.
+312=Ei voi luoda annettua kohdekansiota!
+313=Kykenemätön laskemaan tarvittavaa levytilaa. 
+314=Levyasemassa ei ole tarpeeksi  tilaa tämän ohjelmapaketin avaamiseksi. 
+318= Levyasemassa ei ole tarpeeksi  tilaa tämän ohjelmapaketin avaamiseksi.
+323=Minä suostun
+324=Ole hyvä ja vapauta  %.2f %s ja klikkaa uudellenkäsittely.
+325=Tämä itsestään purkautuva ohjelmatiedosto on vahingoittunut. Asennus pysäytetään.
+
+[FinishButton]
+1=Valmis
+2=Jatka
+
+[WizardButtons]
+1=< &Edellinen
+2=&Seuraava >
+3=Peruuta
+4=InstallShield Wizard
+
+[Fonts]
+328=12,Arial
+6001=8,MS Sans Serif

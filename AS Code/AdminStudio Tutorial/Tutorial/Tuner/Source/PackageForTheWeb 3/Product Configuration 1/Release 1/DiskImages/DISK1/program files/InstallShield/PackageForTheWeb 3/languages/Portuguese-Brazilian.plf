@@ -1,0 +1,115 @@
+[Dialog1000]
+100=Bem-vindo ao Assistente do InstallShield para %s
+101=O Assistente de Instalação InstallShield(r) irá ajudar a instalar o%s em seu computador.   Para continuar, clique em Avançar.
+
+[Dialog1001]
+0=Contrato de licença
+1=Leia o contrato de licença a seguir com atenção.
+121=A&ceito os termos do contrato de licença
+122=&Não aceito os termos do contrato de licença
+
+[Dialog1002]
+0=Local para salvar os arquivos
+1=Onde você gostaria de salvar seus arquivos?
+101=Insira a pasta onde desejar salvar seus arquivos.  Se a pasta não existir, ela será criada para você.  Para continuar, clique em Avançar.
+102=&Salvar arquivos na pasta:
+103=Al&terar...
+
+[Dialog1003]
+0=Senha
+1=Este pacote está protegido por senha.
+106=&Senha:
+107=Insira a senha requerida para executar este pacote.  Observe que as senhas são sensíveis a maiúsculas e minúsculas.  Clique em Avançar para continuar.
+
+[Dialog1004]
+0=Proteção contra sobregravação
+2=Cancelar
+109=&Sim
+110=&Não
+111=S&im para todos
+112=N&ão para todos
+113=O seguinte arquivo já se encontra em seu computador:
+114=Você deseja sobregravar este arquivo?
+
+[Dialog1005]
+0=Extraindo arquivos
+1=O conteúdo deste pacote já foi extraído.
+2=Cancelar
+124=Aguarde enquanto o Assistente do InstallShield extraia os arquivos necessários para instalar o %s em seu computador.    Isto poderá demorar alguns minutos.
+125=Extraindo %s...
+126=Lendo o conteúdo do pacote...
+
+[Dialog1006]
+100=O Assistente do InstallShield foi completado
+101=O Assistente de Instalação InstallShield terminou a instalação do %s em seu computador.  Para sair do assistente, clique em Concluir.
+
+[Strings]
+1=Erro - PackageForTheWeb
+2=O arquivo executável de extração automática está danificado.  A instalação será cancelada.
+3=Não foi possível abrir o arquivo executável de extração automática.  Este se encontra bloqueado ou está sendo usado por outro processo.  A instalação será cancelada.
+4=PackageForTheWeb
+5=Não foi possível acessar o arquivo fonte!
+6=Não foi possível criar o arquivo 'cabinet'!
+7=Não foi possível acessar o caminho especificado.
+8=Não foi possível criar a pasta de saída especificada.  O caminho não é válido.
+9=Não foi possível iniciar o processo de descompressão!
+10=O arquivo EXE está danificado.  Não será possível continuar.
+11=Não foi possível descompactar o arquivo EXE.
+12=Não foi possível executar o comando especificado!
+13=Este é um programa utilizado internamente pelo PackageFromTheWeb e, portanto, não deve ser executado individualmente.
+14=Estão faltando informações de cabeçalho ou estas não são válidas!"
+15=O arquivo Acordo de Licenciamento do Software não foi encontrado.  A instalação será cancelada.
+29=A pasta de saída especificada não existe.  Você deseja criá-la?
+30=Erro durante a gravação do arquivo 'cabinet'!
+31=Este programa de instalação foi criado com uma versão experimental do PackageForTheWeb.  O Assistente do PackageForTheWeb deve estar ativo para que este programa possa ser executado.
+32=Você quer cancelar a instalação?
+33=A transferência do pacote foi bem-sucedida.
+34=Não há espaço suficiente no disco para abrir o pacote!
+35=Erro de segurança! A senha não é válida.
+36=A opção de linha de comando não é válida.
+37=Descompactando '%s'...
+38=Falha de alocação de memória!
+39=Não foi possível abrir o aplicativo de descompressão.
+40=Erro fatal durante a leitura dos dados do pacote.
+41=Erro fatal durante a gravação dos dados do pacote.
+42=O formato do programa não é válido e não pode ser atualizado.
+43=O container de arquivo não se encontra neste pacote.
+44=Falha geral durante a leitura deste pacote.
+45=Este pacote já tem um container de arquivo.
+46=Este pacote contém uma assinatura digital e não pode ser atualizado.
+47=Erro fatal Microsoft.
+48=Não foi possível inicializar a extensão DLL.
+49=Erro na execução do programa especificado.
+300=Não houve erro
+301=Um dos arquivos 'cabinet' esta faltando!
+302=O arquivo de entrada não é 'cabinet'.
+303=A versão do 'cabinet' não é válida.
+304=Um dos arquivos 'cabinet' está danificado!
+305=Falha de alocação de memória!
+306=O tipo de compressão de arquivo não é válido!
+307=Falha da função CRC.
+308=Erro do sistema durante a descompressão.
+309=Erro interno de dimensão de dados.
+310=O arquivo 'cabinet' incorreto foi selecionado.
+311=A descompressão do pacote foi cancelada.
+312=Não foi possível criar a pasta de saída especificada.
+313= Não é possível calcular o espaço requerido em disco.
+314= Espaço insuficiente na unidade %s para extrair este aplicativo.
+318= Espaço insuficiente na unidade %s para extrair este aplicativo.
+323= Eu concordo
+324= Libere %.2f %s e tente novamente.
+325=O arquivo executável de extração automática está danificado.  A instalação será cancelada.
+
+[FinishButton]
+1=Concluir
+2=Continuar
+
+[WizardButtons]
+1=< &Voltar
+2=&Avançar >
+3=Cancelar
+4=InstallShield Wizard
+
+[Fonts]
+328=12,Arial
+6001=8,MS Sans Serif

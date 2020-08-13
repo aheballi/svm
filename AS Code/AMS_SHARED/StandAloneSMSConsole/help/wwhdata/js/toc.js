@@ -1,0 +1,41 @@
+function  WWHBookData_AddTOCEntries(P)
+{
+var A=P.fN("Using SMS Web Console to Distribute Packages","0");
+var B=A.fN("Legal Information","1");
+B=A.fN("About Microsoft SMS and SMS Web Console","2");
+var C=B.fN("Distributing Software Through Microsoft Systems Management Server","3");
+C=B.fN("SMS Web Console Overview","4");
+C=B.fN("Getting Started","5");
+B=A.fN("Distributing Packages Using the SMS Web Console","6");
+C=B.fN("Configuring Distribution Settings","7");
+C=B.fN("Distributing a New Package","8");
+var D=C.fN("Selecting a Package for Distribution","9");
+D=C.fN("Setting Package Configuration Options","10");
+var E=D.fN("Setting Package Settings Options","11");
+E=D.fN("Setting Access Accounts Options","12");
+E=D.fN("Setting Distribution Points Options","13");
+E=D.fN("Setting Programs Options","14");
+E=D.fN("Setting Advertisements Options","15");
+D=C.fN("Saving the Package on the SMS Server","16");
+C=B.fN("Viewing the Status of a Distributed Package","17");
+C=B.fN("Modifying the Distribution Settings of a Package","18");
+C=B.fN("Deleting Packages","19");
+B=A.fN("SMS Web Console Reference","20");
+C=B.fN("Confirm Delete Page","21");
+C=B.fN("Distribute Package Page","22");
+C=B.fN("Distribute New Package Page","23");
+C=B.fN("Package Administration Page","24");
+C=B.fN("Package Status Page","25");
+C=B.fN("Package Summary Page","26");
+C=B.fN("PDF Selection Page","27");
+C=B.fN("Select an SMS Collection Dialog Box","28");
+C=B.fN("SMS Distribution Settings Page","29");
+C=B.fN("SMS Package Configuration Page","30");
+D=C.fN("Package Settings View","31");
+D=C.fN("Access Accounts View","32");
+D=C.fN("Distribution Points View","33");
+D=C.fN("Programs View","34");
+D=C.fN("Advertisements View","35");
+C=B.fN("SMS Server Connection Settings Page","36");
+C=B.fN("SMS Web Console Home Page","37");
+}

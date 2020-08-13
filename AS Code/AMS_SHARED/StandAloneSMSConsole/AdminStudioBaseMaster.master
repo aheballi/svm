@@ -1,0 +1,38 @@
+<%@ master language="C#" autoeventwireup="true" inherits="AdminStudioBaseMaster, AdminStudio.WebApplication" %>
+<%@ Register Assembly="AdminStudioControls" Namespace="AdminStudio.Web.Controls" TagPrefix="Macrovision1" %>
+<%@ Register Assembly="AdminStudioControls" Namespace="AdminStudio.Web.PageFramework" TagPrefix="Macrovision" %>
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>AdminStudio</title>
+    <link href="AdminStudio.css" rel="stylesheet" type="text/css" />
+    <link href="ams.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <table cellspacing="0" cellpadding="0" border="0" class="full-height">
+		<tr valign="top" height="50px">
+			<td colspan="2">
+                <Macrovision:PageHeader ID="masterHeader" runat="server" />
+                <div class="masterNav">
+                    <div class="masterUser">
+                        <asp:Label ID="userName" runat="server"/>
+                    </div>
+                    <Macrovision1:TabStrip ID="masterTabStrip" runat="server" CssClass="mainNav"/>                
+                </div>
+            </td>
+		</tr>
+	    <tr valign="top">
+		    <td colspan="2">
+                <asp:contentplaceholder id="masterContent" runat="server"></asp:contentplaceholder>
+            </td>
+	    </tr>
+	    <!--
+	    <tr  valign="top">
+		    <td colspan="2">
+                <Macrovision:PageFooter ID="masterFooter" runat="server"/>
+            </td>
+        </tr>
+        -->
+    </table>
+</body>
+</html>

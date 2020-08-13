@@ -1,0 +1,1748 @@
+/*******************************************************************/
+/*                                                                 */
+/* ams.css - definition of global styles used                      */
+/*           throughout Application Management System              */
+/*                                                                 */
+/* Copyright © 2003 InstallShield Software Corporation             */
+/*                                                                 */
+
+.tabTable {
+    height: 27px;
+    border: none;
+}
+
+.tabTable TD {
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+	font-weight: bold;
+	font-family: Tahoma;
+	font-size: 7pt;
+    vertical-align: top;
+}
+
+.tabTable TD A {
+    text-decoration: none;
+	color: #787878;
+    padding-left: 4pt;
+    padding-right: 4pt;
+    vertical-align: top;
+	}
+
+.tabTable TD A:hover {
+	padding-left: 4pt;
+    padding-right: 4pt;
+	text-decoration: none;
+	color: #A7A7A7;
+    vertical-align: top;
+}
+
+.tabActiveLeft {
+    width: 7px;
+    background-image: url(images/Tab_Select_Left.gif);
+}
+
+.tabActiveMid {
+    vertical-align: bottom;
+    background-image: url(images/Tab_Select_Mid.gif);
+    background-repeat: repeat-x;
+}
+
+.tabActiveRight {
+    width: 7px;
+    background-image: url(images/Tab_Select_Right.gif);
+}
+
+.tabInactiveLeft {
+    width: 7px;
+    background-image: url(images/Tab_Notselect_Left.gif);
+}
+
+.tabInactiveMid {
+    vertical-align: bottom;
+    background-image: url(images/Tab_Notselect_Mid.gif);
+    background-repeat: repeat-x;
+}
+
+.tabInactiveRight {
+    width: 7px;
+    background-image: url(images/Tab_Notselect_Right.gif);
+}
+.tabActiveLeftT {
+    width: 7px;
+    background-image: url(images/Tab_Select_LeftTop.gif);
+    background-repeat:no-repeat;
+}
+.tabInactiveLeftT {
+    width: 7px;
+    background-image: url(images/Tab_NonSelect_LeftTop.gif);
+    background-repeat:no-repeat;
+}
+.tabActiveLeftB {
+    width: 7px;
+    background-image: url(images/Tab_Select_LeftBottom.gif);
+    background-repeat:repeat-y;
+}
+.tabInactiveLeftB {
+    width: 7px;
+    background-image: url(images/Tab_NonSelect_LeftBottom.gif);
+    background-repeat:repeat-y;
+}
+.tabActiveMidT {
+    vertical-align: bottom;
+    background-image: url(images/Tab_Select_Mid.gif);
+    background-repeat: repeat-x;
+}
+.tabActiveMidB {
+
+    background-image: url(images/Tab_Word_Select.gif);
+}
+.tabInactiveMidT{
+    vertical-align: bottom;
+    background-image: url(images/Tab_Notselect_Mid.gif);
+    background-repeat: repeat-x;
+}
+.tabInactiveMidB {
+    background-image: url(images/Tab_Word_NonSelect.gif);
+}
+.tabActiveRightT {
+    width: 7px;
+    background-image: url(images/Tab_Select_RightTop.gif);
+    background-repeat:no-repeat;
+}
+.tabInactiveRightT {
+    width: 7px;
+    background-image: url(images/Tab_NonSelect_RightTop.gif);
+    background-repeat:no-repeat;
+}
+.tabActiveRightB {
+    width: 7px;
+    background-image: url(images/Tab_Select_RightBottom.gif);
+    background-repeat:repeat-y;
+}
+.tabInactiveRightB {
+    width: 7px;
+    background-image: url(images/Tab_NonSelect_RightBottom.gif);
+    background-repeat:repeat-y;
+}
+/******************************************************
+Class for showing the underline on the hyperlink control of application families
+File : CompanyEdit.aspx.cs
+Added Dated : 27/4/2004
+*******************************************************/
+.showUnderline 
+{
+	text-decoration: underline;
+	 padding-right: 2pt;
+	  /*padding-left: 2pt;*/
+}
+
+
+
+.tabFade {
+    width: 100%;
+    height: 0px;
+    color: #FFFFFF;
+    margin-left: 0px;
+    margin-top: 0px;
+
+}
+
+.treeHolder {
+    background-color: #F2F2F2;    
+}
+
+BODY, P, A, LI, TD, FORM, LABEL, INPUT, TEXTAREA, SELECT, BUTTON, FIELDSET, LEGEND, OBJECT {
+    font-family: "Tahoma", Sans-Serif;
+    font-size: 8pt;
+    color: #333333;
+}
+
+/*
+SELECT {
+    width: 100%;
+}
+*/
+
+BUTTON {
+    width: 7em;
+}
+
+IMG {
+    border: none;
+}
+
+UL {
+    margin-left: 1.5em;
+}
+
+HR {
+    height: 1px;
+    color: #0F3063;
+}
+
+A {
+    cursor: hand;
+}
+
+A:hover {
+    color: #0099CC;
+}
+
+/* the next styles are used on frames; the containing FRAMESET tag 
+   must have FRAMEBORDER="no" */
+.withRightBorder {
+    border-right: 2px solid #0F3063;
+}
+
+.withBottomBorder {
+    border-bottom: 2px solid #0F3063;
+}
+
+.withRightBottomBorder {
+    border-right: 2px solid #0F3063;
+    border-bottom: 2px solid #0F3063;
+}
+
+.withAllBorders {
+    border: 2px solid #0F3063;
+}
+
+.headerTop {
+    color: White;
+    background-color: #234F98;
+    background-image: url(images/nav/FLEX_as_140x43_trans.gif);
+    background-position: right middle;
+    background-repeat: no-repeat;
+    font-family: "Trebuchet MS", Sans-Serif;
+    font-size: 18pt;
+    font-weight: bold;
+    height: 42px;
+    padding-left: 8pt;
+    padding-top: 0.25em;
+    overflow: hidden;
+}
+
+.headerMiddle {
+    color: White;
+    background-image: url(/images/homepage/SecondHeader.gif);
+    background-repeat:repeat;
+    background-color: #427BD2;
+    height: 1.75em;
+    padding-left: 10pt;
+    padding-top: 0.25em;
+    overflow: hidden;
+}
+
+/* a span with this id is used in the header for all pages */
+#spanUserName {
+    font-weight: bold;
+}
+
+/* a span with this id is used in the header for all pages */
+#spanGlobalCommands {
+    position: absolute;
+    right: 10pt;
+}
+
+.headerMiddle A {
+    color: White;
+    text-decoration: none;
+}
+
+.headerMiddle A:hover {
+    color: White;
+    text-decoration: underline;
+}
+
+.headerBottom {
+    color: #3165b0;
+    font-family: "Trebuchet MS", Sans-Serif;
+    font-size: 11pt;
+    font-weight: bold;
+    height: 1.75em;
+    overflow: hidden;
+}
+
+/* a span with this id is used in the header for all pages */
+#spanDate {
+    position: absolute;
+    top: +6pt;
+    right: 10pt;
+    font-family: "Tahoma", Sans-Serif;
+    font-size: 8pt;
+    font-weight: bold;
+}
+
+
+
+.pageContentEx 
+{
+	margin-top: -6pt;
+	margin-bottom: 8pt;
+	padding-left: 8pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.dataTable {
+    position: relative;
+    width: 100%;
+    border: solid 1px #999999;
+}
+
+.dataTable TD {
+    padding: 2pt;
+    text-align: center;
+}
+
+.dataTable THEAD TD {
+    background-color: #DADADA;
+    font-weight: bold;
+}
+
+.dataTable THEAD TD A {
+    color: #333333;
+    text-decoration: none;
+}
+
+.dataTable THEAD TD A:hover {
+    color: #0099CC;
+    text-decoration: underline;
+}
+
+.dataTable TFOOT TD {
+    background-color: #DADADA;
+}
+
+.firstColumnHeader {
+    text-align: left;
+    border-right: solid 1px #999999;
+}
+
+.columnHeader {
+    border-right: solid 1px #999999;
+    border-left: solid 1px #999999;
+}
+
+.lastColumnHeader {
+    border-left: solid 1px #999999;
+}
+
+.firstColumn {
+    text-align: left;
+}
+
+.firstRow {
+    background-color: #FFFFFF;
+}
+
+.alternateRow {
+    background-color: #F2F2F2;
+}
+
+.selectedRow TD {
+    color: #F2F2F2;
+    background-color: #0F3063;
+}
+
+.formTable {
+    background-color: #F4F4F4;
+    padding: 9pt;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+}
+
+.formTable TD {
+    padding: 2pt;
+}
+
+.labelColumnBold
+{
+    font-weight: bold;
+    vertical-align: top;
+    text-align:left;
+}
+
+.formTable .labelColumn {
+    font-weight: bold;
+    vertical-align: top;
+    text-align:left;
+}
+
+.formTable .labelColumnDivided {
+    font-weight: bold;
+    vertical-align: top;
+    padding-top: 14pt;
+}
+
+.formTable .columnDivided {
+    padding-top: 14pt;
+}
+
+.accesskey {
+    text-decoration: underline;
+}
+/******************************************************
+Class to set the hyperlink Color for policy documents 
+File : contractedit.aspx.cs
+Added by Natasha B Dated : 27/4/2004
+*******************************************************/
+.PageLinkColor
+{
+	color:  #0F3063;
+}
+.sectionTitle {
+    color: #0F3063;
+    font-family: "Trebuchet MS", Sans-Serif;
+    font-size: 11pt;
+    font-weight: bold;
+    height: 1.5em;
+}
+
+.sectionDataIcon {
+    position: absolute;
+    top: +12pt;
+    right: 10pt;
+    font-family: "Tahoma", Sans-Serif;
+    font-size: 8pt;
+    font-weight: bold;
+    background-color: #437CD3;
+    color: White;
+    padding-left: 2pt;
+    padding-top: 1pt;
+    padding-right: 2pt;
+    padding-bottom: 1pt;
+}
+
+.sectionWorkflowIcon {
+    position: absolute;
+    top: +12pt;
+    right: 10pt;
+    font-family: "Tahoma", Sans-Serif;
+    font-size: 8pt;
+    font-weight: bold;
+    background-color: #437CD3;
+    color: White;
+    padding-left: 2pt;
+    padding-top: 1pt;
+    padding-right: 2pt;
+    padding-bottom: 1pt;
+}
+
+.dataInstructions {
+    margin-top: 0pt;
+    margin-bottom: 6pt;
+    line-height: 10pt;
+    font-family: Tahoma;
+    font-size: 8pt;
+}
+
+.dataLeftMargin {
+    margin-left: 1em;
+}
+
+.dataInstructionsEx 
+{
+	margin-top: 0pt;
+    margin-bottom: 0pt;
+}
+
+.dataCommandsTop {
+    margin-bottom: 1em;
+}
+
+.dataCommands {
+    /*position: absolute;
+    right: 10pt;*/
+    margin-top: 1em;
+}
+
+.progressGreen {
+    color: #029803;
+}
+
+.progressYellow {
+    color: #EDB512;
+}
+
+.progressRed {
+	margin-top: 0pt;
+	margin-bottom:0pt;
+	font-size: 8pt;
+    color: #9A0200;
+}
+
+.specialCell {
+    background-color: #EDB512;
+}
+
+.errorText {
+    color: Red;
+}
+
+.truncatedText {
+    text-overflow: ellipsis;
+    /*white-space: nowrap;*/
+    overflow: hidden;
+}
+
+.areatable 
+{
+	border: 0;
+	margin-left: 24pt;
+	margin-bottom: 0pt;
+	margin-top: 24pt;
+}
+
+.distareaTable {
+    margin: 2em;
+}
+
+.distareaTable TD {
+    width: 40em;
+}
+
+
+.areaTitle {
+    font-family: "Trebuchet MS", Sans-Serif;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #7690B1;
+    margin-bottom: -10pt;
+    margin-top: 2pt;
+    text-decoration: none;
+}
+
+.areaTitleCustomerHome {
+    font-family: "Trebuchet MS", Sans-Serif;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #7690B1;
+}
+
+A.areaTitle {
+    text-decoration: none;
+}
+
+A.areaTitle:hover {
+    color: #7690B1;
+    text-decoration: underline;
+}
+
+.areaIcon {
+    width: 40px;
+    height: 40px;
+}
+
+.areaFade {
+    position: relative;
+    width: 75%;
+    height: 3px;
+    left: 4em;
+    top: -12pt;
+    color: #7690B1;
+    text-align: left;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style = 1, Opacity = 100);
+}
+
+.areaInstructions {
+    position: relative;
+    left: 4em;
+    top: -3em;
+}
+
+.loginWatermark {
+    color: white;
+    background-color: #3342B5;
+    background-image: url(/images/topcorner01.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.loginWatermark A {
+    color: White;
+    text-decoration: underline;
+}
+
+.loginWatermarkTitle {
+    color: #E6C28C;
+    font-weight: bold;
+}
+
+.loginContentTitle {
+    color: white;
+    background-color: #437CD3;
+    height: 1.75em;
+    font-weight: bold;
+    margin-bottom: 6pt;
+    padding: 2pt;
+}
+
+.loginContentTitle A {
+    color: white;
+    background-color: #437CD3;
+    text-decoration: underline;    
+}
+
+.loginFooter {
+    position: absolute;
+    bottom: 1em;
+}
+
+.loginHeader {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 8px;
+	padding-right: 0px;
+	font-family: "Tahoma", Sans-Serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #FFF;
+}
+
+.loginHelp {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 8px;
+	padding-right: 0px;
+	font-family: "Tahoma", Sans-Serif;
+	font-size: 8pt;
+	color: #FFF;
+}
+
+.loginHelp A:hover {
+    color: #c9c9c9;
+    text-decoration: underline;
+}
+
+.loginHelp A:link {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.loginHelp A:active {
+    color: #c9c9c9;
+    text-decoration: underline;
+}
+
+.loginHelp A:visited {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.whatsThisHelp {
+    position: absolute;
+    visibility: hidden;
+}
+
+.whatsThisHelpContent {
+    background-color: #C1D1E1;
+    border: solid 1px #0F3063;
+    padding: 1em;
+}
+
+.whatThisHelpCommands {
+    text-align: right;
+    margin-top: 1em;
+}
+.ReportStepsHeader
+{
+    font-family: "Trebuchet MS", Sans-Serif;
+    font-size: 11pt;
+    font-weight: bold;
+    background-color: #edf2f8;	
+    color: #0F3063;
+    margin-left: 8px;
+}
+.ReportTypeHeader
+{
+    font-family: "Trebuchet MS", Sans-Serif;
+    font-size: 11pt;
+    font-weight: bold;
+    background-color: #edf2f8;	
+    color: #7690B1;
+    text-decoration:none;
+    margin-bottom: -12pt;
+}
+
+.frameControl
+{
+	border: #AAAAAA 1px solid;
+	padding: 5px;
+	font-size: x-small;
+	margin-top: 4px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #DFDFDF;
+	width: 99%;
+}
+
+.SMSButton
+{
+	Width: 73px
+}
+
+.SMSDivUndoDelete
+{
+	BORDER-RIGHT: thin groove; 
+	BORDER-TOP: thin groove; 
+	BORDER-LEFT: thin groove; 
+	BORDER-BOTTOM: thin groove; 
+	width:40%; 
+	HEIGHT: 17%;
+}
+
+.SMSSpan20
+{
+	MARGIN-LEFT: 20px;
+}
+
+.SMSSpan30
+{
+	MARGIN-LEFT: 30px;
+}
+
+table.appreport {
+	font-family: "Tahoma", Sans-Serif; 
+    font-size: 8pt;
+    background: #FFFFFF;
+	margin-left: 14pt;
+	line-height: 11pt; 
+    color: #000000;
+	padding-left: 0em;
+	padding-right: 0em;
+	border-spacing: 10px; 
+	border-collapse: collapse;
+	border: 1px solid #0F3063;
+	margin-bottom: 0pt;
+	margin-top: 0pt;
+ }
+
+
+table.appreport td {
+	border-bottom: 1px solid #0F3063;
+    border-left: 1px solid #c0c0c0;
+	padding-left: 4pt;
+	padding-top: 4pt;
+	padding-bottom: 4pt;
+	padding-right: 9pt;	
+	vertical-align: top;		
+}
+
+
+
+table.appreport th {
+	border-bottom: 1px solid #0F3063;
+    border-left: 1px solid #c0c0c0;
+	font-weight: bold;
+	padding-left: 2pt;
+	background-color: #0F3063;
+	text-align: left;
+	text-valign: top;
+	padding-top: 4pt;
+	padding-bottom: 4pt;		
+	padding-left: 4pt;
+	padding-right: 4pt;				
+	font-size: 8pt;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;	
+}
+
+.sectionTitleAP {
+	FONT-WEIGHT: bold; FONT-SIZE: 13pt; LINE-HEIGHT: 15pt; COLOR: #0f3063; FONT-FAMILY: "Trebuchet MS", Sans-Serif; MARGIN-TOP: 12pt; MARGIN-BOTTOM: 9pt; 
+}
+
+.reportsubhead {FONT-SIZE: 10pt; LINE-HEIGHT: 12pt; margin-left: 14pt; MARGIN-TOP: 16pt; MARGIN-BOTTOM: 9pt; COLOR: #000000; font-weight: bold; FONT-FAMILY: "Trebuchet MS", Sans-Serif;
+}
+
+.reportsubhead2 {FONT-SIZE: 10pt; LINE-HEIGHT: 12pt; margin-left: 14pt; MARGIN-TOP: 0pt; MARGIN-BOTTOM: 9pt; COLOR: #000000; FONT-FAMILY: "Trebuchet MS", Sans-Serif;
+}
+
+.iteration {FONT-SIZE: 12pt; LINE-HEIGHT: 12pt; margin-left: 14pt; MARGIN-TOP: 12pt; MARGIN-BOTTOM: 9pt; COLOR: #000000; font-weight: bold; FONT-FAMILY: "Trebuchet MS", Sans-Serif;
+}
+
+.wfphase {FONT-SIZE: 10pt; LINE-HEIGHT: 12pt; margin-left: 14pt; MARGIN-TOP: 0pt; MARGIN-BOTTOM: 6pt; COLOR: #0f3063; font-weight: bold; FONT-FAMILY: "Trebuchet MS", Sans-Serif;
+}
+
+.AppName {
+	PADDING-LEFT: 8pt; FONT-SIZE: 16pt; LINE-HEIGHT: 18pt; PADDING-TOP: 0.5em; COLOR: #0f3063; FONT-WEIGHT: bold;  FONT-FAMILY: "Trebuchet MS", Sans-Serif;  MARGIN-BOTTOM: 9pt;
+}
+
+
+.alternateRowAP {
+	BACKGROUND-COLOR: #E1E8FF;
+}
+.alternateRowChildb {
+
+      BACKGROUND-COLOR: #E1E8FF; FONT-STYLE: oblique; 
+}
+.alternateRowChildw {
+
+      BACKGROUND-COLOR: #FFFFFF; FONT-STYLE: oblique; 
+}
+
+.error {COLOR: #CD0000; font-weight: bold;
+}
+
+
+
+table.RoleTable {
+	margin-left: 0pt;
+	margin-right: 0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+    border-collapse: collapse;
+	border: 1px solid #DDDDDD;
+	padding-left: 0em;
+	padding-right: 0em; 
+	padding-bottom: 0em;
+}
+table.RoleTable th {
+	font-family: "Tahoma", Sans-Serif; 
+    font-size: 8pt;
+    line-height: 10pt;
+	text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #437CD3;
+    padding-top: 2pt;
+	padding-bottom: 2pt;		
+	padding-left: 4pt;
+	padding-right: 4pt;	
+	vertical-align: top;
+}
+
+table.RoleTable td {
+	font-family: "Tahoma", Sans-Serif; 
+    font-size: 8pt;
+    line-height: 10pt;
+	
+    color: #000000;
+    padding-top: 0pt;
+	padding-bottom: 0pt;		
+	padding-left: 4pt; 
+	padding-right: 4pt;	
+	border-color:#FFFFFF;
+    border-top: 0px solid #FFFFFF;
+    
+}
+
+table.UserControlMainHeadingTable {
+	margin-left: 0pt;
+	margin-right: 0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+    border-collapse: collapse;
+	border: 0px solid #7690B1;
+	padding-left: 0em;
+	padding-right: 0em; 
+	padding-bottom: 0em;
+	
+}
+table.UserControlMainHeadingTable th {
+	font-family: "Tahoma", Sans-Serif; 
+    font-size: 8pt;
+    line-height: 15px;
+	/*text-align: left;*/
+    color: #3165b0;
+    font-weight: bold;
+    padding-top: 2pt;
+	padding-bottom: 2pt;		
+	padding-left: 4pt;
+	padding-right: 4pt;	
+	/*vertical-align: bottom;
+	background-color:#3165b0 ;*/
+}
+
+
+.UserControlBottomTable {
+    border : "2px threedhighlight inset";
+    border-color:#DDE4EC;
+    padding: 0pt;
+    width: 100%;
+    height: 223;
+    border-style : solid;
+	overflow:auto;
+}
+
+.UserControlTableHeader {
+    background-color: white;
+    padding: 0pt;
+    border: 1px solid #dde4ec;
+}
+
+table.UserControlTableHeader {
+	margin-left: 0pt;
+	margin-right: 0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+    background-color: #F4F4F4;
+    border-collapse: collapse;
+	border: 0px solid #7690B1;
+	padding-left: 0em;
+	padding-right: 0em; 
+	padding-bottom: 0em;
+	width : 100%;
+
+}
+table.UserControlTableHeader th {
+	font-family: "Tahoma", Sans-Serif; 
+    font-size: 8pt;
+    line-height: 15px;
+	/*text-align: left;*/
+    color: #FFFFFF;
+    font-weight: bold;
+    padding-top: 2pt;
+	padding-bottom: 2pt;		
+	padding-left: 2pt;
+	padding-right: 4pt;	
+	/*vertical-align: bottom;*/
+	background-color:#3165b0 ;
+}
+
+table.UserControlTableHeader td {
+	font-family: "Tahoma", Sans-Serif; 
+    font-size: 8pt;
+    line-height: 20px;
+    color: #000000;
+    padding-top: 0pt;
+	padding-bottom: 0pt;		
+	padding-left: 0pt; 
+	padding-right: 1pt;	
+	border-color:#7690B1;
+    border-top: 0px solid #7690B1;
+   /* width: 25%;*/
+}
+
+
+.UserControlTable {
+    background-color: white;
+    padding: 0pt;
+	width: 100%;
+	border: 1px solid #dde4ec;
+}
+
+table.UserControlTable {
+	margin-left: 0pt;
+	margin-right: 0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+    background-color: #F0F0F0;
+    border-collapse: collapse;
+	border: 0px solid #7690B1;
+	padding-left: 0em;
+	padding-right: 0em; 
+	padding-bottom: 0em;
+	
+}
+table.UserControlTable th {
+	font-family: "Tahoma", Sans-Serif; 
+    font-size: 8pt;
+    line-height: 15px;
+	/*text-align: left;*/
+    color: #FFFFFF;
+    font-weight: bold;
+    padding-top: 2pt;
+	padding-bottom: 2pt;		
+	padding-left: 2pt;
+	padding-right: 4pt;	
+	/*vertical-align: bottom;*/
+	background-color:#3165b0 ;
+}
+
+table.UserControlTable td {
+	font-family: "Tahoma", Sans-Serif; 
+    font-size: 8pt;
+    line-height: 20px;
+    color: #000000;
+    padding-top: 0pt;
+	padding-bottom: 0pt;		
+	padding-left: 0pt; 
+	padding-right: 1pt;	
+	border-color:#7690B1;
+    border-top: 0px solid #7690B1;
+   /* width: 25%;*/
+}
+
+table.UserControlTable A 
+{
+	color: #000000;
+}
+
+table.UserControlTable A:hover 
+{
+	color: #000000;
+}
+
+table.action {
+	margin-left: 0pt;
+	margin-right: 0pt;
+	margin-top: 2pt;
+	margin-bottom: 0pt;
+    background-color: #ECF3FB;
+    border-collapse: collapse;
+	border: 2px solid #437CD3;
+	padding-left: 0em;
+	padding-right: 0em; 
+}
+
+table.action th {
+	font-family: "Tahoma", Sans-Serif; 
+    font-size: 8pt;
+    line-height: 10pt;
+	text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #437CD3;
+    padding-top: 2pt;
+	padding-bottom: 2pt;		
+	padding-left: 4pt;
+	padding-right: 4pt;	
+}
+
+table.action td {
+	font-family: "Tahoma", Sans-Serif; 
+    font-size: 8pt;
+    line-height: 10pt;
+	text-align: left;
+    color: #000000;
+    padding-top: 2pt;
+	padding-bottom: 2pt;		
+	padding-left: 4pt;
+	padding-right: 4pt;	
+    border-top: 0px solid #7690B1;
+}
+
+table.header {
+	margin-left: 0pt;
+	margin-right: 0pt;
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+	border: 0px;
+}
+
+table.header td {
+	font-family: "Tahoma", Sans-Serif; 
+	font-size: 8pt;
+	line-height: 10pt;
+	text-align: left;
+	padding-left: 0em;
+	padding-right: 7px;
+ }
+
+.bluebold {
+	font-family: "Tahoma", Sans-Serif; 
+	font-size: 8pt;
+	font-weight: bold;
+	line-height: 10pt;
+	text-align: left;
+	color: #0f3063;
+}
+
+.zeromargin
+{
+	margin-top:0pt;
+	margin-bottom:-6pt;
+}
+
+table.templatereport {
+	font-family: "Tahoma", Sans-Serif; 
+    color: #000000;
+	border: 0px;
+    font-size: 8pt;
+    line-height: 10pt;
+	margin-left: 14pt;
+	margin-bottom: 5pt;
+	margin-top: 10pt;
+	background: #FFFFFF;
+}
+
+.alternateRowAP {
+	BACKGROUND-COLOR: #E1E8FF;
+}
+
+/******************************************************
+WO# 1-13HEN3 
+Classes added for policy documents 
+File : sc_policydocs.aspx.vb
+
+*******************************************************/
+
+.dataTablePolicy {
+    position: relative;
+    width: 30%;   
+}
+
+.dataTablePolicy TD {
+    padding: 2pt;
+    text-align: center;
+}
+
+.dataTablePolicy THEAD TD {
+    background-color: #DADADA;
+    font-weight: bold;
+}
+
+
+/******************************************************
+WO# 1-13KOFD
+Classes added to remove background color of form table
+from templates page
+File : Templates/ParentTemplateEdit.asp
+
+*******************************************************/
+/*WO# Email Notification */
+.formTableWithoutBorder {
+    padding: 2pt;
+    width: 100%;
+	border: 0px;
+}
+
+.formTableWithoutBorder TD {
+    padding: 2pt;
+}
+
+.formTableWithoutBorder .labelColumn {
+    font-weight: bold;
+    vertical-align: top;
+    text-align:left;
+}
+
+.formTableWithoutBorder .labelColumnDivided {
+    font-weight: bold;
+    vertical-align: top;
+    padding-top: 14pt;
+}
+
+.formTableWithoutBorder .columnDivided {
+    padding-top: 14pt;
+}
+
+
+/*WO# Email Notification end*/
+
+.formTableWithoutBackColor {
+	margin-top:3pt;
+	padding: 1pt;
+    width: 100%;
+    border: 1px solid #000000;
+}
+
+.formTableWithoutBackColor TD {
+    padding: 2pt;
+}
+
+.formTableWithoutBackColor .labelColumn {
+    font-weight: bold;
+    vertical-align: top;
+    text-align:left;
+}
+
+.formTableWithoutBackColor .labelColumnDivided {
+    font-weight: bold;
+    vertical-align: top;
+    padding-top: 14pt;
+}
+
+.formTableWithoutBackColor .columnDivided {
+    padding-top: 14pt;
+}
+.ReportDataInstructions {
+    margin-left: 8px;
+}
+
+/*WO# ADDITIONS FOR NEW HOME PAGE*/
+.HomePageUserName{
+	color:White;
+    padding-left: 5pt;
+    padding-right: 5pt;
+    padding-top: 2pt;
+    padding-bottom: 0pt;
+	margin-top: 0pt;
+    margin-bottom: 0pt;
+	font-family: "Trebuchet MS"s; 
+    font-size: 8pt;
+    line-height: 8pt;
+}
+
+.HomePageBreadCrumb{
+	color:White;
+    padding-left: 5pt;
+    padding-right: 15pt;
+    padding-top: 2pt;
+    padding-bottom: 0pt;
+	margin-top: 0pt;
+    margin-bottom: 0pt;
+	font-family: "Trebuchet MS"; 
+    font-size: 8pt;
+    line-height: 8pt;
+}
+
+.HomePageBreadCrumb A 
+{
+	text-decoration: none;
+	color: White;
+}
+
+.HomePageBreadCrumb A:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+table.HomePageNavigation{
+	color:White;
+    padding-left: 0pt;
+    padding-right: 0pt;
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    margin-left: 4pt;
+    margin-right: 4pt;
+    margin-top: 0pt;
+    margin-bottom: 2pt;
+    line-height: 8pt;
+}
+
+table.HomePageNavigation th {
+    color: #FFFFFF;
+	padding-left: 0pt;
+	padding-right: 0pt;	
+    padding-top: 0pt;
+	padding-bottom: 0pt;		
+	font-family: "Trebuchet MS"; 
+    font-size: 8pt;
+    line-height: 8pt;
+}
+
+table.HomePageNavigation td {
+    color: White;
+	padding-left: 6pt;
+	padding-right: 0pt;	
+    padding-top: 1pt;
+	padding-bottom: 0pt;		
+    margin-left: 0pt;
+    margin-right: 0pt;
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+    line-height: 8pt;
+	font-family: "Trebuchet MS"; 
+    font-size: 8pt;
+	text-align: left;
+}
+
+.HomePageNavigation A 
+{
+	text-decoration: none;
+	color: White;
+}
+
+.HomePageNavigation A:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+table.HomePageAdminNavigation{
+	color:White;
+    padding-left: 0pt;
+    padding-right: 0pt;
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    margin-left: 4pt;
+    margin-right: 4pt;
+    margin-top: 0pt;
+    margin-bottom: 2pt;
+    line-height: 8pt;
+    }
+
+table.HomePageAdminNavigation th {
+    color: #FFFFFF;
+	padding-left: 0pt;
+	padding-right: 0pt;	
+    padding-top: 0pt;
+	padding-bottom: 0pt;		
+	font-family: "Trebuchet MS"; 
+    font-size: 8pt;
+    line-height: 8pt;
+}
+
+table.HomePageAdminNavigation td {
+    color: White;
+	padding-left: 6pt;
+	padding-right: 0pt;	
+    padding-top: 1pt;
+	padding-bottom: 0pt;		
+    margin-left: 0pt;
+    margin-right: 0pt;
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+    line-height: 8pt;
+	font-family: "Trebuchet MS"; 
+    font-size: 8pt;
+	text-align: left;
+	vertical-align:text-top;
+}
+
+.HomePageAdminNavigation A 
+{
+	text-decoration: none;
+	color:White;
+}
+
+.HomePageAdminNavigation A:hover {
+    color: White;
+    text-decoration: underline;
+}
+
+.HomePageDate{
+	color:#3165b0;
+    padding-right: 15pt;
+    font-family: "Trebuchet MS";
+}
+
+.HomePageHeading{
+	color:#3165b0;
+    font-size: 18pt;
+    font-family: "Trebuchet MS";
+	padding-left: 4pt;
+}
+
+.HomePageSubHeading{
+	color:#3165b0;
+    font-size: 11pt;
+	font-weight: bold;
+}
+
+.UCSubmitAppRequestMainHeading{
+	color:#3165b0;
+   font-family: "Trebuchet MS";
+    font-size: 12pt;
+	font-weight: bold;
+	text-align: left;
+	height:10;
+}
+
+.UCSubmitAppRequestSubHeading{
+    color:#000000;
+    font-size: 8pt;
+	font-weight: bold;
+	text-align: left;
+	height:10;
+}
+
+
+.UserControlTable1 {
+    background-color: white;
+    padding: 0pt;
+    width: 100%;
+    border: 1px solid #dde4ec;
+}
+
+.UserControlTopPane {
+    width: 400;
+   overflow:auto;
+}
+
+.UserControlMyPage 
+{
+	padding: 0pt;
+    width: 100%;
+    height: 200;
+	overflow:auto;
+}
+
+.UserControlMyPageWithBorder
+{
+    border : "2px threedhighlight inset";
+    border-color:#DDE4EC;
+    border-style : solid;
+	margin:0;
+	padding: 0pt;
+    width: 100%;
+    height: 223;
+	overflow:auto;
+}
+
+.UCSubmitAppRequest {
+
+	padding: 0pt;
+    width: 100%;
+    height: 180;
+	overflow:auto;
+}
+
+.UCSubmitAppRequestHeader
+{
+	font-family: "Tahoma", Sans-Serif;
+    font-size: 10pt;
+    color: #DDE4EC;
+}
+
+
+.UserControlAlternateColor {
+     background-color:#F8F8F8;
+}
+
+.UserControlHeadingBold {
+    font-weight: bold;
+}
+
+.UserControlTableCurvedImage {
+     background: "/images/homepage/MyAMSHeaderCurve.gif";
+}
+
+.BodyBgColor 
+{
+     background-color:#edf2f8;
+}
+
+.HomePageSearch{
+	color:White;
+} 
+
+.UCDynamicDiv{
+	DISPLAY: none;
+	Z-INDEX: 10000;
+	LEFT: 0px; 
+	POSITION: absolute; 
+	TOP: 0px
+} 
+
+.UCDynamicMenuAlternateColor{
+	background-color:#edf2f8;
+	text-decoration: none;
+} 
+
+.UCDynamicMenuAlternateColor A{
+	 color: #3165b0;
+	 text-decoration: none;
+} 
+
+.UCDynamicMenuAlternateColor  A:hover {
+    color: #3165b0;
+    text-decoration: none;
+}
+.UCDynamicMenuColor
+{
+	background-color:#3165b0;
+	 text-decoration: none;
+} 
+
+.UCDynamicMenuColor A{
+	 text-decoration: none;
+	 color: #ffffff;
+} 
+
+.UCSubmitAppRequestContent {
+    width: 100%;
+    padding: 0em;
+    margin-top: 16pt;
+    margin-left:8pt;
+}
+
+
+
+.spacer {
+    font-size: 1pt;
+	line-height: 1pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+
+
+
+.reportname {
+    color: #000000;
+    font-family: "Trebuchet MS", Tahoma, Verdana, Sans-Serif;
+    font-size: 18pt;
+    font-weight: bold;
+	margin-top: 4pt;
+	margin-bottom: 6pt;
+	padding-top: 3pt;
+	padding-bottom: 9pt;
+        letter-spacing: -1px;
+	margin-left: 8pt;
+
+}
+
+.companyname {
+    color: #3165b0;
+    font-family: "Trebuchet MS", Tahoma, Verdana, Sans-Serif;
+    font-size: 18pt;
+	margin-top: 0pt;
+	font-weight: bold;
+	margin-bottom: 0pt;
+    letter-spacing: -1px;
+	margin-left: 10pt;
+
+}
+
+.projectname {
+    color: #000000;
+    font-family: "Trebuchet MS", Tahoma, Verdana, Sans-Serif;
+    font-size: 14pt;
+	line-height: 17pt; 
+	margin-top: 12pt;
+	margin-bottom: 0pt;
+	padding-bottom: 4pt;
+        letter-spacing: 0px;
+	margin-left: 8pt;
+        border-bottom: 1px dotted #959595;
+
+
+	
+}
+
+.reporth1 {
+
+    font-family: "Trebuchet MS", Tahoma, Verdana, Sans-Serif;
+    font-size: 13pt;
+	margin-left: 8pt;
+	margin-top: 9pt;
+	margin-bottom: 9pt;
+    color: #3165b0;
+    font-weight: bold;
+}
+
+.reporth2 {
+    color: #000000;
+    font-family:  "Trebuchet MS", Tahoma, Verdana, Sans-Serif;
+    font-size: 11pt;
+	margin-left: 8pt;
+	margin-top: 9pt;
+	margin-bottom: 6pt;
+    color: #000000;
+    font-weight: bold;
+}
+
+.reporth3 {
+    color: #000000;
+    font-family: "Trebuchet MS", Tahoma, Verdana, Sans-Serif;
+    font-size: 9pt;
+	margin-left: 8pt;
+	margin-top: 8pt;
+	margin-bottom: 6pt;
+    color: #3165b0;
+    font-weight: bold;
+}
+
+
+table.pageborder {
+	margin-left: 0pt;
+	background: #FFFFFF;
+ 	border: 1px solid #3165b0;
+	margin-bottom: 0pt;
+	margin-top: 12pt;
+	margin-left: 8pt;
+ }
+ 
+ table.pageborder td{
+	padding: 4pt;
+
+ }
+ 
+
+
+table.border {
+	margin-left: 0pt;
+	background: #FFFFFF;
+ 	border: 1px solid #3165b0;
+	margin-bottom: 18pt;
+	margin-top: 0pt;
+	margin-left: 8pt;
+ }
+ 
+ table.border td{
+	padding: 4pt;
+
+ }
+ 
+ 
+table.filter {
+	margin-left: 0pt;
+	background: #EFEFEF;
+ 	border: 1px solid #ACACAC;
+	margin-bottom: 4pt;
+	margin-top: 0pt;
+	margin-left: 0pt;
+ }
+ 
+ table.filter td{
+	padding: 0pt;
+	spacing: 4pt;
+
+ }
+ 
+ 
+ 
+ 
+table.sla {
+ 	margin-left: 0pt;
+	border-spacing: 10px; 
+	border-collapse: collapse;
+	border: 3px solid #ffffff;
+	margin-bottom: 0pt;
+	margin-top: 0pt;
+ }
+
+
+table.sla td {
+	font-family: Tahoma, Verdana, Sans-Serif; 
+    font-size: 8pt;
+	line-height: 10pt; 
+	font-weight: bold;
+	color: #ffffff;
+	border-bottom: 3px solid #ffffff;
+    border-left: 3px solid #ffffff;
+	border-top: 3px solid #ffffff;
+    border-right: 3px solid #ffffff;
+	padding-left: 5pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	padding-right: 5pt;	
+	vertical-align: top;		
+}
+
+.slablackbold {
+	font-family: Tahoma, Verdana, Sans-Serif; 
+    font-size: 8pt;
+	line-height: 10pt; 
+	font-weight: bold;
+	color: #000000;
+	margin-left: -4pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	margin-right: 0pt;	
+
+}
+
+.slablack {
+	font-family: Tahoma, Verdana, Sans-Serif; 
+    font-size: 8pt;
+	line-height: 10pt; 
+	font-weight: normal;
+	color: #000000;
+	margin-left: -4pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	margin-right: 0pt;	
+
+}
+
+
+
+ 
+ 
+ table.columns {
+	margin-left: 0pt;
+	background: #FFFFFF;
+	border: 0;
+	margin-bottom: 0pt;
+	margin-top: 0pt;
+	 padding: 4pt;
+
+ }
+ 
+ table.columns td{
+	padding: 4pt;
+ }
+ 
+ 
+ table.standard {
+	font-family: Tahoma, Verdana, Sans-Serif; 
+    font-size: 8pt;
+    background: #FFFFFF;
+	margin-left: 8pt;
+	margin-right: 8pt;
+	line-height: 11pt; 
+    color: #000000;
+	padding-left: 0em;
+	padding-right: 0em;
+	border-spacing: 10px; 
+	border-collapse: collapse;
+	border: 1px solid #245099;
+	margin-bottom: 12pt;
+	margin-top: 0pt;
+ }
+
+
+table.standard  td {
+	border-bottom: 1px solid #245099;
+    border-left: 1px solid #c0c0c0;
+	padding-left: 4pt;
+	padding-top: 4pt;
+	padding-bottom: 4pt;
+	padding-right: 9pt;	
+	text-valign: top;	
+}
+
+
+
+table.standard  th {
+	border-bottom: 1px solid #245099;
+    border-left: 1px solid #c0c0c0;
+	font-weight: bold;
+	padding-left: 2pt;
+	background-color: #245099;
+	text-valign: bottom;
+	padding-top: 4pt;
+	padding-bottom: 4pt;		
+	padding-left: 4pt;
+	padding-right: 4pt;				
+	font-size: 8pt;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;	
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.ontime {
+    color: #45CC28;
+	font-weight: bold;
+}
+
+.pastdue {
+    color: #C21720;
+	font-weight: bold;}
+
+.atrisk {
+    color: #EFD400;
+	font-weight: bold;}
+
+.completedlate {
+    color: #EF6E2C;
+	font-weight: bold;}
+
+.completedontime {
+    color: #5489CF;
+	font-weight: bold;}
+
+.status{
+    color: #FFFFFF;
+	font-weight: bold;}
+	
+
+ 
+.black {
+    color: #000000;
+ }
+ 
+.blacknotbold {
+	color: #000000;
+	font-weight: normal;
+ }
+
+
+
+
+
+
+
+
+
+
