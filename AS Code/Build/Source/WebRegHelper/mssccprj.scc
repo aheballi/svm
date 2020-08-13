@@ -1,5 +1,0 @@
-SCC = This is a Source Code Control file
-
-[WebRegHelper.dsp]
-SCC_Aux_Path = "\\DevServer\DDrive\MSI_VSS"
-SCC_Project_Name = "$/InstallShield AdminStudio/Current/Build/Source/WebRegHelper", KFCKAAAA

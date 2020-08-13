@@ -1,8 +1,0 @@
-ReleaseEngineer
-**!Releas3Eng
-prompt
-cd Builds\AdminstudioQA
-binary
-lcd C:\AdminStudio\AdminStudio_Builds\LANDeskEdition\Compressed
-mput *.exe
-bye

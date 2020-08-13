@@ -1,5 +1,0 @@
-LIBRARY	"ASSuiteIISCheck"
-EXPORTS
-	ASCheckIISRequirements
-	GetAS11ProductLocation_Validate
-	GetAS11ProductLocation_Evaluate

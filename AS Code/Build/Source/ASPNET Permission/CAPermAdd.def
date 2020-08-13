@@ -1,6 +1,0 @@
-LIBRARY      "CAPermAdd.dll"
-
-EXPORTS
-	ASSetPermission					@1
-	UpdateSettingsXML				@2
-	ExtractBinaryFile				@3

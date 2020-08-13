@@ -1,8 +1,0 @@
-VDonga
-Latitude360
-prompt
-binary
-cd NESS\AS\Builds\Augusta
-lcd C:\AdminStudio\AdminStudio_Builds\Full\Compressed_Small
-mput *.exe
-bye
